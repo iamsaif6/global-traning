@@ -21,7 +21,13 @@ const Video = () => {
 
       <div className="bg-primary relative text-[#FCFCFD] items-center grid grid-cols-2 gap-[100px] rounded-4xl pt-[360px] mt-[280px] px-[80px] pb-[100px]">
         {/* Shape */}
-        <Image width={150} height={150} className=" w-full max-w-[500px] absolute bottom-10 left-10 z-0 h-auto" src={'/Shape.png'} />
+        <Image
+          alt="Shape"
+          width={150}
+          height={150}
+          className=" w-full max-w-[500px] absolute bottom-10 left-10 z-0 h-auto"
+          src={'/Shape.png'}
+        />
         {/* Video Frame */}
         <div className="h-[560px] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] rounded-4xl overflow-hidden">
           {!isPlaying ? (
