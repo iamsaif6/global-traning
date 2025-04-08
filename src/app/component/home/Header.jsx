@@ -21,7 +21,7 @@ const Header = () => {
           Discover tailored, experiential training solutions that are meticulously designed to empower leaders, enhance individual growth,
           and foster collaboration.
         </p>
-        <div className="flex md:flex-row flex-col items-center gap-4">
+        <div className="flex gap-4">
           <Button title={'Book a Free Consultation'} href="#" />
         </div>
       </div>
