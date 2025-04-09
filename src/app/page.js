@@ -9,6 +9,7 @@ import Impact from './component/home/Impact';
 import Instructor from './component/home/Instructor';
 import HowItWork from './component/home/HowItWork';
 import Blogs from './component/home/Blogs';
+import WhyGlobal from './component/home/WhyGlobal';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <Video />
       <Marque />
+      <WhyGlobal />
       <OurServices />
       <WhatWeDo />
       <Impact />
