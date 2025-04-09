@@ -7,35 +7,44 @@ import Button from '../shared/Button';
 
 const Blogs = () => {
   return (
-    <section className="py-[120px] bg-white -mt-[40px] px-[40px] rounded-t-[40px]">
+    <section className="py-[120px] bg-white -mt-[40px] px-[40px]">
       <div>
         <p className="mb-3 text-primary font-medium">BLOGS & TIPS</p>
         <h1 className="text-[#18181B]  font-medium text-[56px] leading-[120%] -tracking-[1.6px]">
-          Insights, reflections and tools to help you grow leadership and connection across your organisation.
+          Your Guide to Better Leadership and Communication
         </h1>
       </div>
       <div className="mt-[56px] grid grid-cols-3 gap-4">
-        <div className=" rounded-3xl pb-8 bg-[#F4F5F6] overflow-hidden">
+        <div className=" rounded-3xl pb-8   overflow-hidden">
           <Image src={img1} className="h-[300px] rounded-b-3xl w-full" />
           <div className="mt-8 px-6">
-            <h3 className="text-[#18181B] font-medium text-2xl mb-3">What Are Courageous Conversations in the Workplace?</h3>
-            <p className="text-[#6E7381] font-normal text-base">December 4, 2024</p>
+            <p className="text-secondary font-normal text-sm">December 4, 2024</p>
+            <h3 className="text-[#18181B] font-medium text-2xl mt-3">What Are Courageous Conversations in the Workplace?</h3>
+            <button className="px-6 mt-6 py-3 rounded-[40px] text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer">
+              Read now
+            </button>
           </div>
         </div>
 
-        <div className=" rounded-3xl pb-8 bg-[#F4F5F6] overflow-hidden">
+        <div className=" rounded-3xl pb-8   overflow-hidden">
           <Image src={img2} className="h-[300px] rounded-b-3xl w-full" />
           <div className="mt-8 px-6">
-            <h3 className="text-[#18181B] font-medium text-2xl mb-3">What Are Courageous Conversations in the Workplace?</h3>
-            <p className="text-[#6E7381] font-normal text-base">December 4, 2024</p>
+            <p className="text-secondary font-normal text-sm">December 4, 2024</p>
+            <h3 className="text-[#18181B] font-medium text-2xl mt-3">What Are Courageous Conversations in the Workplace?</h3>
+            <button className="px-6 mt-6 py-3 rounded-[40px] text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer">
+              Read now
+            </button>
           </div>
         </div>
 
-        <div className=" rounded-3xl pb-8 bg-[#F4F5F6] overflow-hidden">
+        <div className=" rounded-3xl pb-8   overflow-hidden">
           <Image src={img3} className="h-[300px] rounded-b-3xl w-full" />
           <div className="mt-8 px-6">
-            <h3 className="text-[#18181B] font-medium text-2xl mb-3">What Are Courageous Conversations in the Workplace?</h3>
-            <p className="text-[#6E7381] font-normal text-base">December 4, 2024</p>
+            <p className="text-secondary font-normal text-sm">December 4, 2024</p>
+            <h3 className="text-[#18181B] font-medium text-2xl mt-3">What Are Courageous Conversations in the Workplace?</h3>
+            <button className="px-6 mt-6 py-3 rounded-[40px] text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer">
+              Read now
+            </button>
           </div>
         </div>
       </div>

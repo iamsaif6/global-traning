@@ -14,12 +14,12 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Marque />
       <Video />
+      <Marque />
       <OurServices />
       <WhatWeDo />
-      <WhyUs />
       <Impact />
+      <WhyUs />
       <Instructor />
       <HowItWork />
       <Blogs />

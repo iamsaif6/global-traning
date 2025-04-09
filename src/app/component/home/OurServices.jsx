@@ -56,18 +56,26 @@ const OurServices = () => {
       <div className="grid grid-cols-3 gap-6 my-[60px]">
         {services.map(item => {
           return (
-            <a href="#" className="p-5 cursor-pointer pb-[28px] duration-200 hover:bg-secondary rounded-3xl group ">
+            <a
+              href="#"
+              className="p-5 cursor-pointer pb-[28px] duration-200 hover:bg-[linear-gradient(to_bottom,_rgba(62,0,101,0.90)_15.68%,_rgba(62,0,101,0.01)_69.4%)] rounded-3xl group hover:shadow-[0px_20px_100px_-20px_rgba(0,0,0,0.10)] "
+            >
               <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
                 <Image width={200} h={200} className="w-full h-full object-cover" src={item.img} />
               </div>
-              <h3 className="text-2xl group-hover:text-white text-[#18181B] leading-[120%] mb-3">{item.title}</h3>
-              <p className="text-base group-hover:text-white text-[#6E7381] leading-[140%]">{item.subtitle}</p>
+              <h3 className="text-2xl  text-[#18181B] leading-[120%] mb-3">{item.title}</h3>
+              <p className="text-base  text-[#6E7381] leading-[140%]">{item.subtitle}</p>
             </a>
           );
         })}
       </div>
-      <div className="flex items-center justify-center ">
-        <Button title={'Explore All Services'} href="#" />
+      <div className="flex gap-4 items-center justify-center ">
+        <button className="py-[18px] px-6 border bg-primary border-primary rounded-[40px] text-lg font-medium text-white cursor-pointer">
+          Explore All Services
+        </button>
+        <button className="py-[18px] px-6 border border-primary rounded-[40px] text-lg font-medium text-primary cursor-pointer">
+          Mediation Training
+        </button>
       </div>
     </section>
   );

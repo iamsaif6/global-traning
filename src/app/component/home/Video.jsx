@@ -11,13 +11,13 @@ const Video = () => {
   };
 
   return (
-    <section className="pt-[60px] lg:pt-[120px] lg:px-[80px]">
-      <div className="text-center  pb-[120px]">
+    <section className="pt-[60px] pb-[120px] bg-transparent lg:pt-[10px] lg:px-[80px]">
+      {/* <div className="text-center  pb-[120px]">
         <h1 className="text-[#18181B]  font-medium text-[60px] leading-[110%] -tracking-[1.2px]">
           “Tell Me and I Forget, Teach Me and I Remember, Involve Me and I Learn.”
         </h1>
         <span className="block mt-7 text-lg">- Confucius -</span>
-      </div>
+      </div> */}
 
       <div className="bg-primary relative text-[#FCFCFD] items-center grid grid-cols-2 gap-[100px] rounded-4xl pt-[360px] mt-[280px] px-[80px] pb-[100px]">
         {/* Shape */}
