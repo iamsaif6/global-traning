@@ -4,7 +4,7 @@ import Button from '../shared/Button';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#18181B] relative text-white py-12  md:py-[120px] md:pt-[290px] mt-10  px-5 md:px-16 mt-[170px] ">
+    <footer className="bg-[#18181B] relative text-white py-12  md:py-[120px] md:pt-[290px]   px-5 md:px-16 mt-[170px] ">
       <div className="flex flex-col md:flex-row gap-12 relative z-10 justify-between pb-[70px] border-[#3F3F46] border-b">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="143" height="72" viewBox="0 0 143 72" fill="none">

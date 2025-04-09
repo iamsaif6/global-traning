@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '../shared/Button';
-import headerBanner from '/public/AdobeStock_604839762.jpg';
 
 const Header = () => {
   return (
