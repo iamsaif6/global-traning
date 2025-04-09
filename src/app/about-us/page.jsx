@@ -1,4 +1,8 @@
 import React from 'react';
+import WhoWeAre from '../component/about-us/WhoWeAre';
+import Philosophy from '../component/about-us/Philosophy';
+import Approch from '../component/about-us/approch';
+import Impact from '../component/about-us/Impact';
 
 const AboutUS = () => {
   return (
@@ -21,6 +25,19 @@ const AboutUS = () => {
           </p>
         </div>
       </header>
+      <WhoWeAre />
+      {/* Logo Item */}
+      <section className="pb-[80px] flex justify-between items-center px-[100px]">
+        <p className="text-[56px] font-medium text-secondary">Immersive</p>
+        <span className="block w-[44px] h-1 bg-primary"></span>
+        <p className="text-[56px] font-medium text-secondary">Impactful</p>
+        <span className="block w-[44px] h-1 bg-primary"></span>
+        <p className="text-[56px] font-medium text-secondary">Experiental</p>
+      </section>
+
+      <Philosophy />
+      <Approch />
+      <Impact />
     </div>
   );
 };
