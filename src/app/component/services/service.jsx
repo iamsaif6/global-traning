@@ -64,7 +64,7 @@ const Service = () => {
       <div className="grid grid-cols-3 gap-6 my-[60px]">
         {services.map(item => {
           return (
-            <a href="#" className="p-5 cursor-pointer pb-[28px] duration-200 hover:bg-secondary rounded-3xl group ">
+            <a href="/services/1" className="p-5 cursor-pointer pb-[28px] duration-200 hover:bg-secondary rounded-3xl group ">
               <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
                 <Image width={200} h={200} className="w-full h-full object-cover" src={item.img} />
               </div>
