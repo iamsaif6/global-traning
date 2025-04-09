@@ -11,7 +11,7 @@ const WhyUs = () => {
         badge={'WHY US'}
         title={'Real Training, Real Results'}
         subtitle={
-          'At Global Training Group (GTG), we believe that exceptional teams are built through authentic connection, meaningful collaboration, and purposeful growth. Our practice-based, experiential training goes beyond theory to deliver real, measurable change.'
+          'At Global Training, we do not deliver off-the-shelf solutions.We listen, we collaborate and we create experiential learning that feels real, relevant and lasting.'
         }
         light
         center
@@ -45,10 +45,7 @@ const WhyUs = () => {
           </div>
           <div>
             <p className="text-2xl mb-3">Proven Expertise</p>
-            <p className="text-base leading-[140%]">
-              With over 20 years of experience, we’ve successfully partnered with leading organizations like NHS, Unilever, and the Red
-              Cross to deliver impactful training tailored to their unique challenges.
-            </p>
+            <p className="text-base leading-[140%]">Trusted by leading organisations across sectors</p>
           </div>
         </div>
 
@@ -78,10 +75,7 @@ const WhyUs = () => {
           </div>
           <div>
             <p className="text-2xl mb-3">Tailored Solutions</p>
-            <p className="text-base leading-[140%]">
-              Every organization is different, and so is our approach. We design bespoke programs that address your specific goals and
-              challenges, ensuring maximum relevance and effectiveness.
-            </p>
+            <p className="text-base leading-[140%]">Programmes shaped to your needs</p>
           </div>
         </div>
 
@@ -137,10 +131,7 @@ const WhyUs = () => {
           </div>
           <div>
             <p className="text-2xl mb-3">Innovative Methods</p>
-            <p className="text-base leading-[140%]">
-              Combining narrative psychology, role-play scenarios, and immersive learning techniques, we create training experiences that
-              stick—empowering participants to apply their skills in real-world settings.
-            </p>
+            <p className="text-base leading-[140%]">Creative tools and human-first practice</p>
           </div>
         </div>
 
@@ -162,11 +153,8 @@ const WhyUs = () => {
             </svg>
           </div>
           <div>
-            <p className="text-2xl mb-3">Tangible Results</p>
-            <p className="text-base leading-[140%]">
-              Our programs consistently deliver improved communication, stronger leadership, and greater team cohesion, helping
-              organizations achieve their goals faster and more effectively.
-            </p>
+            <p className="text-2xl mb-3">Measurable Impact</p>
+            <p className="text-base leading-[140%]">Skills that stay with you long after the session ends</p>
           </div>
         </div>
       </div>

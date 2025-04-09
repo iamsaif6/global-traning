@@ -7,7 +7,6 @@ import img4 from '/public/Thumbnail-3.png';
 import img5 from '/public/Thumbnail-4.png';
 import img6 from '/public/Thumbnail-5.png';
 import Image from 'next/image';
-import Button from '../shared/Button';
 
 const services = [
   {
@@ -40,37 +39,50 @@ const services = [
     subtitle: 'Fully tailored training programs addressing specific organizational needs.',
     img: img6,
   },
+  {
+    title: 'Accredited Mediation Training',
+    subtitle: 'Professional mediation training with a focus on Special Educational Needs and Disabilities (SEND) and workplace mediation.',
+    img: img1,
+  },
+  {
+    title: 'Active Listening and Communication Skills',
+    subtitle: 'Workshops to enhance listening, feedback, and overall communication within teams.',
+    img: img3,
+  },
+  {
+    title: 'Creativity and Innovation in the Workplace',
+    subtitle: 'Training to encourage out-of-the-box thinking and foster innovation within teams.',
+    img: img4,
+  },
 ];
 
-const OurServices = () => {
+const Service = () => {
   return (
-    <section className=" py-[120px] px-[40px]">
+    <section className="py-[120px] px-[40px]">
       <SectionTitle
-        badge={'OUR SERVICES'}
-        title={'Experiential Training and Workshops'}
-        subtitle={
-          'We offer immersive training programmes that strengthen how people relate, communicate and collaborate — especially when it matters most.'
-        }
+        title={'Mediation Training Services'}
+        subtitle={'Professional mediation services to resolve disputes with empathy, expertise, and efficiency.'}
+        full
         center
       />
+
       <div className="grid grid-cols-3 gap-6 my-[60px]">
         {services.map(item => {
           return (
-            <a href="#" className="p-5 cursor-pointer pb-[28px] duration-200 hover:bg-secondary rounded-3xl group ">
+            <a href="#" className="p-5 flex flex-col cursor-pointer pb-[28px] duration-200 hover:bg-secondary rounded-3xl group ">
               <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
                 <Image width={200} h={200} className="w-full h-full object-cover" src={item.img} />
               </div>
-              <h3 className="text-2xl group-hover:text-white text-[#18181B] leading-[120%] mb-3">{item.title}</h3>
-              <p className="text-base group-hover:text-white text-[#6E7381] leading-[140%]">{item.subtitle}</p>
+              <div className="h-full flex-1 flex justify-between flex-col">
+                <h3 className="text-2xl group-hover:text-white text-[#18181B] leading-[120%] mb-3">{item.title}</h3>
+                <button className="bg-primary w-max px-5 py-2.5 rounded-[40px] text-white">Book Now</button>
+              </div>
             </a>
           );
         })}
-      </div>
-      <div className="flex items-center justify-center ">
-        <Button title={'Explore All Services'} href="#" />
       </div>
     </section>
   );
 };
 
-export default OurServices;
+export default Service;

@@ -11,7 +11,7 @@ const Blogs = () => {
       <div>
         <p className="mb-3 text-primary font-medium">BLOGS & TIPS</p>
         <h1 className="text-[#18181B]  font-medium text-[56px] leading-[120%] -tracking-[1.6px]">
-          Your Guide to Better Leadership and Communication
+          Insights, reflections and tools to help you grow leadership and connection across your organisation.
         </h1>
       </div>
       <div className="mt-[56px] grid grid-cols-3 gap-4">

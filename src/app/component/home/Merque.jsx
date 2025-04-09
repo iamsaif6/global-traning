@@ -6,7 +6,6 @@ import img3 from '/public/Logo.svg.png';
 import img4 from '/public/nhs-1 2.png';
 import img5 from '/public/tripadvisor_logo.png';
 import img6 from '/public/unilever_logo.png';
-
 import Image from 'next/image';
 
 const Marque = () => {

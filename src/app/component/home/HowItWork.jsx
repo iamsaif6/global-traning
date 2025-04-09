@@ -9,8 +9,8 @@ const HowItWork = () => {
     <section className="pt-[120px] pb-[160px] rounded-t-[40px] px-[100px] bg-primary">
       <SectionTitle
         badge={'HOW IT WORKS'}
-        title={'Simple Steps to Get Started'}
-        subtitle={'Follow these simple steps to get started and achieve your goals with ease.'}
+        title={'Start Your Learning Journey'}
+        // subtitle={'Follow these simple steps to get started and achieve your goals with ease.'}
         large
         light
         center
@@ -27,7 +27,7 @@ const HowItWork = () => {
               1
             </div>
             <div className="">
-              <h4 className="text-[28px] font-medium mb-3 group-hover:text-white text-[#18181B]">Assess Your Needs</h4>
+              <h4 className="text-[28px] font-medium mb-3 group-hover:text-white text-[#18181B]">Book a Discovery Call</h4>
               <p className="text-lg leading-[140%] group-hover:text-white text-[#6E7381]">
                 Schedule a discovery call or complete our questionnaire to identify your team’s strengths and challenges, guiding us to the
                 best training solution.
@@ -40,7 +40,7 @@ const HowItWork = () => {
               2
             </div>
             <div className="">
-              <h4 className="text-[28px] font-medium mb-3 group-hover:text-white text-[#18181B]">Customise & Book</h4>
+              <h4 className="text-[28px] font-medium mb-3 group-hover:text-white text-[#18181B]">Tailor Your Training Experience</h4>
               <p className="text-lg leading-[140%] group-hover:text-white text-[#6E7381]">
                 Select from our programs—Leadership, Team Building, or Custom Courses—then choose a date and book your session.
               </p>
@@ -52,7 +52,7 @@ const HowItWork = () => {
               3
             </div>
             <div className="">
-              <h4 className="text-[28px] font-medium mb-3 group-hover:text-white text-[#18181B]">Transform & Grow</h4>
+              <h4 className="text-[28px] font-medium mb-3 group-hover:text-white text-[#18181B]">Empower Your People to Grow</h4>
               <p className="text-lg leading-[140%] group-hover:text-white text-[#6E7381]">
                 Participate in hands-on training to enhance communication, leadership, and teamwork, with ongoing support for lasting
                 impact.
