@@ -7,7 +7,7 @@ const Impact = () => {
     <section className="py-[120px] bg-primary  items-center px-[40px] grid grid-cols-2 gap-12">
       <div>
         <div className={`w-full text-white  max-w-[660px]`}>
-          <p className="mb-3 text-white font-medium">THE GLOBAL TRAINING IMPACT</p>
+          <p className="mb-3 text-white font-medium">OUR IMPACT</p>
           <h1 className="  font-medium text-[46px] leading-[120%] -tracking-[1.6px]">
             Empowering People, Strengthening Teams, Driving Change
           </h1>
@@ -20,7 +20,7 @@ const Impact = () => {
                 1
               </span>
               <div>
-                <h3 className="text-[28px] text-[#18181B] font-medium mb-2">Organization</h3>
+                <h3 className="text-[28px] text-[#18181B] font-medium mb-2">Organizations</h3>
                 <p className="text-[#6E7381] text-base">Organisations see stronger collaboration and culture</p>
               </div>
             </div>
