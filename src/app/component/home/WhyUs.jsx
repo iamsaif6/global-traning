@@ -1,0 +1,177 @@
+import React from 'react';
+import SectionTitle from '../shared/SectionTitle';
+import Image from 'next/image';
+import img1 from '/public/image 36.png';
+import img2 from '/public/image 37.png';
+
+const WhyUs = () => {
+  return (
+    <section className="py-[120px] rounded-t-[40px] px-[40px] bg-primary">
+      <SectionTitle
+        badge={'WHY US'}
+        title={'Real Training, Real Results'}
+        subtitle={
+          'At Global Training Group (GTG), we believe that exceptional teams are built through authentic connection, meaningful collaboration, and purposeful growth. Our practice-based, experiential training goes beyond theory to deliver real, measurable change.'
+        }
+        light
+        center
+        large
+      />
+      <div className="grid gap-4 text-[#18181B] mt-[80px] grid-cols-3">
+        <div className="p-8 bg-white flex flex-col justify-between rounded-3xl">
+          <div className="bg-secondary max-w-max mb-[60px] rounded-2xl flex items-center justify-center p-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <path
+                d="M17.9998 25.4005C17.644 25.4005 17.2925 25.3836 16.9451 25.3506V27.1126H11.2217C10.6392 27.1126 10.167 27.5848 10.167 28.1673V31.7814H25.8326V28.1673C25.8326 27.5848 25.3604 27.1126 24.7779 27.1126H19.0545V25.3506C18.7071 25.3836 18.3556 25.4005 17.9998 25.4005Z"
+                fill="#FCFCFD"
+              />
+              <path
+                d="M6.92754 13.8714C5.38629 12.8448 4.36816 11.0912 4.36816 9.1042V4.36865H6.92754V2.25928H3.31348C2.73129 2.25928 2.25879 2.73178 2.25879 3.31396V9.1042C2.25879 12.3681 4.26621 15.1729 7.11176 16.3478C6.99082 15.6932 6.92754 15.0182 6.92754 14.3284V13.8714Z"
+                fill="#FCFCFD"
+              />
+              <path
+                d="M32.686 2.25928H29.0719V4.36865H31.6313V9.1042C31.6313 11.0912 30.6132 12.8448 29.0719 13.8714V14.3284C29.0719 15.0182 29.0086 15.6932 28.8877 16.3478C31.7332 15.1729 33.7407 12.3681 33.7407 9.1042V3.31396C33.7407 2.73178 33.2682 2.25928 32.686 2.25928Z"
+                fill="#FCFCFD"
+              />
+              <path
+                d="M17.9996 23.291C22.9495 23.291 26.9622 19.2784 26.9622 14.3285V1.05469C26.9622 0.472219 26.4899 0 25.9075 0H10.0918C9.50933 0 9.03711 0.472219 9.03711 1.05469V14.3285C9.03711 19.2784 13.0498 23.291 17.9996 23.291Z"
+                fill="#FCFCFD"
+              />
+              <path
+                d="M27.0378 33.8906H8.96289C8.38042 33.8906 7.9082 34.3628 7.9082 34.9453C7.9082 35.5278 8.38042 36 8.96289 36H27.0378C27.6203 36 28.0925 35.5278 28.0925 34.9453C28.0925 34.3628 27.6203 33.8906 27.0378 33.8906Z"
+                fill="#FCFCFD"
+              />
+            </svg>
+          </div>
+          <div>
+            <p className="text-2xl mb-3">Proven Expertise</p>
+            <p className="text-base leading-[140%]">
+              With over 20 years of experience, we’ve successfully partnered with leading organizations like NHS, Unilever, and the Red
+              Cross to deliver impactful training tailored to their unique challenges.
+            </p>
+          </div>
+        </div>
+
+        <div className="p-8 bg-white flex flex-col justify-between rounded-3xl">
+          <div className="bg-secondary max-w-max mb-[60px] rounded-2xl flex items-center justify-center p-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="36" viewBox="0 0 37 36" fill="none">
+              <g clip-path="url(#clip0_1_2266)">
+                <path
+                  d="M19.4264 17.2746C19.4204 17.2684 19.4188 17.2602 19.4127 17.2542L13.3937 11.2351V7.45302C13.3937 7.17283 13.2824 6.90508 13.0847 6.70729L6.75661 0.308923C6.45588 0.00826633 6.00166 -0.0834212 5.60714 0.0803366C5.21268 0.24304 4.95618 0.628282 4.95618 1.05466V4.21872H1.72181C1.2955 4.21865 0.910261 4.47508 0.747558 4.8696C0.5838 5.26406 0.674433 5.71729 0.976214 6.01907L7.37465 12.4174C7.57244 12.6152 7.84019 12.7265 8.12032 12.7265H11.9024L17.9214 18.7455C17.9274 18.7515 17.9357 18.7532 17.9418 18.7591C18.3525 19.1511 18.9762 19.1563 19.3923 18.7591C19.8305 18.3409 19.8207 17.6877 19.4264 17.2746Z"
+                  fill="#FCFCFD"
+                />
+                <path
+                  d="M18.6669 0C15.9682 0 13.4166 0.686602 11.1189 1.75908L14.3543 4.99444C15.7122 4.54289 17.1594 4.28906 18.6669 4.28906C26.2269 4.28899 32.3777 10.4399 32.3777 17.9999C32.3777 25.5598 26.2269 31.7107 18.6669 31.7107C11.1069 31.7107 4.95598 25.5599 4.95598 17.9999C4.95598 16.4924 5.20988 15.0451 5.66136 13.6872L2.426 10.4519C1.35366 12.7496 0.666992 15.3012 0.666992 17.9999C0.666992 27.8864 8.78028 35.9998 18.6669 35.9998C28.5534 35.9998 36.6668 27.8864 36.6668 17.9999C36.6668 8.11329 28.5536 0 18.6669 0Z"
+                  fill="#FCFCFD"
+                />
+                <path
+                  d="M18.6669 8.50781C17.5521 8.50781 16.4974 8.73633 15.5029 9.09091V10.3617L17.9411 12.8C18.1806 12.7665 18.4184 12.7266 18.6669 12.7266C21.5746 12.7266 23.9404 15.0924 23.9404 18C23.9404 20.9076 21.5746 23.2734 18.6669 23.2734C15.7593 23.2734 13.3935 20.9076 13.3935 18C13.3935 17.7514 13.4334 17.5136 13.4669 17.2742L11.0287 14.8359H9.75791C9.40332 15.8304 9.1748 16.8851 9.1748 17.9999C9.1748 23.2342 13.4327 27.492 18.6669 27.492C23.9011 27.492 28.1591 23.2342 28.1591 17.9999C28.1591 12.7657 23.9012 8.50781 18.6669 8.50781Z"
+                  fill="#FCFCFD"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_2266">
+                  <rect width="36" height="36" fill="white" transform="translate(0.666992)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div>
+            <p className="text-2xl mb-3">Tailored Solutions</p>
+            <p className="text-base leading-[140%]">
+              Every organization is different, and so is our approach. We design bespoke programs that address your specific goals and
+              challenges, ensuring maximum relevance and effectiveness.
+            </p>
+          </div>
+        </div>
+
+        <div className="rounded-3xl relative overflow-hidden">
+          <div class=" absolute top-0 left-0 w-full h-full bg-[linear-gradient(108deg,_rgba(62,0,101,0.4)_12.47%,_rgba(62,0,101,0)_87.57%)]"></div>
+          <Image width={200} height={200} className="w-full h-full object-cover" src={img1} />
+        </div>
+
+        <div className="rounded-3xl relative overflow-hidden">
+          <div class=" absolute top-0 left-0 w-full h-full bg-[linear-gradient(108deg,_rgba(62,0,101,0.4)_12.47%,_rgba(62,0,101,0)_87.57%)]"></div>
+          <Image width={200} height={200} className="w-full h-full object-cover" src={img2} />
+        </div>
+
+        <div className="p-8 bg-white flex flex-col justify-between rounded-3xl">
+          <div className="bg-secondary max-w-max mb-[60px] rounded-2xl flex items-center justify-center p-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="36" viewBox="0 0 37 36" fill="none">
+              <g clip-path="url(#clip0_1_2288)">
+                <path
+                  d="M10.4638 8.30446L7.48103 5.32167C7.06907 4.90971 6.4016 4.90971 5.98963 5.32167C5.57767 5.73363 5.57767 6.4011 5.98963 6.81306L8.97243 9.79586C9.38439 10.2078 10.0519 10.2078 10.4638 9.79586C10.8758 9.3839 10.8758 8.71642 10.4638 8.30446Z"
+                  fill="#FCFCFD"
+                />
+                <path
+                  d="M6.01074 16.9453H1.72168C1.13872 16.9453 0.666992 17.417 0.666992 18C0.666992 18.583 1.13872 19.0547 1.72168 19.0547H6.01074C6.5937 19.0547 7.06543 18.583 7.06543 18C7.06543 17.417 6.5937 16.9453 6.01074 16.9453Z"
+                  fill="#FCFCFD"
+                />
+                <path
+                  d="M35.6123 16.9453H31.3232C30.7403 16.9453 30.2686 17.417 30.2686 18C30.2686 18.583 30.7403 19.0547 31.3232 19.0547H35.6123C36.1953 19.0547 36.667 18.583 36.667 18C36.667 17.417 36.1953 16.9453 35.6123 16.9453Z"
+                  fill="#FCFCFD"
+                />
+                <path
+                  d="M31.3447 5.32167C30.9327 4.90971 30.2653 4.90971 29.8533 5.32167L26.8705 8.30446C26.4585 8.71642 26.4585 9.3839 26.8705 9.79586C27.2825 10.2078 27.9499 10.2078 28.3619 9.79586L31.3447 6.81306C31.7567 6.4011 31.7567 5.7337 31.3447 5.32167Z"
+                  fill="#FCFCFD"
+                />
+                <path
+                  d="M18.667 0C18.084 0 17.6123 0.471727 17.6123 1.05469V5.34375C17.6123 5.92671 18.084 6.39844 18.667 6.39844C19.25 6.39844 19.7217 5.92671 19.7217 5.34375V1.05469C19.7217 0.471727 19.25 0 18.667 0Z"
+                  fill="#FCFCFD"
+                />
+                <path
+                  d="M24.5731 10.5541C22.2739 8.74006 19.2996 8.08622 16.3887 8.78232C13.0137 9.56278 10.2927 12.2416 9.46996 15.5956C8.6473 18.9705 9.59652 22.3877 12.0222 24.7713C12.8871 25.6362 13.3934 26.9932 13.3934 28.3854V28.6175C13.3934 29.208 13.8574 29.6722 14.4481 29.6722H22.8856C23.4763 29.6722 23.9403 29.208 23.9403 28.6175V28.3854C23.9403 27.0143 24.4676 25.6151 25.3957 24.708C27.1677 22.9151 28.159 20.5315 28.159 18.0003C28.159 15.0893 26.8512 12.3682 24.5731 10.5541ZM18.6668 14.8362C17.0757 14.8362 15.9173 15.8917 15.614 17.1135C15.476 17.6692 14.9169 18.0238 14.3358 17.8839C13.7714 17.7439 13.4263 17.1712 13.5664 16.6068C14.089 14.4974 16.0703 12.7268 18.6668 12.7268C19.2498 12.7268 19.7215 13.1986 19.7215 13.7815C19.7215 14.3645 19.2498 14.8362 18.6668 14.8362Z"
+                  fill="#FCFCFD"
+                />
+                <path
+                  d="M14.4482 31.7812V32.8359C14.4482 34.5807 15.8676 36 17.6123 36H19.7217C21.4664 36 22.8857 34.5807 22.8857 32.8359V31.7812H14.4482Z"
+                  fill="#FCFCFD"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_2288">
+                  <rect width="36" height="36" fill="white" transform="translate(0.666992)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div>
+            <p className="text-2xl mb-3">Innovative Methods</p>
+            <p className="text-base leading-[140%]">
+              Combining narrative psychology, role-play scenarios, and immersive learning techniques, we create training experiences that
+              stick—empowering participants to apply their skills in real-world settings.
+            </p>
+          </div>
+        </div>
+
+        <div className="p-8 bg-white flex flex-col justify-between rounded-3xl">
+          <div className="bg-secondary max-w-max mb-[60px] rounded-2xl flex items-center justify-center p-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="36" viewBox="0 0 37 36" fill="none">
+              <path
+                d="M4.93848 25.4056C4.93848 28.9496 7.02485 29.78 10.036 29.9692L13.2436 26.7616C13.6384 26.3652 14.1652 26.1472 14.7284 26.1472C15.2872 26.1472 15.8124 26.3648 16.2088 26.76L18.5059 29.0576L19.4431 28.1204L18.6855 27.3624C18.1339 26.8116 17.9259 26.0904 18.1283 25.4344C18.3307 24.7781 18.9087 24.3009 19.6703 24.1569L26.9647 22.7609C27.1122 22.7329 27.2602 22.7189 27.4058 22.7189C28.0222 22.7189 28.5894 22.9781 28.963 23.4309C29.347 23.8965 29.4958 24.5313 29.3714 25.1701L28.501 29.722C30.469 29.2708 31.7242 28.1548 31.7242 25.4056C31.723 20.7965 28.1974 17.0133 23.6967 16.6025H12.9644C8.46364 17.0137 4.93848 20.7973 4.93848 25.4056Z"
+                fill="#FCFCFD"
+              />
+              <path
+                d="M18.3315 15.2742C22.5493 15.2742 25.9686 11.855 25.9686 7.63712C25.9686 3.41926 22.5493 0 18.3315 0C14.1136 0 10.6943 3.41926 10.6943 7.63712C10.6943 11.855 14.1136 15.2742 18.3315 15.2742Z"
+                fill="#FCFCFD"
+              />
+              <path
+                d="M28.0666 24.9205C28.1662 24.4069 27.8762 24.0469 27.4054 24.0469C27.3442 24.0469 27.2794 24.0529 27.2122 24.0657L19.9203 25.4621C19.3391 25.5713 19.2055 26.0045 19.6243 26.4237L20.3839 27.1832L21.1447 27.944L21.3211 28.12L18.5051 30.9352L15.2687 27.6992C15.1191 27.5492 14.9231 27.4748 14.7275 27.4748C14.7275 27.4748 14.7263 27.4748 14.7255 27.4748C14.5287 27.4748 14.3323 27.5492 14.1827 27.6992L8.79959 33.0832C8.5004 33.3828 8.5004 33.8676 8.79959 34.1672L10.4084 35.776C10.5584 35.9256 10.754 36.0004 10.9508 36.0004C11.1464 36.0004 11.3428 35.9256 11.4924 35.776L14.7255 32.5424L17.9587 35.776C18.1087 35.9256 18.3047 35.9996 18.5011 35.9996H18.5051H18.5091C18.7055 35.9996 18.9011 35.9256 19.0511 35.776L24.0134 30.8136L24.189 30.9888L24.949 31.75L25.7098 32.5092C25.8746 32.6744 26.0422 32.7544 26.191 32.7544C26.4202 32.7544 26.6054 32.566 26.6714 32.2132L28.0666 24.9205Z"
+                fill="#FCFCFD"
+              />
+            </svg>
+          </div>
+          <div>
+            <p className="text-2xl mb-3">Tangible Results</p>
+            <p className="text-base leading-[140%]">
+              Our programs consistently deliver improved communication, stronger leadership, and greater team cohesion, helping
+              organizations achieve their goals faster and more effectively.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default WhyUs;

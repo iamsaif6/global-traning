@@ -15,14 +15,14 @@ const Header = () => {
     >
       <div className="w-full relative z-10 lg:max-w-[80%]">
         <h1 className="font-semibold tracking-[-4%] leading-[120%] text-5xl md:[65px] lg:text-[84px] text-white">
-          Empowering Teams with Expert People Skills Training
+          Empowering people to grow, connect and lead with confidence
         </h1>
         <p className="text-white mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-[70%] font-normal text-sm md:text-lg">
-          Discover tailored, experiential training solutions that are meticulously designed to empower leaders, enhance individual growth,
-          and foster collaboration.
+          Real learning starts with real people. At Global Training, we believe that when people feel grounded, challenged and heard, they
+          open up — to ideas, to change, and to each other.
         </p>
         <div className="flex gap-4">
-          <Button title={'Book a Free Consultation'} href="#" />
+          <Button title={'Start a Conversation'} href="#" />
         </div>
       </div>
     </header>
