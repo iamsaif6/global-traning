@@ -10,7 +10,7 @@ const AboutUS = () => {
     <div>
       <header
         style={{
-          backgroundImage: `linear-gradient(to right, #350b50 0%, rgba(62, 0, 101, 0.20) 100%)`,
+          backgroundImage: `linear-gradient(to right, rgba(62, 0, 101, 0.90) 15.68%, rgba(62, 0, 101, 0.31) 69.4%, rgba(255, 255, 255, 1) 100%)`,
           backgroundBlendMode: 'overlay',
           backgroundSize: 'cover',
           backgroundPosition: 'center',

@@ -13,7 +13,7 @@ const Header = () => {
       className="pt-[187px] relative md:pt-[238px] pb-[176px] md:pb-[203px] px-5 md:px-[60px]"
     >
       <div className="w-full relative z-10 lg:max-w-[80%] mx-auto text-center">
-        <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl md:[65px] lg:text-[68px] text-[#FCFCFD]">
+        <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[48px] text-[#FCFCFD]">
           Empowering people to grow, connect and lead with confidence
         </h1>
         <p className="text-[#FCFCFD] text-center mx-auto mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-[70%] font-normal text-sm md:text-lg">
