@@ -3,6 +3,7 @@ import WhoWeAre from '../component/about-us/WhoWeAre';
 import Philosophy from '../component/about-us/Philosophy';
 import Approch from '../component/about-us/approch';
 import Impact from '../component/about-us/Impact';
+import OurTeam from '../component/about-us/OurTeam';
 
 const AboutUS = () => {
   return (
@@ -38,6 +39,7 @@ const AboutUS = () => {
       <Philosophy />
       <Approch />
       <Impact />
+      <OurTeam />
     </div>
   );
 };
