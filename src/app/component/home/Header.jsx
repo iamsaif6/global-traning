@@ -14,7 +14,7 @@ const Header = () => {
     >
       <div className="w-full relative z-10 lg:max-w-[80%] mx-auto text-center">
         <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl md:[65px] lg:text-[68px] text-[#FCFCFD]">
-          Empowering people to grow, connect and lead with confidence
+          Insights, reflections and tools to help you grow leadership and connection across your organisation.
         </h1>
         <p className="text-[#FCFCFD] text-center mx-auto mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-[70%] font-normal text-sm md:text-lg">
           Real learning starts with real people. At Global Training, we believe that when people feel grounded, challenged and heard, they

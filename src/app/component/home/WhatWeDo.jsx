@@ -11,15 +11,26 @@ const WhatWeDo = () => {
         <div className={`w-full text-white max-w-[660px]`}>
           <p className="mb-3 text-white font-medium">WHAT WE DO</p>
           <h1 className="  font-medium text-[56px] leading-[120%] -tracking-[1.6px]">Experience, Engage, Evolve</h1>
-          <p className=" mt-10 text-lg font-normal leading-[140%]">
+          {/* <p className=" mt-10 text-lg font-normal leading-[140%]">
             We believe in <strong>practice-based, experiential learning</strong> that goes beyond theory. By focusing on real-world
             scenarios, interactive role-plays, and collaborative exercises, we help teams develop <strong>practical skills</strong> that
             drive <strong>measurable results.</strong>
             <br /> <br />
             Our approach centers on three core elements:
+          </p> */}
+
+          <p className=" mt-10 text-lg font-normal leading-[140%]">
+            At Global Training, we create learning experiences that are immersive, relational and real.
+            <br /> <br />
+            We draw on theatre-based methods, coaching practice, live facilitation and leadership frameworks — blending insight with
+            imagination, structure with compassion and theory with action.
+            <br /> <br />
+            We meet people where they are, and support them to think differently, build new skills and grow with confidence.
+            <br /> <br />
+            Because connection creates change — and when people grow together, they go further together.
           </p>
 
-          <div className="text-[#FCFCFD] space-y-[36px] mt-10">
+          {/* <div className="text-[#FCFCFD] space-y-[36px] mt-10">
             <div className="flex gap-6">
               <div className="mt-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -76,7 +87,7 @@ const WhatWeDo = () => {
                 <p className="text-lg font-normal leading-[140%]">A sense of belonging that fosters unity and success.</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="max-h-[580px] rounded-3xl overflow-hidden">
