@@ -20,7 +20,7 @@ const Impact = () => {
                 1
               </span>
               <div>
-                <h3 className="text-[28px] text-[#18181B] font-medium mb-2">Organizations</h3>
+                <h3 className="text-[28px] text-[#18181B] font-medium mb-2">Organisations</h3>
                 <p className="text-[#6E7381] text-base">Organisations see stronger collaboration and culture</p>
               </div>
             </div>
