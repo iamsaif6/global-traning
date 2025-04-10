@@ -6,11 +6,11 @@ import Image from 'next/image';
 
 const WhatWeDo = () => {
   return (
-    <section className="py-[120px] bg-primary items-center px-[40px] grid grid-cols-2 gap-5">
-      <div>
-        <div className={`w-full text-white max-w-[660px]`}>
+    <section className="py-[60px] lg:py-[120px] bg-primary items-center px-4 lg:px-[40px] grid grid-cols-2 gap-10 lg:gap-5">
+      <div className="col-span-2 lg:col-span-1">
+        <div className={`w-full text-center lg:text-left text-white max-w-[660px]`}>
           <p className="mb-3 text-white font-medium">WHAT WE DO</p>
-          <h1 className="  font-medium text-[56px] leading-[120%] -tracking-[1.6px]">Experience, Engage, Evolve</h1>
+          <h1 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">Experience, Engage, Evolve</h1>
           {/* <p className=" mt-10 text-lg font-normal leading-[140%]">
             We believe in <strong>practice-based, experiential learning</strong> that goes beyond theory. By focusing on real-world
             scenarios, interactive role-plays, and collaborative exercises, we help teams develop <strong>practical skills</strong> that
@@ -19,7 +19,7 @@ const WhatWeDo = () => {
             Our approach centers on three core elements:
           </p> */}
 
-          <p className=" mt-10 text-lg font-normal leading-[140%]">
+          <p className=" mt-10 text-base lg:text-lg font-normal leading-[140%]">
             At Global Training, we create learning experiences that are immersive, relational and real.
             <br /> <br />
             We draw on theatre-based methods, coaching practice, live facilitation and leadership frameworks — blending insight with
@@ -90,7 +90,7 @@ const WhatWeDo = () => {
           </div> */}
         </div>
       </div>
-      <div className="max-h-[580px] rounded-3xl overflow-hidden">
+      <div className="max-h-[580px] rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
         <Image className="w-full h-full object-cover" src={cover} height={200} width={400} />
       </div>
     </section>

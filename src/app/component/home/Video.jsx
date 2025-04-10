@@ -11,7 +11,7 @@ const Video = () => {
   };
 
   return (
-    <section className="pt-[60px] -mt-[80px]  pb-[120px] bg-transparent lg:pt-[10px] lg:px-[80px]">
+    <section className="pt-[60px] -mt-[80px]  lg:pb-[120px] bg-transparent lg:pt-[10px] lg:px-[80px]">
       {/* <div className="text-center  pb-[120px]">
         <h1 className="text-[#18181B]  font-medium text-[60px] leading-[110%] -tracking-[1.2px]">
           “Tell Me and I Forget, Teach Me and I Remember, Involve Me and I Learn.”
@@ -19,19 +19,19 @@ const Video = () => {
         <span className="block mt-7 text-lg">- Confucius -</span>
       </div> */}
 
-      <div className="bg-primary relative text-[#FCFCFD] items-center grid grid-cols-2 gap-[100px] rounded-4xl pt-[360px] mt-[280px] px-[80px] pb-[100px]">
+      <div className="bg-primary relative text-[#FCFCFD] items-center grid grid-cols-2 gap-16 lg:gap-[100px] rounded-[20px] lg:rounded-4xl pt-[226px] lg:pt-[360px] mt-[280px] px-4 lg:px-[80px] pb-[100px]">
         {/* Shape */}
         <Image
           alt="Shape"
           width={150}
           height={150}
-          className=" w-full max-w-[500px] absolute bottom-10 left-10 z-0 h-auto"
+          className=" w-full max-w-[280px] lg:max-w-[500px] absolute bottom-auto top-[17%] lg:top-auto lg:bottom-10 left-10 lg:left-10 z-0 h-auto"
           src={'/Shape.png'}
         />
         {/* Video Frame */}
-        <div className="h-[560px] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] rounded-4xl overflow-hidden">
+        <div className="h-[304px] lg:h-[560px] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[900px] rounded-2xl lg:rounded-4xl overflow-hidden">
           {!isPlaying ? (
-            <div className="absolute inset-0 bg-black cursor-pointer flex items-center justify-center" onClick={startVideo}>
+            <div className="absolute px-4 inset-0 bg-black cursor-pointer flex items-center justify-center" onClick={startVideo}>
               {/* Custom Thumbnail */}
               <div className="absolute inset-0">
                 <img src="/image 41.png" alt="Video Thumbnail" className="w-full h-full object-cover" />
@@ -59,14 +59,14 @@ const Video = () => {
             ></iframe>
           )}
         </div>
-        <div className="relative z-20">
-          <h3 className="mb-10  text-[40px] font-medium leading-[120%]">
+        <div className="relative z-20 col-span-2 lg:col-span-1">
+          <h3 className="mb-10 text-[28px] lg:text-[40px] font-medium leading-[120%]">
             At Global Training, we deliver immersive, human-centered programs that foster growth, connection, and collaboration.
           </h3>
           <Button title={'Learn More About Us'} href="/about-us" secondary />
         </div>
-        <div>
-          <div className="pb-10 mb-10 border-b-[1px] border-[#fcfcfd33]">
+        <div className="col-span-2 lg:col-span-1">
+          <div className="pb-10 hidden lg:block mb-10 border-b-[1px] border-[#fcfcfd33]">
             <div className="flex items-end gap-3">
               <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">4.9</p>
               <div>
@@ -107,7 +107,7 @@ const Video = () => {
             </div>
             <p className="text-base leading-[140%] mt-4">Trusted by thousands of professionals worldwide!</p>
           </div>
-          <div>
+          <div className="hidden lg:block">
             <div className="">
               <div className="flex items-end gap-3">
                 <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">500+</p>
@@ -117,6 +117,49 @@ const Video = () => {
               </div>
               <p className="text-base leading-[140%] mt-4">Successfully help top professionals upgrade their skills.</p>
             </div>
+          </div>
+
+          <div className="grid grid-cols-2 pb-6 border-b mb-6 border-[#fcfcfd33] gap-4 items-center lg:hidden">
+            <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">4.9</p>
+            <div>
+              <div className="flex items-center gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M16.474 8.07557L13.3099 10.8058L14.2739 14.8888C14.3271 15.1105 14.3134 15.3429 14.2345 15.5568C14.1557 15.7707 14.0152 15.9564 13.8309 16.0905C13.6465 16.2245 13.4266 16.301 13.1988 16.3101C12.9711 16.3193 12.7457 16.2607 12.5512 16.1418L9.00044 13.9565L5.44755 16.1418C5.25309 16.26 5.028 16.318 4.80064 16.3085C4.57327 16.2991 4.35379 16.2225 4.16984 16.0886C3.98588 15.9546 3.84568 15.7692 3.76688 15.5557C3.68808 15.3422 3.6742 15.1102 3.72701 14.8888L4.69451 10.8058L1.53044 8.07557C1.35839 7.92686 1.23395 7.73077 1.17268 7.51176C1.11141 7.29276 1.11602 7.06056 1.18592 6.84416C1.25583 6.62776 1.38794 6.43675 1.56576 6.29499C1.74358 6.15323 1.95922 6.06699 2.18576 6.04705L6.33419 5.71236L7.93451 1.83955C8.02113 1.62848 8.16856 1.44794 8.35805 1.32088C8.54754 1.19382 8.77054 1.12598 8.99869 1.12598C9.22684 1.12598 9.44983 1.19382 9.63932 1.32088C9.82882 1.44794 9.97624 1.62848 10.0629 1.83955L11.6625 5.71236L15.8109 6.04705C16.0379 6.06625 16.2542 6.152 16.4326 6.29357C16.6111 6.43514 16.7438 6.62622 16.8142 6.84289C16.8845 7.05955 16.8893 7.29215 16.8281 7.51155C16.7668 7.73096 16.6422 7.9274 16.4697 8.07627L16.474 8.07557Z"
+                    fill="#FFDE17"
+                  />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M16.474 8.07557L13.3099 10.8058L14.2739 14.8888C14.3271 15.1105 14.3134 15.3429 14.2345 15.5568C14.1557 15.7707 14.0152 15.9564 13.8309 16.0905C13.6465 16.2245 13.4266 16.301 13.1988 16.3101C12.9711 16.3193 12.7457 16.2607 12.5512 16.1418L9.00044 13.9565L5.44755 16.1418C5.25309 16.26 5.028 16.318 4.80064 16.3085C4.57327 16.2991 4.35379 16.2225 4.16984 16.0886C3.98588 15.9546 3.84568 15.7692 3.76688 15.5557C3.68808 15.3422 3.6742 15.1102 3.72701 14.8888L4.69451 10.8058L1.53044 8.07557C1.35839 7.92686 1.23395 7.73077 1.17268 7.51176C1.11141 7.29276 1.11602 7.06056 1.18592 6.84416C1.25583 6.62776 1.38794 6.43675 1.56576 6.29499C1.74358 6.15323 1.95922 6.06699 2.18576 6.04705L6.33419 5.71236L7.93451 1.83955C8.02113 1.62848 8.16856 1.44794 8.35805 1.32088C8.54754 1.19382 8.77054 1.12598 8.99869 1.12598C9.22684 1.12598 9.44983 1.19382 9.63932 1.32088C9.82882 1.44794 9.97624 1.62848 10.0629 1.83955L11.6625 5.71236L15.8109 6.04705C16.0379 6.06625 16.2542 6.152 16.4326 6.29357C16.6111 6.43514 16.7438 6.62622 16.8142 6.84289C16.8845 7.05955 16.8893 7.29215 16.8281 7.51155C16.7668 7.73096 16.6422 7.9274 16.4697 8.07627L16.474 8.07557Z"
+                    fill="#FFDE17"
+                  />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M16.474 8.07557L13.3099 10.8058L14.2739 14.8888C14.3271 15.1105 14.3134 15.3429 14.2345 15.5568C14.1557 15.7707 14.0152 15.9564 13.8309 16.0905C13.6465 16.2245 13.4266 16.301 13.1988 16.3101C12.9711 16.3193 12.7457 16.2607 12.5512 16.1418L9.00044 13.9565L5.44755 16.1418C5.25309 16.26 5.028 16.318 4.80064 16.3085C4.57327 16.2991 4.35379 16.2225 4.16984 16.0886C3.98588 15.9546 3.84568 15.7692 3.76688 15.5557C3.68808 15.3422 3.6742 15.1102 3.72701 14.8888L4.69451 10.8058L1.53044 8.07557C1.35839 7.92686 1.23395 7.73077 1.17268 7.51176C1.11141 7.29276 1.11602 7.06056 1.18592 6.84416C1.25583 6.62776 1.38794 6.43675 1.56576 6.29499C1.74358 6.15323 1.95922 6.06699 2.18576 6.04705L6.33419 5.71236L7.93451 1.83955C8.02113 1.62848 8.16856 1.44794 8.35805 1.32088C8.54754 1.19382 8.77054 1.12598 8.99869 1.12598C9.22684 1.12598 9.44983 1.19382 9.63932 1.32088C9.82882 1.44794 9.97624 1.62848 10.0629 1.83955L11.6625 5.71236L15.8109 6.04705C16.0379 6.06625 16.2542 6.152 16.4326 6.29357C16.6111 6.43514 16.7438 6.62622 16.8142 6.84289C16.8845 7.05955 16.8893 7.29215 16.8281 7.51155C16.7668 7.73096 16.6422 7.9274 16.4697 8.07627L16.474 8.07557Z"
+                    fill="#FFDE17"
+                  />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M16.474 8.07557L13.3099 10.8058L14.2739 14.8888C14.3271 15.1105 14.3134 15.3429 14.2345 15.5568C14.1557 15.7707 14.0152 15.9564 13.8309 16.0905C13.6465 16.2245 13.4266 16.301 13.1988 16.3101C12.9711 16.3193 12.7457 16.2607 12.5512 16.1418L9.00044 13.9565L5.44755 16.1418C5.25309 16.26 5.028 16.318 4.80064 16.3085C4.57327 16.2991 4.35379 16.2225 4.16984 16.0886C3.98588 15.9546 3.84568 15.7692 3.76688 15.5557C3.68808 15.3422 3.6742 15.1102 3.72701 14.8888L4.69451 10.8058L1.53044 8.07557C1.35839 7.92686 1.23395 7.73077 1.17268 7.51176C1.11141 7.29276 1.11602 7.06056 1.18592 6.84416C1.25583 6.62776 1.38794 6.43675 1.56576 6.29499C1.74358 6.15323 1.95922 6.06699 2.18576 6.04705L6.33419 5.71236L7.93451 1.83955C8.02113 1.62848 8.16856 1.44794 8.35805 1.32088C8.54754 1.19382 8.77054 1.12598 8.99869 1.12598C9.22684 1.12598 9.44983 1.19382 9.63932 1.32088C9.82882 1.44794 9.97624 1.62848 10.0629 1.83955L11.6625 5.71236L15.8109 6.04705C16.0379 6.06625 16.2542 6.152 16.4326 6.29357C16.6111 6.43514 16.7438 6.62622 16.8142 6.84289C16.8845 7.05955 16.8893 7.29215 16.8281 7.51155C16.7668 7.73096 16.6422 7.9274 16.4697 8.07627L16.474 8.07557Z"
+                    fill="#FFDE17"
+                  />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M16.474 8.07557L13.3099 10.8058L14.2739 14.8888C14.3271 15.1105 14.3134 15.3429 14.2345 15.5568C14.1557 15.7707 14.0152 15.9564 13.8309 16.0905C13.6465 16.2245 13.4266 16.301 13.1988 16.3101C12.9711 16.3193 12.7457 16.2607 12.5512 16.1418L9.00044 13.9565L5.44755 16.1418C5.25309 16.26 5.028 16.318 4.80064 16.3085C4.57327 16.2991 4.35379 16.2225 4.16984 16.0886C3.98588 15.9546 3.84568 15.7692 3.76688 15.5557C3.68808 15.3422 3.6742 15.1102 3.72701 14.8888L4.69451 10.8058L1.53044 8.07557C1.35839 7.92686 1.23395 7.73077 1.17268 7.51176C1.11141 7.29276 1.11602 7.06056 1.18592 6.84416C1.25583 6.62776 1.38794 6.43675 1.56576 6.29499C1.74358 6.15323 1.95922 6.06699 2.18576 6.04705L6.33419 5.71236L7.93451 1.83955C8.02113 1.62848 8.16856 1.44794 8.35805 1.32088C8.54754 1.19382 8.77054 1.12598 8.99869 1.12598C9.22684 1.12598 9.44983 1.19382 9.63932 1.32088C9.82882 1.44794 9.97624 1.62848 10.0629 1.83955L11.6625 5.71236L15.8109 6.04705C16.0379 6.06625 16.2542 6.152 16.4326 6.29357C16.6111 6.43514 16.7438 6.62622 16.8142 6.84289C16.8845 7.05955 16.8893 7.29215 16.8281 7.51155C16.7668 7.73096 16.6422 7.9274 16.4697 8.07627L16.474 8.07557Z"
+                    fill="#FFDE17"
+                  />
+                </svg>
+              </div>
+              <p className="font-normal text-sm leading-[140%]">Trusted by thousands of professionals worldwide!</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-4 items-center lg:hidden">
+            <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">500+</p>
+            <p className="text-base leading-[140%] ">Successfully help top professionals upgrade their skills.</p>
           </div>
         </div>
       </div>

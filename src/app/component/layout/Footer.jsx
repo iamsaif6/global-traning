@@ -4,7 +4,7 @@ import Button from '../shared/Button';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#18181B] relative text-white py-12  md:py-[120px] md:pt-[290px]   px-5 md:px-16 mt-[170px] ">
+    <footer className="bg-[#18181B] relative text-white pb-[80px] pt-[330px] md:pt-[290px]   px-5 md:px-16 mt-[170px] ">
       <div className="flex flex-col md:flex-row gap-12 relative z-10 justify-between pb-[70px] border-[#3F3F46] border-b">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="143" height="72" viewBox="0 0 143 72" fill="none">
@@ -155,18 +155,18 @@ const Footer = () => {
 
       {/* CTA */}
 
-      <div className=" rounded-3xl absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center bg-secondary text-[#FCFCFD] py-[80px] px-[60px max-w-[1100px] w-full">
-        <h4 className="text-[40px] font-medium mb-4">Stay Connected with Global Training</h4>
-        <p className="text-lg">Join The Global Training Newsletter</p>
+      <div className=" rounded-3xl absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center bg-secondary text-[#FCFCFD] py-[60px] lg:py-[80px] px-6 lg:px-[60px] w-[90%] max-w-[1100px] mx-auto">
+        <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">Stay Connected with Global Training</h4>
+        <p className="text-base lg:text-lg">Join The Global Training Newsletter</p>
         <div className="mt-10 flex items-center justify-center">
-          <form className="flex items-center gap-3">
+          <form className="flex flex-col lg:flex-row items-center gap-4 lg:gap-3">
             <input
               required
               type="email"
               placeholder="Enter your email"
-              className="py-4 bg-white outline-0 text-black px-6 rounded-[40px] placeholder:text-[#6E7381]"
+              className="py-3 lg:py-4 bg-white outline-0 text-black px-5 lg:px-6 rounded-[40px] placeholder:text-[#6E7381]"
             />
-            <button type="submit" className="py-[18px] cursor-pointer px-10 bg-primary text-white rounded-[40px]">
+            <button type="submit" className="py-4 lg:py-[18px] cursor-pointer text-sm px-5 lg:px-10 bg-primary text-white rounded-[40px]">
               Join Now
             </button>
           </form>

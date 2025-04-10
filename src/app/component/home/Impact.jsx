@@ -13,9 +13,28 @@ const Impact = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
+
   return (
-    <section className=" py-[120px] px-[40px] bg-white ">
+    <section className="py-[60px] lg:py-[120px] px-4 lg:px-[40px] bg-white ">
       <SectionTitle
         badge={'PROVEN IMPACT'}
         title={'Our Success Stories'}

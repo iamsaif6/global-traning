@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 const Marque = () => {
   return (
-    <div className="py-[60px] bg-white relative z-10 -mt-[40px]  rounded-t-[35px]">
+    <div className="py-[40px] lg:py-[60px] bg-white relative z-10">
       <Marquee autoFill>
         <div className=" h-12 mx-[30px] lg:mx-[70px]  ">
           <Image className="w-full h-full object-contain" src={img1} alt="Living Wadge Company" />

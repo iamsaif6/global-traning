@@ -6,7 +6,7 @@ import img2 from '/public/image 37.png';
 
 const WhyUs = () => {
   return (
-    <section className="py-[120px]  px-[40px] bg-primary">
+    <section className="py-[60px] lg:py-[120px] px-4 lg:px-[40px] bg-primary">
       <SectionTitle
         badge={'WHY US'}
         title={'Real Training, Real Results'}
@@ -17,8 +17,8 @@ const WhyUs = () => {
         large
       />
       <div className="grid gap-6 text-[#18181B] mt-[80px] grid-cols-2">
-        <div className="p-6 flex gap-6 rounded-3xl bg-white">
-          <div>
+        <div className="col-span-2 lg:col-span-1 p-4 lg:p-6 flex flex-col lg:flex-row gap-6 rounded-[16px] lg:rounded-3xl bg-white">
+          <div className="flex gap-6">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <path
                 d="M18 25.4005C17.6442 25.4005 17.2926 25.3836 16.9453 25.3506V27.1126H11.2218C10.6394 27.1126 10.1672 27.5848 10.1672 28.1673V31.7814H25.8328V28.1673C25.8328 27.5848 25.3606 27.1126 24.7781 27.1126H19.0547V25.3506C18.7073 25.3836 18.3558 25.4005 18 25.4005Z"
@@ -41,9 +41,10 @@ const WhyUs = () => {
                 fill="#511A75"
               />
             </svg>
+            <h4 className="text-[24px] block lg:hidden lg:text-[28px] text-[#18181B] font-medium mb-6">Proven Expertise</h4>
           </div>
           <div>
-            <h4 className="text-[28px] text-[#18181B] font-medium mb-6">Proven Expertise</h4>
+            <h4 className="text-[24px] hidden lg:block lg:text-[28px] text-[#18181B] font-medium mb-6">Proven Expertise</h4>
             <div className="flex gap-4 mb-6">
               <svg className="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path
@@ -68,8 +69,8 @@ const WhyUs = () => {
           </div>
         </div>
 
-        <div className="p-6 flex gap-6 rounded-3xl bg-white">
-          <div>
+        <div className="col-span-2 lg:col-span-1 p-4 lg:p-6 flex flex-col lg:flex-row gap-6 rounded-[16px] lg:rounded-3xl bg-white">
+          <div className="flex gap-6">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <g clip-path="url(#clip0_2001_1133)">
                 <path
@@ -91,9 +92,10 @@ const WhyUs = () => {
                 </clipPath>
               </defs>
             </svg>
+            <h4 className="text-[24px] block lg:hidden lg:text-[28px] text-[#18181B] font-medium mb-6">Tailored Solutions</h4>
           </div>
           <div>
-            <h4 className="text-[28px] text-[#18181B] font-medium mb-6">Tailored Solutions</h4>
+            <h4 className="text-[24px] hidden lg:block lg:text-[28px] text-[#18181B] font-medium mb-6">Tailored Solutions</h4>
             <div className="flex gap-4 mb-6">
               <svg className="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path
@@ -116,8 +118,8 @@ const WhyUs = () => {
           </div>
         </div>
 
-        <div className="p-6 flex gap-6 rounded-3xl bg-white">
-          <div>
+        <div className="col-span-2 lg:col-span-1 p-4 lg:p-6 flex flex-col lg:flex-row gap-6 rounded-[16px] lg:rounded-3xl bg-white">
+          <div className="flex gap-6">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <g clip-path="url(#clip0_2001_1155)">
                 <path
@@ -155,9 +157,10 @@ const WhyUs = () => {
                 </clipPath>
               </defs>
             </svg>
+            <h4 className="text-[24px] block lg:hidden lg:text-[28px] text-[#18181B] font-medium mb-6">Innovative Methods</h4>
           </div>
           <div>
-            <h4 className="text-[28px] text-[#18181B] font-medium mb-6">Innovative Methods</h4>
+            <h4 className="text-[24px] hidden lg:block lg:text-[28px] text-[#18181B] font-medium mb-6">Innovative Methods</h4>
             <div className="flex gap-4 mb-6">
               <svg className="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path
@@ -182,8 +185,8 @@ const WhyUs = () => {
           </div>
         </div>
 
-        <div className="p-6 flex gap-6 rounded-3xl bg-white">
-          <div>
+        <div className=" col-span-2 lg:col-span-1 p-4 lg:p-6 flex flex-col lg:flex-row gap-6 rounded-[16px] lg:rounded-3xl bg-white">
+          <div className="flex gap-6">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <path
                 d="M4.60583 25.4052C4.60583 28.9491 6.69221 29.7795 9.70338 29.9687L12.9109 26.7611C13.3057 26.3647 13.8325 26.1468 14.3957 26.1468C14.9545 26.1468 15.4797 26.3644 15.8761 26.7595L18.1733 29.0571L19.1105 28.1199L18.3529 27.3619C17.8013 26.8111 17.5933 26.09 17.7957 25.434C17.9981 24.7776 18.5761 24.3004 19.3377 24.1564L26.632 22.7604C26.7796 22.7324 26.9276 22.7184 27.0732 22.7184C27.6896 22.7184 28.2568 22.9776 28.6304 23.4304C29.0144 23.896 29.1632 24.5308 29.0388 25.1696L28.1684 29.7215C30.1364 29.2703 31.3916 28.1543 31.3916 25.4052C31.3904 20.796 27.8648 17.0128 23.364 16.6021H12.6318C8.131 17.0132 4.60583 20.7968 4.60583 25.4052Z"
@@ -198,9 +201,10 @@ const WhyUs = () => {
                 fill="#511A75"
               />
             </svg>
+            <h4 className="text-[24px] block lg:hidden lg:text-[28px] text-[#18181B] font-medium mb-6">Tangible Results</h4>
           </div>
           <div>
-            <h4 className="text-[28px] text-[#18181B] font-medium mb-6">Tangible Results</h4>
+            <h4 className="text-[24px] hidden lg:block lg:text-[28px] text-[#18181B] font-medium mb-6">Tangible Results</h4>
             <div className="flex gap-4 mb-6">
               <svg className="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path
