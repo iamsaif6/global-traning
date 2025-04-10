@@ -159,14 +159,14 @@ const Footer = () => {
         <h4 className="text-[40px] font-medium mb-4">Stay Connected with Global Training</h4>
         <p className="text-lg">Join The Global Training Newsletter</p>
         <div className="mt-10 flex items-center justify-center">
-          <form className="flex items-center gap-6">
+          <form className="flex items-center gap-3">
             <input
               required
               type="email"
               placeholder="Enter your email"
-              className="py-4 bg-white px-6 rounded-[40px] placeholder:text-[#6E7381]"
+              className="py-4 bg-white outline-0 text-black px-6 rounded-[40px] placeholder:text-[#6E7381]"
             />
-            <button type="submit" className="py-[18px] px-6 bg-primary text-white rounded-[40px]">
+            <button type="submit" className="py-[18px] cursor-pointer px-10 bg-primary text-white rounded-[40px]">
               Join Now
             </button>
           </form>
