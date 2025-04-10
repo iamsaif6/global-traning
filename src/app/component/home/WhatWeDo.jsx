@@ -8,7 +8,7 @@ const WhatWeDo = () => {
   return (
     <section className="py-[60px] lg:py-[120px] bg-primary items-center px-4 lg:px-[40px] grid grid-cols-2 gap-10 lg:gap-5">
       <div className="col-span-2 lg:col-span-1">
-        <div className={`w-full text-center lg:text-left text-white max-w-[660px]`}>
+        <div className={`w-full text-center lg:text-left text-white mx-auto max-w-[660px]`}>
           <p className="mb-3 text-white font-medium">WHAT WE DO</p>
           <h1 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">Experience, Engage, Evolve</h1>
           {/* <p className=" mt-10 text-lg font-normal leading-[140%]">
@@ -90,7 +90,7 @@ const WhatWeDo = () => {
           </div> */}
         </div>
       </div>
-      <div className="max-h-[580px] rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
+      <div className="max-h-[580px] mx-auto lg:mx-0 rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
         <Image className="w-full h-full object-cover" src={cover} height={200} width={400} />
       </div>
     </section>

@@ -17,9 +17,9 @@ const HowItWork = () => {
       />
 
       <div className="grid mt-[60px] grid-cols-2 gap-5">
-        <div className="col-span-2 lg:col-span-1 rounded-4xl relative overflow-hidden">
+        <div className="col-span-2 w-full max-w-[500px] lg:mx-0 mx-auto lg:col-span-1 rounded-4xl relative overflow-hidden">
           <div class=" absolute top-0 left-0 w-full h-full bg-[linear-gradient(108deg,_rgba(62,0,101,0.4)_12.47%,_rgba(62,0,101,0)_87.57%)]"></div>
-          <Image alt="Cover" src={cover} height={300} width={300} className="w-full h-full object-cover" />
+          <Image alt="Cover" src={cover} height={300} width={300} className="w-full  h-full object-cover" />
         </div>
         <div className="space-y-6 col-span-2 lg:col-span-1">
           <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] duration-200 hover:bg-[linear-gradient(to_bottom,_rgba(62,0,101,0.50)_15.68%,_rgba(62,0,101,0.01)_69.4%)]  flex flex-col lg:flex-row gap-6 p-6 rounded-[16px] lg:rounded-3xl">

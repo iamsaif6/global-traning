@@ -16,6 +16,9 @@ const Blogs = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
+    centerMode: true,
+    centerPadding: '20px',
   };
 
   return (
@@ -63,8 +66,8 @@ const Blogs = () => {
 
       <div className="slider-container block md:hidden mt-[56px]">
         <Slider {...settings}>
-          <div className=" rounded-3xl pb-8   overflow-hidden">
-            <Image src={img1} className="h-[300px] rounded-b-3xl w-full" />
+          <div className=" rounded-3xl px-3 pb-8   overflow-hidden">
+            <Image src={img1} className="h-[300px]  rounded-3xl w-full" />
             <div className="mt-8 px-6">
               <p className="text-secondary font-normal text-sm">December 4, 2024</p>
               <h3 className="text-[#18181B] font-medium text-2xl mt-3">What Are Courageous Conversations in the Workplace?</h3>
@@ -74,8 +77,8 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div className=" rounded-3xl pb-8   overflow-hidden">
-            <Image src={img2} className="h-[300px] rounded-b-3xl w-full" />
+          <div className=" rounded-3xl px-3 pb-8   overflow-hidden">
+            <Image src={img2} className="h-[300px]  rounded-3xl w-full" />
             <div className="mt-8 px-6">
               <p className="text-secondary font-normal text-sm">December 4, 2024</p>
               <h3 className="text-[#18181B] font-medium text-2xl mt-3">What Are Courageous Conversations in the Workplace?</h3>
@@ -85,8 +88,8 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div className=" rounded-3xl pb-8   overflow-hidden">
-            <Image src={img3} className="h-[300px] rounded-b-3xl w-full" />
+          <div className=" rounded-3xl px-3 pb-8   overflow-hidden">
+            <Image src={img3} className="h-[300px]  rounded-3xl w-full" />
             <div className="mt-8 px-6">
               <p className="text-secondary font-normal text-sm">December 4, 2024</p>
               <h3 className="text-[#18181B] font-medium text-2xl mt-3">What Are Courageous Conversations in the Workplace?</h3>

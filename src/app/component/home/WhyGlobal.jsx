@@ -7,11 +7,11 @@ const WhyGlobal = () => {
   return (
     <section className="py-[60px] lg:py-[120px] items-center px-4 lg:px-[120px] ">
       <div className="grid grid-cols-2 gap-[80px]">
-        <div className="max-h-[580px] col-span-2 lg:col-span-1 rounded-3xl overflow-hidden">
-          <Image className="w-full h-full object-cover" src={cover} height={200} width={400} />
+        <div className="max-w-[580px] mx-auto lg:mx-0 col-span-2 lg:col-span-1 rounded-3xl overflow-hidden">
+          <Image className="w-full  h-full object-cover" src={cover} height={200} width={400} />
         </div>
         <div className="col-span-2 lg:col-span-1">
-          <div className={`w-full max-w-[660px]`}>
+          <div className={`w-full text-center lg:text-left mx-auto max-w-[660px]`}>
             <p className="mb-3 text-primary text-sm font-medium">WHY GLOBAL TRAINING</p>
             <h1 className="text-[#18181B]  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
               We believe that learning should be felt, not forced.
@@ -34,7 +34,6 @@ const WhyGlobal = () => {
       <div className="mt-[56px] flex justify-center">
         <Button href="#" title={'Find Out More About Us'} />
       </div>
-      ;
     </section>
   );
 };

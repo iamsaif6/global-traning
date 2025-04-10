@@ -12,6 +12,7 @@ const Impact = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
+    arrows: false,
     slidesToScroll: 3,
     responsive: [
       {
@@ -27,7 +28,9 @@ const Impact = () => {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
+          centerMode: true,
           slidesToScroll: 1,
+          centerPadding: '20px',
         },
       },
     ],

@@ -18,7 +18,7 @@ const Header = () => {
           <br />
           connect and lead with confidence
         </h1>
-        <p className="text-[#FCFCFD] text-center mx-auto mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-[70%] font-normal text-sm md:text-lg">
+        <p className="text-[#FCFCFD] text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[70%] font-normal text-sm md:text-lg">
           Real learning starts with real people. At Global Training, we believe that when people feel grounded, challenged and heard, they
           open up — to ideas, to change, and to each other.
         </p>
