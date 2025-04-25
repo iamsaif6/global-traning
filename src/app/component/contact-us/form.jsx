@@ -49,7 +49,7 @@ const Form = () => {
   return (
     <div className="w-full max-w-[1130px] mx-auto border border-[#D1D1D6] rounded-3xl p-6">
       <h1 className="font-medium leading-[120%] text-[46px] mb-4">Let’s Start the Conversation</h1>
-      <p className="text-[#6E7381] leading-[140%] text-base">
+      <p className=" leading-[140%] text-base">
         Have any question? We’re here to help you. Send us a message, and we’ll respond within 24 hours.
       </p>
       <form className="mt-12" action="#">

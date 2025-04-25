@@ -16,7 +16,7 @@ const WhyGlobal = () => {
             <h1 className="text-[#18181B]  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
               We believe that learning should be felt, not forced.
             </h1>
-            <p className="text-[#6E7381] mt-10 text-lg font-normal leading-[140%]">
+            <p className=" mt-10 text-lg font-normal leading-[140%]">
               Through hands-on, human-centred training experiences, we create spaces where people can show up fully, strengthen their skills
               and step into their potential.
               <br /> <br />

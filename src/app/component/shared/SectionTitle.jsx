@@ -16,7 +16,7 @@ const SectionTitle = ({ badge, title, subtitle, center = false, light = false, l
         {title}
       </h1>
       {subtitle && (
-        <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] ${light ? 'text-white' : 'text-[#6E7381]'}`}>{subtitle}</p>
+        <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] ${light ? 'text-white' : 'text-black'}`}>{subtitle}</p>
       )}
     </div>
   );
