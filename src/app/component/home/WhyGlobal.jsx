@@ -13,9 +13,9 @@ const WhyGlobal = () => {
         <div className="col-span-2 lg:col-span-1">
           <div className={`w-full text-center lg:text-left mx-auto max-w-[660px]`}>
             <p className="mb-3 text-primary text-sm font-medium">WHY GLOBAL TRAINING</p>
-            <h1 className="text-[#18181B]  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
+            <h2 className="text-[#18181B]  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
               We believe that learning should be felt, not forced.
-            </h1>
+            </h2>
             <p className=" mt-10 text-lg font-normal leading-[140%]">
               Through hands-on, human-centred training experiences, we create spaces where people can show up fully, strengthen their skills
               and step into their potential.

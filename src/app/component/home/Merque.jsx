@@ -31,7 +31,7 @@ const Marque = () => {
           <Image className="w-full h-full object-contain" src={img4} alt="Cyber" />
         </div>
         <div className="  h-12  mx-[30px] lg:mx-[70px]  ">
-          <Image className="w-full h-full object-contain" src={img5} alt="Cyber" />
+          <Image className="w-full h-full object-contain" src={img5} alt="Trip Advisier" />
         </div>
       </Marquee>
     </div>

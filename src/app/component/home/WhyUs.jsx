@@ -1,8 +1,5 @@
 import React from 'react';
 import SectionTitle from '../shared/SectionTitle';
-import Image from 'next/image';
-import img1 from '/public/image 36.png';
-import img2 from '/public/image 37.png';
 
 const WhyUs = () => {
   return (

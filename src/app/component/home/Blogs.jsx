@@ -25,9 +25,9 @@ const Blogs = () => {
     <section className="py-[60px] lg:py-[120px] bg-white px-4 lg:px-[40px]">
       <div className="text-center lg:text-left">
         <p className="mb-3 text-primary font-medium">BLOGS & TIPS</p>
-        <h1 className="text-[#18181B]  font-medium text-[30px] lg:text-[46px] leading-[120%] -tracking-[1.6px]">
+        <h2 className="text-[#18181B]  font-medium text-[30px] lg:text-[46px] leading-[120%] -tracking-[1.6px]">
           Insights, reflections and tools to help you grow leadership and connection across your organisation
-        </h1>
+        </h2>
       </div>
       <div className="mt-[56px] hidden md:grid grid-cols-3 gap-4">
         <div className=" rounded-3xl pb-8   overflow-hidden">

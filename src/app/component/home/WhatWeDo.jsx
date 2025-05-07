@@ -10,7 +10,7 @@ const WhatWeDo = () => {
       <div className="col-span-2 lg:col-span-1">
         <div className={`w-full text-center lg:text-left text-white mx-auto max-w-[660px]`}>
           <p className="mb-3 text-white font-medium">WHAT WE DO</p>
-          <h1 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">Experience, Engage, Evolve</h1>
+          <h3 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">Experience, Engage, Evolve</h3>
           {/* <p className=" mt-10 text-lg font-normal leading-[140%]">
             We believe in <strong>practice-based, experiential learning</strong> that goes beyond theory. By focusing on real-world
             scenarios, interactive role-plays, and collaborative exercises, we help teams develop <strong>practical skills</strong> that

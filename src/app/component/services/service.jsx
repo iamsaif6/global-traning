@@ -64,9 +64,13 @@ const Service = () => {
       <div className="grid grid-cols-3 gap-6 my-[60px]">
         {services.map(item => {
           return (
-            <a href="/services/1" className="p-5 cursor-pointer pb-[28px] duration-200 hover:bg-secondary rounded-3xl group ">
+            <a
+              key={item.title}
+              href="/services/1"
+              className="p-5 cursor-pointer pb-[28px] duration-200 hover:bg-secondary rounded-3xl group "
+            >
               <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
-                <Image width={200} h={200} className="w-full h-full object-cover" src={item.img} />
+                <Image alt={item.title} width={200} h={200} className="w-full h-full object-cover" src={item.img} />
               </div>
               <h3 className="text-2xl group-hover:text-white text-[#18181B] leading-[120%] mb-3">{item.title}</h3>
               <p className="text-base group-hover:text-white text-[#6E7381] leading-[140%]">{item.subtitle}</p>

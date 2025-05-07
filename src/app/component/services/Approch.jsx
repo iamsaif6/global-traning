@@ -8,7 +8,7 @@ const Approch = () => {
     <section className="py-[120px] items-center px-[40px] grid grid-cols-2 gap-[160px]">
       <div>
         <div className={`w-full max-w-[660px]`}>
-          <h1 className="text-[#18181B]  font-medium text-[56px] leading-[120%] -tracking-[1.6px]">Unique Approach in All Services</h1>
+          <h3 className="text-[#18181B]  font-medium text-[56px] leading-[120%] -tracking-[1.6px]">Unique Approach in All Services</h3>
         </div>
         <div className="mt-[60px] space-y-[36px]">
           <div className="flex gap-6">
@@ -68,7 +68,7 @@ const Approch = () => {
         </div>
       </div>
       <div className="max-h-[580px] rounded-3xl  overflow-hidden">
-        <Image className="w-full h-full object-cover" src={cover} height={200} width={400} />
+        <Image alt="Cover for Approch" className="w-full h-full object-cover" src={cover} height={200} width={400} />
       </div>
     </section>
   );
