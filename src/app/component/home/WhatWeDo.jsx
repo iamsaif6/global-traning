@@ -91,7 +91,7 @@ const WhatWeDo = () => {
         </div>
       </div>
       <div className="max-h-[580px] mx-auto lg:mx-0 rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
-        <Image className="w-full h-full object-cover" src={cover} height={200} width={400} />
+        <Image alt="What we do cover" className="w-full h-full object-cover" src={cover} height={200} width={400} />
       </div>
     </section>
   );

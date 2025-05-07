@@ -24,7 +24,7 @@ const Instructor = () => {
         </div>
 
         <div className="max-h-[580px] mx-auto lg:mx-0 col-span-2 lg:col-span-1 rounded-3xl overflow-hidden">
-          <Image className="w-full h-full object-cover" src={cover} height={200} width={400} />
+          <Image alt="Instructor Cover" className="w-full h-full object-cover" src={cover} height={200} width={400} />
         </div>
       </div>
       <div className="mt-[56px] flex justify-center">

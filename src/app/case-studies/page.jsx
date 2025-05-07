@@ -31,7 +31,7 @@ const CaseStudies = () => {
               >
                 <div className="col-span-4 bg-[#F4F5F6] rounded-3xl flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="154" height="60" viewBox="0 0 154 60" fill="none">
-                    <g clip-path="url(#clip0_1_3733)">
+                    <g clipPath="url(#clip0_1_3733)">
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
