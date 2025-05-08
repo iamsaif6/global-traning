@@ -40,11 +40,12 @@ const Impact = () => {
     <section className="py-[60px] lg:py-[120px] px-4 lg:px-[40px] bg-white ">
       <SectionTitle
         badge={'PROVEN IMPACT'}
-        title={'Our Success Stories'}
+        title={'Stories of Growth That Feels Real'}
         subtitle={
           'Discover how companies across healthcare, education, and corporate sectors have transformed their team dynamics and achieved lasting results.'
         }
         center
+        large
       />
 
       <div className="slider-container my-[56px]">

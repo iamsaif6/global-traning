@@ -26,7 +26,7 @@ const Blogs = () => {
       <div className="text-center lg:text-left">
         <p className="mb-3 text-primary font-medium">BLOGS & TIPS</p>
         <h2 className="text-[#18181B]  font-medium text-[30px] lg:text-[46px] leading-[120%] -tracking-[1.6px]">
-          Insights, reflections and tools to help you grow leadership and connection across your organisation
+          Your Guide to Better Leadership and Communication
         </h2>
       </div>
       <div className="mt-[56px] hidden md:grid grid-cols-3 gap-4">

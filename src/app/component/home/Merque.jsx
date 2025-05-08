@@ -10,30 +10,31 @@ import Image from 'next/image';
 
 const Marque = () => {
   return (
-    <div className="py-[40px] lg:py-[60px] bg-white relative z-10">
-      <Marquee autoFill>
-        <div className=" h-12 mx-[30px] lg:mx-[70px]  ">
+    <div className="pt-[60px] lg:pb-[120px] bg-transparent lg:pt-[10px] lg:px-[80px]">
+      <p className="text-base  text-center mb-13">Trusted by teams and leaders of all sizes</p>
+      <div className="grid grid-cols-6 gap-3">
+        <div className="  max-h-[150px] h-full mx-[30px] lg:mx-[70px]  ">
           <Image className="w-full h-full object-contain" src={img1} alt="Living Wadge Company" />
         </div>
-        <div className="  h-12  mx-[30px] lg:mx-[70px]  ">
+        <div className="   max-h-[150px] h-full  mx-[30px] lg:mx-[70px]  ">
           <Image className="w-full h-full object-contain" src={img2} alt="ISO" />
         </div>
-        <div className=" h-12  mx-[30px] lg:mx-[70px]  ">
+        <div className="  max-h-[150px] h-full  mx-[30px] lg:mx-[70px]  ">
           <Image className="w-full h-full object-contain" src={img3} alt="College of mediator" />
         </div>
-        <div className="  h-12  mx-[30px] lg:mx-[70px]  ">
+        <div className="   max-h-[150px] h-full  mx-[30px] lg:mx-[70px]  ">
           <Image className="w-full h-full object-contain" src={img6} alt="CMC" />
         </div>
-        <div className="  h-12  mx-[30px] lg:mx-[70px]  ">
+        <div className="   max-h-[150px] h-full  mx-[30px] lg:mx-[70px]  ">
           <Image className="w-full h-full object-contain" src={img2} alt="ISO" />
         </div>
-        <div className="  h-12  mx-[30px] lg:mx-[70px]  ">
+        <div className="   max-h-[150px] h-full  mx-[30px] lg:mx-[70px]  ">
           <Image className="w-full h-full object-contain" src={img4} alt="Cyber" />
         </div>
-        <div className="  h-12  mx-[30px] lg:mx-[70px]  ">
+        {/* <div className="   max-h-[150px] h-full  mx-[30px] lg:mx-[70px]  ">
           <Image className="w-full h-full object-contain" src={img5} alt="Trip Advisier" />
-        </div>
-      </Marquee>
+        </div> */}
+      </div>
     </div>
   );
 };

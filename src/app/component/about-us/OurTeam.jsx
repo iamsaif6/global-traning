@@ -9,8 +9,9 @@ import img5 from '/public/team5.png';
 import img6 from '/public/team6.png';
 import img7 from '/public/team7.png';
 import img8 from '/public/team8.png';
+import Button from '../shared/Button';
 
-const OurTeam = () => {
+const OurTeam = ({ button = false }) => {
   return (
     <section className="py-[120px] px-[80px]">
       <SectionTitle
@@ -25,7 +26,7 @@ const OurTeam = () => {
       <div className="mt-[60px] grid grid-cols-4 gap-6">
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image className="w-full h-full object-cover" src={img1} />
+            <Image alt="Emma Gersch" className="w-full h-full object-cover" src={img1} />
           </div>
           <div>
             <h3 className="font-medium text-2xl">Emma Gersch</h3>
@@ -35,7 +36,7 @@ const OurTeam = () => {
 
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image className="w-full h-full object-cover" src={img2} />
+            <Image alt="Georgie" className="w-full h-full object-cover" src={img2} />
           </div>
           <div>
             <h3 className="font-medium text-2xl">Georgie</h3>
@@ -45,7 +46,7 @@ const OurTeam = () => {
 
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image className="w-full h-full object-cover" src={img3} />
+            <Image alt="Richard" className="w-full h-full object-cover" src={img3} />
           </div>
           <div>
             <h3 className="font-medium text-2xl">Richard</h3>
@@ -55,7 +56,7 @@ const OurTeam = () => {
 
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image className="w-full h-full object-cover" src={img4} />
+            <Image alt="Faye" className="w-full h-full object-cover" src={img4} />
           </div>
           <div>
             <h3 className="font-medium text-2xl">Faye</h3>
@@ -65,7 +66,7 @@ const OurTeam = () => {
 
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image className="w-full h-full object-cover" src={img5} />
+            <Image alt="Lizzie" className="w-full h-full object-cover" src={img5} />
           </div>
           <div>
             <h3 className="font-medium text-2xl">Lizzie</h3>
@@ -75,7 +76,7 @@ const OurTeam = () => {
 
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image className="w-full h-full object-cover" src={img6} />
+            <Image alt="Polly" className="w-full h-full object-cover" src={img6} />
           </div>
           <div>
             <h3 className="font-medium text-2xl">Polly</h3>
@@ -85,7 +86,7 @@ const OurTeam = () => {
 
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image className="w-full h-full object-cover" src={img7} />
+            <Image alt="Zonelle" className="w-full h-full object-cover" src={img7} />
           </div>
           <div>
             <h3 className="font-medium text-2xl">Zonelle</h3>
@@ -95,7 +96,7 @@ const OurTeam = () => {
 
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image className="w-full h-full object-cover" src={img8} />
+            <Image alt="Adam" className="w-full h-full object-cover" src={img8} />
           </div>
           <div>
             <h3 className="font-medium text-2xl">Adam</h3>
@@ -103,6 +104,11 @@ const OurTeam = () => {
           </div>
         </div>
       </div>
+      {button && (
+        <div className="flex mt-[66px] items-center justify-center">
+          <Button href="#" title={'Meet the People Behind Global Training'} />
+        </div>
+      )}
     </section>
   );
 };

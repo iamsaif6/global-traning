@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import cover from '/public/AdobeStock_604839762.jpg';
+import cover from '/public/Why Global.png';
 import Button from '../shared/Button';
 
 const WhyGlobal = () => {

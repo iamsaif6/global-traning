@@ -1,16 +1,16 @@
 import React from 'react';
 import SectionTitle from '../shared/SectionTitle';
 import Button from '../shared/Button';
-import cover from '/public/Image.png';
+import cover from '/public/Our-approch_cover.png';
 import Image from 'next/image';
 
 const WhatWeDo = () => {
   return (
-    <section className="py-[60px] lg:py-[120px] bg-primary items-center px-4 lg:px-[40px] grid grid-cols-2 gap-10 lg:gap-5">
+    <section className="py-[60px] lg:py-[120px] bg-primary items-center px-4 lg:px-[40px] grid grid-cols-2 gap-10 lg:gap-[150px]">
       <div className="col-span-2 lg:col-span-1">
         <div className={`w-full text-center lg:text-left text-white mx-auto max-w-[660px]`}>
-          <p className="mb-3 text-white font-medium">WHAT WE DO</p>
-          <h3 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">Experience, Engage, Evolve</h3>
+          <p className="mb-3 text-white font-medium">OUR APPROACH</p>
+          <h3 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">Experience, Engage, Evolve!</h3>
           {/* <p className=" mt-10 text-lg font-normal leading-[140%]">
             We believe in <strong>practice-based, experiential learning</strong> that goes beyond theory. By focusing on real-world
             scenarios, interactive role-plays, and collaborative exercises, we help teams develop <strong>practical skills</strong> that
@@ -30,7 +30,7 @@ const WhatWeDo = () => {
             Because connection creates change — and when people grow together, they go further together.
           </p>
 
-          {/* <div className="text-[#FCFCFD] space-y-[36px] mt-10">
+          <div className="text-[#FCFCFD] space-y-[30px] mt-10">
             <div className="flex gap-6">
               <div className="mt-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -46,7 +46,6 @@ const WhatWeDo = () => {
               </div>
               <div>
                 <h4 className="text-[28px] font-medium mb-3">Purpose</h4>
-                <p className="text-lg font-normal leading-[140%]">The ‘why’ behind every action and decision.</p>
               </div>
             </div>
 
@@ -61,7 +60,6 @@ const WhatWeDo = () => {
               </div>
               <div>
                 <h4 className="text-[28px] font-medium mb-3">People</h4>
-                <p className="text-lg font-normal leading-[140%]">The heart of every organization, empowered to lead and innovate.</p>
               </div>
             </div>
 
@@ -84,10 +82,9 @@ const WhatWeDo = () => {
               </div>
               <div>
                 <h4 className="text-[28px] font-medium mb-3">Place</h4>
-                <p className="text-lg font-normal leading-[140%]">A sense of belonging that fosters unity and success.</p>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="max-h-[580px] mx-auto lg:mx-0 rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
