@@ -36,7 +36,7 @@ const HowItWork = () => {
           <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] duration-200    flex flex-col lg:flex-row gap-6 p-6 rounded-[16px] lg:rounded-3xl">
             <div className="flex gap-6 items-center lg:items-start">
               <div className=" duration-200 bg-secondary text-white  w-[40px] h-[40px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
-                2
+                3
               </div>
               <h4 className="text-[24px] lg:text-[28px] font-medium  text-[#18181B]">Empower Your People to Grow</h4>
             </div>
