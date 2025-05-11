@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTitle from '../shared/SectionTitle';
-import cover from '/public/video.png';
+import cover from '/public/Video.png';
 import Image from 'next/image';
 import Button from '../shared/Button';
 
