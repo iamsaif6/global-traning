@@ -30,7 +30,7 @@ const OurTeam = ({ button = false }) => {
   return (
     <section className="py-[120px] px-5 lg:px-[80px]">
       <SectionTitle badge={'MEET OUR TEAM'} title={'The Visionaries Behind Global Training’s Success'} center large />
-      <div className="mt-[60px] hidden  md:grid grid-cols-4 gap-6">
+      <div className="mt-[60px] hidden  md:grid md:grid-cols-3 lg:grid-cols-4 gap-6">
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
             <Image alt="Emma Gersch" className="w-full h-full object-cover" src={img1} />
