@@ -19,7 +19,7 @@ const OurServices = () => {
         center
       />
 
-      <div className="max-w-[1130px] mt-[80px] mb-[60px] mx-auto grid grid-cols-4 gap-6">
+      <div className="max-w-[1130px] mt-[80px] mb-[60px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div className=" rounded-3xl bg-[#511A7514] p-6">
           <span className="mb-[50px] block">Logo</span>
           <p className="text-[#18181B] font-normal text-lg">Build emotionally intelligent leadership</p>

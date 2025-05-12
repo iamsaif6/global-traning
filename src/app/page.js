@@ -18,7 +18,6 @@ export default function Home() {
       <Header />
       <Marque />
       <Video />
-
       <WhyGlobal />
       <OurServices />
       <WhatWeDo />

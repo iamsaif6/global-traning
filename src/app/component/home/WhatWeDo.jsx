@@ -11,13 +11,10 @@ const WhatWeDo = () => {
         <div className={`w-full text-center lg:text-left text-white mx-auto max-w-[660px]`}>
           <p className="mb-3 text-white font-medium">OUR APPROACH</p>
           <h3 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">Experience, Engage, Evolve!</h3>
-          {/* <p className=" mt-10 text-lg font-normal leading-[140%]">
-            We believe in <strong>practice-based, experiential learning</strong> that goes beyond theory. By focusing on real-world
-            scenarios, interactive role-plays, and collaborative exercises, we help teams develop <strong>practical skills</strong> that
-            drive <strong>measurable results.</strong>
-            <br /> <br />
-            Our approach centers on three core elements:
-          </p> */}
+
+          <div className="max-h-[580px] mt-10 block lg:hidden mx-auto lg:mx-0 rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
+            <Image alt="What we do cover" className="w-full h-full object-cover" src={cover} height={200} width={400} />
+          </div>
 
           <p className=" mt-10 text-base lg:text-lg font-normal leading-[140%]">
             At Global Training, we create learning experiences that are immersive, relational and real.
@@ -87,7 +84,7 @@ const WhatWeDo = () => {
           </div>
         </div>
       </div>
-      <div className="max-h-[580px] mx-auto lg:mx-0 rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
+      <div className="max-h-[580px] hidden lg:block mx-auto lg:mx-0 rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
         <Image alt="What we do cover" className="w-full h-full object-cover" src={cover} height={200} width={400} />
       </div>
     </section>

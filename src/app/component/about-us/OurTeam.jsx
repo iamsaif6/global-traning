@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import SectionTitle from '../shared/SectionTitle';
 import Image from 'next/image';
@@ -10,20 +11,26 @@ import img6 from '/public/team6.png';
 import img7 from '/public/team7.png';
 import img8 from '/public/team8.png';
 import Button from '../shared/Button';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+const settings = {
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  centerMode: true,
+  centerPadding: '20px',
+};
 
 const OurTeam = ({ button = false }) => {
   return (
-    <section className="py-[120px] px-[80px]">
-      <SectionTitle
-        badge={'MEET OUR TEAM'}
-        title={'The People Behind the Practice'}
-        subtitle={
-          'Our facilitators, coaches and actor-roleplayers bring decades of experience across sectors — but more importantly, they bring compassion, creativity and a deep belief in human potential.'
-        }
-        center
-        large
-      />
-      <div className="mt-[60px] grid grid-cols-4 gap-6">
+    <section className="py-[120px] px-5 lg:px-[80px]">
+      <SectionTitle badge={'MEET OUR TEAM'} title={'The Visionaries Behind Global Training’s Success'} center large />
+      <div className="mt-[60px] hidden  md:grid grid-cols-4 gap-6">
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
             <Image alt="Emma Gersch" className="w-full h-full object-cover" src={img1} />
@@ -104,6 +111,81 @@ const OurTeam = ({ button = false }) => {
           </div>
         </div>
       </div>
+
+      <div className="slider-container block md:hidden mt-[56px]">
+        <Slider {...settings}>
+          <div className="px-3 pb-8">
+            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
+              <Image alt="Emma Gersch" className="w-full h-full object-cover" src={img1} />
+            </div>
+            <div>
+              <h3 className="font-medium text-2xl">Emma Gersch</h3>
+              <p className="text-[#6E7381] text-base">Instructor</p>
+            </div>
+          </div>
+
+          <div className="px-3 pb-8">
+            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
+              <Image alt="Richard" className="w-full h-full object-cover" src={img3} />
+            </div>
+            <div>
+              <h3 className="font-medium text-2xl">Richard</h3>
+              <p className="text-[#6E7381] text-base">Instructor</p>
+            </div>
+          </div>
+
+          <div className="px-3 pb-8">
+            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
+              <Image alt="Faye" className="w-full h-full object-cover" src={img4} />
+            </div>
+            <div>
+              <h3 className="font-medium text-2xl">Faye</h3>
+              <p className="text-[#6E7381] text-base">Instructor</p>
+            </div>
+          </div>
+
+          <div className="px-3 pb-8">
+            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
+              <Image alt="Lizzie" className="w-full h-full object-cover" src={img5} />
+            </div>
+            <div>
+              <h3 className="font-medium text-2xl">Lizzie</h3>
+              <p className="text-[#6E7381] text-base">Instructor</p>
+            </div>
+          </div>
+
+          <div className="px-3 pb-8">
+            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
+              <Image alt="Polly" className="w-full h-full object-cover" src={img6} />
+            </div>
+            <div>
+              <h3 className="font-medium text-2xl">Polly</h3>
+              <p className="text-[#6E7381] text-base">Instructor</p>
+            </div>
+          </div>
+
+          <div className="px-3 pb-8">
+            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
+              <Image alt="Zonelle" className="w-full h-full object-cover" src={img7} />
+            </div>
+            <div>
+              <h3 className="font-medium text-2xl">Zonelle</h3>
+              <p className="text-[#6E7381] text-base">Instructor</p>
+            </div>
+          </div>
+
+          <div className="px-3 pb-8">
+            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
+              <Image alt="Adam" className="w-full h-full object-cover" src={img8} />
+            </div>
+            <div>
+              <h3 className="font-medium text-2xl">Adam</h3>
+              <p className="text-[#6E7381] text-base">Instructor</p>
+            </div>
+          </div>
+        </Slider>
+      </div>
+
       {button && (
         <div className="flex mt-[66px] items-center justify-center">
           <Button href="#" title={'Meet the People Behind Global Training'} />
