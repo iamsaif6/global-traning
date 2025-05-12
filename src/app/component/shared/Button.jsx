@@ -13,15 +13,14 @@ const Button = ({ title, href = '#', padding = 'default', secondary = false }) =
   const paddingClass = paddingClasses[padding] || paddingClasses.default;
 
   return (
-    <button
+    <Link
+      href={href}
       className={`${
         secondary ? 'bg-secondary border-secondary' : 'bg-primary border-primary'
       }  border  font-medium text-lg text-[#FCFCFD] ${paddingClass} py-3 rounded-[40px]`}
     >
-      <Link className="w-full" href={href}>
-        {title}
-      </Link>
-    </button>
+      {title}
+    </Link>
   );
 };
 

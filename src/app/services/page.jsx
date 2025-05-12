@@ -1,15 +1,22 @@
 import React from 'react';
-import Service from '../component/services/service';
-import Approch from '../component/services/Approch';
 import Header from '../component/services/Header';
 import Video from '../component/services/Video';
+import Blocked from '../component/services/Blocked';
+import HowItWork from '../component/services/HowItWork';
+import HowWeWork from '../component/services/HowWeWork';
+import TrustedBy from '../component/services/TrustedBy';
+import Form from '../component/services/Form';
 
 const Services = () => {
   return (
     <div>
       <Header />
       <Video />
-      <Approch />
+      <Blocked />
+      <HowItWork />
+      <HowWeWork />
+      <TrustedBy />
+      <Form />
     </div>
   );
 };
