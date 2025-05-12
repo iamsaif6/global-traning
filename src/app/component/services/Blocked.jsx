@@ -4,7 +4,7 @@ import Button from '../shared/Button';
 
 const Blocked = () => {
   return (
-    <section className="py-[60px] lg:py-[120px] bg-transparent px-5 lg:px-[80px]">
+    <section className="py-[60px] lg:py-[120px] bg-transparent overflow-hidden px-5 lg:px-[80px]">
       <div className={`w-full  max-w-[1000px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%] mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] text-[#18181B]`}>
           What We Help <br /> Unblock
@@ -17,19 +17,19 @@ const Blocked = () => {
       </div>
 
       {/* Content */}
-      <div className="h-[576px] mt-[60px] relative w-[486px] mx-auto bg-gray-300 rounded-2xl">
+      <div className="h-[350px] lg:h-[576px] mt-[60px] relative w-full max-w-[300px]  lg:max-w-[486px] mx-auto bg-gray-300 rounded-2xl">
         {/* Left top */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className=" absolute -translate-x-full top-[10%] -left-12 border w-full max-w-[360px] text-base border-[#E9E9EC] text-[#18181B] rounded-3xl p-6 bg-white"
+          className=" absolute -translate-x-1/2 lg:-translate-x-full top-[10%] left-2 lg:-left-12 border w-full max-w-[137px] lg:max-w-[360px]  text-[7px] lg:text-base border-[#E9E9EC] text-[#18181B] rounded-[9px] lg:rounded-3xl p-[9px] lg:p-6 bg-white"
         >
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12 rounded-full bg-gray-200"></div>
+            <div className="w-[18px] lg:w-12 h-[18px] lg:h-12 rounded-full bg-gray-200"></div>
             <p title="Name" className="font-medium">
               William Johnson
             </p>
           </div>
-          <p className="leading-[140%] mt-4" title="Description">
+          <p className="leading-[140%] mt-[6px] lg:mt-4" title="Description">
             “My team can’t give feedback without it getting personal”
           </p>
         </div>
@@ -37,15 +37,15 @@ const Blocked = () => {
         {/* Left bottom */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className=" absolute -translate-x-full -bottom-[5%] left-8 border w-full max-w-[270px] text-sm border-[#E9E9EC] text-[#18181B] rounded-[20px] p-5 bg-white"
+          className=" absolute -translate-x-1/2 lg:-translate-x-full -bottom-[5%] left-8 border w-full max-w-[140px] lg:max-w-[270px] lg:text-sm text-[7px] border-[#E9E9EC] text-[#18181B] rounded-[11px] lg:rounded-[20px] p-[11px] lg:p-5 bg-white"
         >
           <div className="flex items-center gap-4">
-            <div className="w-[42px] h-[42px] rounded-full bg-gray-200"></div>
+            <div className="w-[22px] lg:w-[42px] h-[22px] lg:h-[42px] rounded-full bg-gray-200"></div>
             <p title="Name" className="font-medium">
               Audrey Clark
             </p>
           </div>
-          <p className="leading-[140%] mt-3" title="Description">
+          <p className="leading-[140%] mt-[7px] lg:mt-3" title="Description">
             “There’s tension between departments or personalities”
           </p>
         </div>
@@ -53,15 +53,15 @@ const Blocked = () => {
         {/* Right top */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className=" absolute translate-x-full top-7 right-14 border w-full max-w-[250px] text-sm border-[#E9E9EC] text-[#18181B] rounded-[20px] p-5 bg-white"
+          className=" absolute -translate-y-1/2 lg:-translate-y-0 translate-x-full top-2 lg:top-7 right-14 border w-full max-w-[80px] lg:max-w-[250px] text-[5px] lg:text-sm border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[20px] p-[6px] lg:p-5 bg-white"
         >
           <div className="flex items-center gap-4">
-            <div className="w-[42px] h-[42px] rounded-full bg-gray-200"></div>
+            <div className="w-3 lg:w-[42px] h-3 lg:h-[42px] rounded-full bg-gray-200"></div>
             <p title="Name" className="font-medium">
               Kimberly Kim
             </p>
           </div>
-          <p className="leading-[140%] mt-3" title="Description">
+          <p className="leading-[140%] mt-[5px] lg:mt-3" title="Description">
             “I need help leading through a restructure or challenging moment”
           </p>
         </div>
@@ -69,32 +69,32 @@ const Blocked = () => {
         {/* Right Bottom */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className=" absolute translate-x-2/3 bottom-7 right-0 border w-full max-w-[390px] text-[17px] border-[#E9E9EC] text-[#18181B] rounded-3xl p-[26px] bg-white"
+          className=" absolute translate-x-1/3 lg:translate-x-2/3 bottom-7 right-0 border w-full max-w-[150px] lg:max-w-[390px] text-[7px] lg:text-[17px] border-[#E9E9EC] text-[#18181B] rounded-[10px] lg:rounded-3xl p-2.5 lg:p-[26px] bg-white"
         >
           <div className="flex items-center gap-4">
-            <div className="w-[53px] h-[53px] rounded-full bg-gray-200"></div>
+            <div className="w-[20px] lg:w-[53px] h-[20px] lg:h-[53px] rounded-full bg-gray-200"></div>
             <p title="Name" className="font-medium">
-              Kimberly Kim
+              Edward Cooper
             </p>
           </div>
-          <p className="leading-[140%] mt-3" title="Description">
-            “I need help leading through a restructure or challenging moment”
+          <p className="leading-[140%] mt-[7px] lg:mt-3" title="Description">
+            “We’ve been through a lot, and need space to reflect and regroup”
           </p>
         </div>
 
         {/* Right Center */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className=" absolute top-1/2 -translate-y-1/2 translate-x-[200%] right-0 border w-full max-w-[166px] text-[8px] border-[#E9E9EC] text-[#18181B] rounded-[13px] p-3 bg-white"
+          className=" absolute top-1/2 -translate-y-1/2 translate-x-1/2 lg:translate-x-[200%] right-0 border w-full max-w-[85px] lg:max-w-[166px] text-[5px] lg:text-[8px] border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[13px] p-[7px] lg:p-3 bg-white"
         >
           <div className="flex items-center gap-4">
-            <div className="w-[26px] h-[26px] rounded-full bg-gray-200"></div>
+            <div className="w-[13px] lg:w-[26px] h-[13px] lg:h-[26px] rounded-full bg-gray-200"></div>
             <p title="Name" className="font-medium">
-              Kimberly Kim
+              Jonathan Baker
             </p>
           </div>
-          <p className="leading-[140%] mt-2" title="Description">
-            “I need help leading through a restructure or challenging moment”
+          <p className="leading-[140%] mt-[5px] lg:mt-2" title="Description">
+            “There’s misalignment between values and actions”
           </p>
         </div>
       </div>
