@@ -8,26 +8,26 @@ const page = () => {
     <div>
       <header
         style={{
-          backgroundImage: `url('/AdobeStock_604839762.jpg'), linear-gradient(to right, rgba(62, 0, 101, 0.90) 15.68%, rgba(62, 0, 101, 0.31) 69.4%, rgba(255, 255, 255, 1) 100%)`,
+          backgroundImage: `linear-gradient(to bottom, rgba(62, 0, 101, 0.90) 5.68%, rgba(62, 0, 101, 0.31) 79.4%, rgba(255, 255, 255, 1) 100%)`,
           backgroundBlendMode: 'overlay',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
-        className="pt-[187px] relative md:pt-[238px] pb-[176px] md:pb-[203px] px-5 md:px-[60px]"
+        className="pt-[187px] relative md:pt-[238px] pb-[50px] lg:pb-[203px] px-5 md:px-[60px]"
       >
-        <div className="w-full relative z-10 lg:max-w-[80%]">
-          <h1 className="font-semibold tracking-[-4%] leading-[120%] text-5xl md:[65px] lg:text-[68px] text-white">
-            Empowering Workplace Growth Through Knowledge
+        <div className="w-full relative z-10  mx-auto text-center">
+          <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
+            Empowering Workplace <br /> Growth Through Knowledge
           </h1>
-          <p className="text-white mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-[70%] font-normal text-sm md:text-lg">
+          <p className="text-[#FCFCFD] text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[70%] font-normal text-sm md:text-lg">
             Explore actionable strategies, expert insights, and practical guides to transform your workplace dynamics.
           </p>
         </div>
       </header>
 
       {/* Blogs */}
-      <section className=" py-[120px] px-[40px]">
-        <div className="grid  grid-cols-3 gap-6">
+      <section className="pb-[80px] lg:pb-[120px] px-5 lg:px-[40px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(item => {
             return (
               <div className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
