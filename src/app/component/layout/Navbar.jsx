@@ -11,21 +11,22 @@ const navLinks = [
     title: 'Home',
   },
   {
+    href: '/services',
+    title: 'What We Do',
+  },
+  {
     href: '/about-us',
     title: 'About Us',
   },
-  {
-    href: '/services',
-    title: 'Services',
-  },
+
   {
     href: '/case-studies',
     title: 'Case Studies',
   },
-  {
-    href: '/our-thinking',
-    title: 'Our Thinking',
-  },
+  // {
+  //   href: '/our-thinking',
+  //   title: 'Our Thinking',
+  // },
 ];
 
 const Navbar = () => {

@@ -4,9 +4,9 @@ import map from '/public/Map.png';
 
 const Map = () => {
   return (
-    <div className="grid w-full max-w-[1130px] mx-auto mt-12 grid-cols-2 gap-6">
-      <div className=" border border-[#D1D1D6] rounded-3xl p-6">
-        <h3 className="text-[46px] mb-6 font-medium">Contacts</h3>
+    <div className="grid w-full  mx-auto mt-12 grid-cols-12 gap-6">
+      <div className="col-span-12 lg:col-span-5 border-none lg:border border-[#D1D1D6] rounded-3xl p-6">
+        <h3 className="text-[40px] text-center lg:text-left lg:text-[46px] mb-6 font-medium">Contacts</h3>
 
         <div className="flex gap-6 mb-6 pb-6 border-b border-[#D1D1D6]">
           <svg className="flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -20,8 +20,8 @@ const Map = () => {
             />
           </svg>
           <div>
-            <p className="mb-2 text-[28px] font-medium">Email</p>
-            <a className="text-[#6E7381] underline text-lg font-normal" href="mailto:teams.hello@wearegtg.co.uk">
+            <p className="mb-2 text-2xl lg:text-[28px] font-medium">Email</p>
+            <a className="text-[#6E7381] underline text-base lg:text-lg font-normal" href="mailto:teams.hello@wearegtg.co.uk">
               teams.hello@wearegtg.co.uk
             </a>
           </div>
@@ -35,8 +35,8 @@ const Map = () => {
             />
           </svg>
           <div>
-            <p className="mb-2 text-[28px] font-medium">Phone</p>
-            <a className="text-[#6E7381]  text-lg font-normal" href="tel:1800-123-4567">
+            <p className="mb-2 text-2xl lg:text-[28px] font-medium">Phone</p>
+            <a className="text-[#6E7381] text-base lg:text-lg font-normal" href="tel:1800-123-4567">
               1800-123-4567
             </a>
           </div>
@@ -52,15 +52,15 @@ const Map = () => {
             />
           </svg>
           <div>
-            <p className="mb-2 text-[28px] font-medium">Address</p>
-            <p className="text-[#6E7381]  text-lg font-normal">Molteno House, 302 Regents Park Road, Finchley, N3 2JX</p>
+            <p className="mb-2 text-2xl lg:text-[28px] font-medium">Address</p>
+            <p className="text-[#6E7381] text-base  lg:text-lg font-normal">Molteno House, 302 Regents Park Road, Finchley, N3 2JX</p>
           </div>
         </div>
       </div>
 
-      <div className=" border border-[#D1D1D6] rounded-3xl p-4">
-        <div className=" h-full relative rounded-[20px] overflow-hidden">
-          <Image src={map} className="h-full w-full" />
+      <div className="col-span-12 lg:col-span-7 max-h-[520px] h-auto border border-[#D1D1D6] rounded-3xl p-0 overflow-hidden lg:p-4">
+        <div className=" h-full  relative rounded-[20px] overflow-hidden">
+          <Image alt="Map" src={map} className="h-full w-full" />
 
           <div className="absolute left-1/2 -translate-x-1/2 bottom-[20%] z-40">
             <svg className="  w-[60px] h-[60px]" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +70,7 @@ const Map = () => {
               <circle cx="100" cy="100" r="20" fill="#5D2E8C" />
             </svg>
 
-            <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] rounded-3xl p-6 absolute -top-4 left-1/2 -translate-x-1/2 -translate-y-full w-[400px]">
+            <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] rounded-3xl p-4 lg:p-6 absolute -top-4 left-1/2 -translate-x-1/2 -translate-y-full w-[290px] lg:w-[400px]">
               <svg xmlns="http://www.w3.org/2000/svg" width="72" height="36" viewBox="0 0 72 36" fill="none">
                 <g clipPath="url(#clip0_1_4108)">
                   <path
@@ -106,13 +106,13 @@ const Map = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <div className="my-6">
-                <p className="font-medium text-base">San Francisco, USA</p>
-                <p className="text-base">302 Regents Park Road, Finchley, N3 2JX</p>
+              <div className="my-3 lg:my-6">
+                <p className="font-medium text-xs lg:text-base">San Francisco, USA</p>
+                <p className="text-xs lg:text-base">302 Regents Park Road, Finchley, N3 2JX</p>
               </div>
-              <a className="flex gap-2 text-base font-medium text-primary items-center" href="#">
+              <a className="flex gap-2 text-sm lg:text-base font-medium text-primary items-center" href="#">
                 Open Google Maps
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <svg className="w-4 lg:w-5 h-4 lg:h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
                   <path
                     d="M7.5 3.75L13.75 10L7.5 16.25"
                     stroke="#FF634A"
