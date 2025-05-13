@@ -5,22 +5,22 @@ const CaseStudies = () => {
     <div>
       <header
         style={{
-          backgroundImage: `url('/AdobeStock_604839762.jpg'), linear-gradient(to right, rgba(62, 0, 101, 0.90) 15.68%, rgba(62, 0, 101, 0.31) 69.4%, rgba(255, 255, 255, 1) 100%)`,
+          backgroundImage: `url('/AdobeStock_604839762.jpg'), linear-gradient(to bottom, rgba(62, 0, 101, 0.90) 5.68%, rgba(62, 0, 101, 0.31) 79.4%, rgba(255, 255, 255, 1) 100%)`,
           backgroundBlendMode: 'overlay',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
         className="pt-[187px] relative md:pt-[238px] pb-[176px] md:pb-[203px] px-5 md:px-[60px]"
       >
-        <div className="w-full relative z-10 lg:max-w-[80%]">
+        <div className="w-full text-center mx-auto relative z-10 lg:max-w-[80%]">
           <h1 className="font-semibold tracking-[-4%] leading-[120%] text-5xl md:[65px] lg:text-[68px] text-white">Case Studies</h1>
-          <p className="text-white mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-[70%] font-normal text-sm md:text-lg">
+          <p className="text-white mt-[18px] md:mt-6 mb-[26px] md:mb-8 mx-auto w-[70%] font-normal text-sm md:text-lg">
             Real-world examples of transformation.
           </p>
         </div>
       </header>
 
-      <section className="py-[120px] px-[40px]">
+      <section className="pb-[120px] px-5 lg:px-[40px]">
         <div className="">
           {[1, 2, 3, 4].map((item, index) => {
             return (
@@ -28,9 +28,9 @@ const CaseStudies = () => {
                 key={index}
                 className={`${
                   index != 1 ? 'border-b border-[#D1D1D6]' : ''
-                } grid pb-[60px] border-b border-[#D1D1D6] mb-[60px] grid-cols-12 gap-[60px]`}
+                } grid pb-[60px] border-b  border-[#D1D1D6] mb-[60px] grid-cols-12 gap-0 lg:gap-[60px]`}
               >
-                <div className="col-span-4 bg-[#F4F5F6] rounded-3xl flex items-center justify-center">
+                <div className="col-span-12 mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#F4F5F6] rounded-2xl lg:rounded-3xl flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="154" height="60" viewBox="0 0 154 60" fill="none">
                     <g clipPath="url(#clip0_1_3733)">
                       <path
@@ -47,10 +47,10 @@ const CaseStudies = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className="col-span-8">
-                  <p className="text-[#794D94] font-medium text-base">December 4, 2024</p>
-                  <h3 className="text-[#18181B] font-medium text-[40px] mt-2 mb-4">Transforming Leadership at NHS</h3>
-                  <p className="text-[#6E7381] font-normal text-lg">
+                <div className="col-span-12 lg:col-span-8">
+                  <p className="text-[#794D94] font-medium text-xs lg:text-base">December 4, 2024</p>
+                  <h3 className="text-[#18181B] font-medium text-2xl lg:text-[40px] mt-2 mb-4">Transforming Leadership at NHS</h3>
+                  <p className="text-[#6E7381] font-normal text-base lg:text-lg">
                     Through a customized leadership program, we helped NHS leaders build emotional intelligence, enhance decision-making
                     under pressure, and foster stronger team collaboration.
                   </p>
