@@ -58,7 +58,7 @@ const services = [
 
 const Service = () => {
   return (
-    <section className="py-[120px] px-[40px]">
+    <section className="py-[80px] lg:py-[120px] px-5 lg:px-[40px]">
       <SectionTitle
         title={'Mediation Training Services'}
         subtitle={'Professional mediation services to resolve disputes with empathy, expertise, and efficiency.'}
@@ -66,15 +66,19 @@ const Service = () => {
         center
       />
 
-      <div className="grid grid-cols-3 gap-6 my-[60px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-[60px]">
         {services.map(item => {
           return (
-            <a href="#" className="p-5 flex flex-col cursor-pointer pb-[28px] duration-200 hover:bg-secondary rounded-3xl group ">
+            <a
+              key={item.title}
+              href="#"
+              className="p-5 flex flex-col cursor-pointer pb-[28px] duration-200 hover:shadow-[0px_20px_100px_-20px_rgba(0,0,0,0.1)] hover:bg-[linear-gradient(to_bottom,_#3E0065_40%,_white_90%)]  rounded-3xl group "
+            >
               <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
-                <Image width={200} h={200} className="w-full h-full object-cover" src={item.img} />
+                <Image alt={item.title} width={200} h={200} className="w-full h-full object-cover" src={item.img} />
               </div>
               <div className="h-full flex-1 flex justify-between flex-col">
-                <h3 className="text-2xl group-hover:text-white text-[#18181B] leading-[120%] mb-3">{item.title}</h3>
+                <h3 className="text-2xl  text-[#18181B] leading-[120%] mb-3">{item.title}</h3>
                 <button className="bg-primary w-max px-5 py-2.5 rounded-[40px] text-white">Book Now</button>
               </div>
             </a>
