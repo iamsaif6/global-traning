@@ -1,6 +1,8 @@
 import React from 'react';
 import SectionTitle from '../shared/SectionTitle';
 import Button from '../shared/Button';
+import unblock from '/public/Unblock.png';
+import Image from 'next/image';
 
 const Blocked = () => {
   return (
@@ -17,7 +19,9 @@ const Blocked = () => {
       </div>
 
       {/* Content */}
-      <div className="h-[350px] lg:h-[576px] mt-[60px] relative w-full max-w-[300px]  lg:max-w-[486px] mx-auto bg-gray-300 rounded-2xl">
+      <div className="h-[350px]  lg:h-[576px] mt-[60px] relative w-full max-w-[300px]  lg:max-w-[486px] mx-auto bg-gray-300 rounded-2xl">
+        <Image src={unblock} alt="Unblock Cover" className="rounded-2xl absolute top-0 left-0 w-full h-full object-cover" />
+
         {/* Left top */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}

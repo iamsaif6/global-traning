@@ -19,7 +19,7 @@ const Video = () => {
             <div className="absolute px-4 inset-0 bg-black cursor-pointer flex items-center justify-center" onClick={startVideo}>
               {/* Custom Thumbnail */}
               <div className="absolute inset-0">
-                <img src="/image 41.png" alt="Video Thumbnail" className="w-full h-full object-cover" />
+                <img src="/ServiceVideo.png" alt="Video Thumbnail" className="w-full h-full object-cover" />
               </div>
 
               {/* Play Button */}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const HowWeWork = () => {
   return (
-    <section className="px-4  pt-[80px] lg:pt-[120px]  lg:px-[80px]">
+    <section className="px-5  pt-[80px] lg:pt-[120px]  lg:px-[80px]">
       <div className={`w-full  max-w-[720px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%] mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] text-[#18181B]`}>
           How We Work
@@ -60,18 +60,6 @@ const HowWeWork = () => {
             <div className="w-12 lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg"></div>
             <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">One-to-one or team coaching</p>
           </div>
-        </div>
-
-        <div className="max-w-[900px] text-center text-[#18181B] font-medium text-[28px] lg:text-[40px] leading-[120%] mx-auto py-[80px] lg:py-[120px]">
-          <p>
-            This isn’t training for training’s sake. It’s practical, intuitive and designed to create clarity, confidence and connection.
-          </p>
-        </div>
-        {/* Photo grid for desktop */}
-        <div className="hidden lg:grid grid-cols-2 gap-6">
-          <div className="col-span-2 h-[480px] bg-gray-300 rounded-3xl"></div>
-          <div className="col-span-1 h-[480px] bg-gray-300 rounded-3xl"></div>
-          <div className="col-span-1 h-[480px] bg-gray-300 rounded-3xl"></div>
         </div>
       </div>
     </section>

@@ -6,6 +6,7 @@ import HowItWork from '../component/services/HowItWork';
 import HowWeWork from '../component/services/HowWeWork';
 import TrustedBy from '../component/services/TrustedBy';
 import Form from '../component/services/Form';
+import PhotoGrid from '../component/services/PhotoGrid';
 
 const Services = () => {
   return (
@@ -13,8 +14,9 @@ const Services = () => {
       <Header />
       <Video />
       <Blocked />
-      <HowItWork />
       <HowWeWork />
+      <HowItWork />
+      <PhotoGrid />
       <TrustedBy />
       <Form />
     </div>

@@ -1,4 +1,9 @@
 import React from 'react';
+import HowitWork1 from '/public/HowitWork-1.png';
+import HowitWork2 from '/public/HowitWork-2.png';
+import HowitWork3 from '/public/HowitWork-3.png';
+import HowitWork4 from '/public/HowitWork-4.png';
+import Image from 'next/image';
 
 const HowItWork = () => {
   return (
@@ -22,7 +27,9 @@ const HowItWork = () => {
             We’ll talk through what’s going on, the challenges, dynamics or shifts you’re hoping for.
           </p>
         </div>
-        <div className="hidden md:block rounded-3xl bg-gray-300  p-8"></div>
+        <div className="hidden relative md:block overflow-hidden rounded-3xl bg-gray-300  p-8">
+          <Image src={HowitWork1} alt="HowitWork 1 BG" className="w-full h-full absolute top-0 left-0 object-cover " />
+        </div>
 
         <div className=" rounded-3xl bg-white p-8">
           <p className="mb-8">Icon</p>
@@ -32,7 +39,9 @@ const HowItWork = () => {
           </p>
         </div>
 
-        <div className="hidden md:block rounded-3xl bg-gray-300  p-8"></div>
+        <div className="hidden relative overflow-hidden md:block rounded-3xl bg-gray-300  p-8">
+          <Image src={HowitWork2} alt="HowitWork 2 BG" className="w-full h-full absolute top-0 left-0 object-cover " />
+        </div>
 
         <div className=" rounded-3xl bg-white p-8">
           <p className="mb-8">Icon</p>
@@ -44,7 +53,9 @@ const HowItWork = () => {
           </p>
         </div>
 
-        <div className="hidden md:block rounded-3xl bg-gray-300  p-8"></div>
+        <div className="hidden relative overflow-hidden md:block rounded-3xl bg-gray-300  p-8">
+          <Image src={HowitWork3} alt="HowitWork 2 BG" className="w-full h-full absolute top-0 left-0 object-cover " />
+        </div>
 
         <div className=" rounded-3xl bg-white p-8">
           <p className="mb-8">Icon</p>
@@ -53,7 +64,9 @@ const HowItWork = () => {
             Until it fits your people, your timing and your goals.
           </p>
         </div>
-        <div className="hidden md:block rounded-3xl bg-gray-300  p-8"></div>
+        <div className="hidden min-h-[350px] md:block rounded-3xl bg-gray-300 relative overflow-hidden  p-8">
+          <Image src={HowitWork4} alt="HowitWork 2 BG" className="w-full h-full absolute top-0 left-0 object-cover " />
+        </div>
 
         <div className=" rounded-3xl bg-white p-8">
           <p className="mb-8">Icon</p>
