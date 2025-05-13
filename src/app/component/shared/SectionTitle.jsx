@@ -9,7 +9,7 @@ const SectionTitle = ({ badge, title, subtitle, center = false, light = false, l
     >
       {badge && <p className={`mb-3 text-sm  font-medium ${light ? 'text-white' : 'text-primary'}`}>{badge}</p>}
       <h2
-        className={`w-full lg:w-[90%] ${center ? 'mx-auto' : ''}  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] ${
+        className={`w-full lg:w-[90%] ${center ? 'mx-auto' : ''}  font-medium text-[36px] lg:text-[56px] leading-[120%] -tracking-[1.6px] ${
           light ? 'text-white' : 'text-[#18181B]'
         }`}
       >
