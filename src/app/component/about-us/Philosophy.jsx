@@ -17,8 +17,8 @@ const Philosophy = () => {
               Fostering Connection and Purpose to Drive Success
             </h1>
 
-            <div className="block my-10 lg:hidden max-h-[680px]  h-full rounded-3xl overflow-hidden">
-              <Image alt="Cover Photo" className="w-full h-full object-cover" src={cover} height={200} width={400} />
+            <div className="block my-10 lg:hidden max-h-[450px]  h-full rounded-3xl overflow-hidden">
+              <Image alt="Cover Photo" className="w-full object-center h-full object-cover" src={cover} height={200} width={400} />
             </div>
 
             <p className=" mt-6 mb-[56px]  text-lg font-normal leading-[140%]">

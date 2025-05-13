@@ -6,14 +6,14 @@ const Impact = () => {
   return (
     <section className="py-[80px] lg:py-[120px] bg-primary  items-center px-5 lg:px-[40px] grid grid-cols-1 lg:grid-cols-2 gap-12">
       <div>
-        <div className={`w-full text-white  max-w-[660px]`}>
+        <div className={`w-full text-white  lg:max-w-[660px]`}>
           <div className="text-center lg:text-left">
             <p className="mb-3 text-base lg:text-lg text-white font-medium">THE GLOBAL TRAINING IMPACT</p>
             <h1 className="  font-medium text-[40px] lg:text-[46px] leading-[120%] -tracking-[1.6px]">
               Empowering People, Enhancing Productivity, Delivering Success
             </h1>
           </div>
-          <div className="block lg:hidden mt-10 max-h-[680px] h-full rounded-3xl overflow-hidden">
+          <div className="block lg:hidden mt-10 max-h-[450px] h-full rounded-3xl overflow-hidden">
             <Image alt="Cover Photo" className="w-full h-full object-cover" src={cover} height={200} width={400} />
           </div>
           <div className="space-y-4 mt-[60px]">
