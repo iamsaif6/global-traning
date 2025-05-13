@@ -46,9 +46,9 @@ const page = async () => {
               </div>
             );
           })} */}
-          {articles.data.map(item => {
+          {articles.data.map((item, idx) => {
             return (
-              <div key={item.name} className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
+              <div key={idx} className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
                 <Image
                   alt={item.name || 'Cover'}
                   width={200}
