@@ -39,9 +39,9 @@ const page = async ({ params }) => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
-        className="pt-[187px] relative md:pt-[178px] pb-[50px] lg:pb-[153px] px-5 md:px-[60px]"
+        className="pt-[137px] relative md:pt-[178px] pb-[50px] lg:pb-[153px] px-5 md:px-[60px]"
       >
-        <div className=" text-sm mb-[80px] text-white font-normal flex items-center gap-2">
+        <div className="text-xs lg:text-sm mb-6 lg:mb-[80px] text-white font-normal flex items-center gap-2">
           <Link className="" href={'/blogs'}>
             Blogs
           </Link>
@@ -52,9 +52,12 @@ const page = async ({ params }) => {
           )}
           {article?.title && <span className="inline-block bg-[#FCFCFD1A] py-1 px-[10px] rounded-[8px]">{article?.title}</span>}
         </div>
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="w-full relative z-10  mx-auto text-left">
-            <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[60px] text-[#FCFCFD]">{article?.title}</h1>
+            <h1 className="font-medium tracking-[-4%] leading-[120%] text-[36px]  lg:text-[60px] text-[#FCFCFD]">{article?.title}</h1>
+            <div className="block mt-10 lg:hidden max-w-[600px] max-h-[400px] rounded-2xl overflow-hidden w-full">
+              <Image className="w-full h-full object-cover" height={200} width={200} alt={article.title} src={article?.cover?.url} />
+            </div>
             <p className="text-black mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full  font-normal text-sm md:text-lg">
               {article?.description}
             </p>
@@ -72,7 +75,7 @@ const page = async ({ params }) => {
             </span>
           </div>
           {/* Cover Photo */}
-          <div className="max-w-[600px] max-h-[400px] rounded-2xl overflow-hidden w-full">
+          <div className="hidden lg:block max-w-[600px] max-h-[400px] rounded-2xl overflow-hidden w-full">
             <Image className="w-full h-full object-cover" height={200} width={200} alt={article.title} src={article?.cover?.url} />
           </div>
         </div>
