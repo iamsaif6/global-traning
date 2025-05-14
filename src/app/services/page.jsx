@@ -14,10 +14,10 @@ const Services = () => {
       <Header />
       <Video />
       <Blocked />
+      <TrustedBy />
       <HowWeWork />
       <HowItWork />
       <PhotoGrid />
-      <TrustedBy />
       <Form />
     </div>
   );

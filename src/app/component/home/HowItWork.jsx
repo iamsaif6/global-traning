@@ -11,7 +11,6 @@ const HowItWork = () => {
 
       <div className="grid mt-[60px] grid-cols-2 items-center gap-5">
         <div className="col-span-2 w-full  lg:mx-0 mx-auto lg:col-span-1 rounded-4xl relative overflow-hidden">
-          <div className=" absolute top-0 left-0 w-full h-full bg-[linear-gradient(108deg,_rgba(62,0,101,0.4)_12.47%,_rgba(62,0,101,0)_87.57%)]"></div>
           <Image alt="Cover" src={cover} height={300} width={300} className="w-full  h-full object-cover" />
         </div>
         <div className="space-y-6 col-span-2 lg:col-span-1">

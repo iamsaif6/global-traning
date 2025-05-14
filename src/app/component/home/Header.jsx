@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <header
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(62, 0, 101, 0.90) 5.68%, rgba(62, 0, 101, 0.31) 79.4%, rgba(255, 255, 255, 1) 100%)`,
-        backgroundBlendMode: 'overlay',
+        backgroundImage: `linear-gradient(to right, rgba(62, 0, 101, 0.90) 5.68%, rgba(62, 0, 101, 0.31) 79.4%),url('/HomePageHeader.jpg')`,
+
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
