@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer
       className={`bg-[#18181B] relative text-white ${
-        pathname == '/services' ? 'pt-[100px] mt-0' : 'lg:pt-[330px] md:pt-[290px] mt-[170px]'
+        pathname == '/services' ? 'pt-[100px] mt-0' : 'lg:pt-[330px] md:pt-[290px] pt-[290px]  mt-[170px]'
       } pb-[80px] px-5 md:px-16 `}
     >
       <div className="flex flex-col md:flex-row gap-12 relative z-10 justify-between pb-[70px] border-[#3F3F46] border-b">

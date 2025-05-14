@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const CaseStudies = () => {
@@ -61,9 +62,12 @@ const CaseStudies = () => {
                     <span className="text-sm mt-4 text-[#18181B] font-medium block">Richard Carter</span>
                     <span className="text-[#6E7381] font-sm">HR Manager at NHS</span>
                   </p>
-                  <button className="border rounded-[40px] py-3 px-6 cursor-pointer hover:bg-secondary hover:text-white duration-200">
+                  <Link
+                    href={'/case-studies-1'}
+                    className="border rounded-[40px] py-3 px-6 cursor-pointer hover:bg-secondary hover:text-white duration-200"
+                  >
                     Read now
-                  </button>
+                  </Link>
                 </div>
               </div>
             );
