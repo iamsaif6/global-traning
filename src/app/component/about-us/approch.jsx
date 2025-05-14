@@ -4,7 +4,7 @@ import SectionTitle from '../shared/SectionTitle';
 const Approch = () => {
   return (
     <section className="py-[80px] lg:py-[120px] px-5 lg:px-[40px]">
-      <SectionTitle badge={'OUR APPROACH'} title={'Transforming Workplaces Through Experiential Learning'} />
+      <SectionTitle badge={'OUR APPROACH'} title={'Experiential Learning that Lasts'} />
 
       <div className="grid grid-cols-1 lg:grid-cols-3  gap-6 mt-10">
         <div className="rounded-3xl lg:p-8">

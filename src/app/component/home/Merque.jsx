@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 const Marque = () => {
   return (
-    <div className="pt-[60px] lg:pb-[120px] bg-transparent lg:pt-[10px] lg:px-[80px]">
+    <div className="py-[60px] lg:py-[120px] bg-transparent  lg:px-[80px]">
       <p className="text-base  text-center mb-13">Trusted by teams and leaders of all sizes</p>
       <div className="grid grid-cols-6 gap-3">
         <div className="  max-h-[150px] h-full mx-[30px] lg:mx-[70px]  ">

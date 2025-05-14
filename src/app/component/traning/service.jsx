@@ -10,50 +10,50 @@ import Image from 'next/image';
 
 const services = [
   {
-    title: 'Courageous Conversations Training',
+    title: 'Workplace and Employment Mediation',
     subtitle: 'Equip your team to navigate difficult conversations with confidence and clarity',
     img: img1,
   },
   {
-    title: 'Leadership Development',
+    title: 'Business and Commercial Mediation',
     subtitle: 'Cultivate impactful leaders through targeted coaching and practical exercises.',
     img: img2,
   },
   {
-    title: 'Emotional Intelligence Workshops',
+    title: 'SEND (Special Educational Needs and Disability) Mediation',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
     img: img3,
   },
-  {
-    title: 'Team Building Programs',
-    subtitle: 'Reignite passion and improve collaboration with engaging, interactive activities.',
-    img: img4,
-  },
-  {
-    title: 'Conflict Resolution Training',
-    subtitle: 'Training tailored to resolving workplace disputes constructively and professionally.',
-    img: img5,
-  },
-  {
-    title: 'Bespoke Workshops and Custom Training',
-    subtitle: 'Fully tailored training programs addressing specific organizational needs.',
-    img: img6,
-  },
-  {
-    title: 'Accredited Mediation Training',
-    subtitle: 'Professional mediation training with a focus on Special Educational Needs and Disabilities (SEND) and workplace mediation.',
-    img: img1,
-  },
-  {
-    title: 'Active Listening and Communication Skills',
-    subtitle: 'Workshops to enhance listening, feedback, and overall communication within teams.',
-    img: img3,
-  },
-  {
-    title: 'Creativity and Innovation in the Workplace',
-    subtitle: 'Training to encourage out-of-the-box thinking and foster innovation within teams.',
-    img: img4,
-  },
+  // {
+  //   title: 'Team Building Programs',
+  //   subtitle: 'Reignite passion and improve collaboration with engaging, interactive activities.',
+  //   img: img4,
+  // },
+  // {
+  //   title: 'Conflict Resolution Training',
+  //   subtitle: 'Training tailored to resolving workplace disputes constructively and professionally.',
+  //   img: img5,
+  // },
+  // {
+  //   title: 'Bespoke Workshops and Custom Training',
+  //   subtitle: 'Fully tailored training programs addressing specific organizational needs.',
+  //   img: img6,
+  // },
+  // {
+  //   title: 'Accredited Mediation Training',
+  //   subtitle: 'Professional mediation training with a focus on Special Educational Needs and Disabilities (SEND) and workplace mediation.',
+  //   img: img1,
+  // },
+  // {
+  //   title: 'Active Listening and Communication Skills',
+  //   subtitle: 'Workshops to enhance listening, feedback, and overall communication within teams.',
+  //   img: img3,
+  // },
+  // {
+  //   title: 'Creativity and Innovation in the Workplace',
+  //   subtitle: 'Training to encourage out-of-the-box thinking and foster innovation within teams.',
+  //   img: img4,
+  // },
 ];
 
 const Service = () => {

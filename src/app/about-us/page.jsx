@@ -11,7 +11,7 @@ const AboutUS = () => {
     <div>
       <header
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(62, 0, 101, 0.90) 5.68%, rgba(62, 0, 101, 0.31) 79.4%), url('/aboutBg.png')`,
+          backgroundImage: `url('/aboutBg.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'top center',
           // backgroundBlendMode: 'overlay',
@@ -20,7 +20,7 @@ const AboutUS = () => {
       >
         <div className="w-full relative z-10  mx-auto text-center">
           <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
-            Empowering Growth Through <br /> Experiential Training
+            Real learning starts with <br /> real people
           </h1>
         </div>
       </header>

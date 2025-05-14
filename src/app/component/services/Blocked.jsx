@@ -13,8 +13,9 @@ const Blocked = () => {
         </h2>
 
         <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
-          If it’s tricky, tangled or tense — we’re here to help. You might be facing something specific, or just know that something needs
-          to shift. Here are some of the things people have brought to us:
+          If something’s tricky, tense or not quite working, that’s where we come in. We help people untangle challenges, reconnect teams
+          and develop the confidence to move forward. Here are just some of the situations we’ve helped shift and the change we’ve supported
+          in people and teams.
         </p>
       </div>
 

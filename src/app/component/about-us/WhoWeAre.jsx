@@ -16,15 +16,17 @@ const WhoWeAre = () => {
           </div>
 
           <p className=" mt-10 mb-[56px]  text-base lg:text-lg font-normal leading-[140%]">
-            At GTG, we specialize in creating immersive, practice-based training that transforms workplace dynamics. Our programs are
-            grounded in current research and a deep understanding of what drives people to succeed—individually and as a team.
+            We are a collective of facilitators, coaches, consultants and actor-roleplayers, united by a belief in the power of experiential
+            learning.
             <br /> <br />
-            Our dynamic, practice-based experiential training is designed to re-ignite passion, re-connect teams, and re-imagine goals and
-            purpose. Delivered in inspiring locations and grounded in the latest research, our programs bring tangible results to
-            organizations, managers, and employees alike.
+            Our work is rooted in emotional intelligence, creativity and connection.
             <br /> <br />
-            When people feel valued and happy, they thrive—becoming more effective, goal-oriented, and productive. With a proven track
-            record and innovative methods, we’re here to transform your workplace dynamics and help you achieve success.
+            We help individuals and teams show up more fully, communicate with confidence and lead with impact.
+            <br /> <br />
+            Whether in reflective spaces or high-energy workshops, everything we deliver is grounded in real-world experience and designed
+            to spark meaningful, lasting change.
+            <br /> <br />
+            At Global Training, we believe connection creates change — and growth that feels real leads to growth that lasts.
           </p>
           <Button href="#" title={'See Our Programs'} />
         </div>
