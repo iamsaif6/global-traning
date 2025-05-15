@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTitle from '../shared/SectionTitle';
 import Button from '../shared/Button';
-import cover from '/public/Our-approch_cover.png';
+import cover from '/public/Our-approch_cover.jpg';
 import Image from 'next/image';
 
 const WhatWeDo = () => {
@@ -84,7 +84,7 @@ const WhatWeDo = () => {
           </div>
         </div>
       </div>
-      <div className=" hidden lg:block mx-auto lg:mx-0 rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
+      <div className=" hidden lg:block h-full mx-auto lg:mx-0 rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
         <Image alt="What we do cover" className="w-full h-full object-cover" src={cover} height={200} width={400} />
       </div>
     </section>

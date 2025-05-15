@@ -6,7 +6,7 @@ import { fetchArticles } from '@/utils/api';
 import Link from 'next/link';
 
 const page = async () => {
-  const articles = await fetchArticles();
+  // const articles = await fetchArticles();
 
   return (
     <div>
@@ -32,21 +32,24 @@ const page = async () => {
       {/* Blogs */}
       <section className="pb-[80px] lg:pb-[120px] px-5 lg:px-[40px]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(item => {
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(item => {
             return (
               <div className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
                 <Image src={img1} className="h-[300px] rounded-b-3xl w-full" />
                 <div className="mt-8 px-6">
                   <p className="text-secondary font-normal text-sm">December 4, 2024</p>
                   <h3 className="text-[#18181B] font-medium text-2xl mt-3">What Are Courageous Conversations in the Workplace?</h3>
-                  <button className="px-6 mt-6 py-3 rounded-[40px] text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer">
+                  <Link
+                    href={`/blogs/incorporating-art-into-your-interior-displaying-artwork-with-style`}
+                    className="px-6 mt-6 py-3 rounded-[40px] inline-block text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer"
+                  >
                     Read now
-                  </button>
+                  </Link>
                 </div>
               </div>
             );
-          })} */}
-          {articles.data.map((item, idx) => {
+          })}
+          {/* {articles.data.map((item, idx) => {
             return (
               <div key={idx} className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
                 <Image
@@ -76,7 +79,7 @@ const page = async () => {
                 </div>
               </div>
             );
-          })}
+          })} */}
         </div>
         <div className="flex justify-center">
           <Button href="#" title={'Load More'} />

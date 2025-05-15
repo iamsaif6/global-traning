@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTitle from '../shared/SectionTitle';
-import cover from '/public/Video.png';
+import cover from '/public/Video.jpg';
 import Image from 'next/image';
 import Button from '../shared/Button';
 
@@ -10,8 +10,8 @@ const HowItWork = () => {
       <SectionTitle badge={'HOW IT WORKS'} title={'Start Your Learning Journey'} large light center />
 
       <div className="grid mt-[60px] grid-cols-2 items-center gap-5">
-        <div className="col-span-2 w-full  lg:mx-0 mx-auto lg:col-span-1 rounded-4xl relative overflow-hidden">
-          <Image alt="Cover" src={cover} height={300} width={300} className="w-full  h-full object-cover" />
+        <div className="col-span-2 w-full h-[270px] lg:h-[470px]  lg:mx-0 mx-auto lg:col-span-1 rounded-4xl relative overflow-hidden">
+          <Image alt="Cover" src={cover} height={300} width={300} className="w-full object-center  h-full object-cover" />
         </div>
         <div className="space-y-6 col-span-2 lg:col-span-1">
           <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] duration-200  items-center    flex flex-col lg:flex-row gap-6 p-6 rounded-[16px] lg:rounded-3xl">
