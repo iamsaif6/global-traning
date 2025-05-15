@@ -14,12 +14,12 @@ const Header = () => {
         }}
         className="pt-[137px] borer grid gap-[50px] grid-cols-1 lg:grid-cols-2 relative md:pt-[180px] gap-y-12 lg:gap-y-0  md:pb-[0px] px-5 md:px-[60px] items-center"
       >
-        <div className="order-2  ">
+        <div className="order-2 lg:order-1  ">
           <div className="min-h-[200px] lg:min-h-[400px] flex items-center justify-center lg:max-w-[1130px] bg-white mx-auto border border-[#D1D1D6] rounded-3xl p-6 w-full ">
             <Image alt="NHS" className="max-w-[150px]" src={nhs} />
           </div>
         </div>
-        <div className="text-center order-1 lg:text-left   relative z-10 ">
+        <div className="text-center order-1 lg:order-2 lg:text-left   relative z-10 ">
           <h1 className="font-medium mb-4 tracking-[-4%] leading-[120%] text-[40px] md:[65px] lg:text-[60px] text-white">
             Transforminng Leadership at NHS
           </h1>

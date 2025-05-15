@@ -163,21 +163,38 @@ const Footer = () => {
 
       {pathname !== '/services' && (
         <div className=" rounded-3xl absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center bg-secondary text-[#FCFCFD] py-[60px] lg:py-[80px] px-6 lg:px-[60px] w-[90%] max-w-[1100px] mx-auto">
-          <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">Stay Connected with Global Training</h4>
-          <p className="text-base lg:text-lg">Join The Global Training Newsletter</p>
-          <div className="mt-10 flex items-center justify-center">
-            <form className="flex flex-col lg:flex-row items-center gap-4 lg:gap-3">
-              <input
-                required
-                type="email"
-                placeholder="Enter your email"
-                className="py-3 lg:py-4 bg-white outline-0 text-black px-5 lg:px-6 rounded-[40px] placeholder:text-[#6E7381]"
-              />
-              <button type="submit" className="py-4 lg:py-[18px] cursor-pointer text-sm px-5 lg:px-10 bg-primary text-white rounded-[40px]">
-                Join Now
-              </button>
-            </form>
-          </div>
+          {pathname == '/courageous-conversations-training' ? (
+            <div>
+              <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">Book a Discovery Call</h4>
+              <p className="text-base lg:text-lg">Join The Global Training Newsletter</p>
+              <div className="mt-10 flex items-center justify-center">
+                <button className="py-4 lg:py-[18px] cursor-pointer text-sm px-5 lg:px-10 bg-primary text-white rounded-[40px]">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          ) : (
+            <div>
+              <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">Stay Connected with Global Training</h4>
+              <p className="text-base lg:text-lg">Join The Global Training Newsletter</p>
+              <div className="mt-10 flex items-center justify-center">
+                <form className="flex flex-col lg:flex-row items-center gap-4 lg:gap-3">
+                  <input
+                    required
+                    type="email"
+                    placeholder="Enter your email"
+                    className="py-3 lg:py-4 bg-white outline-0 text-black px-5 lg:px-6 rounded-[40px] placeholder:text-[#6E7381]"
+                  />
+                  <button
+                    type="submit"
+                    className="py-4 lg:py-[18px] cursor-pointer text-sm px-5 lg:px-10 bg-primary text-white rounded-[40px]"
+                  >
+                    Join Now
+                  </button>
+                </form>
+              </div>
+            </div>
+          )}
         </div>
       )}
     </footer>

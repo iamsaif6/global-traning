@@ -19,7 +19,7 @@ const Video = () => {
         <span className="block mt-7 text-lg">- Confucius -</span>
       </div> */}
 
-      <div className="bg-primary  relative text-[#FCFCFD] items-center grid grid-cols-2 gap-16 lg:gap-[100px] rounded-[20px] lg:rounded-4xl pt-[226px] lg:pt-[360px] mt-[280px] px-4 lg:px-[80px] pb-[100px]">
+      <div className="bg-primary  relative text-[#FCFCFD]  rounded-[20px] lg:rounded-4xl pt-[226px] lg:pt-[360px] mt-[280px] px-4 lg:px-[80px] pb-[70px]">
         {/* Shape */}
         <Image
           alt="Shape"
@@ -59,14 +59,19 @@ const Video = () => {
             ></iframe>
           )}
         </div>
-        <div className="relative z-20 col-span-2 lg:col-span-1">
-          <h3 className="mb-10 text-[28px] lg:text-[40px] font-medium leading-[120%]">
-            At Global Training, we deliver immersive, human-centered programs that foster growth, connection, and collaboration.
-          </h3>
-          <Button title={'Learn More About Us'} href="/about-us" secondary />
-        </div>
-        <div className="col-span-2 lg:col-span-1">
-          <div className="pb-10 hidden lg:block mb-10 border-b-[1px] border-[#fcfcfd33]">
+        <div className="grid grid-cols-2 relative z-10 max-w-[700px] gap-[60px] mx-auto">
+          <div className="hidden lg:block">
+            <div className="">
+              <div className="flex items-end gap-3">
+                <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">500+</p>
+                <div>
+                  <p className="font-normal mt-1 text-sm leading-[140%]">Happy learners</p>
+                </div>
+              </div>
+              <p className="text-base leading-[140%] mt-4">Successfully help top professionals upgrade their skills.</p>
+            </div>
+          </div>
+          <div className="pb-10 hidden lg:block mb-10 ">
             <div className="flex items-end gap-3">
               <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">4.9</p>
               <div>
@@ -107,18 +112,8 @@ const Video = () => {
             </div>
             <p className="text-base leading-[140%] mt-4">Trusted by thousands of professionals worldwide!</p>
           </div>
-          <div className="hidden lg:block">
-            <div className="">
-              <div className="flex items-end gap-3">
-                <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">500+</p>
-                <div>
-                  <p className="font-normal mt-1 text-sm leading-[140%]">Happy learners</p>
-                </div>
-              </div>
-              <p className="text-base leading-[140%] mt-4">Successfully help top professionals upgrade their skills.</p>
-            </div>
-          </div>
-
+        </div>
+        <div className="mb-[60px] lg:mb-0 relative z-10">
           <div className="grid grid-cols-2 pb-6 border-b mb-6 border-[#fcfcfd33] gap-4 items-center lg:hidden">
             <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">4.9</p>
             <div>
@@ -161,6 +156,12 @@ const Video = () => {
             <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">500+</p>
             <p className="text-base leading-[140%] ">Successfully help top professionals upgrade their skills.</p>
           </div>
+        </div>
+        <div className="relative text-left lg:text-center z-20 ">
+          <h3 className="mb-10 text-[28px] lg:text-[40px] font-medium leading-[120%]">
+            At Global Training, we deliver immersive, human-centered programs that foster growth, connection, and collaboration.
+          </h3>
+          <Button title={'Learn More About Us'} href="/about-us" secondary />
         </div>
       </div>
     </section>

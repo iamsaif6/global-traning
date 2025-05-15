@@ -37,7 +37,7 @@ const page = async () => {
               <div key={index} className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
                 <Image alt={'Covers'} src={img1} className="h-[300px] rounded-b-3xl w-full" />
                 <div className="mt-8 px-6">
-                  <p className="text-secondary font-normal text-sm">December 4, 2024</p>
+                  <p className="text-secondary font-medium  text-sm">December 4, 2024</p>
                   <h3 className="text-[#18181B] font-medium text-2xl mt-3">What Are Courageous Conversations in the Workplace?</h3>
                   <Link
                     href={`/blogs/incorporating-art-into-your-interior-displaying-artwork-with-style`}

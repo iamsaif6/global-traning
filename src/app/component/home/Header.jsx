@@ -1,11 +1,14 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import Button from '../shared/Button';
+import Popup from './Popup';
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
   return (
     <header
       style={{
-        backgroundImage: `linear-gradient(to right, rgba(62, 0, 101, 0.90) 5.68%, rgba(62, 0, 101, 0.31) 79.4%),url('/HomePageHeader.jpg')`,
+        backgroundImage: `linear-gradient(to right, #3E0065CC, #3E006500),url('/HomePageHeader.jpg')`,
 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -22,10 +25,11 @@ const Header = () => {
           Real learning starts with real people. <br /> At Global Training, we believe that when people feel grounded, challenged and heard,
           they open up — to ideas, to change, and to each other.
         </p>
-        <div className="flex gap-4 justify-center">
-          <Button title={'Start a Conversation'} href="/contact-us" />
+        <div onClick={() => setOpen(true)} className="flex max-w-max mx-auto gap-4 justify-center">
+          <Button title={'Start a Conversation'} />
         </div>
       </div>
+      {/* <Popup setOpen={setOpen} isOpen={open} /> */}
     </header>
   );
 };

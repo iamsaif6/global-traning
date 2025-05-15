@@ -15,7 +15,7 @@ const Blog = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
-    centerMode: true,
+    centerMode: false,
     centerPadding: '20px',
     responsive: [
       {

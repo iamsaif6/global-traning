@@ -6,7 +6,7 @@ import Button from '../shared/Button';
 const KeyTopic = () => {
   return (
     <section className="py-[80px] lg:py-[120px]   items-center px-5 lg:px-[40px] grid grid-cols-1 lg:grid-cols-2 gap-12">
-      <div className="max-h-[680px] hidden lg:block h-full rounded-3xl overflow-hidden">
+      <div className="max-h-[680px] my-10 hidden lg:block h-full rounded-3xl overflow-hidden">
         <Image alt="Cover Photo" className="w-full h-full object-cover" src={cover} height={200} width={400} />
       </div>
       <div>

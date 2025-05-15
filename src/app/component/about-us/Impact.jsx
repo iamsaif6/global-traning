@@ -17,7 +17,7 @@ const Impact = () => {
             <Image alt="Cover Photo" className="w-full h-full object-cover" src={cover} height={200} width={400} />
           </div>
           <div className="space-y-4 mt-[60px]">
-            <div className="bg-white p-6 rounded-3xl flex gap-6">
+            <div className="bg-white p-6 rounded-3xl flex gap-6 shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)]">
               <span className="w-10 h-10 flex-shrink-0 text-white font-medium text-2xl flex items-center justify-center bg-secondary rounded-[8px]">
                 1
               </span>
@@ -27,7 +27,7 @@ const Impact = () => {
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-3xl flex gap-6">
+            <div className="bg-white p-6 rounded-3xl flex gap-6 shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)]">
               <span className="w-10 h-10 flex-shrink-0 text-white font-medium text-2xl flex items-center justify-center bg-secondary rounded-[8px]">
                 2
               </span>
@@ -37,7 +37,7 @@ const Impact = () => {
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-3xl flex gap-6">
+            <div className="bg-white p-6 rounded-3xl flex gap-6 shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)]">
               <span className="w-10 h-10 flex-shrink-0 text-white font-medium text-2xl flex items-center justify-center bg-secondary rounded-[8px]">
                 3
               </span>
@@ -49,7 +49,7 @@ const Impact = () => {
           </div>
         </div>
       </div>
-      <div className="hidden lg:block max-h-[680px] h-full rounded-3xl overflow-hidden">
+      <div className="hidden lg:block max-h-[700px] h-full rounded-3xl overflow-hidden">
         <Image alt="Cover Photo" className="w-full h-full object-cover" src={cover} height={200} width={400} />
       </div>
     </section>

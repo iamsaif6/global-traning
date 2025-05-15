@@ -31,7 +31,7 @@ const CaseStudies = () => {
                   index != 1 ? 'border-b border-[#D1D1D6]' : ''
                 } grid pb-[60px] border-b  border-[#D1D1D6] mb-[60px] grid-cols-12 gap-0 lg:gap-[60px]`}
               >
-                <div className="col-span-12 mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#F4F5F6] rounded-2xl lg:rounded-3xl flex items-center justify-center">
+                <div className="col-span-12  mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#F4F5F6] rounded-2xl lg:rounded-3xl flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="154" height="60" viewBox="0 0 154 60" fill="none">
                     <g clipPath="url(#clip0_1_3733)">
                       <path
@@ -48,7 +48,7 @@ const CaseStudies = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className="col-span-12 lg:col-span-8">
+                <div className="col-span-12 py-8 lg:col-span-8">
                   <p className="text-[#794D94] font-medium text-xs lg:text-base">December 4, 2024</p>
                   <h3 className="text-[#18181B] font-medium text-2xl lg:text-[40px] mt-2 mb-4">Transforming Leadership at NHS</h3>
                   <p className="text-[#6E7381] font-normal text-base lg:text-lg">
@@ -56,7 +56,7 @@ const CaseStudies = () => {
                     under pressure, and foster stronger team collaboration.
                   </p>
                   <p className="my-[44px]">
-                    <span className="text-base text-[#6E7381]">
+                    <span className="text-base block w-full lg:w-[50%] text-[#6E7381]">
                       “Proin venenatis, nunc nec facilisis vehicula, mauris velit dictum ex, sit amet fermentum orci risus ac nisi.”
                     </span>
                     <span className="text-sm mt-4 text-[#18181B] font-medium block">Richard Carter</span>

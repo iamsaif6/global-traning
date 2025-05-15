@@ -42,7 +42,7 @@ const WhatWeDo = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-[28px] font-medium mb-3">Purpose</h4>
+                <h4 className="text-[28px] font-medium mb-3">Immersive</h4>
               </div>
             </div>
 
@@ -56,7 +56,7 @@ const WhatWeDo = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-[28px] font-medium mb-3">People</h4>
+                <h4 className="text-[28px] font-medium mb-3">Relational</h4>
               </div>
             </div>
 
@@ -78,7 +78,7 @@ const WhatWeDo = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-[28px] font-medium mb-3">Place</h4>
+                <h4 className="text-[28px] font-medium mb-3">Real</h4>
               </div>
             </div>
           </div>
