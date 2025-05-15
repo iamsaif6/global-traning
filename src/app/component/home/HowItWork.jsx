@@ -43,7 +43,7 @@ const HowItWork = () => {
         </div>
       </div>
       <div className="flex mt-[56px] items-center justify-center">
-        <Button secondary title={'Book a Free Consultation'} href="#" />
+        <Button secondary title={'Start a Conversation'} href="#" />
       </div>
     </section>
   );

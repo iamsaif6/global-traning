@@ -8,7 +8,7 @@ const Impact = () => {
       <div>
         <div className={`w-full text-white  lg:max-w-[660px]`}>
           <div className="text-center lg:text-left">
-            <p className="mb-3 text-base lg:text-lg text-white font-medium">THE GLOBAL TRAINING IMPACT</p>
+            <p className="mb-3 text-base lg:text-lg text-white font-medium">OUR IMPACT</p>
             <h1 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
               Empowering People, Strengthening Teams, Driving Change
             </h1>

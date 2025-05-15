@@ -26,7 +26,7 @@ const Blogs = () => {
       <div className="text-center lg:text-left">
         <p className="mb-3 text-primary font-medium">BLOGS & TIPS</p>
         <h2 className="text-[#18181B]  font-medium text-[30px] lg:text-[46px] leading-[120%] -tracking-[1.6px]">
-          Your Guide to Better Leadership and Communication
+          Insights, reflections and tools to help you grow leadership and connection across your organisation.
         </h2>
       </div>
       <div className="mt-[56px] hidden md:grid grid-cols-3 gap-4">
@@ -102,7 +102,7 @@ const Blogs = () => {
       </div>
 
       <div className="pb-14 md:pb-0 mt-8 md:mt-[56px] flex items-center justify-center">
-        <Button href="#" title={'Explore More Blogs'} />
+        <Button href="#" title={'Explore Learning Resources'} />
       </div>
     </section>
   );

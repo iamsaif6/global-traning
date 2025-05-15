@@ -51,14 +51,16 @@ const HowWeWork = () => {
 
           <div className=" relative border-t lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dashed lg:border-r border-[#6E7381]">
             <div className="w-12 lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg"></div>
-            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Actor-led roleplay and real-time reflection</p>
+            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Virtual and in-person delivery</p>
             {/* Dot */}
             <span className="hidden lg:block w-2 h-2 rounded-full bg-primary absolute top-0 right-0 -translate-y-1/2 translate-x-1/2"></span>
           </div>
 
           <div className=" relative border-t lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dashed  border-[#6E7381]">
             <div className="w-12 lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg"></div>
-            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">One-to-one or team coaching</p>
+            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">
+              Creative techniques for culture building and communication
+            </p>
           </div>
         </div>
       </div>

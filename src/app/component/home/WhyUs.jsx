@@ -139,7 +139,7 @@ const WhyUs = () => {
             </svg>
           </div>
           <div>
-            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-3">Tangible Results</h4>
+            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-3">Measurable Impact</h4>
             <p className="text-[#6E7381] font-normal text-lg">Skills that stay with you long after the session ends</p>
           </div>
         </div>

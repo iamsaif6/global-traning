@@ -48,7 +48,7 @@ const OurServices = () => {
       </div>
 
       <div className="flex gap-4 flex-col md:flex-row items-center justify-center ">
-        <button className="py-[18px] px-6 border bg-primary border-primary rounded-[40px] text-lg font-medium text-white cursor-pointer">
+        <button className="py-[12px] px-6 border bg-primary border-primary rounded-[40px] text-lg font-medium text-white cursor-pointer">
           Explore Our Training
         </button>
       </div>
