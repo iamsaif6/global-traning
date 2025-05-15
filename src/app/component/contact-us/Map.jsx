@@ -113,13 +113,7 @@ const Map = () => {
               <a className="flex gap-2 text-sm lg:text-base font-medium text-primary items-center" href="#">
                 Open Google Maps
                 <svg className="w-4 lg:w-5 h-4 lg:h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
-                  <path
-                    d="M7.5 3.75L13.75 10L7.5 16.25"
-                    stroke="#FF634A"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
+                  <path d="M7.5 3.75L13.75 10L7.5 16.25" stroke="#FF634A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </a>
 

@@ -7,8 +7,8 @@ import Button from '../shared/Button';
 
 const navLinks = [
   {
-    href: '/',
-    title: 'Home',
+    href: '/blogs',
+    title: 'Our Thinking',
   },
   {
     href: '/services',

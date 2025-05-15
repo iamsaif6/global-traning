@@ -87,11 +87,12 @@ const Header = () => {
                   Service of Interest
                 </label>
                 <select
+                  defaultValue={'Select service'}
                   className="bg-[#F4F5F6] w-full text-[#6E7381] placeholder:text-[#6E7381] placeholder:text-base rounded-[28px] border border-[#D1D1D6] p-4"
                   name="Service"
                   id="Service"
                 >
-                  <option selected disabled>
+                  <option defaultValue={'Select service'} disabled>
                     Select service
                   </option>
                 </select>
@@ -127,9 +128,9 @@ const Header = () => {
                         <path
                           d="M14.625 6.75L9 12.375L3.375 6.75"
                           stroke="#6E7381"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
 

@@ -45,7 +45,7 @@ const Post = () => {
           vel urna. Aliquam erat volutpat. Duis placerat enim in vehicula pharetra.
         </p>
         <div className=" rounded-3xl my-[60px] overflow-hidden">
-          <Image width={200} height={200} className="object-cover h-full w-full" src={'/image 49.png'} />
+          <Image alt="Blog Cover" width={200} height={200} className="object-cover h-full w-full" src={'/image 49.png'} />
         </div>
 
         <p className="text-base lg:text-lg">

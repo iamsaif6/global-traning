@@ -112,9 +112,9 @@ const Form = () => {
                     <path
                       d="M14.625 6.75L9 12.375L3.375 6.75"
                       stroke="#6E7381"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
 

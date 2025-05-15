@@ -32,10 +32,10 @@ const page = async () => {
       {/* Blogs */}
       <section className="pb-[80px] lg:pb-[120px] px-5 lg:px-[40px]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(item => {
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => {
             return (
-              <div className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
-                <Image src={img1} className="h-[300px] rounded-b-3xl w-full" />
+              <div key={index} className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
+                <Image alt={'Covers'} src={img1} className="h-[300px] rounded-b-3xl w-full" />
                 <div className="mt-8 px-6">
                   <p className="text-secondary font-normal text-sm">December 4, 2024</p>
                   <h3 className="text-[#18181B] font-medium text-2xl mt-3">What Are Courageous Conversations in the Workplace?</h3>

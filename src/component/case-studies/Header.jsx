@@ -16,7 +16,7 @@ const Header = () => {
       >
         <div className="order-2  ">
           <div className="min-h-[200px] lg:min-h-[400px] flex items-center justify-center lg:max-w-[1130px] bg-white mx-auto border border-[#D1D1D6] rounded-3xl p-6 w-full ">
-            <Image className="max-w-[150px]" src={nhs} />
+            <Image alt="NHS" className="max-w-[150px]" src={nhs} />
           </div>
         </div>
         <div className="text-center order-1 lg:text-left   relative z-10 ">
