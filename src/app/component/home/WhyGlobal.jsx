@@ -32,7 +32,7 @@ const WhyGlobal = () => {
         </div>
       </div>
       <div className="mt-[56px] flex justify-center">
-        <Button href="#" title={'Find Out More About Us'} />
+        <Button href="/about-us" title={'Find Out More About Us'} />
       </div>
     </section>
   );

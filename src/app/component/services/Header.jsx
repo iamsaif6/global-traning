@@ -22,7 +22,7 @@ const Header = () => {
           experience, delivered with care and grounded in emotional intelligence.
         </p>
         <div className="flex gap-4 justify-center">
-          <Button title={'Start a Conversation'} href="#" />
+          <Button title={'Start a Conversation'} href="/contact-us" />
         </div>
       </div>
     </header>

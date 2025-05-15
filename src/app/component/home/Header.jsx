@@ -23,7 +23,7 @@ const Header = () => {
           they open up — to ideas, to change, and to each other.
         </p>
         <div className="flex gap-4 justify-center">
-          <Button title={'Start a Conversation'} href="#" />
+          <Button title={'Start a Conversation'} href="/contact-us" />
         </div>
       </div>
     </header>

@@ -409,7 +409,7 @@ const Impact = () => {
       </div>
 
       <div className="flex items-center justify-center">
-        <Button href="#" title={'Read Our Case Studies'} />
+        <Button href="/case-studies" title={'Read Our Case Studies'} />
       </div>
     </section>
   );

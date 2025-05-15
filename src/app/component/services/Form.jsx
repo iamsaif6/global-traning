@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react';
 
 const Form = () => {
@@ -153,9 +154,9 @@ const Form = () => {
                   Start the Conversation
                 </button>
                 <div className="flex items-center mb-3 mt-10 justify-center">
-                  <a className="text-[#FF634A] font-medium text-lg" href="#">
+                  <Link className="text-[#FF634A] font-medium text-lg" href="/case-studies">
                     See Our Case Studies
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

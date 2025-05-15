@@ -43,7 +43,7 @@ const HowItWork = () => {
         </div>
       </div>
       <div className="flex mt-[56px] items-center justify-center">
-        <Button secondary title={'Start a Conversation'} href="#" />
+        <Button secondary title={'Start a Conversation'} href="/contact-us" />
       </div>
     </section>
   );

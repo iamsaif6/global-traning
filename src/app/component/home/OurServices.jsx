@@ -6,6 +6,7 @@ import Button from '../shared/Button';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Link from 'next/link';
 
 const OurServices = () => {
   return (
@@ -48,9 +49,12 @@ const OurServices = () => {
       </div>
 
       <div className="flex gap-4 flex-col md:flex-row items-center justify-center ">
-        <button className="py-[12px] px-6 border bg-primary border-primary rounded-[40px] text-lg font-medium text-white cursor-pointer">
+        <Link
+          href={'/training'}
+          className="py-[12px] px-6 border bg-primary border-primary rounded-[40px] text-lg font-medium text-white cursor-pointer"
+        >
           Explore Our Training
-        </button>
+        </Link>
       </div>
     </section>
   );

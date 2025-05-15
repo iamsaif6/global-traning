@@ -102,7 +102,7 @@ const Blogs = () => {
       </div>
 
       <div className="pb-14 md:pb-0 mt-8 md:mt-[56px] flex items-center justify-center">
-        <Button href="#" title={'Explore Learning Resources'} />
+        <Button href="/blogs" title={'Explore Learning Resources'} />
       </div>
     </section>
   );
