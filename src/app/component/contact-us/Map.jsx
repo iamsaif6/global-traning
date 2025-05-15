@@ -4,7 +4,7 @@ import map from '/public/Map.png';
 
 const Map = () => {
   return (
-    <div className="grid w-full  mx-auto mt-12 grid-cols-12 gap-6">
+    <div className="grid w-full  mx-auto mt-6 grid-cols-12 gap-6">
       <div className="col-span-12 lg:col-span-5 border-0 lg:border-1 border-[#D1D1D6] rounded-3xl p-6">
         <h3 className="text-[40px] text-center lg:text-left lg:text-[46px] mb-6 font-medium">Contacts</h3>
 

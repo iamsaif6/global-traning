@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 const OurServices = () => {
   return (
-    <section className="py-[60px] px-4 lg:py-[120px] lg:px-[40px]">
+    <section className="pb-[60px] px-4 lg:pb-[120px] lg:px-[40px]">
       <SectionTitle
         badge={'OUR SERVICES'}
         title={'Experiential Training and Workshops'}

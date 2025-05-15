@@ -5,7 +5,7 @@ import Button from '../shared/Button';
 
 const WhyGlobal = () => {
   return (
-    <section className="py-[60px] lg:py-[120px] items-center px-4 lg:px-[120px] ">
+    <section className="pb-[60px] lg:pb-[120px] items-center px-4 lg:px-[120px] ">
       <div className="grid grid-cols-2 gap-[80px]">
         <div className="max-w-[580px] mx-auto lg:mx-0 col-span-2 lg:col-span-1 rounded-3xl overflow-hidden">
           <Image alt="Why Global Cover" className="w-full  h-full object-cover" src={cover} height={200} width={400} />
