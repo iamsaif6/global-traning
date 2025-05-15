@@ -56,7 +56,7 @@ const Header = () => {
       }}
       className="pt-[137px] gap-6 grid grid-cols-12 relative md:pt-[180px] gap-y-12 lg:gap-y-0  md:pb-[0px] px-5 md:px-[40px]"
     >
-      <div className="text-center lg:text-left self-end col-span-12 lg:col-span-5 relative z-10 ">
+      <div className="text-center lg:text-center self-end col-span-12 lg:col-span-5 relative z-10 ">
         <p className="text-white font-medium text-base">GET IN TOUCH</p>
         <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl md:[65px] lg:text-[68px] text-white">
           Let’s Start the <br /> Conversation
