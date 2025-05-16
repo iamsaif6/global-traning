@@ -10,7 +10,7 @@ const WhoWeAre = () => {
         <div className={`w-full mx-auto text-center lg:text-left  max-w-[660px]`}>
           <p className="mb-3 text-sm text-primary font-medium">WHO WE ARE</p>
           <h1 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
-            About <br /> Global Training
+            About Global <br /> Training
           </h1>
 
           <div className="max-h-[400px] w-full block my-10 lg:hidden mx-auto  col-span-2 lg:col-span-1 h-full rounded-3xl overflow-hidden">

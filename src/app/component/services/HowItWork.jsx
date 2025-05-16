@@ -9,7 +9,7 @@ const HowItWork = () => {
   return (
     <section className="px-4 bg-primary py-[80px] lg:py-[120px]  lg:px-[80px]">
       <div className={`w-full text-white  max-w-[1000px] text-center mx-auto`}>
-        <h2 className={`w-full lg:w-[90%] mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] `}>
+        <h2 className={`w-full lg:w-[90%] capitalize mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] `}>
           How it Works
         </h2>
 
@@ -21,7 +21,11 @@ const HowItWork = () => {
       {/* Grid */}
       <div className="max-w-[1130px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 lg:mt-[80px]">
         <div className=" rounded-3xl bg-white p-8">
-          <p className="mb-8">Icon</p>
+          <p className="mb-8">
+            <div className=" duration-200 bg-secondary text-white  lg:w-[40px] lg:h-[40px] w-[36px] h-[36px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
+              1
+            </div>
+          </p>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">Book a discovery call</p>
           <p className="text-[#6E7381] text-base lg:text-lg font-normal leading-[140%]">
             We’ll talk through what’s going on, the challenges, dynamics or shifts you’re hoping for.
@@ -32,7 +36,11 @@ const HowItWork = () => {
         </div>
 
         <div className=" rounded-3xl bg-white p-8">
-          <p className="mb-8">Icon</p>
+          <p className="mb-8">
+            <div className=" duration-200 bg-secondary text-white  lg:w-[40px] lg:h-[40px] w-[36px] h-[36px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
+              2
+            </div>
+          </p>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We listen, explore and ask questions</p>
           <p className="text-[#6E7381] text-base lg:text-lg font-normal leading-[140%]">
             So we can fully understand the context, what’s at stake, and what kind of change would feel real and lasting.
@@ -44,7 +52,11 @@ const HowItWork = () => {
         </div>
 
         <div className=" rounded-3xl bg-white p-8">
-          <p className="mb-8">Icon</p>
+          <p className="mb-8">
+            <div className=" duration-200 bg-secondary text-white  lg:w-[40px] lg:h-[40px] w-[36px] h-[36px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
+              3
+            </div>
+          </p>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">
             We propose a clear, thoughtful solution
           </p>
@@ -58,7 +70,11 @@ const HowItWork = () => {
         </div>
 
         <div className=" rounded-3xl bg-white p-8">
-          <p className="mb-8">Icon</p>
+          <p className="mb-8">
+            <div className=" duration-200 bg-secondary text-white  lg:w-[40px] lg:h-[40px] w-[36px] h-[36px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
+              4
+            </div>
+          </p>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">Together, we refine it</p>
           <p className="text-[#6E7381] text-base lg:text-lg font-normal leading-[140%]">
             Until it fits your people, your timing and your goals.
@@ -69,7 +85,11 @@ const HowItWork = () => {
         </div>
 
         <div className=" rounded-3xl bg-white p-8">
-          <p className="mb-8">Icon</p>
+          <p className="mb-8">
+            <div className=" duration-200 bg-secondary text-white  lg:w-[40px] lg:h-[40px] w-[36px] h-[36px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
+              5
+            </div>
+          </p>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We deliver</p>
           <p className="text-[#6E7381] text-base lg:text-lg font-normal leading-[140%]">
             We deliver with care, creativity and skill, in a way that brings people with us.

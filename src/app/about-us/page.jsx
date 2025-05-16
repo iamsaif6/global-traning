@@ -19,7 +19,7 @@ const AboutUS = () => {
         className="pt-[187px] h-screen relative md:pt-[268px] pb-[0px] lg:pb-[203px] px-5 md:px-[60px]"
       >
         <div className="w-full relative z-10  mx-auto text-center">
-          <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
+          <h1 className="font-medium capitalize tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
             Real learning starts with <br /> real people
           </h1>
         </div>

@@ -13,7 +13,7 @@ const Philosophy = () => {
         <div className={`w-full text-white max-w-max lg:max-w-[660px]`}>
           <div className="text-center lg:text-left">
             <p className="mb-3 text-white text-sm lg:text-base font-medium">OUR PHILOSOPHY</p>
-            <h1 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
+            <h1 className=" capitalize  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
               Compassion at the Heart of Learning
             </h1>
 
@@ -22,11 +22,16 @@ const Philosophy = () => {
             </div>
 
             <p className=" mt-6 mb-[56px]  text-lg font-normal leading-[140%]">
-              When people feel valued and connected, they are more effective, goal-oriented, and productive. That’s why our training is
-              designed to:
+              When people feel seen, safe and supported, they open up — to ideas, to challenge, to each other.
+              <br /> <br />
+              That is when true learning begins. Our role is to create the space for that transformation. By combining emotional
+              intelligence with experiential practice, we help individuals and teams strengthen connection, build confidence and unlock
+              potential.
+              <br /> <br />
+              Because when people grow together, they go further together.
             </p>
           </div>
-          <div className="space-y-4 ">
+          {/* <div className="space-y-4 ">
             <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] duration-200 items-start lg:items-center    flex flex-col lg:flex-row gap-6 p-3 lg:p-6 rounded-[16px] lg:rounded-3xl">
               <div className="flex gap-6   items-center ">
                 <div className=" duration-200 bg-secondary text-white  lg:w-[40px] lg:h-[40px] w-[36px] h-[36px] flex-shrink-0 rounded-[8px]  flex items-center justify-center font-medium text-[28px]">
@@ -55,7 +60,7 @@ const Philosophy = () => {
                 </h4>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
