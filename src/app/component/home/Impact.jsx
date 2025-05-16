@@ -80,8 +80,8 @@ const Impact = () => {
               </p>
               <div>
                 <p>
-                  <span className="block text-sm text-[#18181B] font-medium"> — Cynthia Torres</span>
-                  <span className="text-[#4F5159]">HR Manager at NHS</span>
+                  <span className="block text-sm text-[#18181B] font-medium"> — Cynthia Torres , NHS</span>
+                  {/* <span className="text-[#4F5159]">HR Manager at NHS</span> */}
                 </p>
               </div>
             </div>
@@ -303,8 +303,8 @@ const Impact = () => {
               </p>
               <div>
                 <p>
-                  <span className="block text-sm text-[#18181B] font-medium"> - Richard White</span>
-                  <span className="text-[#4F5159]">HR Manager at Unilever</span>
+                  <span className="block text-sm text-[#18181B] font-medium"> - Richard White , Unilever</span>
+                  {/* <span className="text-[#4F5159]">HR Manager at Unilever</span> */}
                 </p>
               </div>
             </div>
@@ -398,8 +398,8 @@ const Impact = () => {
               </p>
               <div>
                 <p>
-                  <span className="block text-sm text-[#18181B] font-medium">— Sarah Thompson</span>
-                  <span className="text-[#4F5159]">HR Manager at British Red Cross</span>
+                  <span className="block text-sm text-[#18181B] font-medium">— Sarah Thompson , British Red Cross</span>
+                  {/* <span className="text-[#4F5159]">HR Manager at British Red Cross</span> */}
                 </p>
               </div>
             </div>
