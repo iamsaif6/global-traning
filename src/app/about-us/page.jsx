@@ -37,7 +37,13 @@ const AboutUS = () => {
       <Philosophy />
       <Approch />
       <Impact />
-      <OurTeam />
+      <OurTeam
+        badge={'MEET OUR TEAM'}
+        title={'The People Behind the Practice'}
+        subtitle={
+          'Our facilitators, coaches and actor-roleplayers bring decades of experience across sectors — but more importantly, they bring compassion, creativity and a deep belief in human potential.'
+        }
+      />
     </div>
   );
 };

@@ -26,18 +26,10 @@ const settings = {
   centerPadding: '20px',
 };
 
-const OurTeam = ({ button = false }) => {
+const OurTeam = ({ button = false, badge, title, subtitle }) => {
   return (
     <section className="py-[120px] px-5 lg:px-[80px]">
-      <SectionTitle
-        badge={'MEET OUR TEAM'}
-        title={'The People Behind the Practice'}
-        subtitle={
-          'Our facilitators, coaches and actor-roleplayers bring decades of experience across sectors — but more importantly, they bring compassion, creativity and a deep belief in human potential.'
-        }
-        center
-        large
-      />
+      <SectionTitle badge={badge} title={title} subtitle={subtitle} center large />
       <div className="mt-[60px] hidden  md:grid md:grid-cols-3 lg:grid-cols-4 gap-6">
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
