@@ -72,7 +72,7 @@ const HowItWork = () => {
           <p className="mb-8">Icon</p>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We deliver</p>
           <p className="text-[#6E7381] text-base lg:text-lg font-normal leading-[140%]">
-            With care, curiosity and creativity, in a way that brings everyone along with it.
+            We deliver with care, creativity and skill, in a way that brings people with us.
           </p>
         </div>
       </div>

@@ -14,12 +14,14 @@ const Header = () => {
     >
       <div className="w-full relative z-10   mx-auto text-center">
         <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
-          Training Designed Around People, <br /> Not Packages
+          Every voice matters. <br /> Every story counts
         </h1>
         <p className="text-[#FCFCFD] text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[90%] font-normal text-sm md:text-lg">
-          We don’t believe in off-the-shelf solutions, because no two people, teams or organisations are the same. At Global Training, we
-          listen first. Then we co-design the kind of support that actually fits. Our services aren’t one-size-fits-all, they’re shaped by
-          experience, delivered with care and grounded in emotional intelligence.
+          At Global Training, we design learning experiences that reflect your people, your purpose and your reality — thoughtful,
+          collaborative and designed with heart and soul.
+          <br />
+          Our training helps people build meaningful connections and grow with confidence. We listen first, then we co-design the kind of
+          support that actually fits — shaped by experience, delivered with care and grounded in emotional intelligence.
         </p>
         <div className="flex gap-4 justify-center">
           <Button title={'Start a Conversation'} href="/contact-us" />

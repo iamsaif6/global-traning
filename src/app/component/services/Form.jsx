@@ -55,7 +55,8 @@ const Form = () => {
         </h2>
 
         <p className={` mt-6 text-base lg:text-lg  leading-[140%] `}>
-          Tools, techniques and trusted approaches. Every experience we design is different, but we often draw on:
+          Use the form below to tell us what’s going on, even if it’s only a starting point. We’ll read it, reflect on it and come back with
+          a way forward.
         </p>
       </div>
 

@@ -176,7 +176,7 @@ const Footer = () => {
           ) : (
             <div>
               <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">Stay Connected with Global Training</h4>
-              <p className="text-base lg:text-lg">Join The Global Training Newsletter</p>
+              <p className="text-base lg:text-lg">Join Our Community</p>
               <div className="mt-10 flex items-center justify-center">
                 <form className="flex flex-col lg:flex-row items-center gap-4 lg:gap-3">
                   <input

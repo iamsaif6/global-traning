@@ -39,11 +39,11 @@ const Impact = () => {
   return (
     <section className="py-[60px] lg:py-[120px] px-4 lg:px-[40px] bg-white ">
       <SectionTitle
-        badge={'PROVEN IMPACT'}
+        badge={'TESTIMONIALS'}
         title={'Stories of Growth That Feels Real'}
-        subtitle={
-          'Discover how companies across healthcare, education, and corporate sectors have transformed their team dynamics and achieved lasting results.'
-        }
+        // subtitle={
+        //   'Discover how companies across healthcare, education, and corporate sectors have transformed their team dynamics and achieved lasting results.'
+        // }
         center
         large
       />
@@ -76,12 +76,11 @@ const Impact = () => {
                 </svg>
               </div>
               <p className="mt-4 text-[#18181B] font-medium text-lg italic leading-[120%] mb-6">
-                The course is so rich! Both in content and experience. It has been a fantastic balance of skills, learning and purpose
-                through inspirational tutors!”
+                “The course was rich, real and transformative — a brilliant balance of reflection and action.”
               </p>
               <div>
                 <p>
-                  <span className="block text-sm text-[#18181B] font-medium">Cynthia Torres -</span>
+                  <span className="block text-sm text-[#18181B] font-medium"> — Cynthia Torres</span>
                   <span className="text-[#4F5159]">HR Manager at NHS</span>
                 </p>
               </div>
@@ -300,11 +299,11 @@ const Impact = () => {
                 </svg>
               </div>
               <p className="mt-4 text-[#18181B] font-medium text-lg italic leading-[120%] mb-6">
-                "The Courageous Conversations workshop has transformed the way we handle feedback and manage workplace challenges."
+                “The Courageous Conversations workshop has completely shifted how we handle feedback and build trust within teams.”
               </p>
               <div>
                 <p>
-                  <span className="block text-sm text-[#18181B] font-medium">Richard White -</span>
+                  <span className="block text-sm text-[#18181B] font-medium"> - Richard White</span>
                   <span className="text-[#4F5159]">HR Manager at Unilever</span>
                 </p>
               </div>
@@ -395,11 +394,11 @@ const Impact = () => {
                 </svg>
               </div>
               <p className="mt-4 text-[#18181B] font-medium text-lg italic leading-[120%] mb-6">
-                “Lovely supportive environment to learn, fantastic tutors who delivered feedback sensitively.”
+                “A supportive space to learn, stretch and strengthen new skills. Fantastic trainers who genuinely care.”
               </p>
               <div>
                 <p>
-                  <span className="block text-sm text-[#18181B] font-medium">Sarah Thompson -</span>
+                  <span className="block text-sm text-[#18181B] font-medium">— Sarah Thompson</span>
                   <span className="text-[#4F5159]">HR Manager at British Red Cross</span>
                 </p>
               </div>
