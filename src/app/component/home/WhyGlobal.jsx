@@ -23,13 +23,11 @@ const WhyGlobal = () => {
               Through hands-on, human-centred training experiences, we create spaces where people can show up fully, strengthen their skills
               and step into their potential.
               <br /> <br />
-              At Global Training, growth does not happen through lectures or handbooks, it happens through connection.
+              At Global Training, growth does not happen through lectures or handbooks, it happens through connection. Because when we
+              connect to ourselves, to each other, and to our purpose, real change becomes possible.
               <br /> <br />
-              Because when we connect to ourselves, to each other, and to our purpose, real change becomes possible.
-              <br /> <br />
-              Our work is rooted in emotional intelligence, creativity and lived experience.
-              <br /> <br />
-              Everything we design is practical, compassionate and crafted to meet people where they are.
+              Our work is rooted in emotional intelligence, creativity and lived experience. Everything we design is practical,
+              compassionate and crafted to meet people where they are.
             </p>
           </div>
         </div>
