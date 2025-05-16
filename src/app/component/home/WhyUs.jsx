@@ -4,15 +4,18 @@ import SectionTitle from '../shared/SectionTitle';
 const WhyUs = () => {
   return (
     <section className="py-[60px] lg:py-[120px] px-4 lg:px-[40px] bg-primary">
-      <SectionTitle
-        badge={'WHY US?'}
-        title={'Real Training, Real Results'}
-        subtitle={
-          'At Global Training, we do not deliver off-the-shelf solutions.We listen, we collaborate and we create experiential learning that feels real, relevant and lasting.'
-        }
-        light
-        large
-      />
+      <div className={`w-full  max-w-[1000px] text-white  text-center md:text-left`}>
+        <p className={`mb-3 text-sm  font-medium `}>WHY US?</p>
+        <h2 className={`w-full lg:w-[90%]  font-medium text-[36px] lg:text-[56px] capitalize leading-[120%] -tracking-[1.6px] `}>
+          Real Training, Real Results
+        </h2>
+
+        <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
+          At Global Training, we do not deliver off-the-shelf solutions.We listen, we collaborate <br /> and we create experiential learning
+          that feels real, relevant and lasting.
+        </p>
+      </div>
+
       <div className="grid gap-6 text-[#18181B] mt-[80px] grid-cols-4">
         <div className="col-span-4 lg:col-span-1 p-4 lg:p-6 flex gap-10 lg:gap-[80px] flex-col justify-between rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
