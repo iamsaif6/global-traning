@@ -12,7 +12,7 @@ const OurServices = () => {
   return (
     <section className="pb-[60px] px-4 lg:pb-[120px] lg:px-[40px]">
       <SectionTitle
-        badge={'OUR SERVICES'}
+        badge={'SERVICES OVERVIEW'}
         title={'Experiential Training and Workshops'}
         subtitle={
           'We offer immersive training programmes that strengthen how people relate, communicate and collaborate — especially when it matters most.'
