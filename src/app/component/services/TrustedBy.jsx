@@ -3,7 +3,7 @@ import img1 from '/public/British Red Cross 1.png';
 import img2 from '/public/GM logo 1.png';
 import img3 from '/public/Logo.svg.png';
 import img4 from '/public/nhs-1 2.png';
-import img5 from '/public/tripadvisor_logo.png';
+import img5 from '/public/Trip.png';
 import img6 from '/public/unilever_logo.png';
 import Image from 'next/image';
 
