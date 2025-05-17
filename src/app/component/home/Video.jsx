@@ -11,7 +11,7 @@ const Video = () => {
   };
 
   return (
-    <section className="pt-[60px] lg:pb-[120px] bg-transparent lg:pt-[10px] lg:px-[80px]">
+    <section className="pt-[0px] lg:pb-[120px] bg-transparent lg:pt-[10px] lg:px-[80px]">
       {/* <div className="text-center  pb-[120px]">
         <h1 className="text-[#18181B]  font-medium text-[60px] leading-[110%] -tracking-[1.2px]">
           “Tell Me and I Forget, Teach Me and I Remember, Involve Me and I Learn.”
@@ -19,7 +19,7 @@ const Video = () => {
         <span className="block mt-7 text-lg">- Confucius -</span>
       </div> */}
 
-      <div className="bg-primary  relative text-[#FCFCFD]  rounded-[20px] lg:rounded-4xl pt-[226px] lg:pt-[360px] mt-[280px] px-4 lg:px-[80px] pb-[70px]">
+      <div className="bg-primary  relative text-[#FCFCFD]  rounded-[20px] lg:rounded-4xl pt-[226px] lg:pt-[360px] mt-[220px] px-4 lg:px-[80px] pb-[70px]">
         {/* Shape */}
         <Image
           alt="Shape"
