@@ -1,10 +1,9 @@
 import React from 'react';
-import Marquee from 'react-fast-marquee';
 import img1 from '/public/UEL-Single-colour-Logo-Punch-RGB-Black2000.png';
 import img2 from '/public/unilever_logo.png';
 import img3 from '/public/Logo.svg.png';
 import img4 from '/public/British Red Cross 1.png';
-import img5 from '/public/TripAdvisor_Logo.png';
+import img5 from '/public/Trip.png';
 import img6 from '/public/GM logo 1.png';
 import img7 from '/public/nhs-1 2.png';
 import img8 from '/public/ymca.png';
