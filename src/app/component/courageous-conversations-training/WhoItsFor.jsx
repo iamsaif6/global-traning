@@ -24,7 +24,7 @@ const WhoItsFor = () => {
           </div>
           <div className="p-6 bg-white rounded-2xl">
             <p className="mb-6 text-secondary">
-              <HighFivex />
+              <HighFive />
             </p>
             <p className="text-2xl font-medium text-[#18181B]">
               Teams in high-pressure environments requiring improved communication skills.
