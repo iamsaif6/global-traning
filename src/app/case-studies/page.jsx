@@ -1,5 +1,44 @@
 import Link from 'next/link';
 import React from 'react';
+import trip from '/public/case-study/Logo_Tripadvisor.png';
+import uniliver from '/public/case-study/Unilever-logo.png';
+import global from '/public/case-study/Logo_Global-Mediation-e1683716118390.png';
+import Ed from '/public/case-study/EdPsuchs-logo.png';
+import bristol from '/public/case-study/Uni-Bristol-logo.png';
+import zsl from '/public/case-study/Logo_ZSL.png';
+import redCross from '/public/case-study/A4_Supporting_logo_text_only_CMYK_print.jpg';
+import Image from 'next/image';
+
+const data = [
+  {
+    title: 'Communication Training Mediation',
+    image: trip,
+  },
+  {
+    title: 'Well-Being Workshop Mediation',
+    image: uniliver,
+  },
+  {
+    title: 'Mediation Training',
+    image: global,
+  },
+  {
+    title: 'Narrative Psychology Training Mediation',
+    image: Ed,
+  },
+  {
+    title: 'University Equality, Diversity and Inclusion Training Mediation',
+    image: bristol,
+  },
+  {
+    title: 'Courageous Conversations Mediation',
+    image: zsl,
+  },
+  {
+    title: 'CExperiential Crisis Training Mediation',
+    image: redCross,
+  },
+];
 
 const CaseStudies = () => {
   return (
@@ -23,7 +62,7 @@ const CaseStudies = () => {
 
       <section className="pb-[120px] px-5 lg:px-[40px]">
         <div className="">
-          {[1, 2, 3, 4].map((item, index) => {
+          {[1].map((item, index) => {
             return (
               <div
                 key={index}
@@ -31,7 +70,7 @@ const CaseStudies = () => {
                   index != 1 ? 'border-b border-[#D1D1D6]' : ''
                 } grid pb-[60px] border-b  border-[#D1D1D6] mb-[60px] grid-cols-12 gap-0 lg:gap-[60px]`}
               >
-                <div className="col-span-12  mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#F4F5F6] rounded-2xl lg:rounded-3xl flex items-center justify-center">
+                <div className="col-span-12  mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#b5b5b5] rounded-2xl lg:rounded-3xl flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="154" height="60" viewBox="0 0 154 60" fill="none">
                     <g clipPath="url(#clip0_1_3733)">
                       <path
@@ -51,6 +90,44 @@ const CaseStudies = () => {
                 <div className="col-span-12 py-8 lg:col-span-8">
                   <p className="text-[#794D94] font-medium text-xs lg:text-base">December 4, 2024</p>
                   <h3 className="text-[#18181B] font-medium text-2xl lg:text-[40px] mt-2 mb-4">Transforming Leadership at NHS</h3>
+                  <p className="text-[#6E7381] font-normal text-base lg:text-lg">
+                    Through a customized leadership program, we helped NHS leaders build emotional intelligence, enhance decision-making
+                    under pressure, and foster stronger team collaboration.
+                  </p>
+                  <p className="my-[44px]">
+                    <span className="text-base block w-full lg:w-[50%] text-[#6E7381]">
+                      “Proin venenatis, nunc nec facilisis vehicula, mauris velit dictum ex, sit amet fermentum orci risus ac nisi.”
+                    </span>
+                    <span className="text-sm mt-4 text-[#18181B] font-medium block">Richard Carter</span>
+                    <span className="text-[#6E7381] font-sm">HR Manager at NHS</span>
+                  </p>
+                  <Link
+                    href={'/case-studies-1'}
+                    className="border rounded-[40px] py-3 px-6 cursor-pointer hover:bg-secondary hover:text-white duration-200"
+                  >
+                    Read now
+                  </Link>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        <div>
+          {data.map((item, index) => {
+            return (
+              <div
+                key={index}
+                className={`${
+                  index != 1 ? 'border-b border-[#D1D1D6]' : ''
+                } grid pb-[60px] border-b  border-[#D1D1D6] mb-[60px] grid-cols-12 gap-0 lg:gap-[60px]`}
+              >
+                <div className="col-span-12  mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#b5b5b5] rounded-2xl lg:rounded-3xl flex items-center justify-center">
+                  <Image alt={item.title} className="max-w-[160px]" src={item.image} />
+                </div>
+                <div className="col-span-12 py-8 lg:col-span-8">
+                  <p className="text-[#794D94] font-medium text-xs lg:text-base">December 4, 2024</p>
+                  <h3 className="text-[#18181B] font-medium text-2xl lg:text-[40px] mt-2 mb-4">{item.title}</h3>
                   <p className="text-[#6E7381] font-normal text-base lg:text-lg">
                     Through a customized leadership program, we helped NHS leaders build emotional intelligence, enhance decision-making
                     under pressure, and foster stronger team collaboration.
