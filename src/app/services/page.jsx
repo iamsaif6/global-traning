@@ -8,6 +8,7 @@ import TrustedBy from '../component/services/TrustedBy';
 import Form from '../component/services/Form';
 import PhotoGrid from '../component/services/PhotoGrid';
 import ServiceCircle from '../component/services/ServiceCircle';
+import Testimonial from '../component/services/Testimonial';
 
 const Services = () => {
   return (
@@ -16,7 +17,8 @@ const Services = () => {
       <Video />
       <ServiceCircle />
       <Blocked />
-      <TrustedBy />
+      <Testimonial />
+      {/* <TrustedBy /> */}
       <HowWeWork />
       <HowItWork />
       <PhotoGrid />
