@@ -11,10 +11,10 @@ const Video = () => {
   };
 
   return (
-    <section className="pt-[60px] lg:pb-[120px] bg-transparent lg:pt-[10px] lg:px-[80px]">
-      <div className="relative text-[#FCFCFD]  rounded-[20px] lg:rounded-4xl pt-[26px] lg:pt-[360px] mt-[160px] px-4 lg:px-[80px] pb-[100px]">
+    <section className="pt-[60px]  lg:pb-[120px] bg-transparent lg:pt-[10px] lg:px-[80px]">
+      <div className="relative border-red-400 text-[#FCFCFD]  rounded-[20px] lg:rounded-4xl pt-[170px] lg:pt-[360px]  px-4 lg:px-[80px] pb-[100px]">
         {/* Video Frame */}
-        <div className="h-[304px]  lg:h-[560px] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[95%] max-w-[900px] rounded-2xl lg:rounded-4xl overflow-hidden">
+        <div className="h-[304px]  lg:h-[560px] absolute top-0 left-1/2 -translate-x-1/2 -translat-y-1/2 w-[95%] max-w-[900px] rounded-2xl lg:rounded-4xl overflow-hidden">
           {!isPlaying ? (
             <div className="absolute px-4 inset-0 bg-black cursor-pointer flex items-center justify-center" onClick={startVideo}>
               {/* Custom Thumbnail */}
