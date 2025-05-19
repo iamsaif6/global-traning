@@ -7,12 +7,14 @@ import HowWeWork from '../component/services/HowWeWork';
 import TrustedBy from '../component/services/TrustedBy';
 import Form from '../component/services/Form';
 import PhotoGrid from '../component/services/PhotoGrid';
+import ServiceCircle from '../component/services/ServiceCircle';
 
 const Services = () => {
   return (
     <div>
       <Header />
       <Video />
+      <ServiceCircle />
       <Blocked />
       <TrustedBy />
       <HowWeWork />

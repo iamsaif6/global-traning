@@ -1,12 +1,13 @@
 'use client';
 import React from 'react';
 import SectionTitle from '../shared/SectionTitle';
-import Image from 'next/image';
-import Button from '../shared/Button';
-import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Link from 'next/link';
+import Empathy from '/public/svg/Empathy.svg';
+import Person from '/public/svg/Person shield.svg';
+import Conversation from '/public/svg/Conversation.svg';
+import Globe from '/public/svg/Globe.svg';
 
 const OurServices = () => {
   return (
@@ -22,22 +23,30 @@ const OurServices = () => {
 
       <div className="max-w-[1130px] mt-[80px] mb-[60px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div className=" rounded-3xl bg-[#511A7514] p-6">
-          <span className="mb-[50px] block">Logo</span>
+          <span className="mb-[50px] text-secondary block">
+            <Empathy />
+          </span>
           <p className="text-[#18181B] font-normal text-lg">Build emotionally intelligent leadership</p>
         </div>
 
         <div className=" rounded-3xl bg-[#511A7514] p-6">
-          <span className="mb-[50px] block">Logo</span>
+          <span className="mb-[50px] text-secondary block">
+            <Person />
+          </span>
           <p className="text-[#18181B] font-normal text-lg">Develop resilient, connected teams</p>
         </div>
 
         <div className=" rounded-3xl bg-[#511A7514] p-6">
-          <span className="mb-[50px] block">Logo</span>
+          <span className="mb-[50px] text-secondary block">
+            <Conversation />
+          </span>
           <p className="text-[#18181B] font-normal text-lg">Navigate difficult conversations with confidence and care</p>
         </div>
 
         <div className=" rounded-3xl bg-[#511A7514] p-6">
-          <span className="mb-[50px] block">Logo</span>
+          <span className="mb-[50px] text-secondary block">
+            <Globe />
+          </span>
           <p className="text-[#18181B] font-normal text-lg">Foster inclusive cultures where people feel seen, heard and supported</p>
         </div>
       </div>
