@@ -4,6 +4,11 @@ import HowitWork2 from '/public/HowitWork-2.png';
 import HowitWork3 from '/public/HowitWork-3.png';
 import HowitWork4 from '/public/HowitWork-4.png';
 import Image from 'next/image';
+import Book from '/public/svg/book.svg';
+import Call from '/public/svg/call.svg';
+import Light from '/public/svg/light.svg';
+import Setting from '/public/svg/setting.svg';
+import Gift from '/public/svg/gift.svg';
 
 const HowItWork = () => {
   return (
@@ -12,7 +17,6 @@ const HowItWork = () => {
         <h2 className={`w-full lg:w-[90%] capitalize mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] `}>
           How it Works
         </h2>
-
         <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
           We design around people, not problems. Our approach is always personal. Whether you're an individual, a team or a whole
           organisation, we begin by listening deeply, then we design something that fits. Here’s what the journey often looks like:
@@ -22,8 +26,8 @@ const HowItWork = () => {
       <div className="max-w-[1130px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 lg:mt-[80px]">
         <div className=" rounded-3xl bg-white p-8">
           <div className="mb-8">
-            <div className=" duration-200 bg-secondary text-white  lg:w-[40px] lg:h-[40px] w-[36px] h-[36px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
-              1
+            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              <Book />
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">Book a discovery call</p>
@@ -37,8 +41,8 @@ const HowItWork = () => {
 
         <div className=" rounded-3xl bg-white p-8">
           <div className="mb-8">
-            <div className=" duration-200 bg-secondary text-white  lg:w-[40px] lg:h-[40px] w-[36px] h-[36px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
-              2
+            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              <Call />
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We listen, explore and ask questions</p>
@@ -53,8 +57,8 @@ const HowItWork = () => {
 
         <div className=" rounded-3xl bg-white p-8">
           <div className="mb-8">
-            <div className=" duration-200 bg-secondary text-white  lg:w-[40px] lg:h-[40px] w-[36px] h-[36px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
-              3
+            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              <Light />
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">
@@ -71,8 +75,8 @@ const HowItWork = () => {
 
         <div className=" rounded-3xl bg-white p-8">
           <div className="mb-8">
-            <div className=" duration-200 bg-secondary text-white  lg:w-[40px] lg:h-[40px] w-[36px] h-[36px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
-              4
+            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              <Setting />
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">Together, we refine it</p>
@@ -86,8 +90,8 @@ const HowItWork = () => {
 
         <div className=" rounded-3xl bg-white p-8">
           <div className="mb-8">
-            <div className=" duration-200 bg-secondary text-white  lg:w-[40px] lg:h-[40px] w-[36px] h-[36px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
-              5
+            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              <Gift />
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We deliver</p>

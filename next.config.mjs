@@ -8,6 +8,13 @@ const nextConfig = {
       'smart-feast-4ad402f782.media.strapiapp.com',
     ],
   },
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
+    });
+    return config;
+  },
 };
 
 export default nextConfig;
