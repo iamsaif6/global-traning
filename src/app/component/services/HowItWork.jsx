@@ -15,7 +15,7 @@ const HowItWork = () => {
     <section className="px-4 bg-primary py-[80px] lg:py-[120px]  lg:px-[80px]">
       <div className={`w-full text-white  max-w-[1000px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%] capitalize mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] `}>
-          How it Works
+          Our Approach
         </h2>
         <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
           We design around people, not problems. Our approach is always personal. Whether you're an individual, a team or a whole

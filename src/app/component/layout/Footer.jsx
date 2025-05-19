@@ -70,13 +70,13 @@ const Footer = () => {
             About Us
           </Link>
           <Link className="py-[6px] block" href="/training">
-            Mediation Service
+            Mediation Training
           </Link>
           <Link className="py-[6px] block" href="/case-studies">
             Case Studies
           </Link>
           <Link className="py-[6px] block" href="/blogs">
-            Our Thinking
+            Services
           </Link>
           <Link className="py-[6px] block" href="/about-us">
             Contact

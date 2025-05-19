@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({ title = ' Courageous Conversations Training' }) => {
+  const slug = title;
+  const decodedTitle = decodeURIComponent(slug);
   return (
     <header
       style={{
@@ -12,9 +14,7 @@ const Header = () => {
       className="pt-[187px] relative md:pt-[238px] pb-[0px] lg:pb-[203px] px-5 md:px-[60px]"
     >
       <div className="w-full relative z-10   mx-auto text-center">
-        <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
-          Courageous Conversations <br /> Training
-        </h1>
+        <h1 className="font-medium text-wrap tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">{decodedTitle}</h1>
       </div>
     </header>
   );

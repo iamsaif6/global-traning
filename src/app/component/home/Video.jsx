@@ -65,10 +65,10 @@ const Video = () => {
               <div className="flex items-end gap-3">
                 <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">500+</p>
                 <div>
-                  <p className="font-normal mt-1 text-sm leading-[140%]">Happy learners</p>
+                  <p className="font-normal mt-1 text-sm leading-[140%]">Professionals Empowered</p>
                 </div>
               </div>
-              <p className="text-base leading-[140%] mt-4">Successfully help top professionals upgrade their skills.</p>
+              <p className="text-base leading-[140%] mt-4">We've helped leaders and teams grow their skills with confidence.</p>
             </div>
           </div>
           <div className="pb-10 hidden lg:block mb-10 ">
@@ -107,10 +107,10 @@ const Video = () => {
                     />
                   </svg>
                 </div>
-                <p className="font-normal mt-1 text-sm leading-[140%]">Based on 500 clients</p>
+                <p className="font-normal mt-1 text-sm leading-[140%]">Rated for Excellence</p>
               </div>
             </div>
-            <p className="text-base leading-[140%] mt-4">Trusted by thousands of professionals worldwide!</p>
+            <p className="text-base leading-[140%] mt-4">Trusted by leaders in healthcare, education, government, and business.</p>
           </div>
         </div>
         <div className="mb-[60px] lg:mb-0 relative z-10">
@@ -149,12 +149,14 @@ const Video = () => {
                   />
                 </svg>
               </div>
-              <p className="font-normal text-sm leading-[140%]">Trusted by thousands of professionals worldwide!</p>
+              <p className="font-normal text-sm mt-2 leading-[140%]">
+                Trusted by leaders in healthcare, education, government, and business.
+              </p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 items-center lg:hidden">
             <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">500+</p>
-            <p className="text-base leading-[140%] ">Successfully help top professionals upgrade their skills.</p>
+            <p className="text-base leading-[140%] ">We've helped leaders and teams grow their skills with confidence.</p>
           </div>
         </div>
         <div className="relative text-left lg:text-center z-20 ">

@@ -15,8 +15,8 @@ import Image from 'next/image';
 
 const Marque = () => {
   return (
-    <div className="pt-[60px] max-w-[1400px] mx-auto px-5 lg:py-[120px] bg-transparent  lg:px-[60px]">
-      <p className="text-base  text-center mb-13">Trusted by teams and leaders of all sizes</p>
+    <div className="pt-[60px] max-w-[1400px] mx-auto px-5 lg:py-[80px] bg-transparent  lg:px-[60px]">
+      <p className="text-base  text-center mb-13">Clients Who Trust Our Work</p>
       <div className="flex gap-10 items-center justify-center lg:justify-between  mb-10 lg:mb-[60px]">
         <div className="hidden lg:block  max-h-[48px] h-full w-[157px] ">
           <Image className="w-full h-full object-contain" src={img1} alt="Living Wadge Company" />
