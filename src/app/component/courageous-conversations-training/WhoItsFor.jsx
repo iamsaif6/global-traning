@@ -1,6 +1,9 @@
 import React from 'react';
 import Cover from '/public/WhoItsFor.png';
 import Image from 'next/image';
+import HighFive from '/public/svg/highfive.svg';
+import Croud from '/public/svg/croud.svg';
+
 const WhoItsFor = () => {
   return (
     <section className="py-[80px] text-white lg:py-[120px] items-center px-5 lg:px-[40px] grid grid-cols-1 lg:grid-cols-12 gap-12 bg-primary">
@@ -14,11 +17,15 @@ const WhoItsFor = () => {
         </div>
         <div className="grid grid-cols-1 mt-10 lg:mt-0 lg:grid-cols-2 gap-6">
           <div className="p-6 bg-white rounded-2xl">
-            <p className="mb-6 text-[#18181B]">Icon</p>
+            <p className="mb-6 text-secondary">
+              <Croud />
+            </p>
             <p className="text-2xl font-medium text-[#18181B]">Leaders and managers responsible for addressing workplace challenges.</p>
           </div>
           <div className="p-6 bg-white rounded-2xl">
-            <p className="mb-6 text-[#18181B]">Icon</p>
+            <p className="mb-6 text-secondary">
+              <HighFivex />
+            </p>
             <p className="text-2xl font-medium text-[#18181B]">
               Teams in high-pressure environments requiring improved communication skills.
             </p>
