@@ -15,7 +15,7 @@ import Image from 'next/image';
 
 const TrustedBy = () => {
   return (
-    <div className="px-4    lg:px-[80px]">
+    <div className="px-4   max-w-[1400px] mx-auto  lg:px-[80px]">
       <div className={`w-full mb-10 lg:mb-[80px]  max-w-[720px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%] mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] text-[#18181B]`}>
           Trusted By
@@ -26,43 +26,43 @@ const TrustedBy = () => {
           including:
         </p>
       </div>
-      <div className="grid grid-cols-3 lg:grid-cols-6 mb-10 lg:mb-[60px]">
-        <div className="hidden lg:block  max-h-[150px] h-full mx-[30px] lg:mx-[30px]  ">
+      <div className="flex gap-10 items-center justify-center lg:justify-between  mb-10 lg:mb-[60px]">
+        <div className="hidden lg:block  max-h-[48px] h-full w-[157px] ">
           <Image className="w-full h-full object-contain" src={img1} alt="Living Wadge Company" />
         </div>
-        <div className="hidden lg:block   max-h-[150px] h-full  mx-[30px] lg:mx-[80px]  ">
+        <div className="hidden lg:block   max-h-[48px] h-full  w-[44px]   ">
           <Image className="w-full h-full object-contain" src={img2} alt="ISO" />
         </div>
-        <div className="hidden lg:block  max-h-[150px] h-full  mx-[30px] lg:mx-[70px]  ">
+        <div className="hidden lg:block  max-h-[48px] h-full  w-[80px]  ">
           <Image className="w-full h-full object-contain" src={img3} alt="College of mediator" />
         </div>
-        <div className="   max-h-[150px] h-full  mx-[30px] lg:mx-[20px]  ">
+        <div className="   max-h-[48px] h-full w-[150px] lg:w-[225px] ">
           <Image className="w-full h-full object-contain" src={img4} alt="CMC" />
         </div>
-        <div className="   max-h-[150px] h-full  mx-[30px] lg:mx-[30px]  ">
+        <div className=" w-[140px]  max-h-[48px] h-full  lg:w-[187px] ">
           <Image className="w-full h-full object-contain" src={img5} alt="ISO" />
         </div>
-        <div className="   max-h-[150px] h-full  mx-[30px] lg:mx-[60px]  ">
+        <div className=" w-[70px]  max-h-[48px] h-full  lg:w-[107px] ">
           <Image className="w-full h-full object-contain" src={img6} alt="Cyber" />
         </div>
       </div>
-      <div className="grid grid-cols-3 lg:grid-cols-6">
-        <div className="hidden lg:block   max-h-[150px] h-full  mx-[30px] lg:mx-[60px]  ">
+      <div className="flex gap-10 items-center justify-evenly">
+        <div className="hidden lg:block   max-h-[48px] h-full w-[107px]  ">
           <Image className="w-full h-full object-contain" src={img7} alt="Trip Advisier" />
         </div>
-        <div className="hidden lg:block   max-h-[150px] h-full  mx-[30px] lg:mx-[70px]  ">
+        <div className="hidden lg:block   max-h-[48px] h-full   w-[52px]   ">
           <Image className="w-full h-full object-contain" src={img8} alt="Trip Advisier" />
         </div>
-        <div className="hidden lg:block   max-h-[150px] h-full  mx-[30px] lg:mx-[20px]  ">
+        <div className="hidden lg:block   max-h-[48px] h-full   w-[180px]  ">
           <Image className="w-full h-full object-contain" src={img9} alt="Trip Advisier" />
         </div>
-        <div className="   max-h-[150px] h-full  mx-[30px] lg:mx-[70px]  ">
+        <div className="   max-h-[48px] h-full  w-[40px] lg:w-[30px]   ">
           <Image className="w-full h-full object-contain" src={img10} alt="Trip Advisier" />
         </div>
-        <div className="   max-h-[150px] h-full  mx-[30px] lg:mx-[40px]  ">
+        <div className="   max-h-[48px] h-full  w-[100px] lg:w-[137px]   ">
           <Image className="w-full h-full object-contain" src={img11} alt="Trip Advisier" />
         </div>
-        <div className="   max-h-[150px] h-full  mx-[30px] lg:mx-[30px]  ">
+        <div className="   max-h-[48px] h-full  w-[170px] lg:w-[248px]   ">
           <Image className="w-full h-full object-contain" src={img12} alt="Trip Advisier" />
         </div>
       </div>

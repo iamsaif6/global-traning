@@ -19,9 +19,6 @@ const Header = () => {
         <p className="text-[#FCFCFD] text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[90%] font-normal text-sm md:text-lg">
           At Global Training, we design learning experiences that reflect your people, your purpose and your reality — thoughtful,
           collaborative and designed with heart and soul.
-          <br />
-          Our training helps people build meaningful connections and grow with confidence. We listen first, then we co-design the kind of
-          support that actually fits — shaped by experience, delivered with care and grounded in emotional intelligence.
         </p>
         <div className="flex gap-4 justify-center">
           <Button title={'Start a Conversation'} href="/contact-us" />

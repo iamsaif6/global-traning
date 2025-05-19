@@ -13,7 +13,7 @@ const Blocked = () => {
     <section className="py-[60px] lg:py-[120px] bg-transparent overflow-hidden px-5 lg:px-[80px]">
       <div className={`w-full  max-w-[1000px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%] mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] text-[#18181B]`}>
-          What We Help <br /> Unblock
+          What We Help Unblock
         </h2>
 
         <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
@@ -118,10 +118,17 @@ const Blocked = () => {
         </div>
       </div>
 
+      <div className="max-w-[1130px] mt-[80px] mb-[60px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {['Communication and Confidence', 'Team Dynamics and Culture', 'Leadership and Change', 'Workplace Wellbeing'].map(item => {
+          return (
+            <div key={item} className="font-semibold h-[120px] flex items-center justify-center rounded-3xl bg-[#511A7514] text-center p-6">
+              <p className="text-[#18181B] text-lg">{item}</p>
+            </div>
+          );
+        })}
+      </div>
+
       <div className="text-center max-w-[720px] mx-auto mt-[70px]">
-        <p className="text-lg font-normal text-[#6E7381]">
-          If you don’t see your situation here, that’s okay. Most of our work begins with a simple conversation.
-        </p>
         <div className="mt-[56px] flex items-center justify-center">
           <Button title={'Talk to Us'} href="/contact-us" />
         </div>

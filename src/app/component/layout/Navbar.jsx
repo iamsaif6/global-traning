@@ -7,10 +7,6 @@ import Button from '../shared/Button';
 
 const navLinks = [
   {
-    href: '/blogs',
-    title: 'Our Thinking',
-  },
-  {
     href: '/services',
     title: 'What We Do',
   },
@@ -22,6 +18,10 @@ const navLinks = [
   {
     href: '/case-studies',
     title: 'Case Studies',
+  },
+  {
+    href: '/blogs',
+    title: 'Our Thinking',
   },
   // {
   //   href: '/our-thinking',
