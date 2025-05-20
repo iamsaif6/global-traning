@@ -4,6 +4,7 @@ import Navbar from './component/layout/Navbar';
 import Footer from './component/layout/Footer';
 import Script from 'next/script';
 import UserbackComponent from '@/component/UserbackComponent';
+import FeedbackButton from '@/component/FeedbackButton';
 
 const poppins = Poppins({
   variable: '--font-poppins',
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.variable} antialiased`}>
+        <FeedbackButton />
         <Script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js" strategy="afterInteractive"></Script>
         <Script src="https://files.bpcontent.cloud/2025/05/20/09/20250520093739-YCHB89K8.js" strategy="afterInteractive"></Script>
         <Navbar />
