@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from './component/layout/Navbar';
 import Footer from './component/layout/Footer';
 import Script from 'next/script';
+import UserbackComponent from '@/component/UserbackComponent';
 
 const poppins = Poppins({
   variable: '--font-poppins',
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <Script src="https://files.bpcontent.cloud/2025/05/20/09/20250520093739-YCHB89K8.js" strategy="afterInteractive"></Script>
         <Navbar />
         {children}
+        <UserbackComponent apiKey="A-toB4qf6TlycGzt55mrEgeMRHe" />
         <Footer />
       </body>
     </html>

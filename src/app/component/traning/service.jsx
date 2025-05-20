@@ -11,13 +11,13 @@ const services = [
     title: 'Workplace and Employment Mediation',
     subtitle: 'Equip your team to navigate difficult conversations with confidence and clarity',
     img: img1,
-    link: '/training/send-mediation',
+    link: '/training/Workplace and Employment Mediation',
   },
   {
     title: 'Business and Commercial Mediation',
     subtitle: 'Cultivate impactful leaders through targeted coaching and practical exercises.',
     img: img2,
-    link: '/training/send-mediation',
+    link: '/training/Business and Commercial Mediation',
   },
   {
     title: 'SEND (Special Educational Needs and Disability) Mediation',
