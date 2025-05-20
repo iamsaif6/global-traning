@@ -17,7 +17,7 @@ const Button = ({ title, href = '#', padding = 'default', secondary = false }) =
       href={href}
       className={`${
         secondary ? 'bg-secondary border-secondary' : 'bg-primary border-primary'
-      }  border  font-medium text-lg text-[#FCFCFD] ${paddingClass} py-3 rounded-[40px]`}
+      }  border  font-medium text-sm md:text-lg text-[#FCFCFD] ${paddingClass} py-3 rounded-[40px]`}
     >
       {title}
     </Link>

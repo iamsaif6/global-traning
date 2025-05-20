@@ -163,7 +163,7 @@ const Video = () => {
           <h3 className="mb-10 text-[28px] lg:text-[40px] font-medium leading-[120%]">
             At Global Training, we deliver immersive, human-centered programs that foster growth, connection, and collaboration.
           </h3>
-          <Button title={'Learn More About Us'} href="/about-us" secondary />
+          <Button padding="small" title={'Learn More About Us'} href="/about-us" secondary />
         </div>
       </div>
     </section>
