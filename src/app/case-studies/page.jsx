@@ -8,8 +8,14 @@ import bristol from '/public/university-of-bristol-logo-png-transparent.png';
 import zsl from '/public/Logo.svg.png';
 import redCross from '/public/case-study/A4_Supporting_logo_text_only_CMYK_print.jpg';
 import Image from 'next/image';
+import nhs from '/public/nhs-1 2.png';
 
 const data = [
+  {
+    title: 'Courageous Conversations For ZSL',
+    image: zsl,
+    link: '/case-studies-zsl',
+  },
   {
     title: 'Communication Training For TripAdvisor',
     image: trip,
@@ -30,14 +36,14 @@ const data = [
     title: 'University Equality, Diversity and Inclusion For University Of Bristol',
     image: bristol,
   },
-  {
-    title: 'Courageous Conversations For ZSL',
-    image: zsl,
-    link: '/case-studies-zsl',
-  },
+
   {
     title: 'CExperiential Crisis For BritishRedCross',
     image: redCross,
+  },
+  {
+    title: 'Transforming Leadership at NHS',
+    image: nhs,
   },
 ];
 
@@ -62,58 +68,6 @@ const CaseStudies = () => {
       </header>
 
       <section className="pb-[120px] px-5 lg:px-[40px]">
-        <div className="">
-          {[1].map((item, index) => {
-            return (
-              <div
-                key={index}
-                className={`${
-                  index != 1 ? 'border-b border-[#D1D1D6]' : ''
-                } grid pb-[60px] border-b  border-[#D1D1D6] mb-[60px] grid-cols-12 gap-0 lg:gap-[60px]`}
-              >
-                <div className="col-span-12  mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#F4F5F6] rounded-2xl lg:rounded-3xl flex items-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="154" height="60" viewBox="0 0 154 60" fill="none">
-                    <g clipPath="url(#clip0_1_3733)">
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M153.982 59.9547V0.0461426H0.0214844V59.9547H153.982ZM15.0769 5.82528H31.8125L42.091 39.2654H42.2338L49.2744 5.82528H61.9234L51.2945 54.0475H34.6158L24.1289 20.6799H23.987L17.012 54.0475H4.36307L15.0769 5.82528ZM144.979 16.7426C142.392 15.572 138.87 14.5378 133.915 14.5378C128.601 14.5378 124.288 15.2915 124.288 19.1656C124.288 25.9983 143.761 23.4482 143.761 38.0956C143.761 51.4258 130.894 54.8822 119.256 54.8822C114.084 54.8822 108.117 53.7031 103.739 52.3867L106.9 42.5786C109.552 44.2402 114.876 45.3452 119.256 45.3452C123.429 45.3452 129.96 44.5838 129.96 39.6107C129.96 31.8701 110.487 34.7731 110.487 21.1709C110.487 8.73 121.843 4.99993 132.84 4.99993C139.022 4.99993 144.837 5.62568 148.217 7.14078L144.979 16.7426ZM66.8782 5.82528H80.3103L76.3656 24.2735H92.241L96.1971 5.82528H109.628L99.208 54.0475H85.7767L90.2305 33.3945H74.3446L69.89 54.0475H56.457L66.8782 5.82528Z"
-                        fill="#007AC2"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_1_3733">
-                        <rect width="154" height="60" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                </div>
-                <div className="col-span-12 py-8 lg:col-span-8">
-                  <p className="text-[#794D94] font-medium text-xs lg:text-base">December 4, 2024</p>
-                  <h3 className="text-[#18181B] font-medium text-2xl lg:text-[40px] mt-2 mb-4">Transforming Leadership at NHS</h3>
-                  <p className="text-[#6E7381] font-normal text-base lg:text-lg">
-                    Through a customized leadership program, we helped NHS leaders build emotional intelligence, enhance decision-making
-                    under pressure, and foster stronger team collaboration.
-                  </p>
-                  <p className="my-[44px]">
-                    <span className="text-base block w-full lg:w-[50%] text-[#6E7381]">
-                      “Proin venenatis, nunc nec facilisis vehicula, mauris velit dictum ex, sit amet fermentum orci risus ac nisi.”
-                    </span>
-                    <span className="text-sm mt-4 text-[#18181B] font-medium block">Richard Carter</span>
-                    <span className="text-[#6E7381] font-sm">HR Manager at NHS</span>
-                  </p>
-                  <Link
-                    href={'/case-studies-1'}
-                    className="border rounded-[40px] py-3 px-6 cursor-pointer hover:bg-secondary hover:text-white duration-200"
-                  >
-                    Read now
-                  </Link>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-
         <div>
           {data.map((item, index) => {
             return (
