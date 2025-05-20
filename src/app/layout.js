@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.variable} antialiased`}>
-        <Script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js" strategy="afterInteractive" />
-        <Script src="https://files.bpcontent.cloud/2025/04/20/21/20250420213141-RFCIFB7R.js" strategy="afterInteractive" />
+        <Script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js" strategy="afterInteractive"></Script>
+        <Script src="https://files.bpcontent.cloud/2025/05/20/09/20250520093739-YCHB89K8.js" strategy="afterInteractive"></Script>
         <Navbar />
         {children}
         <Footer />
