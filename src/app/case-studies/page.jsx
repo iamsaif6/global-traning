@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
-import trip from '/public/case-study/Logo_Tripadvisor.png';
-import uniliver from '/public/case-study/Unilever-logo.png';
-import global from '/public/case-study/Logo_Global-Mediation-e1683716118390.png';
+import trip from '/public/Trip.png';
+import uniliver from '/public/unilever_logo.png';
+import global from '/public/GM logo 1.png';
 import Ed from '/public/case-study/EdPsuchs-logo.png';
-import bristol from '/public/case-study/Uni-Bristol-logo.png';
-import zsl from '/public/case-study/Logo_ZSL.png';
+import bristol from '/public/university-of-bristol-logo-png-transparent.png';
+import zsl from '/public/Logo.svg.png';
 import redCross from '/public/case-study/A4_Supporting_logo_text_only_CMYK_print.jpg';
 import Image from 'next/image';
 
@@ -71,7 +71,7 @@ const CaseStudies = () => {
                   index != 1 ? 'border-b border-[#D1D1D6]' : ''
                 } grid pb-[60px] border-b  border-[#D1D1D6] mb-[60px] grid-cols-12 gap-0 lg:gap-[60px]`}
               >
-                <div className="col-span-12  mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#b5b5b5] rounded-2xl lg:rounded-3xl flex items-center justify-center">
+                <div className="col-span-12  mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#F4F5F6] rounded-2xl lg:rounded-3xl flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="154" height="60" viewBox="0 0 154 60" fill="none">
                     <g clipPath="url(#clip0_1_3733)">
                       <path
@@ -123,7 +123,7 @@ const CaseStudies = () => {
                   index != 1 ? 'border-b border-[#D1D1D6]' : ''
                 } grid pb-[60px] border-b  border-[#D1D1D6] mb-[60px] grid-cols-12 gap-0 lg:gap-[60px]`}
               >
-                <div className="col-span-12  mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#b5b5b5] rounded-2xl lg:rounded-3xl flex items-center justify-center">
+                <div className="col-span-12  mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#F4F5F6] rounded-2xl lg:rounded-3xl flex items-center justify-center">
                   <Image alt={item.title} className="max-w-[160px]" src={item.image} />
                 </div>
                 <div className="col-span-12 py-8 lg:col-span-8">
