@@ -28,7 +28,7 @@ const Impact = () => {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
-          centerMode: true,
+          centerMode: false,
           slidesToScroll: 1,
           centerPadding: '20px',
         },

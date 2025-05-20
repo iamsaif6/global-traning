@@ -9,7 +9,7 @@ const Footer = () => {
     <footer
       className={`bg-[#18181B] relative text-white ${
         pathname == '/services' ? 'pt-[100px] mt-0' : 'lg:pt-[330px] md:pt-[290px] pt-[290px]  mt-[170px]'
-      } pb-[80px] px-5 md:px-16 `}
+      } pb-[24px] px-5 md:px-16 `}
     >
       <div className="flex flex-col md:flex-row gap-12 relative z-10 justify-between pb-[70px] border-[#3F3F46] border-b">
         <div>
@@ -84,9 +84,9 @@ const Footer = () => {
         </div>
       </div>
       {/* Footer Bottom */}
-      <div className="mt-8 font-normal relative z-10 gap-8  text-sm flex flex-col-reverse md:flex-row items-center justify-between">
-        <p>© 2024 Global Training Group Ltd. All rights reserved.</p>
-        <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
+      <div className="mt-8 font-normal relative z-10 gap-8  text-sm grid grid-cols-12">
+        <p className="col-span-7">© 2024 Global Training Group Ltd. All rights reserved.</p>
+        <div className="flex col-span-5 flex-col md:flex-row justify-baseline lg:justify-end gap-2 md:gap-6">
           <Link className="" href={'/privacy-policy'}>
             Privacy Policy
           </Link>
@@ -97,7 +97,7 @@ const Footer = () => {
       </div>
       {/* Before after blob */}
       <svg
-        className=" absolute -translate-y-full md:-translate-y-0 bottom-5 md:top-0 md:bottom-auto right-[15%]"
+        className=" absolute -translate-y-[113%] w-[200px] h-[200px] md:w-[280px] md:h-[288px]  bottom-30 md:bottom-0 right-[19%]"
         xmlns="http://www.w3.org/2000/svg"
         width="280"
         height="288"
@@ -110,7 +110,7 @@ const Footer = () => {
         />
       </svg>
       <svg
-        className=" absolute bottom-0 right-[5%]"
+        className=" absolute  w-[200px] h-[200px] md:w-[280px] md:h-[288px] bottom-30 md:bottom-0 right-[5%]"
         xmlns="http://www.w3.org/2000/svg"
         width="280"
         height="288"

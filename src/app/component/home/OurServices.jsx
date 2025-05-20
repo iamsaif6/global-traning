@@ -21,7 +21,7 @@ const OurServices = () => {
         center
       />
 
-      <div className="max-w-[1130px] mt-[80px] mb-[60px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="max-w-[1130px] mt-10 md:mt-[80px] mb-10 md:mb-[60px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div className=" rounded-3xl bg-[#511A7514] p-6">
           <span className="mb-[50px] text-secondary block">
             <Empathy />
@@ -51,7 +51,7 @@ const OurServices = () => {
         </div>
       </div>
 
-      <div className="max-w-[700px] mx-auto w-full text-center mb-[56px]">
+      <div className="max-w-[700px] mx-auto w-full text-center mb-8 md:mb-[56px]">
         <p className="text-lg">
           Every session is shaped by real-world experience, grounded in behavioural insight and delivered with compassion.
         </p>
@@ -60,7 +60,7 @@ const OurServices = () => {
       <div className="flex gap-4 flex-col md:flex-row items-center justify-center ">
         <Link
           href={'/training'}
-          className="py-[12px] px-6 border bg-primary border-primary rounded-[40px] text-lg font-medium text-white cursor-pointer"
+          className="py-3 px-[20px] md:py-[15px] md:px-6 border bg-primary border-primary rounded-[40px] md:text-lg text-sm font-medium text-white cursor-pointer"
         >
           Explore Our Training
         </Link>

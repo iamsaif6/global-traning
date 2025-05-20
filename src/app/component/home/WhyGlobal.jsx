@@ -32,8 +32,8 @@ const WhyGlobal = () => {
           </div>
         </div>
       </div>
-      <div className="mt-[56px] flex justify-center">
-        <Button href="/about-us" title={'Find Out More About Us'} />
+      <div className="mt-3 md:mt-[56px] flex justify-center">
+        <Button Customclass={'py-3 px-[20px] md:py-[15px] md:px-6'} href="/about-us" title={'Find Out More About Us'} />
       </div>
     </section>
   );

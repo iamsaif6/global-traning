@@ -49,30 +49,30 @@ const HowItWork = () => {
           </div>
         </div>
         <div className="space-y-6 col-span-2 lg:col-span-1">
-          <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] duration-200  items-start    flex flex-col lg:flex-row gap-6 p-6 rounded-[16px] lg:rounded-3xl">
-            <div className="flex gap-6  items-center ">
+          <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] duration-200  items-start    flex flex-col lg:flex-row gap-6 p-4 lg:p-6 rounded-[16px] lg:rounded-3xl">
+            <div className="flex gap-3 lg:gap-6  items-center ">
               <div className=" duration-200 bg-secondary text-white  w-[40px] h-[40px] flex-shrink-0 rounded-[8px]  flex items-center justify-center font-medium text-[28px]">
                 1
               </div>
-              <h4 className="text-[24px] lg:text-[28px] font-medium   text-[#18181B]">Book a Discovery Call</h4>
+              <h4 className="text-[20px] lg:text-[28px] font-medium   text-[#18181B]">Book a Discovery Call</h4>
             </div>
           </div>
 
-          <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] duration-200    flex flex-col lg:flex-row gap-6 p-6 rounded-[16px] lg:rounded-3xl">
-            <div className="flex gap-6 items-center lg:items-start">
+          <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] duration-200    flex flex-col lg:flex-row gap-6 p-4 lg:p-6 rounded-[16px] lg:rounded-3xl">
+            <div className="flex gap-3 lg:gap-6 items-center lg:items-start">
               <div className=" duration-200 bg-secondary text-white  w-[40px] h-[40px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
                 2
               </div>
-              <h4 className="text-[24px] lg:text-[28px] font-medium  text-[#18181B]">Tailor Your Training Experience</h4>
+              <h4 className="text-[20px] lg:text-[28px] font-medium  text-[#18181B]">Tailor Your Training Experience</h4>
             </div>
           </div>
 
-          <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] duration-200    flex flex-col lg:flex-row gap-6 p-6 rounded-[16px] lg:rounded-3xl">
-            <div className="flex gap-6 items-center lg:items-start">
+          <div className="bg-white shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)] duration-200    flex flex-col lg:flex-row gap-6 p-4 lg:p-6 rounded-[16px] lg:rounded-3xl">
+            <div className="flex gap-3 lg:gap-6 items-center lg:items-start">
               <div className=" duration-200 bg-secondary text-white  w-[40px] h-[40px] flex-shrink-0 rounded-[8px] flex items-center justify-center font-medium text-[28px]">
                 3
               </div>
-              <h4 className="text-[24px] lg:text-[28px] font-medium  text-[#18181B]">Empower Your People to Grow</h4>
+              <h4 className="text-[20px] lg:text-[28px] font-medium  text-[#18181B]">Empower Your People to Grow</h4>
             </div>
           </div>
         </div>
