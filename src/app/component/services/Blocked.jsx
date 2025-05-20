@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../shared/Button';
-import unblock from '/public/Unblock.png';
+import unblock from '/public/Unblock.jpeg';
 import Image from 'next/image';
 import william from '/public/William.png';
 import clark from '/public/Clark.png';
@@ -10,7 +10,7 @@ import baker from '/public/baker.png';
 
 const Blocked = () => {
   return (
-    <section className="py-[60px] lg:py-[120px] bg-transparent overflow-hidden px-5 lg:px-[80px]">
+    <section className="pb-[60px] lg:pb-[120px] bg-transparent overflow-hidden px-5 lg:px-[80px]">
       <div className={`w-full  max-w-[1000px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%] mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] text-[#18181B]`}>
           Challenges We Address
@@ -25,7 +25,7 @@ const Blocked = () => {
 
       {/* Content */}
       <div className="h-[350px]  lg:h-[576px] mt-[60px] relative w-full max-w-[300px]  lg:max-w-[486px] mx-auto bg-gray-300 rounded-2xl">
-        <Image src={unblock} alt="Unblock Cover" className="rounded-2xl absolute top-0 left-0 w-full h-full object-cover" />
+        <Image src={unblock} alt="Unblock Cover" className="rounded-2xl absolute top-0 left-0 w-full h-full object-cover object-top" />
 
         {/* Left top */}
         <div
