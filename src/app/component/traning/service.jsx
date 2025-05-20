@@ -34,7 +34,7 @@ const Service = () => {
         center
       />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-[60px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-6 my-[60px]">
         {services.map(item => {
           return (
             <div

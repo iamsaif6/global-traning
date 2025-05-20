@@ -25,7 +25,7 @@ const Video = () => {
           alt="Shape"
           width={150}
           height={150}
-          className=" w-full max-w-[280px] lg:max-w-[500px] absolute bottom-auto top-[17%] lg:top-auto lg:bottom-10 left-10 lg:left-10 z-0 h-auto"
+          className=" w-full max-w-[280px] lg:max-w-[450px] absolute bottom-20 top-auto lg:top-auto lg:bottom-15 left-10 lg:left-10 z-0 h-auto"
           src={'/Shape.png'}
         />
         {/* Video Frame */}
@@ -114,7 +114,7 @@ const Video = () => {
           </div>
         </div>
         <div className="mb-[60px] lg:mb-0 relative z-10">
-          <div className="grid grid-cols-2 pb-6 border-b mb-6 border-[#fcfcfd33] gap-4 items-center lg:hidden">
+          <div className="grid grid-cols-2 pb-6 md:border-b mb-6 border-[#fcfcfd33] gap-4 items-center lg:hidden">
             <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">4.9</p>
             <div>
               <div className="flex items-center gap-1">

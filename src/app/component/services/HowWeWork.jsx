@@ -21,7 +21,7 @@ const HowWeWork = () => {
       </div>
       <div className="mt-[60px] font-medium max-w-[1130px] mx-auto">
         <div className="grid grid-cols-1  lg:grid-cols-4">
-          <div className=" border-t lg:border-t-0  relative lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dashed lg:border-r border-[#6E7381]">
+          <div className=" lg:border-t lg:border-t-0  relative lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dotted lg:border-r border-[#6E7381]">
             <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               <Mic />
             </div>
@@ -30,7 +30,7 @@ const HowWeWork = () => {
             <span className="hidden lg:block w-2 h-2 rounded-full bg-primary absolute bottom-0 right-0 translate-1/2"></span>
           </div>
 
-          <div className=" relative  lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dashed lg:border-r border-[#6E7381]">
+          <div className=" relative  lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dotted lg:border-r border-[#6E7381]">
             <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               <Mask />
             </div>
@@ -39,7 +39,7 @@ const HowWeWork = () => {
             <span className="hidden lg:block w-2 h-2 rounded-full bg-primary absolute bottom-0 right-0 translate-1/2"></span>
           </div>
 
-          <div className=" relative  lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dashed lg:border-r border-[#6E7381]">
+          <div className=" relative  lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dotted lg:border-r border-[#6E7381]">
             <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               <Talk />
             </div>
@@ -48,7 +48,7 @@ const HowWeWork = () => {
             <span className="hidden lg:block w-2 h-2 rounded-full bg-primary absolute bottom-0 right-0 translate-1/2"></span>
           </div>
 
-          <div className="  lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dashed border-[#6E7381]">
+          <div className="  lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dotted border-[#6E7381]">
             <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               <Hand />
             </div>
@@ -57,7 +57,7 @@ const HowWeWork = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3">
-          <div className="  relative lg:py-[28px] lg:px-[28px] px-0 py-7  border-dashed lg:border-r border-[#6E7381]">
+          <div className="  relative lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted lg:border-r border-[#6E7381]">
             <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               <Calander />
             </div>
@@ -66,7 +66,7 @@ const HowWeWork = () => {
             <span className="hidden lg:block w-2 h-2 rounded-full bg-primary absolute top-0 right-0 -translate-y-1/2 translate-x-1/2"></span>
           </div>
 
-          <div className=" relative border-t lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dashed lg:border-r border-[#6E7381]">
+          <div className=" relative border-t lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted lg:border-r border-[#6E7381]">
             <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               <Virtual />
             </div>
@@ -75,7 +75,7 @@ const HowWeWork = () => {
             <span className="hidden lg:block w-2 h-2 rounded-full bg-primary absolute top-0 right-0 -translate-y-1/2 translate-x-1/2"></span>
           </div>
 
-          <div className=" relative border-t lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dashed  border-[#6E7381]">
+          <div className=" relative border-t lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted  border-[#6E7381]">
             <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               <Light />
             </div>

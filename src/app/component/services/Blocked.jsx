@@ -30,7 +30,7 @@ const Blocked = () => {
         {/* Left top */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className=" absolute -translate-x-1/2 lg:-translate-x-full top-[10%] left-2 lg:-left-12 border w-full max-w-[137px] lg:max-w-[360px]  text-[7px] lg:text-base border-[#E9E9EC] text-[#18181B] rounded-[9px] lg:rounded-3xl p-[9px] lg:p-6 bg-white"
+          className=" absolute -translate-x-1/2 lg:-translate-x-full top-[10%] left-10 lg:-left-12 border w-full max-w-[137px] lg:max-w-[360px]  text-[7px] lg:text-base border-[#E9E9EC] text-[#18181B] rounded-[9px] lg:rounded-3xl p-[9px] lg:p-6 bg-white"
         >
           <div className="flex items-center gap-4">
             <div className="w-[18px] overflow-hidden lg:w-12 h-[18px] lg:h-12 rounded-full bg-gray-200">
@@ -84,7 +84,7 @@ const Blocked = () => {
         {/* Right Bottom */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className=" absolute translate-x-1/3 lg:translate-x-2/3 bottom-7 right-0 border w-full max-w-[150px] lg:max-w-[390px] text-[7px] lg:text-[17px] border-[#E9E9EC] text-[#18181B] rounded-[10px] lg:rounded-3xl p-2.5 lg:p-[26px] bg-white"
+          className=" absolute translate-x-1/3 lg:translate-x-2/3 bottom-7 right-5 border w-full max-w-[150px] lg:max-w-[390px] text-[7px] lg:text-[17px] border-[#E9E9EC] text-[#18181B] rounded-[10px] lg:rounded-3xl p-2.5 lg:p-[26px] bg-white"
         >
           <div className="flex items-center gap-4">
             <div className="w-[20px] lg:w-[53px] h-[20px] lg:h-[53px] rounded-full overflow-hidden bg-gray-200">
@@ -102,7 +102,7 @@ const Blocked = () => {
         {/* Right Center */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className=" absolute top-1/2 -translate-y-1/2 translate-x-1/2 lg:translate-x-[200%] right-0 border w-full max-w-[85px] lg:max-w-[166px] text-[5px] lg:text-[8px] border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[13px] p-[7px] lg:p-3 bg-white"
+          className=" absolute top-1/2 -translate-y-1/2 translate-x-1/2 lg:translate-x-[200%] right-5 border w-full max-w-[85px] lg:max-w-[166px] text-[5px] lg:text-[8px] border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[13px] p-[7px] lg:p-3 bg-white"
         >
           <div className="flex items-center gap-4">
             <div className="w-[13px] lg:w-[26px] h-[13px] lg:h-[26px] overflow-hidden rounded-full bg-gray-200">
@@ -130,7 +130,7 @@ const Blocked = () => {
 
       <div className="text-center max-w-[720px] mx-auto mt-[70px]">
         <div className="mt-[56px] flex items-center justify-center">
-          <Button title={'Talk to Us'} href="/contact-us" />
+          <Button Customclass={'py-3 px-5 md:py-[15px] md:px-6'} title={'Talk to Us'} href="/contact-us" />
         </div>
       </div>
     </section>

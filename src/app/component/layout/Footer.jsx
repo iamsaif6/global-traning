@@ -151,7 +151,7 @@ const Footer = () => {
                   />
                   <button
                     type="submit"
-                    className="py-4 lg:py-[18px] cursor-pointer text-sm px-5 lg:px-10 bg-primary text-white rounded-[40px]"
+                    className="py-[12px] lg:py-[18px] cursor-pointer text-sm px-5 lg:px-10 bg-primary text-white rounded-[40px]"
                   >
                     Join Now
                   </button>
