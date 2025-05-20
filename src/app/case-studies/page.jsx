@@ -11,31 +11,32 @@ import Image from 'next/image';
 
 const data = [
   {
-    title: 'Communication Training Mediation',
+    title: 'Communication Training For TripAdvisor',
     image: trip,
   },
   {
-    title: 'Well-Being Workshop Mediation',
+    title: 'Well-Being Workshop For Unilever',
     image: uniliver,
   },
   {
-    title: 'Mediation Training',
+    title: 'Mediation Training For Global Mediation',
     image: global,
   },
   {
-    title: 'Narrative Psychology Training Mediation',
+    title: 'Narrative Psychology Training For EdPsychs',
     image: Ed,
   },
   {
-    title: 'University Equality, Diversity and Inclusion Training Mediation',
+    title: 'University Equality, Diversity and Inclusion For University Of Bristol',
     image: bristol,
   },
   {
-    title: 'Courageous Conversations Mediation',
+    title: 'Courageous Conversations For ZSL',
     image: zsl,
+    link: '/case-studies-zsl',
   },
   {
-    title: 'CExperiential Crisis Training Mediation',
+    title: 'CExperiential Crisis For BritishRedCross',
     image: redCross,
   },
 ];
@@ -140,7 +141,7 @@ const CaseStudies = () => {
                     <span className="text-[#6E7381] font-sm">HR Manager at NHS</span>
                   </p>
                   <Link
-                    href={'/case-studies-1'}
+                    href={item.link ? item.link : '/case-studies-1'}
                     className="border rounded-[40px] py-3 px-6 cursor-pointer hover:bg-secondary hover:text-white duration-200"
                   >
                     Read now

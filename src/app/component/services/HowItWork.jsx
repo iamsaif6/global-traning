@@ -9,6 +9,7 @@ import Call from '/public/svg/call.svg';
 import Light from '/public/svg/light.svg';
 import Setting from '/public/svg/setting.svg';
 import Gift from '/public/svg/gift.svg';
+import Button from '../shared/Button';
 
 const HowItWork = () => {
   return (
@@ -26,8 +27,8 @@ const HowItWork = () => {
       <div className="max-w-[1130px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 lg:mt-[80px]">
         <div className=" rounded-3xl bg-white p-8">
           <div className="mb-8">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Book />
+            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              {/* <Book /> */}1
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">Book a discovery call</p>
@@ -41,8 +42,8 @@ const HowItWork = () => {
 
         <div className=" rounded-3xl bg-white p-8">
           <div className="mb-8">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Call />
+            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              {/* <Call /> */}2
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We listen, explore and ask questions</p>
@@ -57,8 +58,8 @@ const HowItWork = () => {
 
         <div className=" rounded-3xl bg-white p-8">
           <div className="mb-8">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Light />
+            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              {/* <Light /> */}3
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">
@@ -75,8 +76,8 @@ const HowItWork = () => {
 
         <div className=" rounded-3xl bg-white p-8">
           <div className="mb-8">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Setting />
+            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              {/* <Setting /> */}4
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">Together, we refine it</p>
@@ -90,8 +91,8 @@ const HowItWork = () => {
 
         <div className=" rounded-3xl bg-white p-8">
           <div className="mb-8">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Gift />
+            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              {/* <Gift /> */}5
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We deliver</p>
@@ -99,6 +100,9 @@ const HowItWork = () => {
             We deliver with care, creativity and skill, in a way that brings people with us.
           </p>
         </div>
+      </div>
+      <div className="flex justify-center pt-16">
+        <Button title={'Book a Discovery Call '} href="/contact-us" secondary />
       </div>
     </section>
   );

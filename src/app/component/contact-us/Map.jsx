@@ -6,7 +6,7 @@ const Map = () => {
   return (
     <div className="grid w-full  mx-auto mt-6 grid-cols-12 gap-6">
       <div className="col-span-12 lg:col-span-5 border-0 lg:border-1 border-[#D1D1D6] rounded-3xl p-6">
-        <h3 className="text-[40px] text-center lg:text-left lg:text-[46px] mb-6 font-medium">Contacts</h3>
+        <h3 className="text-[40px] text-center lg:text-left lg:text-[46px] mb-6 font-medium">Contact Us</h3>
 
         <div className="flex gap-6 mb-6 pb-6 border-b border-[#D1D1D6]">
           <svg className="flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -21,8 +21,8 @@ const Map = () => {
           </svg>
           <div>
             <p className="mb-2 text-2xl lg:text-[28px] font-medium">Email</p>
-            <a className="text-[#6E7381] underline text-base lg:text-lg font-normal" href="mailto:teams.hello@wearegtg.co.uk">
-              teams.hello@wearegtg.co.uk
+            <a className="text-[#6E7381] underline text-base lg:text-lg font-normal" href="mailto:georgie@wearegtg.co.uk">
+              georgie@wearegtg.co.uk
             </a>
           </div>
         </div>
@@ -36,8 +36,8 @@ const Map = () => {
           </svg>
           <div>
             <p className="mb-2 text-2xl lg:text-[28px] font-medium">Phone</p>
-            <a className="text-[#6E7381] text-base lg:text-lg font-normal" href="tel:1800-123-4567">
-              1800-123-4567
+            <a className="text-[#6E7381] text-base lg:text-lg font-normal" href="tel:020 3911 4328">
+              020 3911 4328
             </a>
           </div>
         </div>
@@ -107,10 +107,14 @@ const Map = () => {
                 </defs>
               </svg>
               <div className="my-3 lg:my-6">
-                <p className="font-medium text-xs lg:text-base">San Francisco, USA</p>
+                <p className="font-medium text-xs lg:text-base">London, United Kingdom</p>
                 <p className="text-xs lg:text-base">302 Regents Park Road, Finchley, N3 2JX</p>
               </div>
-              <a className="flex gap-2 text-sm lg:text-base font-medium text-primary items-center" href="#">
+              <a
+                target="_blank"
+                className="flex gap-2 text-sm lg:text-base font-medium text-primary items-center"
+                href="https://www.google.com/maps/place/Molteno+House/@51.5989748,-0.1977544,17z/data=!3m1!4b1!4m6!3m5!1s0x487610acad490f2b:0x927c48247d92fb52!8m2!3d51.5989748!4d-0.1951795!16s%2Fg%2F11hbql1pyd?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoASAFQAw%3D%3D"
+              >
                 Open Google Maps
                 <svg className="w-4 lg:w-5 h-4 lg:h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
                   <path d="M7.5 3.75L13.75 10L7.5 16.25" stroke="#FF634A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
