@@ -40,7 +40,7 @@ const page = async () => {
                   <p className="text-secondary font-medium  text-sm">December 4, 2024</p>
                   <h3 className="text-[#18181B] font-medium text-2xl mt-3">What Are Courageous Conversations in the Workplace?</h3>
                   <Link
-                    href={`/blogs/incorporating-art-into-your-interior-displaying-artwork-with-style`}
+                    href={`#`}
                     className="px-6 mt-6 py-3 rounded-[40px] inline-block text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer"
                   >
                     Read now
@@ -49,6 +49,7 @@ const page = async () => {
               </div>
             );
           })}
+          {/* /blogs/incorporating-art-into-your-interior-displaying-artwork-with-style */}
           {/* {articles.data.map((item, idx) => {
             return (
               <div key={idx} className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
