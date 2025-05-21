@@ -23,7 +23,7 @@ export default function Home() {
       <WhatWeDo />
       <Impact />
       <WhyUs />
-      <OurTeam title={'MEET OUR TEAM'} button />
+      <OurTeam title={'Meet Our Team'} button />
       {/* <Instructor /> */}
       <HowItWork />
       <Blogs />
