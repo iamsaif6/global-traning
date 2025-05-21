@@ -50,7 +50,7 @@ const data = [
 const CaseStudies = () => {
   return (
     <div>
-      <header
+      {/* <header
         style={{
           backgroundImage: `url('/AdobeStock_604839762.jpg'), linear-gradient(to bottom, rgba(62, 0, 101, 0.90) 5.68%, rgba(62, 0, 101, 0.31) 79.4%, rgba(255, 255, 255, 1) 100%)`,
           backgroundBlendMode: 'overlay',
@@ -65,9 +65,9 @@ const CaseStudies = () => {
             Real-world examples of transformation.
           </p>
         </div>
-      </header>
+      </header> */}
 
-      <section className="pb-[120px] px-5 lg:px-[40px]">
+      <section className="pb-[120px] pt-[150px] px-5 lg:px-[40px]">
         <div>
           {data.map((item, index) => {
             return (
