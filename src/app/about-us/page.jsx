@@ -43,6 +43,7 @@ const AboutUS = () => {
         subtitle={
           'Our facilitators, coaches and actor-roleplayers bring decades of experience across sectors — but more importantly, they bring compassion, creativity and a deep belief in human potential.'
         }
+        button
       />
     </div>
   );

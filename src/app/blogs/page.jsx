@@ -35,7 +35,7 @@ const page = async () => {
           {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => {
             return (
               <div key={index} className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
-                <Image alt={'Covers'} src={img1} className="h-[300px] rounded-b-3xl w-full" />
+                <Image alt={'Covers'} src={img1} className="h-[300px] object-cover object-top rounded-b-3xl w-full" />
                 <div className="mt-8 px-6">
                   <p className="text-secondary font-medium  text-sm">December 4, 2024</p>
                   <h3 className="text-[#18181B] font-medium text-2xl mt-3">What Are Courageous Conversations in the Workplace?</h3>

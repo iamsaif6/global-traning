@@ -191,9 +191,6 @@ const OurTeam = ({ button = false, badge, title, subtitle }) => {
           <div className="hidden md:flex mt-[66px] items-center justify-center">
             <Button href="#" title={'Meet the People Behind Global Training'} />
           </div>
-          <div className="flex md:hidden mt-[66px] items-center justify-center">
-            <Button href="#" title={'Meet Our Team'} />
-          </div>
         </>
       )}
     </section>
