@@ -21,7 +21,7 @@ const Philosophy = () => {
               <Image alt="Cover Photo" className="w-full object-center h-full object-cover" src={cover} height={200} width={400} />
             </div>
 
-            <p className=" mt-6 mb-[56px]  text-lg font-normal leading-[140%]">
+            <p className=" mt-6 mb-[56px] text-base lg:text-lg font-normal leading-[140%]">
               When people feel seen, safe and supported, they open up — to ideas, to challenge, to each other.
               <br /> <br />
               That is when true learning begins. Our role is to create the space for that transformation. By combining emotional

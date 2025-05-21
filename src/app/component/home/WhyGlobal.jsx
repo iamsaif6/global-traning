@@ -19,7 +19,7 @@ const WhyGlobal = () => {
             <div className="max-w-[580px]  mt-10 block lg:hidden mx-auto lg:mx-0 col-span-2 lg:col-span-1 rounded-3xl overflow-hidden">
               <Image alt="Why Global Cover" className="w-full  h-full object-cover" src={cover} height={200} width={400} />
             </div>
-            <p className=" mt-10 text-lg font-normal leading-[140%]">
+            <p className="mt-10 text-base lg:text-lg font-normal leading-[140%]">
               Through hands-on, human-centred training experiences, we create spaces where people can show up fully, strengthen their skills
               and step into their potential.
               <br /> <br />

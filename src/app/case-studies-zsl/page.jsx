@@ -27,11 +27,12 @@ const page = () => {
             <h1 className="font-medium mb-4 tracking-[-4%] leading-[120%] text-[40px] md:[65px] lg:text-[60px] text-white">
               Embedding Courageous Conversations Across Teams at ZSL
             </h1>
-            <p className="flex  justify-center lg:justify-start  items-center text-xs lg:text-sm text-white">
-              Zoological Society of London (ZSL)
-              <span className="w-1.5 h-1.5 rounded-full bg-[#FF634A] block mx-[7px]"></span>
-              December 24, 2024
-              <span className="w-1.5 h-1.5 rounded-full bg-[#FF634A] block mx-[7px]"></span>3 min reading time
+            <p className="flex flex-col md:flex-row  justify-center lg:justify-start  items-center text-sm lg:text-sm text-white">
+              <span> Zoological Society of London (ZSL)</span>
+              <span className="w-1.5 h-1.5 hidden md:block rounded-full bg-[#FF634A]  mx-[7px]"></span>
+              <span> December 24, 2024</span>
+              <span className="w-1.5 h-1.5 rounded-full bg-[#FF634A] hidden md:block mx-[7px]"></span>
+              <span>3 min reading time</span>
             </p>
           </div>
         </header>

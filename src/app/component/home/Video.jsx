@@ -149,7 +149,7 @@ const Video = () => {
                   />
                 </svg>
               </div>
-              <p className="font-normal text-sm mt-2 leading-[140%]">
+              <p className="font-normal text-base mt-2 leading-[140%]">
                 Trusted by leaders in healthcare, education, government, and business.
               </p>
             </div>
@@ -163,7 +163,9 @@ const Video = () => {
           <h3 className="mb-10 text-[28px] lg:text-[40px] font-medium leading-[120%]">
             At Global Training, we deliver immersive, human-centered programs that foster growth, connection, and collaboration.
           </h3>
-          <Button Customclass={'py-3 px-[20px] md:py-[15px] md:px-6'} title={'Learn More About Us'} href="/about-us" secondary />
+          <div className="flex justify-center md:block">
+            <Button Customclass={'py-3 px-[20px] md:py-[15px] md:px-6'} title={'Learn More About Us'} href="/about-us" secondary />
+          </div>
         </div>
       </div>
     </section>

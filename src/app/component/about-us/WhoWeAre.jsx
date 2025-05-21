@@ -30,7 +30,7 @@ const WhoWeAre = () => {
             <br /> <br />
             At Global Training, we believe connection creates change — and growth that feels real leads to growth that lasts.
           </p>
-          <Button href="#" title={'See Our Programs'} />
+          <Button href="/services" title={'What We Do'} />
         </div>
       </div>
       <div className="max-h-[680px] hidden lg:block mx-auto lg:mx-0 col-span-2 lg:col-span-1 h-full rounded-3xl overflow-hidden">

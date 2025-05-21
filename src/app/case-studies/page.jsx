@@ -61,7 +61,7 @@ const CaseStudies = () => {
       >
         <div className="w-full text-center mx-auto relative z-10 lg:max-w-[80%]">
           <h1 className="font-semibold tracking-[-4%] leading-[120%] text-5xl md:[65px] lg:text-[68px] text-white">Case Studies</h1>
-          <p className="text-white mt-[18px] md:mt-6 mb-[26px] md:mb-8 mx-auto w-[70%] font-normal text-sm md:text-lg">
+          <p className="text-white mt-[18px] md:mt-6 mb-[26px] md:mb-8 mx-auto w-[70%] font-normal text-base md:text-lg">
             Real-world examples of transformation.
           </p>
         </div>
@@ -83,23 +83,25 @@ const CaseStudies = () => {
                 <div className="col-span-12 py-8 lg:col-span-8">
                   <p className="text-[#794D94] font-medium text-xs lg:text-base">December 4, 2024</p>
                   <h3 className="text-[#18181B] font-medium text-2xl lg:text-[40px] mt-2 mb-4">{item.title}</h3>
-                  <p className="text-[#6E7381] font-normal text-base lg:text-lg">
+                  <p className="text-black font-normal text-base lg:text-lg">
                     Through a customized leadership program, we helped NHS leaders build emotional intelligence, enhance decision-making
                     under pressure, and foster stronger team collaboration.
                   </p>
                   <p className="my-[44px]">
-                    <span className="text-base block w-full lg:w-[50%] text-[#6E7381]">
+                    <span className="text-base block w-full lg:w-[50%] text-black ">
                       “Proin venenatis, nunc nec facilisis vehicula, mauris velit dictum ex, sit amet fermentum orci risus ac nisi.”
                     </span>
                     <span className="text-sm mt-4 text-[#18181B] font-medium block">Richard Carter</span>
-                    <span className="text-[#6E7381] font-sm">HR Manager at NHS</span>
+                    <span className="text-black font-sm">HR Manager at NHS</span>
                   </p>
-                  <Link
-                    href={item.link ? item.link : '/case-studies-1'}
-                    className="border rounded-[40px] py-3 px-6 cursor-pointer hover:bg-secondary hover:text-white duration-200"
-                  >
-                    Read now
-                  </Link>
+                  <div className="flex justify-center md:block">
+                    <Link
+                      href={item.link ? item.link : '/case-studies-1'}
+                      className="border rounded-[40px] py-3 px-6 cursor-pointer hover:bg-secondary hover:text-white duration-200"
+                    >
+                      Read now
+                    </Link>
+                  </div>
                 </div>
               </div>
             );

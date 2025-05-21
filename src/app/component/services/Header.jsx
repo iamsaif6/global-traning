@@ -16,7 +16,7 @@ const Header = () => {
         <h1 className="font-medium capitalize tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
           Every voice matters. <br /> Every story counts
         </h1>
-        <p className="text-[#FCFCFD] text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[90%] font-normal text-sm md:text-lg">
+        <p className="text-[#FCFCFD] text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[90%] font-normal text-base md:text-lg">
           At Global Training, we design learning experiences that reflect your people, your purpose and your reality — thoughtful,
           collaborative and designed with heart and soul.
         </p>

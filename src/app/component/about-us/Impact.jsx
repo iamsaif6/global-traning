@@ -24,10 +24,10 @@ const Impact = () => {
                 </span>
                 <div>
                   <h3 className="text-2xl lg:text-[28px] text-[#18181B] font-medium lg:mb-2">Organisations</h3>
-                  <p className="text-[#6E7381] hidden lg:block text-base">Organisations see stronger collaboration and culture</p>
+                  <p className="text-black hidden lg:block text-base">Organisations see stronger collaboration and culture</p>
                 </div>
               </div>
-              <p className="text-[#6E7381] mt-4 block lg:hidden text-base">Organisations see stronger collaboration and culture</p>
+              <p className="text-black mt-4 block lg:hidden text-base">Organisations see stronger collaboration and culture</p>
             </div>
 
             <div className="bg-white p-6 rounded-3xl  shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)]">
@@ -37,10 +37,10 @@ const Impact = () => {
                 </span>
                 <div>
                   <h3 className="text-2xl lg:text-[28px] text-[#18181B] font-medium lg:mb-2">Manager</h3>
-                  <p className="text-[#6E7381] hidden lg:block text-base">Managers lead with greater clarity and care</p>
+                  <p className="text-black hidden lg:block text-base">Managers lead with greater clarity and care</p>
                 </div>
               </div>
-              <p className="text-[#6E7381] block mt-4 lg:hidden text-base">Managers lead with greater clarity and care</p>
+              <p className="text-black block mt-4 lg:hidden text-base">Managers lead with greater clarity and care</p>
             </div>
 
             <div className="bg-white p-6 rounded-3xl  shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.10),_0px_10px_10px_-5px_rgba(0,0,0,0.04)]">
@@ -50,10 +50,10 @@ const Impact = () => {
                 </span>
                 <div>
                   <h3 className="text-2xl lg:text-[28px] text-[#18181B] font-medium mb-2">Employee</h3>
-                  <p className="text-[#6E7381] hidden lg:block text-base">Employees feel more connected, capable and confident</p>
+                  <p className="text-black hidden lg:block text-base">Employees feel more connected, capable and confident</p>
                 </div>
               </div>
-              <p className="text-[#6E7381] block mt-4 lg:hidden text-base">Employees feel more connected, capable and confident</p>
+              <p className="text-black block mt-4 lg:hidden text-base">Employees feel more connected, capable and confident</p>
             </div>
           </div>
         </div>

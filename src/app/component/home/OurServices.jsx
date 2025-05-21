@@ -26,33 +26,35 @@ const OurServices = () => {
           <span className="mb-[50px] text-secondary block">
             <Empathy />
           </span>
-          <p className="text-[#18181B] font-normal text-lg">Build emotionally intelligent leadership</p>
+          <p className="text-[#18181B] font-normal text-base md:text-lg">Build emotionally intelligent leadership</p>
         </div>
 
         <div className=" rounded-3xl bg-[#511A7514] p-6">
           <span className="mb-[50px] text-secondary block">
             <Person />
           </span>
-          <p className="text-[#18181B] font-normal text-lg">Develop resilient, connected teams</p>
+          <p className="text-[#18181B] font-normal text-base md:text-lg">Develop resilient, connected teams</p>
         </div>
 
         <div className=" rounded-3xl bg-[#511A7514] p-6">
           <span className="mb-[50px] text-secondary block">
             <Conversation />
           </span>
-          <p className="text-[#18181B] font-normal text-lg">Navigate difficult conversations with confidence and care</p>
+          <p className="text-[#18181B] font-normal text-base md:text-lg">Navigate difficult conversations with confidence and care</p>
         </div>
 
         <div className=" rounded-3xl bg-[#511A7514] p-6">
           <span className="mb-[50px] text-secondary block">
             <Globe />
           </span>
-          <p className="text-[#18181B] font-normal text-lg">Foster inclusive cultures where people feel seen, heard and supported</p>
+          <p className="text-[#18181B] font-normal text-base md:text-lg">
+            Foster inclusive cultures where people feel seen, heard and supported
+          </p>
         </div>
       </div>
 
       <div className="max-w-[700px] mx-auto w-full text-center mb-8 md:mb-[56px]">
-        <p className="text-lg">
+        <p className="text-base md:text-lg">
           Every session is shaped by real-world experience, grounded in behavioural insight and delivered with compassion.
         </p>
       </div>
@@ -60,7 +62,7 @@ const OurServices = () => {
       <div className="flex gap-4 flex-col md:flex-row items-center justify-center ">
         <Link
           href={'/training'}
-          className="py-3 px-[20px] md:py-[15px] md:px-6 border bg-primary border-primary rounded-[40px] md:text-lg text-sm font-medium text-white cursor-pointer"
+          className="py-3 px-[20px] md:py-[15px] md:px-6 border bg-primary border-primary rounded-[40px]  text-lg font-semibold text-white cursor-pointer"
         >
           Explore Our Training
         </Link>

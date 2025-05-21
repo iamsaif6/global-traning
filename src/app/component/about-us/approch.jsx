@@ -15,7 +15,7 @@ const Approch = () => {
             <h4 className="text-secondary text-2xl font-medium">Immersive Learning</h4>
           </div>
 
-          <p className="text-[#6E7381] font-normal text-base lg:text-lg">Training is hands-on, ensuring participants learn by doing.</p>
+          <p className=" font-normal text-base lg:text-lg">Training is hands-on, ensuring participants learn by doing.</p>
         </div>
 
         <div className="rounded-3xl lg:p-8">
@@ -26,7 +26,7 @@ const Approch = () => {
             <h4 className="text-secondary  text-2xl font-medium">Real-World Application</h4>
           </div>
 
-          <p className="text-[#6E7381] font-normal text-base lg:text-lg">
+          <p className=" font-normal text-base lg:text-lg">
             Sessions are tailored to address practical challenges faced by leaders and teams.
           </p>
         </div>
@@ -39,7 +39,7 @@ const Approch = () => {
             <h4 className="text-secondary text-2xl font-medium">Inspiring Environments</h4>
           </div>
 
-          <p className="text-[#6E7381] font-normal text-base lg:text-lg">
+          <p className=" font-normal text-base lg:text-lg">
             Whether in-person or virtual, our training spaces encourage creativity and focus.
           </p>
         </div>

@@ -21,7 +21,7 @@ const HowWeWork = () => {
       </div>
       <div className="mt-[60px] font-medium max-w-[1130px] mx-auto">
         <div className="grid grid-cols-1  lg:grid-cols-4">
-          <div className=" lg:border-t lg:border-t-0  relative lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dotted lg:border-r border-[#6E7381]">
+          <div className=" lg:border-t-0  relative lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dotted lg:border-r border-[#6E7381]">
             <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               <Mic />
             </div>

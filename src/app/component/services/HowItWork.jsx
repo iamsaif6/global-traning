@@ -32,7 +32,7 @@ const HowItWork = () => {
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">Book a discovery call</p>
-          <p className="text-[#6E7381] text-base lg:text-lg font-normal leading-[140%]">
+          <p className=" text-base lg:text-lg font-normal leading-[140%]">
             We’ll talk through what’s going on, the challenges, dynamics or shifts you’re hoping for.
           </p>
         </div>
@@ -47,7 +47,7 @@ const HowItWork = () => {
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We listen, explore and ask questions</p>
-          <p className="text-[#6E7381] text-base lg:text-lg font-normal leading-[140%]">
+          <p className=" text-base lg:text-lg font-normal leading-[140%]">
             So we can fully understand the context, what’s at stake, and what kind of change would feel real and lasting.
           </p>
         </div>
@@ -65,7 +65,7 @@ const HowItWork = () => {
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">
             We propose a clear, thoughtful solution
           </p>
-          <p className="text-[#6E7381] text-base lg:text-lg font-normal leading-[140%]">
+          <p className=" text-base lg:text-lg font-normal leading-[140%]">
             This could be a one-off session, a team away day, coaching, a workshop series, or something entirely new.
           </p>
         </div>
@@ -81,9 +81,7 @@ const HowItWork = () => {
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">Together, we refine it</p>
-          <p className="text-[#6E7381] text-base lg:text-lg font-normal leading-[140%]">
-            Until it fits your people, your timing and your goals.
-          </p>
+          <p className=" text-base lg:text-lg font-normal leading-[140%]">Until it fits your people, your timing and your goals.</p>
         </div>
         <div className="hidden min-h-[350px] md:block rounded-3xl bg-gray-300 relative overflow-hidden  p-8">
           <Image src={HowitWork4} alt="HowitWork 2 BG" className="w-full h-full absolute top-0 left-0 object-cover " />
@@ -96,7 +94,7 @@ const HowItWork = () => {
             </div>
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We deliver</p>
-          <p className="text-[#6E7381] text-base lg:text-lg font-normal leading-[140%]">
+          <p className=" text-base lg:text-lg font-normal leading-[140%]">
             We deliver with care, creativity and skill, in a way that brings people with us.
           </p>
         </div>

@@ -43,8 +43,8 @@ const WhyUs = () => {
             </svg>
           </div>
           <div>
-            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-3">Proven Expertise</h4>
-            <p className="text-[#6E7381] font-normal text-lg">Trusted by leading organisations across sectors</p>
+            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-2 md:mb-3">Proven Expertise</h4>
+            <p className="text-black font-normal text-base md:text-lg">Trusted by leading organisations across sectors</p>
           </div>
         </div>
 
@@ -73,8 +73,8 @@ const WhyUs = () => {
             </svg>
           </div>
           <div>
-            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-3">Tailored Solutions</h4>
-            <p className="text-[#6E7381] font-normal text-lg">Programmes shaped to your needs</p>
+            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium  mb-2 md:mb-3">Tailored Solutions</h4>
+            <p className=" font-normal text-base md:text-lg">Programmes shaped to your needs</p>
           </div>
         </div>
 
@@ -119,8 +119,8 @@ const WhyUs = () => {
             </svg>
           </div>
           <div>
-            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-3">Innovative Methods</h4>
-            <p className="text-[#6E7381] font-normal text-lg">Creative tools and human-first practice</p>
+            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium  mb-2 md:mb-3">Innovative Methods</h4>
+            <p className=" font-normal text-base md:text-lg">Creative tools and human-first practice</p>
           </div>
         </div>
 
@@ -142,8 +142,8 @@ const WhyUs = () => {
             </svg>
           </div>
           <div>
-            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-3">Measurable Impact</h4>
-            <p className="text-[#6E7381] font-normal text-lg">Skills that stay with you long after the session ends</p>
+            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-2 md:mb-3">Measurable Impact</h4>
+            <p className=" font-normal text-base md:text-lg">Skills that stay with you long after the session ends</p>
           </div>
         </div>
       </div>
