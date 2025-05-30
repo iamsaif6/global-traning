@@ -1,4 +1,5 @@
 'use client';
+import { Mail, Phone } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react';
@@ -137,7 +138,7 @@ const Footer = () => {
                 </button>
               </div>
             </div>
-          ) : (
+          ) : pathname !== '/contact-us' ? (
             <div>
               <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">Stay Connected with Global Training</h4>
               <p className="text-base lg:text-lg">Join Our Community</p>
@@ -156,6 +157,29 @@ const Footer = () => {
                     Join Now
                   </button>
                 </form>
+              </div>
+            </div>
+          ) : (
+            <div className="z-10 relative">
+              <div className="max-w-[950px] mx-auto">
+                <h1 className="text-[32px] lg:text-[40px] font-medium mb-4">Let’s find a way forward, together</h1>
+                <p className="text-base lg:text-lg w-full lg:w-[80%] mx-auto ">
+                  For more information about our services, team, training programs, or career opportunities, get in touch with us .
+                </p>
+              </div>
+              <div className={`mt-8 md:max-w-[750px] grid grid-cols-1 md:grid-cols-2  gap-4  mx-auto`}>
+                <button className="bg-primary font-semibold text-[#FCFCFD] px-10 py-3 rounded-[40px] text-base md:text-lg">
+                  <Link className="flex items-center justify-center gap-2 w-full text-center" href="mailto:sen@globalmediaiton.co.uk">
+                    <Mail size={20} />
+                    sen@globalmediaiton.co.uk
+                  </Link>
+                </button>
+                <button className="font-semibold border border-white text-base md:text-lg text-white px-6 py-3 rounded-[40px]">
+                  <Link className=" w-full text-center flex items-center gap-2 justify-center" href="tel:020 8441 1355">
+                    <Phone size={20} />
+                    020 8441 1355
+                  </Link>
+                </button>
               </div>
             </div>
           )}
