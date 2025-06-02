@@ -193,24 +193,24 @@ const Header = () => {
         <div className="col-span-3 lg:col-span-1 flex gap-5 items-center">
           <Check className="text-secondary flex-shrink-0" />
           <p className=" font-normal text-[15px]">
-            <strong>Free Initial Consultation .</strong> No obligation discovery call to explore your goals and identify how our training
-            can support your team’s growth and performance.
+            <strong>Free Initial Consultation , </strong> No obligation discovery call to identify how our training can support your team’s
+            growth and performance.
           </p>
         </div>
 
         <div className="col-span-3 lg:col-span-1 flex gap-5 items-center">
           <Check className="text-secondary flex-shrink-0" />
           <p className=" font-normal text-[15px]">
-            <strong> Tailored Learning, Real Impact .</strong> No off-the-shelf packages. Every programme is designed around your
-            organisation’s needs — with clear outcomes and practical application from day one.
+            <strong> Tailored Learning, Real Impact .</strong> Every programme is designed around your organisation’s needs — with clear
+            outcomes and practical application from day one.
           </p>
         </div>
 
         <div className="col-span-3 lg:col-span-1 flex gap-5 items-center">
           <Check className="text-secondary flex-shrink-0" />
           <p className=" font-normal text-[15px]">
-            <strong> Trusted by Organisations Nationwide</strong> .Over 1,000 professionals trained. From public sector teams to national
-            brands, our training is trusted to deliver measurable change and lasting results.
+            <strong> Trusted by Organisations Nationwide</strong> - Over 1,000 professionals trained from public sector teams to national
+            brands, to deliver measurable change and lasting results.
           </p>
         </div>
       </div>
