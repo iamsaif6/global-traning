@@ -5,7 +5,7 @@ import map from '/public/Map.png';
 const Map = () => {
   return (
     <div className="grid w-full  mx-auto mt-6 grid-cols-12 gap-6">
-      <div className="col-span-12 lg:col-span-5 border-0 lg:border-1 border-[#D1D1D6] rounded-3xl p-6">
+      {/* <div className="col-span-12 lg:col-span-5 border-0 lg:border-1 border-[#D1D1D6] rounded-3xl p-6">
         <h3 className="text-[40px] text-center lg:text-left lg:text-[46px] mb-6 font-medium">Contact Us</h3>
 
         <div className="flex gap-6 mb-6 pb-6 border-b border-[#D1D1D6]">
@@ -56,9 +56,9 @@ const Map = () => {
             <p className="text-[#6E7381] text-base  lg:text-lg font-normal">Molteno House, 302 Regents Park Road, Finchley, N3 2JX</p>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="col-span-12 lg:col-span-7 max-h-[520px] h-auto border border-[#D1D1D6] rounded-3xl p-0 overflow-hidden lg:p-4">
+      <div className="col-span-12 lg:col-span-12 max-h-[520px] h-auto border border-[#D1D1D6] rounded-3xl p-0 overflow-hidden lg:p-4">
         <div className=" h-full  relative rounded-[20px] overflow-hidden">
           <Image alt="Map" src={map} className="h-full w-full" />
 
