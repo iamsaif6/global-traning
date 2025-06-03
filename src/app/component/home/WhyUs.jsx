@@ -11,8 +11,8 @@ const WhyUs = () => {
         </h2>
 
         <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
-          At Global Training, we do not deliver off-the-shelf solutions.We listen, we collaborate <br /> and we create experiential learning
-          that feels real, relevant and lasting.
+          At Global Training, we do not deliver off-the-shelf solutions. We listen, we collaborate <br /> and we create experiential
+          learning that feels real, relevant and lasting.
         </p>
       </div>
 

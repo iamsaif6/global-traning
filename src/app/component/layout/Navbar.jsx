@@ -21,7 +21,7 @@ const navLinks = [
   },
   {
     href: '/blogs',
-    title: 'Blogs',
+    title: 'Blog',
   },
   // {
   //   href: '/our-thinking',

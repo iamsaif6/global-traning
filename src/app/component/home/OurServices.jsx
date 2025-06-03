@@ -16,7 +16,7 @@ const OurServices = () => {
         badge={'SERVICES OVERVIEW'}
         title={'Experiential Training and Workshops'}
         subtitle={
-          'We offer immersive training programmes that strengthen how people relate, communicate and collaborate — especially when it matters most. Our workshops and courses help individuals and organisations :'
+          'We offer immersive training programmes that strengthen how people relate, communicate and collaborate — especially when it matters most. Our workshops and courses help individuals and organisations:'
         }
         center
       />
