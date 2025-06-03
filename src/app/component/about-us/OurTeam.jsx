@@ -15,6 +15,62 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+const TeamData = [
+  {
+    name: 'Emma Gersch',
+    title: 'Global Training Founder and Director ',
+    img: img1,
+  },
+  {
+    name: 'Georgina Farwell',
+    title: 'Training Coordinator ',
+    img: img2,
+  },
+  {
+    name: 'Suneta Bagri',
+    title: 'Mediation Courses Leader',
+    img: null,
+  },
+  {
+    name: 'Lizzie Lister',
+    title: 'Social Media Manager ',
+    img: img5,
+  },
+  {
+    name: 'Anni Williams',
+    title: 'Business Services Manager',
+    img: null,
+  },
+
+  {
+    name: 'Alison Bennett',
+    title: 'Associate Trainer',
+    img: null,
+  },
+
+  {
+    name: 'Polly Walker',
+    title: 'Associate Trainer',
+    img: img6,
+  },
+  {
+    name: 'Richard Beecham',
+    title: 'Associate Trainer',
+    img: img3,
+  },
+
+  {
+    name: 'Anup Ravi',
+    title: 'Associate Trainer',
+    img: null,
+  },
+  {
+    name: 'Faye Austin Billing',
+    title: 'Associate Trainer',
+    img: img4,
+  },
+];
+
 const settings = {
   dots: false,
   infinite: true,
@@ -26,72 +82,31 @@ const settings = {
   centerPadding: '20px',
 };
 
-const OurTeam = ({ button = false, badge, title, subtitle }) => {
+const OurTeam = ({ button = false, badge, title, subtitle, limit }) => {
+  const trimmedData = limit ? TeamData.slice(0, limit) : TeamData;
   return (
     <section className="py-[120px] px-5 lg:px-[80px]">
       <SectionTitle badge={badge} title={title} subtitle={subtitle} center large />
       <div className="mt-[60px] hidden  md:grid md:grid-cols-3 lg:grid-cols-4 gap-6">
-        <div>
-          <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image alt="Emma Gersch" className="w-full h-full object-cover" src={img1} />
-          </div>
-          <div>
-            <h3 className="font-medium text-2xl">Emma Gersch</h3>
-            <p className="text-[#6E7381] text-base">Instructor</p>
-          </div>
-        </div>
+        {trimmedData.map(item => {
+          return (
+            <div>
+              <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
+                {item.img ? (
+                  <Image alt={item.title} className="w-full h-full object-cover" src={item.img} />
+                ) : (
+                  <div className="h-full w-full bg-gray-400"></div>
+                )}
+              </div>
+              <div>
+                <h3 className="font-medium text-2xl">{item.name}</h3>
+                <p className="text-[#6E7381] text-base">{item.title}</p>
+              </div>
+            </div>
+          );
+        })}
 
-        <div>
-          <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image alt="Georgie" className="w-full h-full object-cover" src={img2} />
-          </div>
-          <div>
-            <h3 className="font-medium text-2xl">Georgie</h3>
-            <p className="text-[#6E7381] text-base">Instructor</p>
-          </div>
-        </div>
-
-        <div>
-          <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image alt="Richard" className="w-full h-full object-cover" src={img3} />
-          </div>
-          <div>
-            <h3 className="font-medium text-2xl">Richard</h3>
-            <p className="text-[#6E7381] text-base">Instructor</p>
-          </div>
-        </div>
-
-        <div>
-          <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image alt="Faye" className="w-full h-full object-cover" src={img4} />
-          </div>
-          <div>
-            <h3 className="font-medium text-2xl">Faye</h3>
-            <p className="text-[#6E7381] text-base">Instructor</p>
-          </div>
-        </div>
-
-        <div>
-          <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image alt="Lizzie" className="w-full h-full object-cover" src={img5} />
-          </div>
-          <div>
-            <h3 className="font-medium text-2xl">Lizzie</h3>
-            <p className="text-[#6E7381] text-base">Instructor</p>
-          </div>
-        </div>
-
-        <div>
-          <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-            <Image alt="Polly" className="w-full h-full object-cover" src={img6} />
-          </div>
-          <div>
-            <h3 className="font-medium text-2xl">Polly</h3>
-            <p className="text-[#6E7381] text-base">Instructor</p>
-          </div>
-        </div>
-
-        <div>
+        {/* <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
             <Image alt="Zonelle" className="w-full h-full object-cover" src={img7} />
           </div>
@@ -99,8 +114,8 @@ const OurTeam = ({ button = false, badge, title, subtitle }) => {
             <h3 className="font-medium text-2xl">Zonelle</h3>
             <p className="text-[#6E7381] text-base">Instructor</p>
           </div>
-        </div>
-
+        </div> */}
+        {/* 
         <div>
           <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
             <Image alt="Adam" className="w-full h-full object-cover" src={img8} />
@@ -109,80 +124,28 @@ const OurTeam = ({ button = false, badge, title, subtitle }) => {
             <h3 className="font-medium text-2xl">Adam</h3>
             <p className="text-[#6E7381] text-base">Instructor</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="slider-container block md:hidden mt-[56px]">
         <Slider {...settings}>
-          <div className="px-3 pb-8">
-            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-              <Image alt="Emma Gersch" className="w-full h-full object-cover" src={img1} />
-            </div>
-            <div>
-              <h3 className="font-medium text-2xl">Emma Gersch</h3>
-              <p className="text-[#6E7381] text-base">Instructor</p>
-            </div>
-          </div>
-
-          <div className="px-3 pb-8">
-            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-              <Image alt="Richard" className="w-full h-full object-cover" src={img3} />
-            </div>
-            <div>
-              <h3 className="font-medium text-2xl">Richard</h3>
-              <p className="text-[#6E7381] text-base">Instructor</p>
-            </div>
-          </div>
-
-          <div className="px-3 pb-8">
-            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-              <Image alt="Faye" className="w-full h-full object-cover" src={img4} />
-            </div>
-            <div>
-              <h3 className="font-medium text-2xl">Faye</h3>
-              <p className="text-[#6E7381] text-base">Instructor</p>
-            </div>
-          </div>
-
-          <div className="px-3 pb-8">
-            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-              <Image alt="Lizzie" className="w-full h-full object-cover" src={img5} />
-            </div>
-            <div>
-              <h3 className="font-medium text-2xl">Lizzie</h3>
-              <p className="text-[#6E7381] text-base">Instructor</p>
-            </div>
-          </div>
-
-          <div className="px-3 pb-8">
-            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-              <Image alt="Polly" className="w-full h-full object-cover" src={img6} />
-            </div>
-            <div>
-              <h3 className="font-medium text-2xl">Polly</h3>
-              <p className="text-[#6E7381] text-base">Instructor</p>
-            </div>
-          </div>
-
-          <div className="px-3 pb-8">
-            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-              <Image alt="Zonelle" className="w-full h-full object-cover" src={img7} />
-            </div>
-            <div>
-              <h3 className="font-medium text-2xl">Zonelle</h3>
-              <p className="text-[#6E7381] text-base">Instructor</p>
-            </div>
-          </div>
-
-          <div className="px-3 pb-8">
-            <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
-              <Image alt="Adam" className="w-full h-full object-cover" src={img8} />
-            </div>
-            <div>
-              <h3 className="font-medium text-2xl">Adam</h3>
-              <p className="text-[#6E7381] text-base">Instructor</p>
-            </div>
-          </div>
+          {trimmedData.map(item => {
+            return (
+              <div className="px-3 pb-8">
+                <div className="h-[420px] mb-4 rounded-3xl overflow-hidden">
+                  {item.img ? (
+                    <Image alt={item.title} className="w-full h-full object-cover" src={item.img} />
+                  ) : (
+                    <div className="h-full w-full bg-gray-400"></div>
+                  )}
+                </div>
+                <div>
+                  <h3 className="font-medium text-2xl">{item.name}</h3>
+                  <p className="text-[#6E7381] text-base">{item.title}</p>
+                </div>
+              </div>
+            );
+          })}
         </Slider>
       </div>
 
