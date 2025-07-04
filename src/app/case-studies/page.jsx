@@ -38,7 +38,7 @@ const data = [
   },
 
   {
-    title: 'CExperiential Crisis For BritishRedCross',
+    title: 'Experiential Crisis For BritishRedCross',
     image: redCross,
   },
   {

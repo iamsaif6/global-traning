@@ -11,9 +11,10 @@ const AboutUS = () => {
     <div>
       <header
         style={{
-          backgroundImage: `url('/aboutBg.png')`,
+          // backgroundImage: `url('/aboutBg.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'top center',
+          background: '#999',
           // backgroundBlendMode: 'overlay',
         }}
         className="pt-[187px] h-screen relative md:pt-[268px] pb-[0px] lg:pb-[203px] px-5 md:px-[60px]"

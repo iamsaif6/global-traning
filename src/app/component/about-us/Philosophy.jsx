@@ -7,7 +7,7 @@ const Philosophy = () => {
   return (
     <section className="py-[80px] lg:py-[120px] bg-primary  items-center px-5 lg:px-[40px] grid grid-cols-1 lg:grid-cols-2 gap-12">
       <div className=" max-h-[700px] hidden lg:block rounded-3xl overflow-hidden">
-        <Image alt="Cover Photo" className="w-full h-full object-cover" src={cover} height={200} width={400} />
+        {/* <Image alt="Cover Photo" className="w-full h-full object-cover" src={cover} height={200} width={400} /> */}
       </div>
       <div>
         <div className={`w-full text-white max-w-max lg:max-w-[660px]`}>
