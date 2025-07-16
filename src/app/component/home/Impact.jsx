@@ -12,6 +12,8 @@ const Impact = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 2000,
     arrows: false,
     slidesToScroll: 3,
     responsive: [
