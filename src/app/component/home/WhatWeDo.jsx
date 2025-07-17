@@ -10,7 +10,7 @@ const WhatWeDo = () => {
       <div className="col-span-2 lg:col-span-1">
         <div className={`w-full text-center lg:text-left text-white mx-auto max-w-[660px]`}>
           <p className="mb-3 text-white font-medium">OUR APPROACH</p>
-          <h3 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">Experience, Engage, Evolve!</h3>
+          {/* <h3 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">Experience, Engage, Evolve!</h3> */}
 
           <div className="h-[420px] mt-10 block lg:hidden mx-auto lg:mx-0 rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
             <Image alt="What we do cover" className="w-full h-full object-cover" src={cover} height={200} width={400} />

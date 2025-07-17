@@ -14,7 +14,7 @@ const Philosophy = () => {
           <div className="text-center lg:text-left">
             <p className="mb-3 text-white text-sm lg:text-base font-medium">OUR PHILOSOPHY</p>
             <h1 className=" capitalize  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
-              Compassion at the Heart of Learning
+              Training Designed With Compassion.
             </h1>
 
             <div className="block my-10 lg:hidden max-h-[450px]  h-full rounded-3xl overflow-hidden">
@@ -22,13 +22,10 @@ const Philosophy = () => {
             </div>
 
             <p className=" mt-6 mb-[56px] text-base lg:text-lg font-normal leading-[140%]">
-              When people feel seen, safe and supported, they open up — to ideas, to challenge, to each other.
-              <br /> <br />
-              That is when true learning begins. Our role is to create the space for that transformation. By combining emotional
-              intelligence with experiential practice, we help individuals and teams strengthen connection, build confidence and unlock
-              potential.
-              <br /> <br />
-              Because when people grow together, they go further together.
+              Real learning starts with real people, we share stories, voices and insights drawn from lived experience to show how learning
+              can shift mindsets, strengthen teams and spark meaningful change. We believe in the power of emotional intelligence in action.
+              By bringing people together to create change, we help individuals and organisations grow through intuitive, purposeful and
+              transformational learning.
             </p>
           </div>
           {/* <div className="space-y-4 ">

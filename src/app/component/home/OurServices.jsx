@@ -13,10 +13,10 @@ const OurServices = () => {
   return (
     <section className="pb-[60px] px-4 lg:pb-[120px] lg:px-[40px]">
       <SectionTitle
-        badge={'SERVICES OVERVIEW'}
+        badge={'Transformative Support'}
         title={'Experiential Training and Workshops'}
         subtitle={
-          'We offer immersive training programmes that strengthen how people relate, communicate and collaborate — especially when it matters most. Our workshops and courses help individuals and organisations:'
+          'We bring people together to grow, reflect and lead with emotional intelligence. Global Training delivers immersive, human-centred learning that inspires clarity, confidence and lasting change. Our workshops and courses help individuals and organisations:'
         }
         center
       />
@@ -61,7 +61,7 @@ const OurServices = () => {
 
       <div className="flex gap-4 flex-col md:flex-row items-center justify-center ">
         <Link
-          href={'/training'}
+          href={'/services'}
           className="py-3 px-[20px] md:py-[15px] md:px-6 border bg-primary border-primary rounded-[40px]  text-lg font-semibold text-white cursor-pointer"
         >
           Explore Our Training

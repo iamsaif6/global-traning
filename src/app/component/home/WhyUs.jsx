@@ -3,7 +3,7 @@ import SectionTitle from '../shared/SectionTitle';
 
 const WhyUs = () => {
   return (
-    <section className="py-[60px] lg:py-[120px] px-4 lg:px-[40px] bg-primary">
+    <section className="py-[60px] mb-[250px] lg:py-[120px] px-4 lg:px-[40px] bg-primary">
       <div className={`w-full  max-w-[1000px] text-white  text-center md:text-left`}>
         <p className={`mb-3 text-sm  font-medium `}>WHY US?</p>
         <h2 className={`w-full lg:w-[90%]  font-medium text-[36px] lg:text-[56px] capitalize leading-[120%] -tracking-[1.6px] `}>
@@ -11,13 +11,12 @@ const WhyUs = () => {
         </h2>
 
         <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
-          At Global Training, we do not deliver off-the-shelf solutions. We listen, we collaborate <br /> and we create experiential
-          learning that feels real, relevant and lasting.
+          Bespoke, experiential learning that feels real, relevant and lasting.
         </p>
       </div>
 
-      <div className="grid gap-6 text-[#18181B] mt-[80px] grid-cols-4">
-        <div className="col-span-4 lg:col-span-1 p-4 lg:p-6 flex gap-10 lg:gap-[80px] flex-col justify-between rounded-[16px] lg:rounded-3xl bg-white">
+      <div className="grid gap-6 text-[#18181B] mt-[80px] grid-cols-5">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex gap-10 lg:gap-[80px] flex-col justify-between rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <path
@@ -43,12 +42,14 @@ const WhyUs = () => {
             </svg>
           </div>
           <div>
-            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-2 md:mb-3">Proven Expertise</h4>
-            <p className="text-black font-normal text-base md:text-lg">Trusted by leading organisations across sectors</p>
+            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-2 md:mb-3">Theatre-based methods</h4>
+            <p className="text-black capitalize font-normal text-base md:text-lg">
+              including actor role-play and real-time facilitation, to bring learning to life
+            </p>
           </div>
         </div>
 
-        <div className="col-span-4 lg:col-span-1 p-4 lg:p-6 flex gap-10 lg:gap-[80px] flex-col justify-between rounded-[16px] lg:rounded-3xl bg-white">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex gap-10 lg:gap-[80px] flex-col justify-between rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <g clipPath="url(#clip0_2001_1133)">
@@ -73,12 +74,12 @@ const WhyUs = () => {
             </svg>
           </div>
           <div>
-            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium  mb-2 md:mb-3">Tailored Solutions</h4>
-            <p className=" font-normal text-base md:text-lg">Programmes shaped to your needs</p>
+            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium  mb-2 md:mb-3">Live coaching and scenario work</h4>
+            <p className=" font-normal capitalize text-base md:text-lg">to help people stretch, reflect and shift habits</p>
           </div>
         </div>
 
-        <div className="col-span-4 lg:col-span-1 p-4 lg:p-6 gap-10 lg:gap-[80px] flex flex-col justify-between rounded-[16px] lg:rounded-3xl bg-white">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 gap-10 lg:gap-[80px] flex flex-col justify-between rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <g clipPath="url(#clip0_2001_1155)">
@@ -119,12 +120,35 @@ const WhyUs = () => {
             </svg>
           </div>
           <div>
-            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium  mb-2 md:mb-3">Innovative Methods</h4>
-            <p className=" font-normal text-base md:text-lg">Creative tools and human-first practice</p>
+            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium  mb-2 md:mb-3">Emotionally intelligent facilitation</h4>
+            <p className=" font-normal capitalize text-base md:text-lg">to create safe spaces for honesty, risk-taking and connection</p>
           </div>
         </div>
 
-        <div className="col-span-4 lg:col-span-1 p-4 lg:p-6 flex gap-10 lg:gap-[80px] flex-col justify-between rounded-[16px] lg:rounded-3xl bg-white">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex gap-10 lg:gap-[80px] flex-col justify-between rounded-[16px] lg:rounded-3xl bg-white">
+          <div className="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <path
+                d="M4.60583 25.4052C4.60583 28.9491 6.69221 29.7795 9.70338 29.9687L12.9109 26.7611C13.3057 26.3647 13.8325 26.1468 14.3957 26.1468C14.9545 26.1468 15.4797 26.3644 15.8761 26.7595L18.1733 29.0571L19.1105 28.1199L18.3529 27.3619C17.8013 26.8111 17.5933 26.09 17.7957 25.434C17.9981 24.7776 18.5761 24.3004 19.3377 24.1564L26.632 22.7604C26.7796 22.7324 26.9276 22.7184 27.0732 22.7184C27.6896 22.7184 28.2568 22.9776 28.6304 23.4304C29.0144 23.896 29.1632 24.5308 29.0388 25.1696L28.1684 29.7215C30.1364 29.2703 31.3916 28.1543 31.3916 25.4052C31.3904 20.796 27.8648 17.0128 23.364 16.6021H12.6318C8.131 17.0132 4.60583 20.7968 4.60583 25.4052Z"
+                fill="#511A75"
+              />
+              <path
+                d="M17.9984 15.2742C22.2163 15.2742 25.6356 11.855 25.6356 7.63712C25.6356 3.41926 22.2163 0 17.9984 0C13.7806 0 10.3613 3.41926 10.3613 7.63712C10.3613 11.855 13.7806 15.2742 17.9984 15.2742Z"
+                fill="#511A75"
+              />
+              <path
+                d="M27.7341 24.92C27.8337 24.4064 27.5437 24.0464 27.0729 24.0464C27.0117 24.0464 26.9469 24.0524 26.8797 24.0652L19.5878 25.4616C19.0066 25.5708 18.873 26.004 19.2918 26.4232L20.0514 27.1828L20.8122 27.9435L20.9886 28.1195L18.1726 30.9347L14.9363 27.6988C14.7867 27.5488 14.5907 27.4744 14.3951 27.4744C14.3951 27.4744 14.3939 27.4744 14.3931 27.4744C14.1963 27.4744 13.9999 27.5488 13.8503 27.6988L8.46713 33.0827C8.16794 33.3823 8.16794 33.8671 8.46713 34.1667L10.0759 35.7755C10.2259 35.9251 10.4215 35.9999 10.6183 35.9999C10.8139 35.9999 11.0103 35.9251 11.1599 35.7755L14.3931 32.5419L17.6262 35.7755C17.7762 35.9251 17.9722 35.9991 18.1686 35.9991H18.1726H18.1766C18.373 35.9991 18.5686 35.9251 18.7186 35.7755L23.681 30.8131L23.8566 30.9883L24.6166 31.7495L25.3774 32.5087C25.5422 32.6739 25.7098 32.7539 25.8586 32.7539C26.0878 32.7539 26.273 32.5655 26.3389 32.2127L27.7341 24.92Z"
+                fill="#511A75"
+              />
+            </svg>
+          </div>
+          <div>
+            <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-2 md:mb-3">Business and leadership frameworks</h4>
+            <p className=" font-normal capitalize text-base md:text-lg">tailored to the realities of teams and organisations today</p>
+          </div>
+        </div>
+
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex gap-10 lg:gap-[80px] flex-col justify-between rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <path
@@ -143,7 +167,7 @@ const WhyUs = () => {
           </div>
           <div>
             <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-2 md:mb-3">Measurable Impact</h4>
-            <p className=" font-normal text-base md:text-lg">Skills that stay with you long after the session ends</p>
+            <p className=" font-normal capitalize text-base md:text-lg">skills that stay with you long after the session ends.</p>
           </div>
         </div>
       </div>

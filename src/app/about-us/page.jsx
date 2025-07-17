@@ -27,13 +27,13 @@ const AboutUS = () => {
       </header>
       <WhoWeAre />
       {/* Logo Item */}
-      <section className="pb-[80px] flex flex-col lg:flex-row justify-between items-center px-[100px] gap-4">
+      {/* <section className="pb-[80px] flex flex-col lg:flex-row justify-between items-center px-[100px] gap-4">
         <p className="text-[44px] lg:text-[56px] font-medium text-secondary">Immersive</p>
         <span className="block w-6 lg:w-[44px] h-0.5 lg:h-1 bg-primary"></span>
         <p className="text-[44px] lg:text-[56px] font-medium text-secondary">Impactful</p>
         <span className="block w-6 lg:w-[44px] h-0.5 lg:h-1 bg-primary"></span>
         <p className="text-[44px] lg:text-[56px] font-medium text-secondary">Experiental</p>
-      </section>
+      </section> */}
 
       <Philosophy />
       <Approch />

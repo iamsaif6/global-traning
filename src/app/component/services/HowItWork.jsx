@@ -19,8 +19,9 @@ const HowItWork = () => {
           Our Approach
         </h2>
         <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
-          We design around people, not problems. Our approach is always personal. Whether you're an individual, a team or a whole
-          organisation, we begin by listening deeply, then we design something that fits. Here’s what the journey often looks like:
+          Whether we are designing a workshop, leading a team retreat or facilitating a bespoke workshop, we create learning that meets
+          people where they are and supports real, lasting and tangible change. Our approach is always personal, whether you're an
+          individual, a team or a whole organisation, we begin by truly listening, then we design something bespoke that fits.
         </p>
       </div>
       {/* Grid */}
@@ -95,7 +96,7 @@ const HowItWork = () => {
           </div>
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We deliver</p>
           <p className=" text-base lg:text-lg font-normal leading-[140%]">
-            We deliver with care, creativity and skill, in a way that brings people with us.
+            With care, creativity and skill, creating safe spaces for honesty, risk-taking and connection.
           </p>
         </div>
       </div>

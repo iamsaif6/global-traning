@@ -140,7 +140,9 @@ const Footer = () => {
             </div>
           ) : pathname !== '/contact-us' ? (
             <div>
-              <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">Stay Connected with Global Training</h4>
+              <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">
+                Let’s start the conversation with a free Initial Consultation.
+              </h4>
               <p className="text-base lg:text-lg">Join Our Community</p>
               <div className="mt-10 flex items-center justify-center">
                 <form className="flex flex-col lg:flex-row items-center gap-4 lg:gap-3">
@@ -154,7 +156,7 @@ const Footer = () => {
                     type="submit"
                     className="py-3 lg:py-[14px] font-semibold cursor-pointer text-lg px-5 lg:px-10 bg-primary text-white rounded-[40px]"
                   >
-                    Join Now
+                    Get in touch
                   </button>
                 </form>
               </div>

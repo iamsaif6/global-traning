@@ -16,7 +16,11 @@ const HowWeWork = () => {
         </h2>
 
         <p className={` mt-6 text-base lg:text-lg  leading-[140%] `}>
-          Tools, techniques and trusted approaches. Every experience we design is different, but we often draw on:
+          Our approach blends creative tools, behavioural insight, theatre-based methods and people-first practice. Every session is
+          experiential, grounded and designed to feel human.
+          <br />
+          <br />
+          Every experience we craft is different, but we often draw on:
         </p>
       </div>
       <div className="mt-[60px] font-medium max-w-[1130px] mx-auto">

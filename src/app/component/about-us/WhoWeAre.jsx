@@ -21,14 +21,14 @@ const WhoWeAre = () => {
             We are a collective of facilitators, coaches, consultants and actor-roleplayers, united by a belief in the power of experiential
             learning.
             <br /> <br />
-            Our work is rooted in emotional intelligence, creativity and connection.
+            Our work is rooted in emotional intelligence, creativity and connection and we value practice over perfection, connection over
+            compliance and real-world relevance over abstract theory.
             <br /> <br />
-            We help individuals and teams show up more fully, communicate with confidence and lead with impact.
+            We do not believe in one-size-fits-all learning, instead we help individuals and teams show up more fully, communicate with
+            confidence and lead with impact.
             <br /> <br />
             Whether in reflective spaces or high-energy workshops, everything we deliver is grounded in real-world experience and designed
             to spark meaningful, lasting change.
-            <br /> <br />
-            At Global Training, we believe connection creates change — and growth that feels real leads to growth that lasts.
           </p>
           <Button href="/services" title={'What We Do'} />
         </div>
