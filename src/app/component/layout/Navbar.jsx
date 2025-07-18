@@ -123,34 +123,35 @@ const Navbar = () => {
 
               <Image className="max-w-[150px] w-full md:max-w-[250px]" alt="Mediation Logo" width={250} height={250} src={logo} />
             </Link>
+            <ul className="lg:flex relative hidden gap-6 text-secondary font-normal text-base items-center">
+              {navLinks.map(link => {
+                return (
+                  <li key={link.href}>
+                    <Link
+                      href={link?.href}
+                      className={`px-2 py-[20px] lg:py-7 flex items-center ${link?.hasMegaMenu ? 'gap-1' : ''}`}
+                      onMouseEnter={() => link?.hasMegaMenu && setActiveMenu(true)}
+                      onMouseLeave={() => link?.hasMegaMenu && setActiveMenu(false)}
+                    >
+                      {link?.title}
+                      {link?.hasMegaMenu && (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className={`h-4 ml-1.5 w-4 transition-transform duration-300 ${activeMenu ? 'rotate-180' : ''}`}
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      )}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
-          <ul className="lg:flex relative hidden gap-6 text-secondary font-normal text-base items-center">
-            {navLinks.map(link => {
-              return (
-                <li key={link.href}>
-                  <Link
-                    href={link?.href}
-                    className={`px-2 py-[20px] lg:py-7 flex items-center ${link?.hasMegaMenu ? 'gap-1' : ''}`}
-                    onMouseEnter={() => link?.hasMegaMenu && setActiveMenu(true)}
-                    onMouseLeave={() => link?.hasMegaMenu && setActiveMenu(false)}
-                  >
-                    {link?.title}
-                    {link?.hasMegaMenu && (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className={`h-4 ml-1.5 w-4 transition-transform duration-300 ${activeMenu ? 'rotate-180' : ''}`}
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    )}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+
           <div className="flex items-center">
             <div className="hidden lg:block">
               <Button href="/contact-us" title="Contact Us" />
