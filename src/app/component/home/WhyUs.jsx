@@ -7,8 +7,8 @@ const WhyUs = () => {
     <section className="py-[60px] mb-[250px] lg:py-[120px] px-4 lg:px-[40px] bg-primary">
       <div className={`w-full  max-w-[1000px] text-white  text-center md:text-left`}>
         <p className={`mb-3 text-sm  font-medium `}>WHY US?</p>
-        <h2 className={`w-full lg:w-[90%]  font-medium text-[36px] lg:text-[56px] capitalize leading-[120%] -tracking-[1.6px] `}>
-          Real Training, Real Results
+        <h2 className={`w-full lg:w-[90%]  font-medium text-[36px] lg:text-[56px]  leading-[120%] -tracking-[1.6px] `}>
+          Real training, real results
         </h2>
 
         <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
@@ -23,7 +23,7 @@ const WhyUs = () => {
           </div>
           <div>
             <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-2 md:mb-3">Theatre-based methods</h4>
-            <p className="text-black capitalize font-normal text-base md:text-lg">
+            <p className="text-black  font-normal text-base md:text-lg">
               including actor role-play and real-time facilitation, to bring learning to life
             </p>
           </div>
@@ -35,7 +35,7 @@ const WhyUs = () => {
           </div>
           <div>
             <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium  mb-2 md:mb-3">Live coaching and scenario work</h4>
-            <p className=" font-normal capitalize text-base md:text-lg">to help people stretch, reflect and shift habits</p>
+            <p className=" font-normal   text-base md:text-lg">to help people stretch, reflect and shift habits</p>
           </div>
         </div>
 
@@ -45,7 +45,7 @@ const WhyUs = () => {
           </div>
           <div>
             <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium  mb-2 md:mb-3">Emotionally intelligent facilitation</h4>
-            <p className=" font-normal capitalize text-base md:text-lg">to create safe spaces for honesty, risk-taking and connection</p>
+            <p className=" font-normal   text-base md:text-lg">to create safe spaces for honesty, risk-taking and connection</p>
           </div>
         </div>
 
@@ -55,7 +55,7 @@ const WhyUs = () => {
           </div>
           <div>
             <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-2 md:mb-3">Business and leadership frameworks</h4>
-            <p className=" font-normal capitalize text-base md:text-lg">tailored to the realities of teams and organisations today</p>
+            <p className=" font-normal   text-base md:text-lg">tailored to the realities of teams and organisations today</p>
           </div>
         </div>
 
@@ -65,7 +65,7 @@ const WhyUs = () => {
           </div>
           <div>
             <h4 className="text-[24px]  lg:text-[28px] text-[#18181B] font-medium mb-2 md:mb-3">Measurable Impact</h4>
-            <p className=" font-normal capitalize text-base md:text-lg">skills that stay with you long after the session ends.</p>
+            <p className=" font-normal   text-base md:text-lg">skills that stay with you long after the session ends.</p>
           </div>
         </div>
       </div>
