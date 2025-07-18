@@ -1,6 +1,14 @@
 import React from 'react';
 
 const SectionTitle = ({ badge, title, subtitle, center = false, light = false, large = false, full = false }) => {
+  function normalizeTitleCase(text) {
+    if (!text) return '';
+    return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+  }
+
+  const secTionTitle = normalizeTitleCase(title);
+  const secTionSubtitle = normalizeTitleCase(subtitle);
+
   return (
     <div
       className={`w-full  ${large ? 'max-w-[1000px]' : 'max-w-[660px]'} ${full ? 'max-w-full' : ''}   ${
@@ -11,12 +19,12 @@ const SectionTitle = ({ badge, title, subtitle, center = false, light = false, l
       <h2
         className={`w-full lg:w-[90%] ${
           center ? 'mx-auto' : ''
-        }  font-medium text-[36px] lg:text-[56px] capitalize leading-[120%] -tracking-[1.6px] ${light ? 'text-white' : 'text-[#18181B]'}`}
+        }  font-medium text-[36px] lg:text-[56px]  leading-[120%] -tracking-[1.6px] ${light ? 'text-white' : 'text-[#18181B]'}`}
       >
-        {title}
+        {secTionTitle}
       </h2>
-      {subtitle && (
-        <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] ${light ? 'text-white' : 'text-black'}`}>{subtitle}</p>
+      {secTionSubtitle && (
+        <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] ${light ? 'text-white' : 'text-black'}`}>{secTionSubtitle}</p>
       )}
     </div>
   );

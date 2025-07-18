@@ -61,10 +61,10 @@ const Header = () => {
         <div className="text-center lg:text-center self-center col-span-12 lg:col-span-5 relative z-10 ">
           <p className="text-white font-medium text-base">GET IN TOUCH</p>
           <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl md:[65px] lg:text-[68px] text-white">
-            Let’s Start the <br /> Conversation
+            Let’s start the <br /> conversation
           </h1>
           <p className="text-white mt-[18px] md:mt-6 mb-[26px] md:mb-8  font-normal text-base md:text-lg">
-            Have any question? We’re here to help you. Send us a message, and we’ll respond within 24 hours.
+            Have any question? we’re here to help you. Send us a message, and we’ll respond within 24 hours.
           </p>
         </div>
         <div className="col-span-12 lg:col-span-7">
@@ -99,7 +99,7 @@ const Header = () => {
                   </div>
                   <div>
                     <div className="">
-                      <p className="text-lg block mb-2 font-medium">Phone Number</p>
+                      <p className="text-lg block mb-2 font-medium">Phone number</p>
 
                       <div className="flex w-full p-1 rounded-full border border-gray-300 bg-[#F4F5F6] overflow-visible relative">
                         <div
@@ -183,7 +183,7 @@ const Header = () => {
                 className="font-semibold cursor-pointer  mt-6 text-lg bg-primary w-full rounded-[40px] py-[14px] px-6 text-white"
                 type="submit"
               >
-                Send Message
+                Send message
               </button>
             </form>
           </div>
@@ -193,7 +193,7 @@ const Header = () => {
         <div className="col-span-3 lg:col-span-1 flex gap-5 items-center">
           <Check className="text-secondary flex-shrink-0" />
           <p className=" font-normal text-[15px]">
-            <strong>Free Initial Consultation - </strong> No obligation discovery call to identify how our training can support your team’s
+            <strong>Free initial consultation - </strong> No obligation discovery call to identify how our training can support your team’s
             growth and performance.
           </p>
         </div>
@@ -201,7 +201,7 @@ const Header = () => {
         <div className="col-span-3 lg:col-span-1 flex gap-5 items-center">
           <Check className="text-secondary flex-shrink-0" />
           <p className=" font-normal text-[15px]">
-            <strong> Tailored Learning, Real Impact - </strong> Every programme is designed around your organisation’s needs — with clear
+            <strong> Tailored learning, real impact - </strong> every programme is designed around your organisation’s needs — with clear
             outcomes and practical application from day one.
           </p>
         </div>
@@ -209,7 +209,7 @@ const Header = () => {
         <div className="col-span-3 lg:col-span-1 flex gap-5 items-center">
           <Check className="text-secondary flex-shrink-0" />
           <p className=" font-normal text-[15px]">
-            <strong> Trusted by Organisations Nationwide - </strong> Over 1,000 professionals trained from public sector teams to national
+            <strong> Trusted by organisations nationwide - </strong> over 1,000 professionals trained from public sector teams to national
             brands, to deliver measurable change and lasting results.
           </p>
         </div>

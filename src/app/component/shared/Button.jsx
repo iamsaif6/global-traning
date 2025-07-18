@@ -10,6 +10,13 @@ const Button = ({ title, href = '#', padding = 'default', secondary = false, Cus
     xxlarge: 'px-[80px]',
   };
 
+  function normalizeTitleCase(text) {
+    if (!text) return '';
+    return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+  }
+
+  const buttonText = normalizeTitleCase(title);
+
   const paddingClass = paddingClasses[padding] || paddingClasses.default;
 
   return (
@@ -19,7 +26,7 @@ const Button = ({ title, href = '#', padding = 'default', secondary = false, Cus
         secondary ? 'bg-secondary border-secondary' : 'bg-primary border-primary'
       }  border  font-semibold text-lg text-[#FCFCFD] ${paddingClass} ${Customclass} py-3 rounded-[40px]`}
     >
-      {title}
+      {buttonText}
     </Link>
   );
 };

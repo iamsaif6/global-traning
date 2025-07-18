@@ -28,3 +28,11 @@ body {
   --color-primary: #ff634a;
   --color-secondary: #511a75;
 }
+
+h1 {
+  color: #ff634a !important;
+}
+
+h2 {
+  color: #511a75 !important;
+}

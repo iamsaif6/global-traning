@@ -64,7 +64,7 @@ const OurServices = () => {
           href={'/services'}
           className="py-3 px-[20px] md:py-[15px] md:px-6 border bg-primary border-primary rounded-[40px]  text-lg font-semibold text-white cursor-pointer"
         >
-          Explore Our Training
+          Explore our training
         </Link>
       </div>
     </section>

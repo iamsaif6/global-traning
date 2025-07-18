@@ -21,7 +21,7 @@ const page = async () => {
       >
         <div className="w-full relative z-10  mx-auto text-center">
           <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
-            Empowering Workplace <br /> Growth Through Knowledge
+            Empowering workplace <br /> growth through knowledge
           </h1>
           <p className="text-[#FCFCFD] text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[70%] font-normal text-base md:text-lg">
             Explore actionable strategies, expert insights, and practical guides to transform your workplace dynamics.

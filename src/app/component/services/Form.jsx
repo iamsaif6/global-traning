@@ -51,7 +51,7 @@ const Form = () => {
     <section className="px-4 py-[80px] relative z-10   bg-primary lg:py-[120px]">
       <div className={`w-full  text-white max-w-[900px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%] mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] `}>
-          Not sure what you need? That’s where we come in
+          Not sure what you need? that’s where we come in
         </h2>
 
         <p className={` mt-6 text-base lg:text-lg  leading-[140%] `}>
@@ -65,7 +65,7 @@ const Form = () => {
           <div className="grid grid-cols-1 gap-6">
             <div className="col-span-1">
               <label className="text-lg block mb-2 font-medium " htmlFor="name">
-                Full Name
+                Full name
               </label>
               <input
                 className="bg-[#F4F5F6] w-full placeholder:text-[#6E7381] placeholder:text-base rounded-[28px] border border-[#D1D1D6] p-4"
@@ -93,7 +93,7 @@ const Form = () => {
               </div>
 
               <div className="">
-                <p className="text-lg block mb-2 font-medium">Phone Number</p>
+                <p className="text-lg block mb-2 font-medium">Phone number</p>
 
                 <div className="flex w-full p-1 rounded-full border border-gray-300 bg-[#F4F5F6] overflow-visible relative">
                   <div
@@ -141,7 +141,7 @@ const Form = () => {
             <div>
               <div className="h-full ">
                 <label className="text-lg block mb-2 font-medium " htmlFor="Email">
-                  Your Message/Situation
+                  Your message/situation
                 </label>
                 <textarea
                   className="bg-[#F4F5F6]  w-full placeholder:text-[#6E7381] placeholder:text-base rounded-[28px] border border-[#D1D1D6] p-4"
@@ -152,11 +152,11 @@ const Form = () => {
                   rows={6}
                 />
                 <button className="font-medium  mt-6 text-lg bg-primary w-full rounded-[40px] py-[15px] px-6 text-white" type="submit">
-                  Start the Conversation
+                  Start the conversation
                 </button>
                 <div className="flex items-center mb-3 mt-10 justify-center">
                   <Link className="text-[#FF634A] font-medium text-lg" href="/case-studies">
-                    See Our Case Studies
+                    See our case studies
                   </Link>
                 </div>
               </div>

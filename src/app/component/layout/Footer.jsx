@@ -53,7 +53,7 @@ const Footer = () => {
             <p>
               <span className="font-arial text-sm ">Address:</span>
               <span className="block mt-1 leading-[140%] text-sm md:text-lg">
-                Molteno House, 302 Regents Park Road, <br /> Finchley, N3 2JX
+                Molteno House, 302 regents park road, <br /> Finchley, N3 2JX
               </span>
             </p>
             <p>
@@ -71,10 +71,10 @@ const Footer = () => {
             About Us
           </Link>
           <Link className="py-[6px] block" href="/training">
-            Mediation Training
+            Mediation training
           </Link>
           <Link className="py-[6px] block" href="/case-studies">
-            Case Studies
+            Case studies
           </Link>
           <Link className="py-[6px] block" href="/blogs">
             Services
@@ -89,10 +89,10 @@ const Footer = () => {
         <p className="col-span-7">© 2024 Global Training Group Ltd. All rights reserved.</p>
         <div className="flex col-span-5 flex-col md:flex-row justify-baseline lg:justify-end gap-2 md:gap-6">
           <Link className="" href={'/privacy-policy'}>
-            Privacy Policy
+            Privacy policy
           </Link>
           <Link className="" href={'/Compliment-Policy'}>
-            Terms of Service
+            Terms of service
           </Link>
         </div>
       </div>
@@ -130,20 +130,20 @@ const Footer = () => {
         <div className=" rounded-3xl absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center bg-secondary text-[#FCFCFD] py-[60px] lg:py-[80px] px-6 lg:px-[60px] w-[90%] max-w-[1100px] mx-auto">
           {pathname == '/courageous-conversations-training' ? (
             <div>
-              <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">Book a Discovery Call</h4>
-              <p className="text-base lg:text-lg">Join The Global Training Newsletter</p>
+              <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">Book a discovery call</h4>
+              <p className="text-base lg:text-lg">Join the global training newsletter</p>
               <div className="mt-10 flex items-center justify-center">
                 <button className="py-4 lg:py-[18px] cursor-pointer text-sm px-5 lg:px-10 bg-primary text-white rounded-[40px]">
-                  Book Now
+                  Book now
                 </button>
               </div>
             </div>
           ) : pathname !== '/contact-us' ? (
             <div>
               <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">
-                Let’s start the conversation with a free Initial Consultation.
+                Let’s start the conversation with a free Initial consultation.
               </h4>
-              <p className="text-base lg:text-lg">Join Our Community</p>
+              <p className="text-base lg:text-lg">Join our community</p>
               <div className="mt-10 flex items-center justify-center">
                 <form className="flex flex-col lg:flex-row items-center gap-4 lg:gap-3">
                   <input

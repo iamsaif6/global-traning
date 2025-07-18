@@ -13,7 +13,7 @@ const Blocked = () => {
     <section className="pb-[60px] lg:pb-[120px] bg-transparent overflow-hidden px-5 lg:px-[80px]">
       <div className={`w-full  max-w-[1000px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%] mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] text-[#18181B]`}>
-          Challenges We Address
+          Challenges we address
         </h2>
 
         <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>

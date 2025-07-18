@@ -8,16 +8,16 @@ import Button from '../shared/Button';
 const navLinks = [
   {
     href: '/services',
-    title: 'What We Do',
+    title: 'What we do',
   },
   {
     href: '/about-us',
-    title: 'About Us',
+    title: 'About us',
   },
 
   {
     href: '/case-studies',
-    title: 'Case Studies',
+    title: 'Case studies',
   },
   {
     href: '/blogs',
