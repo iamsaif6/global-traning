@@ -24,7 +24,7 @@ const WhyUs = () => {
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Theatre-based methods</h4>
             <p className="text-black  font-normal text-base md:text-base">
-              including actor role-play and real-time facilitation, to bring learning to life
+              Including actor role-play and real-time facilitation, to bring learning to life
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const WhyUs = () => {
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium  mb-2 md:mb-3">Live coaching and scenario work</h4>
-            <p className=" font-normal   text-base md:text-base">to help people stretch, reflect and shift habits</p>
+            <p className=" font-normal   text-base md:text-base">To help people stretch, reflect and shift habits</p>
           </div>
         </div>
 
@@ -45,7 +45,7 @@ const WhyUs = () => {
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium  mb-2 md:mb-3">Emotionally intelligent facilitation</h4>
-            <p className=" font-normal   text-base md:text-base">to create safe spaces for honesty, risk-taking and connection</p>
+            <p className=" font-normal   text-base md:text-base">To create safe spaces for honesty, risk-taking and connection</p>
           </div>
         </div>
 
@@ -55,7 +55,7 @@ const WhyUs = () => {
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Business and leadership frameworks</h4>
-            <p className=" font-normal   text-base md:text-base">tailored to the realities of teams and organisations today</p>
+            <p className=" font-normal   text-base md:text-base">Tailored to the realities of teams and organisations today</p>
           </div>
         </div>
 
@@ -65,7 +65,7 @@ const WhyUs = () => {
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Measurable Impact</h4>
-            <p className=" font-normal   text-base md:text-base">skills that stay with you long after the session ends.</p>
+            <p className=" font-normal   text-base md:text-base">Skills that stay with you long after the session ends.</p>
           </div>
         </div>
       </div>

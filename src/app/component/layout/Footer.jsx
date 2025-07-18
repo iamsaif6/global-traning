@@ -68,7 +68,7 @@ const Footer = () => {
         <div className="w-[240px] space-y-[6px] flex flex-col text-sm md:text-lg font-medium">
           <Link href="/">Home</Link>
           <Link className="py-[6px] block" href="/about-us">
-            About Us
+            About us
           </Link>
           <Link className="py-[6px] block" href="/training">
             Mediation training
