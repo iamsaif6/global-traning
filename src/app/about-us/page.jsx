@@ -4,17 +4,15 @@ import Philosophy from '../component/about-us/Philosophy';
 import Approch from '../component/about-us/approch';
 import Impact from '../component/about-us/Impact';
 import OurTeam from '../component/about-us/OurTeam';
-import cover from '/public/aboutBg.png';
 
 const AboutUS = () => {
   return (
     <div>
       <header
         style={{
-          // backgroundImage: `url('/aboutBg.png')`,
+          backgroundImage: `url('/aboutBg.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'top center',
-          background: '#999',
           // backgroundBlendMode: 'overlay',
         }}
         className="pt-[187px] h-screen relative md:pt-[268px] pb-[0px] lg:pb-[203px] px-5 md:px-[60px]"

@@ -1,14 +1,9 @@
 import React from 'react';
-import HowitWork1 from '/public/HowitWork-1.png';
-import HowitWork2 from '/public/HowitWork-2.png';
-import HowitWork3 from '/public/HowitWork-3.png';
-import HowitWork4 from '/public/HowitWork-4.png';
+import HowitWork1 from '/public/HowitWork-1.jpg';
+import HowitWork3 from '/public/HowitWork-2.jpg';
+import HowitWork2 from '/public/HowitWork-3.jpg';
+import HowitWork4 from '/public/HowitWork-4.jpg';
 import Image from 'next/image';
-import Book from '/public/svg/book.svg';
-import Call from '/public/svg/call.svg';
-import Light from '/public/svg/light.svg';
-import Setting from '/public/svg/setting.svg';
-import Gift from '/public/svg/gift.svg';
 import Button from '../shared/Button';
 
 const HowItWork = () => {

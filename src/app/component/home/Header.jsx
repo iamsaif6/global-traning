@@ -11,7 +11,7 @@ const Header = () => {
         backgroundImage: `linear-gradient(to right, #3E0065CC, #3E006500),url('/HomePageHeader.jpg')`,
 
         backgroundSize: 'cover',
-        backgroundPosition: 'bottom',
+        backgroundPosition: 'top',
       }}
       className="py-[150px] h-auto md:h-screen relative  md:pt-[208px] px-5 md:px-[60px]"
     >

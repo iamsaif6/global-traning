@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../shared/Button';
-import unblock from '/public/Unblock.jpeg';
+import unblock from '/public/Unblock.jpg';
 import Image from 'next/image';
 import william from '/public/William.png';
 import clark from '/public/Clark.png';

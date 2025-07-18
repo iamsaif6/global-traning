@@ -1,6 +1,6 @@
 import React from 'react';
 import grid1 from '/public/Grid-1.png';
-import grid2 from '/public/Grid-2.png';
+import grid2 from '/public/Grid-2.jpg';
 import grid3 from '/public/Grid-3.png';
 import Image from 'next/image';
 

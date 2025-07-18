@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import cover from '/public/ImpactCover.png';
+import cover from '/public/ImpactCover.jpg';
 
 const Impact = () => {
   return (
