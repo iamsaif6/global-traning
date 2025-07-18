@@ -26,7 +26,7 @@ const Header = () => {
           collaborate. Empowering people to grow, connect and lead with emotional intelligence.
         </p>
         <div onClick={() => setOpen(true)} className="flex max-w-max mx-auto gap-4 justify-center">
-          <Button title={'Start a Conversation'} />
+          <Button href="/contact-us" title={'Start a conversation'} />
         </div>
       </div>
       {/* <Popup setOpen={setOpen} isOpen={open} /> */}
