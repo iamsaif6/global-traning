@@ -45,7 +45,7 @@ const Blog = () => {
 
   return (
     <div className="pb-[100px] px-5 lg:px-10 border-t border-[#D1D1D6] pt-[50px] lg:pt-[100px]">
-      <h3 className="text-[40px] lg:text-[56px] font-medium">Related Case Studies</h3>
+      <h2 className="text-[40px] lg:text-[56px] font-medium">Related Case Studies</h2>
       <div className="slider-container mt-[56px]">
         <Slider {...settings}>
           <div className=" rounded-3xl px-3 pb-8   overflow-hidden">
