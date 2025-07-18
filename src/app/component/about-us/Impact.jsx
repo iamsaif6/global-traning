@@ -10,7 +10,7 @@ const Impact = () => {
           <div className="text-center lg:text-left">
             <p className="mb-3 text-base lg:text-lg text-white font-medium">OUR IMPACT</p>
             <h2 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
-              Empowering People, Strengthening Teams, Driving Change.
+              Empowering people, strengthening teams, driving change.
             </h2>
           </div>
           <div className="block lg:hidden mt-10 max-h-[450px] h-full rounded-3xl overflow-hidden">

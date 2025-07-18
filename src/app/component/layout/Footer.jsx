@@ -1,7 +1,9 @@
 'use client';
 import { Mail, Phone } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import logo from '/public/trainning_logo.png';
 import React from 'react';
 
 const Footer = () => {
@@ -14,7 +16,7 @@ const Footer = () => {
     >
       <div className="flex flex-col md:flex-row gap-12 relative z-10 justify-between pb-[70px] border-[#3F3F46] border-b">
         <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="143" height="72" viewBox="0 0 143 72" fill="none">
+          {/* <svg xmlns="http://www.w3.org/2000/svg" width="143" height="72" viewBox="0 0 143 72" fill="none">
             <g clipPath="url(#clip0_1_2575)">
               <path d="M142.846 0H141.196V38.8814H142.846V0Z" fill="white" />
               <path d="M36.7147 0.416016H35.0645V38.8815H36.7147V0.416016Z" fill="white" />
@@ -48,7 +50,10 @@ const Footer = () => {
                 <rect width="142.844" height="72" fill="white" />
               </clipPath>
             </defs>
-          </svg>
+          </svg> */}
+          <Link href="/" className="flex items-center">
+            <Image className="max-w-[150px] w-full md:max-w-[250px]" alt="Mediation Logo" width={250} height={250} src={logo} />
+          </Link>
           <div className="mt-8 space-y-6">
             <p>
               <span className="font-arial text-sm ">Address:</span>

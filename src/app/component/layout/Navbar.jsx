@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import Button from '../shared/Button';
+import logo from '/public/trainning_logo.png';
+import Image from 'next/image';
 
 //TODO : Remove MegaMenu if there is none at end of project
 
@@ -76,7 +78,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between  lg:pl-[20px] px-[18px] lg:px-3">
           <div className="flex items-center gap-10 relative">
             <Link href="/" className="flex items-center">
-              <svg
+              {/* <svg
                 className="w-[86px] h-[56px] md:w-[80px] md:h-auto lg:w-[132px] lg:h-[59px]"
                 xmlns="http://www.w3.org/2000/svg"
                 width="110"
@@ -117,7 +119,9 @@ const Navbar = () => {
                     <rect width="110" height="56" fill="white" />
                   </clipPath>
                 </defs>
-              </svg>
+              </svg> */}
+
+              <Image className="max-w-[150px] w-full md:max-w-[250px]" alt="Mediation Logo" width={250} height={250} src={logo} />
             </Link>
           </div>
           <ul className="lg:flex relative hidden gap-6 text-secondary font-normal text-base items-center">
