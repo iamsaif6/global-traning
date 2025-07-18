@@ -11,7 +11,7 @@ const HowItWork = () => {
     <section className="px-4 bg-primary py-[80px] lg:py-[120px]  lg:px-[80px]">
       <div className={`w-full text-white  max-w-[1000px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%]  mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] `}>
-          Our approach
+          How we work
         </h2>
         <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
           Whether we are designing a workshop, leading a team retreat or facilitating a bespoke workshop, we create learning that meets
@@ -79,9 +79,9 @@ const HowItWork = () => {
           <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">Together, we refine it</p>
           <p className=" text-base lg:text-lg font-normal leading-[140%]">Until it fits your people, your timing and your goals.</p>
         </div>
-        <div className="hidden min-h-[350px] md:block rounded-3xl bg-gray-300 relative overflow-hidden  p-8">
+        {/* <div className="hidden min-h-[350px] md:block rounded-3xl bg-gray-300 relative overflow-hidden  p-8">
           <Image src={HowitWork4} alt="HowitWork 2 BG" className="w-full h-full absolute top-0 left-0 object-cover " />
-        </div>
+        </div> */}
 
         <div className=" rounded-3xl bg-white p-8">
           <div className="mb-8">
@@ -94,6 +94,24 @@ const HowItWork = () => {
             With care, creativity and skill, creating safe spaces for honesty, risk-taking and connection.
           </p>
         </div>
+        <div className=" rounded-3xl bg-white p-8">
+          <div className="mb-8">
+            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              {/* <Gift /> */}6
+            </div>
+          </div>
+          <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We reflect and follow up</p>
+          <p className=" text-base lg:text-lg font-normal leading-[140%]">
+            Checking the impact, the shifts in habits and explore what might come next.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <p className={` text-white text-center mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
+          Our training is never ‘off-the-shelf training’. Instead, it’s anchored in what’s real, resulting in team training that’s
+          practical, human and built to strengthen connection, communication and leadership.
+        </p>
       </div>
       <div className="flex justify-center pt-16">
         <Button title={'Book a Discovery Call '} href="/contact-us" secondary />

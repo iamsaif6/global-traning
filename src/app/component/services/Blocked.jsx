@@ -59,7 +59,7 @@ const Blocked = () => {
             </p>
           </div>
           <p className="leading-[140%] mt-[7px] lg:mt-3" title="Description">
-            “There’s tension between departments or personalities”
+            “We’re growing fast, and not everyone feels included”
           </p>
         </div>
 
@@ -77,7 +77,7 @@ const Blocked = () => {
             </p>
           </div>
           <p className="leading-[140%] mt-[5px] lg:mt-3" title="Description">
-            “I need help leading through a restructure or challenging moment”
+            “I’ve just stepped into a senior role and I feel out of my depth”
           </p>
         </div>
 
@@ -95,14 +95,14 @@ const Blocked = () => {
             </p>
           </div>
           <p className="leading-[140%] mt-[7px] lg:mt-3" title="Description">
-            “We’ve been through a lot, and need space to reflect and regroup”
+            “My staff are burnt out and struggling to stay resilient”
           </p>
         </div>
 
         {/* Right Center */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className=" absolute top-1/2 -translate-y-1/2 translate-x-1/2 lg:translate-x-[200%] right-5 border w-full max-w-[85px] lg:max-w-[166px] text-[5px] lg:text-[8px] border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[13px] p-[7px] lg:p-3 bg-white"
+          className=" absolute top-1/2 -translate-y-1/2 translate-x-1/2 lg:translate-x-[200%] right-5 border w-full max-w-[85px] lg:max-w-[256px] text-[5px] lg:text-[12px] border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[13px] p-[7px] lg:p-3 bg-white"
         >
           <div className="flex items-center gap-4">
             <div className="w-[13px] lg:w-[26px] h-[13px] lg:h-[26px] overflow-hidden rounded-full bg-gray-200">
@@ -113,7 +113,7 @@ const Blocked = () => {
             </p>
           </div>
           <p className="leading-[140%] mt-[5px] lg:mt-2" title="Description">
-            “There’s misalignment between values and actions”
+            “We’ve been through a lot, and need space to reflect and regroup”
           </p>
         </div>
       </div>

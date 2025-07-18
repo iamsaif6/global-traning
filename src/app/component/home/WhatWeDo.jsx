@@ -27,7 +27,7 @@ const WhatWeDo = () => {
             Because connection creates change — and when people grow together, they go further together.
           </p>
 
-          <div className="text-[#FCFCFD] space-y-[30px] mt-10">
+          {/* <div className="text-[#FCFCFD] space-y-[30px] mt-10">
             <div className="flex gap-6">
               <div className="mt-2">
                 <Icon />
@@ -59,11 +59,11 @@ const WhatWeDo = () => {
                 <h4 className="text-[28px] font-medium mb-3">Real</h4>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className=" hidden lg:block h-full mx-auto lg:mx-0 rounded-3xl overflow-hidden col-span-2 lg:col-span-1">
-        <Image alt="What we do cover" className="w-full h-full object-cover" src={cover} height={200} width={400} />
+        <Image alt="What we do cover" className="w-full max-h-[600px] h-full object-cover" src={cover} height={200} width={400} />
       </div>
     </section>
   );

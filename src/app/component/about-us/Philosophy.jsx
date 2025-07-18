@@ -13,9 +13,9 @@ const Philosophy = () => {
         <div className={`w-full text-white max-w-max lg:max-w-[660px]`}>
           <div className="text-center lg:text-left">
             <p className="mb-3 text-white text-sm lg:text-base font-medium">OUR PHILOSOPHY</p>
-            <h1 className=" capitalize  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
+            <h2 className=" capitalize  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
               Training Designed With Compassion.
-            </h1>
+            </h2>
 
             <div className="block my-10 lg:hidden max-h-[450px]  h-full rounded-3xl overflow-hidden">
               <Image alt="Cover Photo" className="w-full object-center h-full object-cover" src={cover} height={200} width={400} />

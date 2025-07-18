@@ -11,7 +11,7 @@ const SectionTitle = ({ badge, title, subtitle, center = false, light = false, l
 
   return (
     <div
-      className={`w-full  ${large ? 'max-w-[1000px]' : 'max-w-[660px]'} ${full ? 'max-w-full' : ''}   ${
+      className={`w-full  ${large ? 'max-w-[1200px]' : 'max-w-[660px]'} ${full ? 'max-w-full' : ''}   ${
         center ? 'text-center mx-auto' : ' text-center md:text-left'
       }`}
     >

@@ -202,8 +202,10 @@ const Video = () => {
           </div>
         </div>
         <div className="relative text-left lg:text-center z-20 ">
-          <h3 className="mb-10 text-[28px] lg:text-[40px] font-medium leading-[120%]">
-            At global training, we deliver immersive, human-centered programs that foster growth, connection, and collaboration.
+          <h3 className="mb-10 text-[18px] lg:text-[20px] font-medium leading-[140%]">
+            At Global Training, we believe that when people feel seen, heard safe and supported, they open up — to ideas, to change, and to
+            each other. That is when true learning begins. And, true growth happens when they’re met with empathy, supported to think
+            differently, and surrounded by compassion.
           </h3>
           <div className="flex justify-center md:block">
             <Button Customclass={'py-3 px-[20px] md:py-[15px] md:px-6'} title={'Learn More About Us'} href="/about-us" secondary />

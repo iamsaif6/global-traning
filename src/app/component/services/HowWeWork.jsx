@@ -6,6 +6,7 @@ import Hand from '/public/svg/hand.svg';
 import Calander from '/public/svg/calander.svg';
 import Virtual from '/public/svg/virtual.svg';
 import Light from '/public/svg/light.svg';
+import { Handshake } from 'lucide-react';
 
 const HowWeWork = () => {
   return (
@@ -60,7 +61,7 @@ const HowWeWork = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3">
+        <div className="grid grid-cols-1 lg:grid-cols-4">
           <div className="  relative lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted lg:border-r border-[#6E7381]">
             <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               <Calander />
@@ -86,6 +87,13 @@ const HowWeWork = () => {
             <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">
               Creative techniques for culture building and communication
             </p>
+          </div>
+
+          <div className=" relative lg:border-l border-t lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted  border-[#6E7381]">
+            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              <Handshake />
+            </div>
+            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Business and leadership frameworks</p>
           </div>
         </div>
       </div>
