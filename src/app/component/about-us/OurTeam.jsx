@@ -59,16 +59,16 @@ const TeamData = [
     img: img3,
   },
 
-  {
-    name: 'Anup Ravi',
-    title: 'Associate Trainer',
-    img: null,
-  },
-  {
-    name: 'Faye Austin Billing',
-    title: 'Associate Trainer',
-    img: img4,
-  },
+  // {
+  //   name: 'Anup Ravi',
+  //   title: 'Associate Trainer',
+  //   img: null,
+  // },
+  // {
+  //   name: 'Faye Austin Billing',
+  //   title: 'Associate Trainer',
+  //   img: img4,
+  // },
 ];
 
 const settings = {

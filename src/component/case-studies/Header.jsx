@@ -20,10 +20,10 @@ const Header = () => {
           </div>
         </div>
         <div className="text-center order-1 lg:order-2 lg:text-left col-span-12 lg:col-span-8   relative z-10 ">
-          <h1 className="font-medium mb-4 tracking-[-4%] leading-[120%] text-[40px] md:[65px] lg:text-[60px] text-white">
+          <h1 className="font-medium mb-4 tracking-[-4%] leading-[120%] text-[40px] md:[65px] lg:text-[60px] text-black">
             Transforminng Leadership at NHS
           </h1>
-          <p className="flex  justify-center lg:justify-start  items-center text-xs lg:text-sm text-white">
+          <p className="flex  justify-center lg:justify-start  items-center text-xs lg:text-sm text-black">
             Emma Gersch
             <span className="w-1.5 h-1.5 rounded-full bg-[#FF634A] block mx-[7px]"></span>
             December 24, 2024

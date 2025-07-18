@@ -18,9 +18,9 @@ const Header = () => {
           Whether you’re navigating change, strengthening culture or looking to grow with confidence — our work is designed to make a
           difference that lasts. Our training courses reflect your people, your purpose and your reality — thoughtful, collaborative and
           delivered with heart and soul.
-          <br />
+          {/* <br />
           We listen first, then we co-design the kind of support that actually fits — shaped by experience, delivered with care and grounded
-          in emotional intelligence.
+          in emotional intelligence. */}
         </p>
         <div className="flex gap-4 justify-center">
           <Button title={'Start a Conversation'} href="/contact-us" />
