@@ -16,7 +16,7 @@ const Header = () => {
       className="py-[150px] h-auto md:h-screen relative  md:pt-[208px] px-5 md:px-[60px]"
     >
       <div className="w-full relative z-10  mx-auto text-center">
-        <h1 className="font-medium  tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
+        <h1 className="font-medium  tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] !text-[#FCFCFD]">
           Every voice matters.
           <br />
           every story counts.
