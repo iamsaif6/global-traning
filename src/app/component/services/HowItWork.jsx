@@ -11,7 +11,7 @@ const HowItWork = () => {
     <section className="px-4 bg-primary py-[80px] lg:py-[120px]  lg:px-[80px]">
       <div className={`w-full text-white  max-w-[1000px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%]  mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] `}>
-          How it work
+          How it works
         </h2>
         <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
           Whether we are designing a workshop, leading a team retreat or facilitating a bespoke workshop, we create learning that meets
