@@ -34,7 +34,7 @@ const page = async () => {
       {/* Blogs */}
       <section className="pb-[80px] lg:pb-[120px] px-5 lg:px-[40px]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => {
+          {/* {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => {
             return (
               <div key={index} className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
                 <Image alt={'Covers'} src={img1} className="h-[300px] object-cover object-top rounded-b-3xl w-full" />
@@ -50,9 +50,9 @@ const page = async () => {
                 </div>
               </div>
             );
-          })}
+          })} */}
           {/* /blogs/incorporating-art-into-your-interior-displaying-artwork-with-style */}
-          {/* {articles.data.map((item, idx) => {
+          {articles.data.map((item, idx) => {
             return (
               <div key={idx} className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
                 <Image
@@ -82,7 +82,7 @@ const page = async () => {
                 </div>
               </div>
             );
-          })} */}
+          })}
         </div>
         <div className="flex justify-center">
           <Button href="#" title={'Load More'} />
