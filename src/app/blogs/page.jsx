@@ -6,7 +6,9 @@ import { fetchArticles } from '@/utils/api';
 import Link from 'next/link';
 
 const page = async () => {
-  // const articles = await fetchArticles();
+  const articles = await fetchArticles();
+
+  console.log(articles);
 
   return (
     <div>

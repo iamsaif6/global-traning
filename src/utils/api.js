@@ -1,4 +1,4 @@
-const API_URL = 'https://smart-feast-4ad402f782.strapiapp.com';
+const API_URL = 'https://ingenious-darling-581ecdbd0d.strapiapp.com';
 
 // Fetch All Article
 export async function fetchArticles() {
