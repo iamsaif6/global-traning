@@ -4,6 +4,11 @@ import Post from '@/component/case-studies/Post';
 import React from 'react';
 import Image from 'next/image';
 import zsl from '/public/Logo.svg.png';
+import image1 from '/public/case-study/zsl/unnamed-3.jpg';
+import image2 from '/public/case-study/zsl/unnamed-4.jpg';
+import image3 from '/public/case-study/zsl/unnamed-5.jpg';
+import image4 from '/public/case-study/zsl/unnamed-6.jpg';
+import image5 from '/public/case-study/zsl/unnamed-7.jpg';
 
 const page = () => {
   return (
@@ -25,7 +30,7 @@ const page = () => {
           </div>
           <div className="text-center order-1 lg:order-2 lg:text-left   relative z-10 ">
             <h1 className="font-medium mb-4 tracking-[-4%] leading-[120%] text-[40px] md:[65px] lg:text-[60px] text-white">
-              Embedding Courageous Conversations Across Teams at ZSL
+              ZSL London Zoo: Courageous Conversations / Leadership Development Programme
             </h1>
             <p className="flex flex-col md:flex-row  justify-center lg:justify-start  items-center text-sm lg:text-sm text-black">
               <span> Zoological Society of London (ZSL)</span>
@@ -39,66 +44,61 @@ const page = () => {
       </header>
       <section className="max-w-[900px]  px-4 mx-auto py-[80px]">
         <p className="text-base lg:text-lg mb-[60px]">
-          ZSL came to Global Training with a clear ambition: to build confidence across their People & Culture teams in navigating difficult
-          conversations. They recognised that for communication to be effective — especially in a fast-paced, purpose-driven environment —
-          it needed to be clear, kind and honest.
-          <br /> <br />
-          We delivered a bespoke Courageous Conversations workshop for a mixed cohort of leaders and managers across the organisation. Our
-          goal was to create space for reflection, shared understanding and practical tools that would strengthen the way people
-          communicate, give feedback and lead.
+          Global Training regularly collaborates with ZSL: the Zoological Society of London, inspiring Courageous Conversations in the
+          workplace. Initially, we worked with the managers, focusing on how to navigate challenging conversations when leading a team, yet
+          this training is now being extended across the wider organisation.
         </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+          <div className=" ">
+            <Image className="w-full h-full object-contain" src={image1}></Image>
+          </div>
+          <div className=" ">
+            <Image className="w-full h-full object-contain" src={image2}></Image>
+          </div>
+        </div>
+
         <div>
-          <h3 className="text-[32px] mb-6"></h3>
-          <p className="text-base lg:text-lg">
-            The session brought together managers with varied levels of experience. For newer managers, it created an entry point to
-            difficult conversations in a supportive space. For others, it offered space to reflect and sharpen skills.
+          <p className="text-base lg:text-lg mb-5">
+            Global designs and delivers bespoke training that aligns with the ethos and values of ZSL. With our role-play actors portraying
+            authentic, dynamic scenarios, we give delegates the opportunity to observe, practise and deliver their feedback skills in a safe
+            and constructive environment.
           </p>
-          <div className="bg-primary text-center my-[60px] text-white rounded-3xl py-10 px-6">
+          <p className="text-base lg:text-lg mb-5">
+            In the ZSL staff’s ‘natural habitat’ (ZSL London Zoo, Regent’s Park), we focus on meaningful engagement and constructive
+            feedback. The goal of our Leadership Development Programme is to ensure that every participant leaves the training with a
+            renewed and tangible set of skills in effective leadership and people management. We look forward to continuing our journey with
+            the ZSL team - into the wild, and beyond!
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+            <div className=" ">
+              <Image className="w-full h-full object-contain" src={image3}></Image>
+            </div>
+            <div className=" ">
+              <Image className="w-full h-full object-contain" src={image4}></Image>
+            </div>
+            <div className=" ">
+              <Image className="w-full h-full object-contain" src={image5}></Image>
+            </div>
+          </div>
+
+          <div className="bg-primary text-center my-[30px] text-white rounded-3xl py-10 px-6">
             <p className="text-base lg:text-lg">
-              “I’m new to a management role and found it very useful to hear about the challenges people face and how to deal with certain
-              scenarios.”
+              “A great opportunity for self-reflection, with some really valuable tips and terminology for difficult conversations.”
             </p>
-            {/* <p className="text-sm">Thomas Weber</p> */}
-          </div>
-          <p className="text-base lg:text-lg">
-            Participants worked through real-life scenarios using roleplay, reflection and peer discussion — all grounded in a structured,
-            emotionally intelligent communication model.
-          </p>
-          <div className="bg-primary text-center my-[60px] text-white rounded-3xl py-6 px-6">
-            <p className="text-base lg:text-lg">“It was a good mix of theory, discussion and applying it to our own situations.”</p>
-            {/* <p className="text-sm">Thomas Weber</p> */}
-          </div>
-          <div className=" rounded-3xl my-[60px] overflow-hidden">
-            <Image alt="Blog Cover" width={200} height={200} className="object-cover h-full w-full" src={'/image 49.png'} />
           </div>
 
-          <p className="text-base lg:text-lg">
-            The framework helped participants understand what courageous conversations look like in action:
-          </p>
-          <ul className=" list-disc space-y-2.5 mt-5 pl-10">
-            <li>How to lead feedback without blame</li>
-            <li>How to remain calm when conversations feel emotionally charged</li>
-            <li>How to listen with empathy and speak with clarity</li>
-          </ul>
-          <p className="text-base lg:text-lg mt-10">
-            Trainers modelled the approach throughout, balancing expertise with facilitation that was warm and responsive.
-          </p>
-          <div className="bg-primary text-center my-[30px] text-white rounded-3xl py-6 px-6">
-            <p className="text-base lg:text-lg ">
-              “Very knowledgeable trainers. Noticeably experienced in their field… gave confidence to learners.”
-            </p>
+          <div className="bg-primary text-center my-[30px] text-white rounded-3xl py-10 px-6">
+            <p className="text-base lg:text-lg">”The role-play was very real to life and relevant to our organisation. Thank you!”</p>
           </div>
-          <p className="text-base lg:text-lg">
-            There was also space to normalise challenge. One of the strongest outcomes of the session was the shared realisation that many
-            of the same difficulties — from avoidance to miscommunication — are experienced across departments.
-          </p>
 
-          <div className="bg-primary text-center my-[30px] text-white rounded-3xl py-6 px-6">
-            <p className="text-base lg:text-lg mb-6 ">
-              “This workshop is useful for all levels of experience and management. I’m new to a management role and found it very useful to
-              hear about the challenges that people face and how to deal with certain scenarios.”
+          <div className="bg-primary text-center my-[30px] text-white rounded-3xl py-10 px-6">
+            <p className="text-base lg:text-lg">
+              “I learned from the day that many people are dealing with exactly the same issues in their teams. It is heartening to know
+              that issues I am dealing with are not unique and I’m not alone.”
             </p>
-            <p>— Department Manager, ZSL</p>
+            <p className="text-sm"> - ZSL Manager</p>
           </div>
         </div>
       </section>
