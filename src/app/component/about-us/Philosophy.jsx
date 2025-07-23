@@ -1,14 +1,15 @@
 import React from 'react';
-import cover from '/public/PHILOSOPHY.png';
+import cover from '/public/william-bayreuther-Ri90j6NHQ3Q-unsplash.jpg';
 import Image from 'next/image';
 import Button from '../shared/Button';
 
 const Philosophy = () => {
   return (
     <section className="py-[80px] lg:py-[120px] bg-primary  items-center px-5 lg:px-[40px] grid grid-cols-1 lg:grid-cols-2 gap-12">
-      <div className=" max-h-[700px] hidden lg:block rounded-3xl overflow-hidden">
-        {/* <Image alt="Cover Photo" className="w-full h-full object-cover" src={cover} height={200} width={400} /> */}
+      <div className="relative max-h-[700px] min-h-[350px] hidden lg:block rounded-3xl overflow-hidden">
+        <Image alt="Cover Photo" src={cover} fill className="object-cover" />
       </div>
+
       <div>
         <div className={`w-full text-white max-w-max lg:max-w-[660px]`}>
           <div className="text-center lg:text-left">
@@ -17,8 +18,8 @@ const Philosophy = () => {
               Training designed with compassion.
             </h2>
 
-            <div className="block my-10 lg:hidden max-h-[450px]  h-full rounded-3xl overflow-hidden">
-              <Image alt="Cover Photo" className="w-full object-center h-full object-cover" src={cover} height={200} width={400} />
+            <div className="block my-10 lg:hidden h-[350px]  rounded-3xl overflow-hidden">
+              <Image alt="Cover Photo" className="w-full object-center h-full object-cover" src={cover} height={400} width={400} />
             </div>
 
             <p className=" mt-6 mb-[56px] text-base lg:text-lg font-normal leading-[140%]">

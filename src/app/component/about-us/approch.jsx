@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionTitle from '../shared/SectionTitle';
 import Image from 'next/image';
+import cover from '/public/alberto-bigoni-kvinEq5Utfw-unsplash.jpg';
 
 const Approch = () => {
   return (
@@ -56,7 +57,7 @@ const Approch = () => {
             </h2>
 
             <div className="block my-10 lg:hidden max-h-[450px]  h-full rounded-3xl overflow-hidden">
-              {/* <Image alt="Cover Photo" className="w-full object-center h-full object-cover" src={cover} height={200} width={400} /> */}
+              <Image alt="Cover Photo" className="w-full object-center h-full object-cover" src={cover} height={200} width={400} />
             </div>
 
             <p className=" mt-6 mb-[56px] text-base lg:text-lg font-normal leading-[140%]">
@@ -100,7 +101,7 @@ const Approch = () => {
         </div>
       </div>
       <div className=" max-h-[700px] hidden lg:block rounded-3xl overflow-hidden">
-        {/* <Image alt="Cover Photo" className="w-full h-full object-cover" src={cover} height={200} width={400} /> */}
+        <Image alt="Cover Photo" className="w-full h-full object-cover" src={cover} height={200} width={400} />
       </div>
     </section>
   );
