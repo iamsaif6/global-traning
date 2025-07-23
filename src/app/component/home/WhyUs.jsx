@@ -4,7 +4,7 @@ import { Brain, Drama, Handshake, RadioTower, TrendingUp } from 'lucide-react';
 
 const WhyUs = () => {
   return (
-    <section className="py-[60px] mb-[250px] lg:py-[120px] px-4 lg:px-[40px] bg-primary">
+    <section className="py-[60px] mb-[300px] lg:py-[120px] px-4 lg:px-[40px] bg-primary">
       <div className={`w-full  max-w-[1000px] text-white  text-center md:text-left`}>
         <p className={`mb-3 text-sm  font-medium `}>WHY US?</p>
         <h2 className={`w-full lg:w-[90%]  font-medium text-[36px] lg:text-[56px]  leading-[120%] -tracking-[1.6px] `}>
@@ -19,7 +19,7 @@ const WhyUs = () => {
       <div className="grid gap-6 text-[#18181B] mt-[80px] grid-cols-5">
         <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[80px] flex-col  rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
-            <Drama color="#511A75" size={60} />
+            <Drama className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Theatre-based methods</h4>
@@ -31,7 +31,7 @@ const WhyUs = () => {
 
         <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex gap-6 lg:gap-[80px] flex-col rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
-            <RadioTower color="#511A75" size={60} />
+            <RadioTower className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium  mb-2 md:mb-3">Live coaching and scenario work</h4>
@@ -41,7 +41,7 @@ const WhyUs = () => {
 
         <div className="col-span-5 lg:col-span-1 p-4 lg:p-6  gap-6 lg:gap-[80px] flex flex-col rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
-            <Brain color="#511A75" size={60} />
+            <Brain className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium  mb-2 md:mb-3">Emotionally intelligent facilitation</h4>
@@ -51,7 +51,7 @@ const WhyUs = () => {
 
         <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[80px] flex-col  rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
-            <Handshake color="#511A75" size={60} />
+            <Handshake className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Business and leadership frameworks</h4>
@@ -61,7 +61,7 @@ const WhyUs = () => {
 
         <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[80px] flex-col rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
-            <TrendingUp color="#511A75" size={60} />
+            <TrendingUp className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Measurable Impact</h4>

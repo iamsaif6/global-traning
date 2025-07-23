@@ -30,7 +30,7 @@ const Blocked = () => {
         {/* Left top */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className="group absolute -translate-x-1/2 lg:-translate-x-full top-[10%] left-10 lg:-left-12 border w-full max-w-[137px] lg:max-w-[360px] text-[7px] lg:text-base border-[#E9E9EC] text-[#18181B] rounded-[9px] lg:rounded-3xl p-[9px] lg:p-6 bg-white/80 backdrop-blur-none hover:backdrop-blur-md transition-all duration-500 ease-in-out transform hover:scale-105"
+          className="group absolute -translate-x-1/2 lg:-translate-x-full top-[10%] left-10 lg:left-6 border w-full max-w-[137px] lg:max-w-[360px] text-[10px] lg:text-base border-[#E9E9EC] text-[#18181B] rounded-[9px] lg:rounded-3xl p-[9px] lg:p-6 bg-white/80 backdrop-blur-none hover:backdrop-blur-md transition-all duration-500 ease-in-out transform hover:scale-105"
         >
           <div className="flex items-center gap-4">
             <p title="Name" className="font-medium">
@@ -50,7 +50,7 @@ const Blocked = () => {
         {/* Left bottom */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className="group absolute -translate-x-1/2 lg:-translate-x-full -bottom-[5%] left-8 border w-full max-w-[140px] lg:max-w-[270px] text-[7px] lg:text-sm border-[#E9E9EC] text-[#18181B] rounded-[11px] lg:rounded-[20px] p-[11px] lg:p-5 bg-white/80 backdrop-blur-none hover:backdrop-blur-md transition-all duration-500 ease-in-out transform hover:scale-105"
+          className="group absolute -translate-x-1/2 lg:-translate-x-full -bottom-[5%] left-8 border w-full max-w-[140px] lg:max-w-[270px] text-[10px] lg:text-sm border-[#E9E9EC] text-[#18181B] rounded-[11px] lg:rounded-[20px] p-[11px] lg:p-5 bg-white/80 backdrop-blur-none hover:backdrop-blur-md transition-all duration-500 ease-in-out transform hover:scale-105"
         >
           <div className="flex items-center gap-4">
             {/* <div className="w-[22px] lg:w-[42px] h-[22px] lg:h-[42px] rounded-full overflow-hidden bg-gray-200">
@@ -73,7 +73,7 @@ const Blocked = () => {
         {/* Right top */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className="group absolute -translate-y-1/2 lg:-translate-y-0 translate-x-full top-2 lg:top-7 right-14 border w-full max-w-[80px] lg:max-w-[350px] z-10 text-[5px] lg:text-sm border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[20px] p-[6px] lg:p-5 bg-white/80 backdrop-blur-none hover:backdrop-blur-md transform transition-all duration-500 ease-in-out hover:scale-105"
+          className="group absolute -translate-y-1/2 lg:-translate-y-0 translate-x-full top-2 lg:top-7 right-14 border w-full max-w-[130px] lg:max-w-[350px] z-10 text-[10px] lg:text-sm border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[20px] p-[6px] lg:p-5 bg-white/80 backdrop-blur-none hover:backdrop-blur-md transform transition-all duration-500 ease-in-out hover:scale-105"
         >
           <div className="flex items-center gap-4">
             {/* <div className="w-3 lg:w-[42px] h-3 lg:h-[42px] overflow-hidden rounded-full bg-gray-200">
@@ -97,7 +97,7 @@ const Blocked = () => {
         {/* Right Bottom */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className="group absolute translate-x-1/3 lg:translate-x-2/3 bottom-7 right-5 border w-full max-w-[150px] lg:max-w-[390px] text-[7px] lg:text-[17px] z-2 border-[#E9E9EC] text-[#18181B] rounded-[10px] lg:rounded-3xl p-2.5 lg:p-[26px] bg-white/80 backdrop-blur-none hover:backdrop-blur-md transform transition-all duration-500 ease-in-out hover:scale-105"
+          className="group absolute translate-x-1/3 lg:translate-x-2/3 bottom-7 right-5 border w-full max-w-[150px] lg:max-w-[390px] text-[10px] lg:text-[17px] z-2 border-[#E9E9EC] text-[#18181B] rounded-[10px] lg:rounded-3xl p-2.5 lg:p-[26px] bg-white/80 backdrop-blur-none hover:backdrop-blur-md transform transition-all duration-500 ease-in-out hover:scale-105"
         >
           <div className="flex items-center gap-4">
             {/* <div className="w-[20px] lg:w-[53px] h-[20px] lg:h-[53px] rounded-full overflow-hidden bg-gray-200">
@@ -122,7 +122,7 @@ const Blocked = () => {
         {/* Right Center */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className="group absolute top-1/2 -translate-y-1/2 translate-x-1/2 lg:translate-x-[100%] right-5 border w-full max-w-[85px] lg:max-w-[256px] text-[5px] lg:text-[12px] border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[13px] p-[7px] lg:p-3 bg-white/80 backdrop-blur-none hover:z-[12] z-[1] hover:backdrop-blur-md transition-all duration-500 ease-in-out transform hover:scale-105"
+          className="group absolute top-1/2 -translate-y-1/2 translate-x-1/2 lg:translate-x-[100%] right-5 border w-full max-w-[145px] lg:max-w-[256px] text-[9px] lg:text-[12px] border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[13px] p-[7px] lg:p-3 bg-white/80 backdrop-blur-none hover:z-[12] z-[1] hover:backdrop-blur-md transition-all duration-500 ease-in-out transform hover:scale-105"
         >
           <div className="flex items-center gap-4">
             {/* <div className="w-[13px] lg:w-[26px] h-[13px] lg:h-[26px] overflow-hidden rounded-full bg-gray-200">
