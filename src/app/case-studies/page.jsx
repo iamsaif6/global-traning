@@ -9,6 +9,8 @@ import zsl from '/public/Logo.svg.png';
 import redCross from '/public/case-study/A4_Supporting_logo_text_only_CMYK_print.jpg';
 import Image from 'next/image';
 import nhs from '/public/nhs-1 2.png';
+import Anderson from '/public/case-study/unnamed-5.png';
+import scas from '/public/case-study/unnamed-4.png';
 
 const data = [
   {
@@ -18,7 +20,7 @@ const data = [
   },
   {
     title: 'Anderson Rose: Team Building',
-    image: null,
+    image: Anderson,
     link: '/Anderson-Rose',
   },
   // {
@@ -54,7 +56,7 @@ const data = [
   },
   {
     title: 'South Central Ambulance Service',
-    image: null,
+    image: scas,
     link: '/scas',
   },
 ];

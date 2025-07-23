@@ -4,9 +4,9 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Link from 'next/link';
-import trip from '/public/Trip.png';
-import uniliver from '/public/unilever_logo.png';
-import global from '/public/GM logo 1.png';
+import zsl from '/public/Logo.svg.png';
+import scas from '/public/case-study/unnamed-4.png';
+import nhs from '/public/nhs-1 2.png';
 
 const Blog = () => {
   const settings = {
@@ -53,14 +53,14 @@ const Blog = () => {
             <div className="h-[300px]">
               <Image
                 alt="What Are Courageous Conversations in the Workplace?"
-                src={trip}
+                src={zsl}
                 className="h-full max-w-[200px] mx-auto object-contain rounded-3xl w-full"
               />
             </div>
             <div className="mt-8 px-6">
               <p className="text-secondary font-normal text-sm">December 4, 2024</p>
-              <h3 className="text-[#18181B] font-medium text-2xl mt-3">Communication Training For TripAdvisor</h3>
-              <Link href={'/case-studies-1'}>
+              <h3 className="text-[#18181B] font-medium text-2xl mt-3">Courageous Conversations For ZSL</h3>
+              <Link href={'/case-studies-zsl'}>
                 <button className="px-6 mt-6 py-3 rounded-[40px] text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer">
                   Read now
                 </button>
@@ -72,14 +72,14 @@ const Blog = () => {
             <div className="h-[300px]">
               <Image
                 alt="What Are Courageous Conversations in the Workplace?"
-                src={uniliver}
+                src={scas}
                 className="h-full max-w-[200px] mx-auto object-contain rounded-3xl w-full"
               />
             </div>
             <div className="mt-8 px-6">
               <p className="text-secondary font-normal text-sm">December 4, 2024</p>
-              <h3 className="text-[#18181B] font-medium text-2xl mt-3">Well-Being Workshop For Unilever</h3>
-              <Link href={'/case-studies-1'}>
+              <h3 className="text-[#18181B] font-medium text-2xl mt-3">South Central Ambulance Service</h3>
+              <Link href={'/scas'}>
                 <button className="px-6 mt-6 py-3 rounded-[40px] text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer">
                   Read now
                 </button>
@@ -91,14 +91,14 @@ const Blog = () => {
             <div className="h-[300px]">
               <Image
                 alt="What Are Courageous Conversations in the Workplace?"
-                src={global}
+                src={nhs}
                 className="h-full max-w-[200px] mx-auto object-contain rounded-3xl w-full"
               />
             </div>
             <div className="mt-8 px-6">
               <p className="text-secondary font-normal text-sm">December 4, 2024</p>
-              <h3 className="text-[#18181B] font-medium text-2xl mt-3">Mediation Training For Global Mediation</h3>
-              <Link href={'/case-studies-1'}>
+              <h3 className="text-[#18181B] font-medium text-2xl mt-3">Transforming Leadership at NHSn</h3>
+              <Link href={'/nhs'}>
                 <button className="px-6 mt-6 py-3 rounded-[40px] text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer">
                   Read now
                 </button>

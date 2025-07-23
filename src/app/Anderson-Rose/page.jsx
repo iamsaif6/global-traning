@@ -3,7 +3,7 @@ import Header from '@/component/case-studies/Header';
 import Post from '@/component/case-studies/Post';
 import React from 'react';
 import Image from 'next/image';
-import zsl from '/public/Logo.svg.png';
+import Anderson from '/public/case-study/unnamed-5.png';
 import image1 from '/public/case-study/Anderson Rose/unnamed-7.jpg';
 import image2 from '/public/case-study/Anderson Rose/unnamed-3.jpg';
 import image3 from '/public/case-study/Anderson Rose/unnamed-4.jpg';
@@ -24,7 +24,7 @@ const page = () => {
         >
           <div className="order-2 lg:order-1  ">
             <div className="min-h-[200px] lg:min-h-[400px] flex items-center justify-center lg:max-w-[1130px] bg-white mx-auto border border-[#D1D1D6] rounded-3xl p-6 w-full ">
-              {/* <Image alt="ZSL" className="max-w-[150px]" src={redCross} /> */}
+              <Image alt="ZSL" className="max-w-[150px]" src={Anderson} />
             </div>
           </div>
           <div className="text-center order-1 lg:order-2 lg:text-left   relative z-10 ">

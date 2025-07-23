@@ -6,6 +6,7 @@ import Image from 'next/image';
 import image1 from '/public/case-study/scas/unnamed-3.jpg';
 import image2 from '/public/case-study/scas/unnamed-4.jpg';
 import image3 from '/public/case-study/scas/unnamed-5.jpg';
+import scas from '/public/case-study/unnamed-4.png';
 
 const page = () => {
   return (
@@ -22,7 +23,7 @@ const page = () => {
         >
           <div className="order-2 lg:order-1  ">
             <div className="min-h-[200px] lg:min-h-[400px] flex items-center justify-center lg:max-w-[1130px] bg-white mx-auto border border-[#D1D1D6] rounded-3xl p-6 w-full ">
-              {/* <Image alt="ZSL" className="max-w-[150px]" src={nhs} /> */}
+              <Image alt="ZSL" className="max-w-[150px]" src={scas} />
             </div>
           </div>
           <div className="text-center order-1 lg:order-2 lg:text-left   relative z-10 ">
