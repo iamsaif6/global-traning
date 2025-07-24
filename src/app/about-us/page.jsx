@@ -4,6 +4,7 @@ import Philosophy from '../component/about-us/Philosophy';
 import Approch from '../component/about-us/approch';
 import Impact from '../component/about-us/Impact';
 import OurTeam from '../component/about-us/OurTeam';
+import MeetOurFounder from '../component/about-us/MeetOurFounder';
 
 const AboutUS = () => {
   return (
@@ -36,13 +37,7 @@ const AboutUS = () => {
       <Philosophy />
       <Approch />
       <Impact />
-      <OurTeam
-        badge={'MEET OUR TEAM'}
-        title={'The People Behind the Practice'}
-        subtitle={
-          'Our facilitators, coaches and actor-roleplayers bring decades of experience across sectors — but more importantly, they bring compassion, creativity and a deep belief in human potential.'
-        }
-      />
+      <MeetOurFounder />
     </div>
   );
 };

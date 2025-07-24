@@ -2,11 +2,9 @@ import React from 'react';
 import Button from '../shared/Button';
 import unblock from '/public/Unblock.jpg';
 import Image from 'next/image';
-import william from '/public/William.png';
-import clark from '/public/Clark.png';
-import kim from '/public/kim.png';
-import cooper from '/public/cooper.png';
-import baker from '/public/baker.png';
+import nhs from '/public/nhs-1 2.png';
+import redCross from '/public/British Red Cross 1.png';
+import uniliver from '/public/unilever_logo.png';
 
 const Blocked = () => {
   return (
@@ -30,17 +28,20 @@ const Blocked = () => {
         {/* Left top */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className="group absolute -translate-x-1/2 lg:-translate-x-full top-[10%] left-10 lg:left-6 border w-full max-w-[137px] lg:max-w-[360px] text-[10px] lg:text-base border-[#E9E9EC] text-[#18181B] rounded-[9px] lg:rounded-3xl p-[9px] lg:p-6 bg-white/80 backdrop-blur-none hover:backdrop-blur-md transition-all duration-500 ease-in-out transform hover:scale-105"
+          className="group  overflow-hidden absolute -translate-x-1/2 lg:-translate-x-full top-[10%] left-10 lg:left-6 border w-full max-w-[137px] lg:max-w-[360px] text-[10px] lg:text-base border-[#E9E9EC] text-[#18181B] rounded-[9px] lg:rounded-3xl p-[9px] lg:p-6 bg-white/80 backdrop-blur-none hover:backdrop-blur-md transition-all duration-500 ease-in-out transform hover:scale-105"
         >
           <div className="flex items-center gap-4">
-            <p title="Name" className="font-medium">
+            <div className="w-[22px] lg:w-[42px] h-[22px] lg:h-[42px] rounded-full overflow-hidden bg-gray-200">
+              <Image alt="NHS" src={nhs} className="h-full w-full object-contain" />
+            </div>
+            <p title="Name" className="font-bold">
               NHS
             </p>
           </div>
 
           <p
             title="Description"
-            className="mt-[6px] lg:mt-4 overflow-hidden transition-all duration-500 ease-in-out max-h-[48px] group-hover:max-h-[500px]"
+            className="mt-[6px] lg:mt-4 transition-all duration-500 ease-in-out line-clamp-2 group-hover:line-clamp-none"
           >
             “(It was) fantastic to have a communication model to manage challenging conversations, learning how to listen compassionately
             and be clear, kind and brave.” — Senior Leader, NHS
@@ -53,17 +54,17 @@ const Blocked = () => {
           className="group absolute -translate-x-1/2 lg:-translate-x-full -bottom-[5%] left-8 border w-full max-w-[140px] lg:max-w-[270px] text-[10px] lg:text-sm border-[#E9E9EC] text-[#18181B] rounded-[11px] lg:rounded-[20px] p-[11px] lg:p-5 bg-white/80 backdrop-blur-none hover:backdrop-blur-md transition-all duration-500 ease-in-out transform hover:scale-105"
         >
           <div className="flex items-center gap-4">
-            {/* <div className="w-[22px] lg:w-[42px] h-[22px] lg:h-[42px] rounded-full overflow-hidden bg-gray-200">
-              <Image alt="Audrey Clark" src={clark} className="h-full w-full object-cover" />
-            </div> */}
-            <p title="Name" className="font-medium">
+            <div className="w-[22px] lg:w-[42px] h-[22px] lg:h-[42px] rounded-full overflow-hidden bg-gray-200">
+              <Image alt="redCross" src={redCross} className="h-full w-full object-contain" />
+            </div>
+            <p title="Name" className="font-bold">
               British Red Cross
             </p>
           </div>
 
           <p
             title="Description"
-            className="leading-[140%] mt-[7px] lg:mt-3 overflow-hidden transition-all duration-500 ease-in-out max-h-[36px] group-hover:max-h-[500px]"
+            className="mt-[6px] lg:mt-4 transition-all duration-500 ease-in-out line-clamp-2 group-hover:line-clamp-none"
           >
             “As always, it was fantastic working with you and your team. They brought realism, drama, opportunities for learning aplenty and
             a real sense of what deploying internationally can bring. THANK YOU!”
@@ -73,7 +74,7 @@ const Blocked = () => {
         {/* Right top */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className="group absolute -translate-y-1/2 lg:-translate-y-0 translate-x-full top-2 lg:top-7 right-14 border w-full max-w-[130px] lg:max-w-[350px] z-10 text-[10px] lg:text-sm border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[20px] p-[6px] lg:p-5 bg-white/80 backdrop-blur-none hover:backdrop-blur-md transform transition-all duration-500 ease-in-out hover:scale-105"
+          className="group absolute -translate-y-1/2 lg:-translate-y-0 translate-x-full top-2 lg:top-7 right-14 border w-full max-w-[130px] lg:max-w-[350px] z-3 text-[10px] lg:text-sm border-[#E9E9EC] text-[#18181B] rounded-[7px] lg:rounded-[20px] p-[6px] lg:p-5 bg-white/80 backdrop-blur-none hover:backdrop-blur-md transform transition-all duration-500 ease-in-out hover:scale-105"
         >
           <div className="flex items-center gap-4">
             {/* <div className="w-3 lg:w-[42px] h-3 lg:h-[42px] overflow-hidden rounded-full bg-gray-200">
@@ -86,7 +87,7 @@ const Blocked = () => {
 
           <p
             title="Description"
-            className="leading-[140%] mt-[5px] lg:mt-3 overflow-hidden transition-all duration-500 ease-in-out max-h-[40px] group-hover:max-h-[500px]"
+            className="mt-[6px] lg:mt-4 transition-all duration-500 ease-in-out line-clamp-2 group-hover:line-clamp-none"
           >
             “Emma and Anup were not only charismatic and had a great dynamic, but they also created a space that felt safe and secure. A big
             takeaway was their response to what some members of staff described as ‘cynical’ with such ease — (they provided) insightful
@@ -97,12 +98,12 @@ const Blocked = () => {
         {/* Right Bottom */}
         <div
           style={{ boxShadow: '0px 17.34px 86.71px -17.34px rgba(0, 0, 0, 0.09)' }}
-          className="group absolute translate-x-1/3 lg:translate-x-2/3 bottom-7 right-5 border w-full max-w-[150px] lg:max-w-[390px] text-[10px] lg:text-[17px] z-2 border-[#E9E9EC] text-[#18181B] rounded-[10px] lg:rounded-3xl p-2.5 lg:p-[26px] bg-white/80 backdrop-blur-none hover:backdrop-blur-md transform transition-all duration-500 ease-in-out hover:scale-105"
+          className="group absolute translate-x-1/3 lg:translate-x-2/3 bottom-7 right-5 border w-full max-w-[150px] lg:max-w-[390px] text-[10px] lg:text-[17px] z-4 border-[#E9E9EC] text-[#18181B] rounded-[10px] lg:rounded-3xl p-2.5 lg:p-[26px] bg-white/80 backdrop-blur-none hover:backdrop-blur-md transform transition-all duration-500 ease-in-out hover:scale-105"
         >
           <div className="flex items-center gap-4">
-            {/* <div className="w-[20px] lg:w-[53px] h-[20px] lg:h-[53px] rounded-full overflow-hidden bg-gray-200">
-      <Image alt=" Edward Cooper" src={cooper} className="h-full w-full object-cover" />
-    </div> */}
+            <div className="w-[20px] lg:w-[53px] h-[20px] lg:h-[53px] rounded-full overflow-hidden bg-gray-200">
+              <Image alt=" uniliver" src={uniliver} className="h-full w-full object-contain" />
+            </div>
             <p title="Name" className="font-medium">
               Unilever
             </p>
@@ -110,7 +111,7 @@ const Blocked = () => {
 
           <p
             title="Description"
-            className="leading-[140%] mt-[7px] lg:mt-3 overflow-hidden transition-all duration-500 ease-in-out max-h-[50px] group-hover:max-h-[500px]"
+            className="mt-[6px] lg:mt-4 transition-all duration-500 ease-in-out line-clamp-2 group-hover:line-clamp-none"
           >
             “We had so much good feedback from the event. People had got to know team members they had worked with for years, but never
             spoken to on a personal level, others met people across the world for the first time ever and realised they had so much in
@@ -135,7 +136,7 @@ const Blocked = () => {
 
           <p
             title="Description"
-            className="leading-[140%] mt-[5px] lg:mt-2 overflow-hidden transition-all duration-500 ease-in-out max-h-[48px] group-hover:max-h-[600px]"
+            className="mt-[6px] lg:mt-4 transition-all duration-500 ease-in-out line-clamp-2 group-hover:line-clamp-none"
           >
             “I thoroughly enjoyed it. I don’t know if I’ve ever done training where I’ve been so absorbed for 2 full days. There was such a
             nice blend of learning and doing activities and hearing stories. There’s clearly so much experience that has been built up over
