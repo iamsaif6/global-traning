@@ -17,9 +17,9 @@ const WhyUs = () => {
       </div>
 
       <div className="grid gap-6 text-[#18181B] mt-[80px] grid-cols-5">
-        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[80px] flex-col  rounded-[16px] lg:rounded-3xl bg-white">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[30px] flex-col  rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
-            <Drama className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
+            <Drama strokeWidth={1.4} className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Theatre-based methods</h4>
@@ -29,9 +29,9 @@ const WhyUs = () => {
           </div>
         </div>
 
-        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex gap-6 lg:gap-[80px] flex-col rounded-[16px] lg:rounded-3xl bg-white">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex gap-6 lg:gap-[30px] flex-col rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
-            <RadioTower className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
+            <RadioTower strokeWidth={1.4} className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium  mb-2 md:mb-3">Live coaching and scenario work</h4>
@@ -39,9 +39,9 @@ const WhyUs = () => {
           </div>
         </div>
 
-        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6  gap-6 lg:gap-[80px] flex flex-col rounded-[16px] lg:rounded-3xl bg-white">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6  gap-6 lg:gap-[30px] flex flex-col rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
-            <Brain className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
+            <Brain strokeWidth={1.4} className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium  mb-2 md:mb-3">Emotionally intelligent facilitation</h4>
@@ -49,9 +49,9 @@ const WhyUs = () => {
           </div>
         </div>
 
-        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[80px] flex-col  rounded-[16px] lg:rounded-3xl bg-white">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[30px] flex-col  rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
-            <Handshake className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
+            <Handshake strokeWidth={1.4} className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Business and leadership frameworks</h4>
@@ -59,9 +59,9 @@ const WhyUs = () => {
           </div>
         </div>
 
-        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[80px] flex-col rounded-[16px] lg:rounded-3xl bg-white">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[30px] flex-col rounded-[16px] lg:rounded-3xl bg-white">
           <div className="">
-            <TrendingUp className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
+            <TrendingUp strokeWidth={1.4} className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
           </div>
           <div>
             <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Measurable Impact</h4>

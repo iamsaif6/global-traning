@@ -21,86 +21,90 @@ const HowItWork = () => {
       </div>
       {/* Grid */}
       <div className="max-w-[1130px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 lg:mt-[80px]">
-        <div className=" rounded-3xl bg-white p-8">
-          <div className="mb-8">
-            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              {/* <Book /> */}1
+        <div className=" rounded-3xl bg-white p-6 min-h-[200px] lg:min-h-[300px]">
+          <div className="mb-5 flex items-center gap-3">
+            <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+              1
             </div>
+            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%]">Book a discovery call</p>
           </div>
-          <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">Book a discovery call</p>
+
           <p className=" text-base lg:text-lg font-normal leading-[140%]">
             We’ll talk through what’s going on, the challenges, dynamics or shifts you’re hoping for.
           </p>
         </div>
-        <div className="hidden relative md:block overflow-hidden rounded-3xl bg-gray-300  p-8">
+        <div className="hidden relative md:block overflow-hidden rounded-3xl bg-gray-300  p-8 min-h-[200px] lg:min-h-[300px]">
           <Image src={HowitWork1} alt="HowitWork 1 BG" className="w-full h-full absolute top-0 left-0 object-cover " />
         </div>
 
-        <div className=" rounded-3xl bg-white p-8">
-          <div className="mb-8">
-            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+        <div className=" rounded-3xl bg-white p-6 min-h-[200px] lg:min-h-[300px]">
+          <div className="mb-5 flex items-center gap-3">
+            <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               {/* <Call /> */}2
             </div>
+            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%]">We listen, explore and ask questions</p>
           </div>
-          <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We listen, explore and ask questions</p>
+
           <p className=" text-base lg:text-lg font-normal leading-[140%]">
             So we can fully understand the context, what’s at stake, and what kind of change would feel real and lasting.
           </p>
         </div>
 
-        <div className="hidden relative overflow-hidden md:block rounded-3xl bg-gray-300  p-8">
+        <div className="hidden relative overflow-hidden md:block rounded-3xl bg-gray-300  p-8 min-h-[200px] lg:min-h-[300px]">
           <Image src={HowitWork2} alt="HowitWork 2 BG" className="w-full h-full absolute top-0 left-0 object-cover " />
         </div>
 
-        <div className=" rounded-3xl bg-white p-8">
-          <div className="mb-8">
-            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+        <div className=" rounded-3xl bg-white p-6 min-h-[200px] lg:min-h-[300px]">
+          <div className="mb-5 flex items-center gap-3">
+            <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               {/* <Light /> */}3
             </div>
+            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] ">We propose a clear, thoughtful solution</p>
           </div>
-          <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">
-            We propose a clear, thoughtful solution
-          </p>
+
           <p className=" text-base lg:text-lg font-normal leading-[140%]">
             This could be a one-off session, a team away day, coaching, a workshop series, or something entirely new.
           </p>
         </div>
 
-        <div className="hidden relative overflow-hidden md:block rounded-3xl bg-gray-300  p-8">
+        <div className="hidden relative overflow-hidden md:block rounded-3xl bg-gray-300  p-8 min-h-[200px] lg:min-h-[300px]">
           <Image src={HowitWork3} alt="HowitWork 2 BG" className="w-full h-full absolute top-0 left-0 object-cover " />
         </div>
 
-        <div className=" rounded-3xl bg-white p-8">
-          <div className="mb-8">
-            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+        <div className=" rounded-3xl bg-white p-6 min-h-[200px] lg:min-h-[300px]">
+          <div className="mb-5 flex items-center gap-3">
+            <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               {/* <Setting /> */}4
             </div>
+            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%]">Together, we refine it</p>
           </div>
-          <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">Together, we refine it</p>
+
           <p className=" text-base lg:text-lg font-normal leading-[140%]">Until it fits your people, your timing and your goals.</p>
         </div>
         {/* <div className="hidden min-h-[350px] md:block rounded-3xl bg-gray-300 relative overflow-hidden  p-8">
           <Image src={HowitWork4} alt="HowitWork 2 BG" className="w-full h-full absolute top-0 left-0 object-cover " />
         </div> */}
 
-        <div className=" rounded-3xl bg-white p-8">
-          <div className="mb-8">
-            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+        <div className=" rounded-3xl bg-white p-6 min-h-[200px] lg:min-h-[300px]">
+          <div className="mb-5 flex items-center gap-3">
+            <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               {/* <Gift /> */}5
             </div>
+            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%]">We deliver</p>
           </div>
-          <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We deliver</p>
+
           <p className=" text-base lg:text-lg font-normal leading-[140%]">
             With care, creativity and skill, creating safe spaces for honesty, risk-taking and connection.
           </p>
         </div>
-        <div className=" rounded-3xl bg-white p-8">
-          <div className="mb-8">
-            <div className="w-12 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+        <div className=" rounded-3xl bg-white p-6 min-h-[200px] lg:min-h-[300px]">
+          <div className="mb-5 flex items-center gap-3">
+            <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               {/* <Gift /> */}6
             </div>
+            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] ">We reflect and follow up</p>
           </div>
-          <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] mb-3">We reflect and follow up</p>
+
           <p className=" text-base lg:text-lg font-normal leading-[140%]">
             Checking the impact, the shifts in habits and explore what might come next.
           </p>
