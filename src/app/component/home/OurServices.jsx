@@ -22,29 +22,29 @@ const OurServices = () => {
       />
 
       <div className="max-w-[1130px] mt-10 md:mt-[80px] mb-10 md:mb-[60px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div className=" rounded-3xl bg-[#511A7514] p-6">
-          <span className="mb-[50px] text-secondary block">
+        <div className=" flex lg:block gap-4 items-center rounded-3xl bg-[#511A7514] p-6">
+          <span className="lg:mb-[50px] text-secondary block">
             <Empathy />
           </span>
           <p className="text-[#18181B] font-normal text-base md:text-lg">Build emotionally intelligent leadership</p>
         </div>
 
-        <div className=" rounded-3xl bg-[#511A7514] p-6">
-          <span className="mb-[50px] text-secondary block">
+        <div className="flex lg:block gap-4 items-center rounded-3xl bg-[#511A7514] p-6">
+          <span className="lg:mb-[50px] text-secondary block">
             <Person />
           </span>
           <p className="text-[#18181B] font-normal text-base md:text-lg">Develop resilient, connected teams</p>
         </div>
 
-        <div className=" rounded-3xl bg-[#511A7514] p-6">
-          <span className="mb-[50px] text-secondary block">
+        <div className="flex lg:block gap-4 items-center rounded-3xl bg-[#511A7514] p-6">
+          <span className="lg:mb-[50px] text-secondary block">
             <Conversation />
           </span>
           <p className="text-[#18181B] font-normal text-base md:text-lg">Navigate difficult conversations with confidence and care</p>
         </div>
 
-        <div className=" rounded-3xl bg-[#511A7514] p-6">
-          <span className="mb-[50px] text-secondary block">
+        <div className="flex lg:block gap-4 items-center rounded-3xl bg-[#511A7514] p-6">
+          <span className="lg:mb-[50px] text-secondary block">
             <Globe />
           </span>
           <p className="text-[#18181B] font-normal text-base md:text-lg">

@@ -36,9 +36,9 @@ const WhyGlobal = () => {
                   key={li}
                   className={` border-b-[0.5px] group flex gap-3 text-gray-500 items-center justify-between border-[#DAD3FF]  text-lg font-normal p-2 md:p-4`}
                 >
-                  <div className="flex  items-center gap-[26px]">
+                  <div className="flex items-center gap-[26px]">
                     <span className="w-[10px] flex-shrink-0 h-[10px] bg-primary rounded-full inline-block"></span>
-                    <p>{li}</p>
+                    <p className="text-left">{li}</p>
                   </div>
                 </div>
               ))}

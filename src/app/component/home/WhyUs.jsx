@@ -17,54 +17,54 @@ const WhyUs = () => {
       </div>
 
       <div className="grid gap-6 text-[#18181B] mt-[80px] grid-cols-5">
-        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[30px] flex-col  rounded-[16px] lg:rounded-3xl bg-white">
-          <div className="">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  flex-col  rounded-[16px] lg:rounded-3xl bg-white">
+          <div className="flex lg:block items-center mb-5 lg:mb-0 gap-4">
             <Drama strokeWidth={1.4} className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
+            <h4 className="text-[16px] lg:mt-8 lg:mb-2 lg:text-[18px] text-[#18181B] font-medium ">Theatre-based methods</h4>
           </div>
           <div>
-            <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Theatre-based methods</h4>
             <p className="text-black  font-normal text-base md:text-base">
               Including actor role-play and real-time facilitation, to bring learning to life
             </p>
           </div>
         </div>
 
-        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex gap-6 lg:gap-[30px] flex-col rounded-[16px] lg:rounded-3xl bg-white">
-          <div className="">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  flex-col rounded-[16px] lg:rounded-3xl bg-white">
+          <div className="flex lg:block items-center mb-5 lg:mb-0 gap-4">
             <RadioTower strokeWidth={1.4} className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
+            <h4 className="text-[16px] lg:mt-8 lg:mb-2 lg:text-[18px] text-[#18181B] font-medium ">Live coaching and scenario work</h4>
           </div>
           <div>
-            <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium  mb-2 md:mb-3">Live coaching and scenario work</h4>
             <p className=" font-normal   text-base md:text-base">To help people stretch, reflect and shift habits</p>
           </div>
         </div>
 
-        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6  gap-6 lg:gap-[30px] flex flex-col rounded-[16px] lg:rounded-3xl bg-white">
-          <div className="">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6  flex flex-col rounded-[16px] lg:rounded-3xl bg-white">
+          <div className="flex lg:block items-center mb-5 lg:mb-0 gap-4">
             <Brain strokeWidth={1.4} className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
+            <h4 className="text-[16px] lg:mt-8 lg:mb-2 lg:text-[18px] text-[#18181B] font-medium">Emotionally intelligent facilitation</h4>
           </div>
           <div>
-            <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium  mb-2 md:mb-3">Emotionally intelligent facilitation</h4>
             <p className=" font-normal   text-base md:text-base">To create safe spaces for honesty, risk-taking and connection</p>
           </div>
         </div>
 
-        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[30px] flex-col  rounded-[16px] lg:rounded-3xl bg-white">
-          <div className="">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex   flex-col  rounded-[16px] lg:rounded-3xl bg-white">
+          <div className="flex lg:block items-center mb-5 lg:mb-0 gap-4">
             <Handshake strokeWidth={1.4} className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
+            <h4 className="text-[16px] lg:mt-8 lg:mb-2 lg:text-[18px] text-[#18181B] font-medium">Business and leadership frameworks</h4>
           </div>
           <div>
-            <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Business and leadership frameworks</h4>
             <p className=" font-normal   text-base md:text-base">Tailored to the realities of teams and organisations today</p>
           </div>
         </div>
 
-        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  gap-6 lg:gap-[30px] flex-col rounded-[16px] lg:rounded-3xl bg-white">
-          <div className="">
+        <div className="col-span-5 lg:col-span-1 p-4 lg:p-6 flex  flex-col rounded-[16px] lg:rounded-3xl bg-white">
+          <div className="flex lg:block items-center mb-5 lg:mb-0 gap-4">
             <TrendingUp strokeWidth={1.4} className="w-10 lg:w-14 h-10 lg:h-14" color="#511A75" />
+            <h4 className="text-[16px] lg:mt-8 lg:mb-2 lg:text-[18px] text-[#18181B] font-medium">Measurable Impact</h4>
           </div>
           <div>
-            <h4 className="text-[16px]  lg:text-[18px] text-[#18181B] font-medium mb-2 md:mb-3">Measurable Impact</h4>
             <p className=" font-normal   text-base md:text-base">Skills that stay with you long after the session ends.</p>
           </div>
         </div>
