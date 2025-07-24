@@ -1,7 +1,8 @@
 import React from 'react';
 
-const SectionTitle = ({ badge, title, subtitle, center = false, light = false, large = false, full = false }) => {
+const SectionTitle = ({ badge, title, subtitle, center = false, light = false, large = false, full = false, capitalize }) => {
   function normalizeTitleCase(text) {
+    if (!capitalize) return text;
     if (!text) return '';
     return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
   }

@@ -14,11 +14,12 @@ const OurServices = () => {
     <section className="pb-[60px] px-4 lg:pb-[120px] lg:px-[40px]">
       <SectionTitle
         badge={'Transformative Support'}
-        title={'Experiential Training and Workshops'}
+        title={'Experiential training and workshops'}
         subtitle={
           'We bring people together to grow, reflect and lead with emotional intelligence. Global Training delivers immersive, human-centred learning that inspires clarity, confidence and lasting change. Our workshops and courses help individuals and organisations:'
         }
         center={true}
+        capitalize={false}
       />
 
       <div className="max-w-[1130px] mt-10 md:mt-[80px] mb-10 md:mb-[60px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
