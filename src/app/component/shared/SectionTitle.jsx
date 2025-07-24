@@ -24,7 +24,13 @@ const SectionTitle = ({ badge, title, subtitle, center = false, light = false, l
         {secTionTitle}
       </h2>
       {secTionSubtitle && (
-        <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] ${light ? 'text-white' : 'text-black'}`}>{secTionSubtitle}</p>
+        <p
+          className={` mt-6 text-base text-left lg:text-center lg:text-lg font-normal leading-[140%] ${
+            light ? 'text-white' : 'text-black'
+          }`}
+        >
+          {secTionSubtitle}
+        </p>
       )}
     </div>
   );

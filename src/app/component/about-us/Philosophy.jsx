@@ -22,7 +22,7 @@ const Philosophy = () => {
               <Image alt="Cover Photo" className="w-full object-center h-full object-cover" src={cover} height={400} width={400} />
             </div>
 
-            <p className=" mt-6 mb-[56px] text-base lg:text-lg font-normal leading-[140%]">
+            <p className=" mt-6 mb-[56px] text-left text-base lg:text-lg font-normal leading-[140%]">
               Real learning starts with real people, we share stories, voices and insights drawn from lived experience to show how learning
               can shift mindsets, strengthen teams and spark meaningful change. We believe in the power of emotional intelligence in action.
               By bringing people together to create change, we help individuals and organisations grow through intuitive, purposeful and

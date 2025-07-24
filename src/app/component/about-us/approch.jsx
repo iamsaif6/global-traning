@@ -60,7 +60,7 @@ const Approch = () => {
               <Image alt="Cover Photo" className="w-full object-center h-full object-cover" src={cover} height={200} width={400} />
             </div>
 
-            <p className=" mt-6 mb-[56px] text-base lg:text-lg font-normal leading-[140%]">
+            <p className=" mt-6 mb-[56px] text-left text-base lg:text-lg font-normal leading-[140%]">
               Our training blends theatre-based techniques, live coaching, real-time facilitation and tailored leadership frameworks —
               always balancing structure with creativity, compassion with challenge, theory with real-world action.
               <br /> <br />

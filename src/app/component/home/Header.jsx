@@ -21,7 +21,7 @@ const Header = () => {
           <br />
           every story counts.
         </h1>
-        <p className="text-[#FCFCFD] text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[70%] font-normal text-base md:text-lg">
+        <p className="text-[#FCFCFD] text-left lg:text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[70%] font-normal text-base md:text-lg">
           We design and deliver practical, immersive and human-centered training experiences that strengthen how people relate, reflect and
           collaborate. Empowering people to grow, connect and lead with emotional intelligence.
         </p>

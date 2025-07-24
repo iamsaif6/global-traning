@@ -8,7 +8,9 @@ const PhotoGrid = () => {
   return (
     <section className="px-5  pb-[80px] lg:pb-[120px]  lg:px-[80px]">
       <div className="max-w-[900px] text-center text-[#18181B] font-medium text-[28px] lg:text-[40px] leading-[120%] mx-auto pb-0 lg:pb-[120px] pt-[80px] lg:pt-[120px]">
-        <p>We design training that’s practical, human and built to strengthen connection, communication and leadership.</p>
+        <p className="text-left lg:text-center">
+          We design training that’s practical, human and built to strengthen connection, communication and leadership.
+        </p>
       </div>
       {/* Photo grid for desktop */}
       <div className="hidden lg:grid grid-cols-2 gap-6">

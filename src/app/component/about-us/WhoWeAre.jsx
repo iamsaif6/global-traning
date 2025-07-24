@@ -17,7 +17,7 @@ const WhoWeAre = () => {
             <Image alt="Who we are cover" className="w-full h-full  object-cover" src={cover} height={500} width={700} />
           </div>
 
-          <p className=" mt-10 mb-[56px]  text-base lg:text-lg font-normal leading-[140%]">
+          <p className=" mt-10 mb-[56px] text-left  text-base lg:text-lg font-normal leading-[140%]">
             We are a collective of facilitators, coaches, consultants and actor-roleplayers, united by a belief in the power of experiential
             learning.
             <br /> <br />

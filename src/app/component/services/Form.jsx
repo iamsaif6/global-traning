@@ -54,7 +54,7 @@ const Form = () => {
           Not sure what you need? that’s where we come in
         </h2>
 
-        <p className={` mt-6 text-base lg:text-lg  leading-[140%] `}>
+        <p className={` mt-6 text-left lg:text-center text-base lg:text-lg  leading-[140%] `}>
           Use the form below to tell us what’s going on, even if it’s only a starting point. We’ll read it, reflect on it and come back with
           a way forward.
         </p>

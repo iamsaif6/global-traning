@@ -63,7 +63,7 @@ const Header = () => {
           <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl md:[65px] lg:text-[68px] text-white">
             Let’s start the <br /> conversation
           </h1>
-          <p className="text-white mt-[18px] md:mt-6 mb-[26px] md:mb-8  font-normal text-base md:text-lg">
+          <p className="text-white text-left lg:text-center mt-[18px] md:mt-6 mb-[26px] md:mb-8  font-normal text-base md:text-lg">
             Have any question? we’re here to help you. Send us a message, and we’ll respond within 24 hours.
           </p>
         </div>

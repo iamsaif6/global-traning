@@ -14,7 +14,7 @@ const Blocked = () => {
           Challenges we address
         </h2>
 
-        <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
+        <p className={` mt-6 text-base text-left lg:text-center lg:text-lg font-normal leading-[140%] `}>
           If something’s tricky, tense or not quite working, that’s where we come in. We help people untangle challenges, reconnect teams
           and develop the confidence to move forward. Here are just some of the situations we’ve helped shift and the change we’ve supported
           in people and teams.
@@ -151,7 +151,10 @@ const Blocked = () => {
       <div className="max-w-[1130px] mt-[80px] mb-[60px] mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
         {['Communication and confidence', 'Team dynamics and culture', 'Leadership and change', 'Workplace wellbeing'].map(item => {
           return (
-            <div key={item} className="font-semibold flex items-center justify-center rounded-3xl gap-5  text-center p-2 lg:p-6">
+            <div
+              key={item}
+              className="font-semibold flex items-center justify-start lg:justify-center rounded-3xl gap-5  text-center p-2 lg:p-6"
+            >
               <span className="block w-3 h-3 rounded-full bg-primary flex-shrink-0"></span>
               <p className="text-[#18181B] text-lg">{item}</p>
             </div>

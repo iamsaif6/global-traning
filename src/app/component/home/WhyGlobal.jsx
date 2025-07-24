@@ -19,7 +19,7 @@ const WhyGlobal = () => {
             <div className="max-w-[580px]  mt-10 block lg:hidden mx-auto lg:mx-0 col-span-2 lg:col-span-1 rounded-3xl overflow-hidden">
               <Image alt="Why Global Cover" className="w-full  h-full object-cover" src={cover} height={200} width={400} />
             </div>
-            <p className="mt-6 text-base lg:text-lg font-normal leading-[140%]">
+            <p className="mt-9 mb-4  text-left text-base lg:text-lg font-normal leading-[140%]">
               True growth does not happen through lectures or handbooks, it happens through connection.We empower people with the tools to
               communicate clearly, build strong partnerships and show up when it counts. Our approach is practical and responsive, grounded
               in lived experience, and delivered with compassion.
@@ -42,7 +42,7 @@ const WhyGlobal = () => {
                   </div>
                 </div>
               ))}
-              <p className="mt-6 text-base lg:text-lg font-normal leading-[140%]">
+              <p className="mt-6 text-left  mb-5 text-base lg:text-lg font-normal leading-[140%]">
                 Whether we are designing a workshop, leading a team retreat or facilitating a bespoke workshop, we create learning that
                 meets people where they are and supports real, lasting and tangible change.
               </p>

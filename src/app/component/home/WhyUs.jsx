@@ -11,7 +11,7 @@ const WhyUs = () => {
           Real training, real results
         </h2>
 
-        <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
+        <p className={` mt-6 text-left text-base lg:text-lg font-normal leading-[140%] `}>
           Bespoke, experiential learning that feels real, relevant and lasting.
         </p>
       </div>

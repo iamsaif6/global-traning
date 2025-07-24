@@ -13,7 +13,7 @@ const HowItWork = () => {
         <h2 className={`w-full lg:w-[90%]  mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] `}>
           How it works
         </h2>
-        <p className={` mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
+        <p className={` mt-6 text-left lg:text-center text-base lg:text-lg font-normal leading-[140%] `}>
           Whether we are designing a workshop, leading a team retreat or facilitating a bespoke workshop, we create learning that meets
           people where they are and supports real, lasting and tangible change. Our approach is always personal, whether you're an
           individual, a team or a whole organisation, we begin by truly listening, then we design something bespoke that fits.
@@ -112,7 +112,7 @@ const HowItWork = () => {
       </div>
 
       <div>
-        <p className={` text-white text-center mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
+        <p className={` text-white text-left lg:text-center  mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
           Our training is never ‘off-the-shelf training’. Instead, it’s anchored in what’s real, resulting in team training that’s
           practical, human and built to strengthen connection, communication and leadership.
         </p>

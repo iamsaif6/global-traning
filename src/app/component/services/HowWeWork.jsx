@@ -16,7 +16,7 @@ const HowWeWork = () => {
           How we work
         </h2>
 
-        <p className={` mt-6 text-base lg:text-lg  leading-[140%] `}>
+        <p className={` mt-6 text-base text-left lg:text-center lg:text-lg  leading-[140%] `}>
           Our approach blends creative tools, behavioural insight, theatre-based methods and people-first practice. Every session is
           experiential, grounded and designed to feel human.
           <br />

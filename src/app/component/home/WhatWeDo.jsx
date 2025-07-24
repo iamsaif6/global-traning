@@ -16,7 +16,7 @@ const WhatWeDo = () => {
             <Image alt="What we do cover" className="w-full h-full object-cover" src={cover} height={200} width={400} />
           </div>
 
-          <p className=" mt-10 text-base lg:text-lg font-normal leading-[140%]">
+          <p className=" mt-10 text-left text-base lg:text-lg font-normal leading-[140%]">
             At Global Training, we create learning experiences that are immersive, relational and real.
             <br /> <br />
             We draw on theatre-based methods, coaching practice, live facilitation and leadership frameworks — blending insight with

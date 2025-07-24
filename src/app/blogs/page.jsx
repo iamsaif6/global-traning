@@ -23,7 +23,7 @@ const page = async () => {
           <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
             Empowering workplace <br /> growth through knowledge
           </h1>
-          <p className="text-[#FCFCFD] text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[70%] font-normal text-base md:text-lg">
+          <p className="text-[#FCFCFD] text-left lg:text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[70%] font-normal text-base md:text-lg">
             Explore actionable strategies, expert insights, and practical guides to transform your workplace dynamics.
           </p>
         </div>
@@ -82,7 +82,7 @@ const page = async () => {
             );
           })}
         </div>
-        <div className="flex justify-center">
+        <div className="flex mb-[80px] lg:mb-10 justify-center">
           <Button href="#" title={'Load More'} />
         </div>
       </section>
