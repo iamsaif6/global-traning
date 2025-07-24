@@ -148,7 +148,7 @@ const Blocked = () => {
         </div>
       </div>
 
-      <div className="max-w-[1130px] mt-[80px] mb-[60px] mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+      <div className="max-w-[1130px] lg:hidden mt-[80px] mb-[60px] mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
         {['Communication and confidence', 'Team dynamics and culture', 'Leadership and change', 'Workplace wellbeing'].map(item => {
           return (
             <div
@@ -156,6 +156,16 @@ const Blocked = () => {
               className="font-semibold flex items-center justify-start lg:justify-center rounded-3xl gap-5  text-center p-2 lg:p-6"
             >
               <span className="block w-3 h-3 rounded-full bg-primary flex-shrink-0"></span>
+              <p className="text-[#18181B] text-lg">{item}</p>
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="max-w-[1130px] hidden lg:grid mt-[80px] mb-[60px] mx-auto  gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        {['Communication and confidence', 'Team dynamics and culture', 'Leadership and change', 'Workplace wellbeing'].map(item => {
+          return (
+            <div key={item} className="font-semibold h-[120px] flex  bg-primary/10 items-center rounded-4xl  text-center p-2 lg:p-6">
               <p className="text-[#18181B] text-lg">{item}</p>
             </div>
           );
