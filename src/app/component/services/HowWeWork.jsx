@@ -24,76 +24,92 @@ const HowWeWork = () => {
           Every experience we craft is different, but we often draw on:
         </p>
       </div>
-      <div className="mt-[60px] font-medium max-w-[1130px] mx-auto">
+      <div className="mt-10 lg:mt-[60px] font-medium max-w-[1130px] mx-auto">
         <div className="grid grid-cols-1  lg:grid-cols-4">
-          <div className=" lg:border-t-0  relative lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dotted lg:border-r border-[#6E7381]">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Mic />
+          <div className=" lg:border-t-0  relative lg:py-[28px] lg:px-[28px] px-0 py-7 lg:border-b border-dotted lg:border-r border-[#6E7381]">
+            <div className="flex lg:block items-center gap-4">
+              <div className="w-12 flex-shrink-0 text-secondary flex items-center justify-center lg:w-[60px]  lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+                <Mic />
+              </div>
+              <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Experiential workshops with live facilitation</p>
             </div>
-            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Experiential workshops with live facilitation</p>
             {/* Dot */}
             <span className="hidden lg:block w-2 h-2 rounded-full bg-primary absolute bottom-0 right-0 translate-1/2"></span>
           </div>
 
-          <div className=" relative  lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dotted lg:border-r border-[#6E7381]">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Mask />
+          <div className=" relative  lg:py-[28px] lg:px-[28px] px-0 py-7 lg:border-b border-dotted lg:border-r border-[#6E7381]">
+            <div className="flex lg:block items-center gap-4">
+              <div className="w-12 flex-shrink-0 text-secondary flex items-center justify-center lg:w-[60px]  lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+                <Mask />
+              </div>
+              <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Actor-led roleplay and real-time reflection</p>
             </div>
-            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Actor-led roleplay and real-time reflection</p>
             {/* Dot */}
             <span className="hidden lg:block w-2 h-2 rounded-full bg-primary absolute bottom-0 right-0 translate-1/2"></span>
           </div>
 
-          <div className=" relative  lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dotted lg:border-r border-[#6E7381]">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Talk />
+          <div className=" relative  lg:py-[28px] lg:px-[28px] px-0 py-7 lg:border-b border-dotted lg:border-r border-[#6E7381]">
+            <div className="flex lg:block items-center gap-4">
+              <div className="w-12 flex-shrink-0 text-secondary flex items-center justify-center lg:w-[60px]  lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+                <Talk />
+              </div>
+              <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">One-to-one or team coaching</p>
             </div>
-            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">One-to-one or team coaching</p>
             {/* Dot */}
             <span className="hidden lg:block w-2 h-2 rounded-full bg-primary absolute bottom-0 right-0 translate-1/2"></span>
           </div>
 
-          <div className="  lg:py-[28px] lg:px-[28px] px-0 py-7 border-b border-dotted border-[#6E7381]">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Hand />
+          <div className="  lg:py-[28px] lg:px-[28px] px-0 py-7 lg:border-b border-dotted border-[#6E7381]">
+            <div className="flex lg:block items-center gap-4">
+              <div className="w-12 flex-shrink-0 text-secondary flex items-center justify-center lg:w-[60px]  lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+                <Hand />
+              </div>
+              <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Accredited mediation training</p>
             </div>
-            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Accredited mediation training</p>
           </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-4">
           <div className="  relative lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted lg:border-r border-[#6E7381]">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Calander />
+            <div className="flex lg:block items-center gap-4">
+              <div className="w-12 flex-shrink-0 text-secondary flex items-center justify-center lg:w-[60px]  lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+                <Calander />
+              </div>
+              <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Bespoke sessions for inset days or team retreats</p>
             </div>
-            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Bespoke sessions for inset days or team retreats</p>
             {/* Dot */}
             <span className="hidden lg:block w-2 h-2 rounded-full bg-primary absolute top-0 right-0 -translate-y-1/2 translate-x-1/2"></span>
           </div>
 
-          <div className=" relative border-t lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted lg:border-r border-[#6E7381]">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Virtual />
+          <div className=" relative  lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted lg:border-r border-[#6E7381]">
+            <div className="flex lg:block items-center gap-4">
+              <div className="w-12 flex-shrink-0 text-secondary flex items-center justify-center lg:w-[60px]  lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+                <Virtual />
+              </div>
+              <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Virtual and in-person delivery</p>
             </div>
-            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Virtual and in-person delivery</p>
             {/* Dot */}
             <span className="hidden lg:block w-2 h-2 rounded-full bg-primary absolute top-0 right-0 -translate-y-1/2 translate-x-1/2"></span>
           </div>
 
-          <div className=" relative border-t lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted  border-[#6E7381]">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Light />
+          <div className=" relative  lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted  border-[#6E7381]">
+            <div className="flex lg:block items-center gap-4">
+              <div className="w-12 flex-shrink-0 text-secondary flex items-center justify-center lg:w-[60px]  lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+                <Light />
+              </div>
+              <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">
+                Creative techniques for culture building and communication
+              </p>
             </div>
-            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">
-              Creative techniques for culture building and communication
-            </p>
           </div>
 
-          <div className=" relative lg:border-l border-t lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted  border-[#6E7381]">
-            <div className="w-12 text-secondary flex items-center justify-center lg:w-[60px] mb-5 lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
-              <Handshake />
+          <div className=" relative lg:border-l  lg:border-t-0  lg:py-[28px] lg:px-[28px] px-0 py-7  border-dotted  border-[#6E7381]">
+            <div className="flex lg:block items-center gap-4">
+              <div className="w-12 flex-shrink-0 text-secondary flex items-center justify-center lg:w-[60px]  lg:mb-10 h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+                <Handshake />
+              </div>
+              <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Business and leadership frameworks</p>
             </div>
-            <p className="leading-[140%] text-[#18181B]  text-base lg:text-lg">Business and leadership frameworks</p>
           </div>
         </div>
       </div>

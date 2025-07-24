@@ -26,7 +26,7 @@ const HowItWork = () => {
             <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px] h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               1
             </div>
-            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%]">Book a discovery call</p>
+            <p className="text-[#511A75] font-medium text-[18px] lg:text-[22px] leading-[120%]">Book a discovery call</p>
           </div>
 
           <p className=" text-base lg:text-lg font-normal leading-[140%]">
@@ -42,7 +42,7 @@ const HowItWork = () => {
             <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               {/* <Call /> */}2
             </div>
-            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%]">We listen, explore and ask questions</p>
+            <p className="text-[#511A75] font-medium text-[18px] lg:text-[22px] leading-[120%]">We listen, explore and ask questions</p>
           </div>
 
           <p className=" text-base lg:text-lg font-normal leading-[140%]">
@@ -59,7 +59,7 @@ const HowItWork = () => {
             <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               {/* <Light /> */}3
             </div>
-            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] ">We propose a clear, thoughtful solution</p>
+            <p className="text-[#511A75] font-medium text-[18px] lg:text-[22px] leading-[120%] ">We propose a clear, thoughtful solution</p>
           </div>
 
           <p className=" text-base lg:text-lg font-normal leading-[140%]">
@@ -76,7 +76,7 @@ const HowItWork = () => {
             <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               {/* <Setting /> */}4
             </div>
-            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%]">Together, we refine it</p>
+            <p className="text-[#511A75] font-medium text-[18px] lg:text-[22px] leading-[120%]">Together, we refine it</p>
           </div>
 
           <p className=" text-base lg:text-lg font-normal leading-[140%]">Until it fits your people, your timing and your goals.</p>
@@ -90,7 +90,7 @@ const HowItWork = () => {
             <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               {/* <Gift /> */}5
             </div>
-            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%]">We deliver</p>
+            <p className="text-[#511A75] font-medium text-[18px] lg:text-[22px] leading-[120%]">We deliver</p>
           </div>
 
           <p className=" text-base lg:text-lg font-normal leading-[140%]">
@@ -102,7 +102,7 @@ const HowItWork = () => {
             <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
               {/* <Gift /> */}6
             </div>
-            <p className="text-[#511A75] font-medium text-[28px] lg:text-[32px] leading-[120%] ">We reflect and follow up</p>
+            <p className="text-[#511A75] font-medium text-[18px] lg:text-[22px] leading-[120%] ">We reflect and follow up</p>
           </div>
 
           <p className=" text-base lg:text-lg font-normal leading-[140%]">

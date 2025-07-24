@@ -8,8 +8,6 @@ import Link from 'next/link';
 const page = async () => {
   const articles = await fetchArticles();
 
-  console.log(articles);
-
   return (
     <div>
       <header
@@ -52,7 +50,7 @@ const page = async () => {
             );
           })} */}
           {/* /blogs/incorporating-art-into-your-interior-displaying-artwork-with-style */}
-          {articles.data.map((item, idx) => {
+          {articles?.data?.map((item, idx) => {
             return (
               <div key={idx} className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
                 <Image
@@ -60,7 +58,7 @@ const page = async () => {
                   width={200}
                   height={200}
                   src={item?.cover?.url || img1}
-                  className="h-[300px] rounded-b-3xl w-full"
+                  className="h-[300px] object-cover rounded-b-3xl w-full"
                 />
                 <div className="mt-8 px-6">
                   <p className="text-secondary font-normal text-sm">
@@ -70,7 +68,7 @@ const page = async () => {
                       day: 'numeric',
                     })}
                   </p>
-                  <h3 title={item.title} className="text-[#18181B] truncate font-medium text-2xl mt-3">
+                  <h3 title={item.title} className="text-[#18181B] font-medium text-2xl mt-3">
                     {item.title}
                   </h3>
                   <Link
