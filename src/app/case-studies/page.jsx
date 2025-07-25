@@ -14,14 +14,18 @@ import scas from '/public/case-study/unnamed-4.png';
 
 const data = [
   {
-    title: 'Courageous Conversations For ZSL',
+    title: 'ZSL: Courageous Conversations',
     image: zsl,
     link: '/case-studies-zsl',
+    details:
+      'How do you shift an entire culture of communication? We partnered with ZSL to co-create a series of deeply human workshops that helped leaders and managers embrace challenge, grow in confidence, and have the conversations that matter.',
   },
   {
-    title: 'Anderson Rose: Team Building',
+    title: 'Anderson Rose: Building a Kinder Culture',
     image: Anderson,
     link: '/Anderson-Rose',
+    details:
+      'In a fast-paced property sector, we worked with Anderson Rose to create space for reflection, honest feedback and real growth — supporting their commitment to a kinder, more connected team culture.',
   },
   // {
   //   title: 'Communication Training For TripAdvisor',
@@ -45,19 +49,25 @@ const data = [
   // },
 
   {
-    title: 'Experiential Crisis For BritishRedCross',
+    title: 'British Red Cross: Real-World Training for Real-World Challenges',
     image: redCross,
     link: '/The-British-Red-Cross',
+    details:
+      'Each year, we partner with the British Red Cross to deliver immersive scenario training for their Psycho-Social Care Team. With professional actors, complex roleplay and real-time feedback, this simulation helps volunteers build the skills — and confidence — to support people through crisis with care and clarity.',
   },
   {
-    title: 'Transforming Leadership at NHS',
+    title: 'NHS: Leading with Courage and Compassion',
     image: nhs,
     link: '/nhs',
+    details:
+      'We partner with NHS trusts to deliver immersive leadership training that helps people communicate clearly, lead with empathy and build confidence in the moments that matter. With tailored content, roleplay and forum theatre, our sessions empower teams to work through real-life challenges with clarity, kindness and courage.',
   },
   {
-    title: 'South Central Ambulance Service',
+    title: 'SCAS: Story-Driven Training for Culture Change',
     image: scas,
     link: '/scas',
+    details:
+      'To help shift culture and spark honest conversations, we partnered with SCAS to create a powerful training film shaped by real experiences. Through immersive research, collaborative scripting and a cast of professional actors, we brought frontline stories to life — creating a learning tool that continues to drive empathy, insight and change across their teams.',
   },
 ];
 
@@ -97,21 +107,18 @@ const CaseStudies = () => {
                 <div className="col-span-12 py-8 lg:col-span-8">
                   <p className="text-[#794D94] font-medium text-xs lg:text-base">December 4, 2024</p>
                   <h3 className="text-[#18181B] font-medium text-2xl lg:text-[40px] mt-2 mb-4">{item.title}</h3>
-                  <p className="text-black font-normal text-base lg:text-lg">
-                    Through a customized leadership program, we helped NHS leaders build emotional intelligence, enhance decision-making
-                    under pressure, and foster stronger team collaboration.
-                  </p>
-                  <p className="my-[44px]">
+                  <p className="text-black font-normal  text-base lg:text-lg">{item?.details}</p>
+                  {/* <p className="my-[44px]">
                     <span className="text-base block w-full lg:w-[50%] text-black ">
                       “Proin venenatis, nunc nec facilisis vehicula, mauris velit dictum ex, sit amet fermentum orci risus ac nisi.”
                     </span>
                     <span className="text-sm mt-4 text-[#18181B] font-medium block">Richard Carter</span>
                     <span className="text-black font-sm">HR Manager at NHS</span>
-                  </p>
-                  <div className="flex justify-center md:block">
+                  </p> */}
+                  <div className="flex  justify-center md:block">
                     <Link
                       href={item.link ? item.link : '/case-studies-1'}
-                      className="border rounded-[40px] py-3 px-6 cursor-pointer hover:bg-secondary hover:text-white duration-200"
+                      className="border inline-block mt-6 rounded-[40px] py-3 px-6 cursor-pointer hover:bg-secondary hover:text-white duration-200"
                     >
                       Read now
                     </Link>

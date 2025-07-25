@@ -20,7 +20,7 @@ const WhyGlobal = () => {
               <Image alt="Why Global Cover" className="w-full  h-full object-cover" src={cover} height={200} width={400} />
             </div>
             <p className="mt-9 mb-4  text-left text-base lg:text-lg font-normal leading-[140%]">
-              True growth does not happen through lectures or handbooks, it happens through connection.We empower people with the tools to
+              True growth does not happen through lectures or handbooks, it happens through connection. We empower people with the tools to
               communicate clearly, build strong partnerships and show up when it counts. Our approach is practical and responsive, grounded
               in lived experience, and delivered with compassion.
             </p>
