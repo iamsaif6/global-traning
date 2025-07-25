@@ -19,19 +19,19 @@ const Video = () => {
         <span className="block mt-7 text-lg">- Confucius -</span>
       </div> */}
 
-      <div className="bg-primary  relative text-[#FCFCFD]  rounded-[20px] lg:rounded-4xl pt-[226px] lg:pt-[360px] mt-[220px] px-4 lg:px-[80px] pb-[70px]">
+      <div className="bg-primary  relative text-[#FCFCFD]  lg:rounded-4xl pt-[226px] lg:pt-[360px] mt-[220px] px-4 lg:px-[80px] pb-[70px]">
         {/* Shape */}
-        <Image
+        {/* <Image
           alt="Shape"
           width={150}
           height={150}
           className=" w-full max-w-[280px] lg:max-w-[450px] absolute bottom-20 top-auto lg:top-auto lg:bottom-15 left-10 lg:left-10 z-0 h-auto"
           src={'/Shape.png'}
-        />
+        /> */}
         {/* Video Frame */}
         <div className="h-[304px] border border-gray-100 lg:h-[560px] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[95%] max-w-[900px] rounded-2xl lg:rounded-4xl overflow-hidden">
           {!isPlaying ? (
-            <div className="absolute px-4 inset-0 bg-black cursor-pointer flex items-center justify-center" onClick={startVideo}>
+            <div className="absolute px-4 inset-0 bg-black cursor-pointer flex items-center justify-center">
               {/* Custom Thumbnail */}
               <div className="absolute flex items-center justify-center inset-0 bg-white">
                 {/* <img src="/army.png" alt="Video Thumbnail" className="w-full h-full object-contain" /> */}
@@ -80,14 +80,14 @@ const Video = () => {
               </div>
 
               {/* Play Button */}
-              <div className="w-[60px] h-[60px] rounded-full bg-white border border-gray-300 bg-opacity-80 flex items-center justify-center z-10 hover:bg-opacity-100 transition-all">
+              {/* <div className="w-[60px] h-[60px] rounded-full bg-white border border-gray-300 bg-opacity-80 flex items-center justify-center z-10 hover:bg-opacity-100 transition-all">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                   <path
                     d="M30 16.0001C30.0008 16.3397 29.9138 16.6736 29.7473 16.9696C29.5808 17.2655 29.3406 17.5133 29.05 17.6889L11.04 28.7064C10.7364 28.8923 10.3886 28.9938 10.0326 29.0004C9.67661 29.007 9.32532 28.9184 9.015 28.7439C8.70764 28.572 8.4516 28.3214 8.2732 28.0178C8.09481 27.7142 8.00051 27.3685 8 27.0164V4.98389C8.00051 4.63174 8.09481 4.28609 8.2732 3.98247C8.4516 3.67886 8.70764 3.42824 9.015 3.25639C9.32532 3.08182 9.67661 2.99326 10.0326 2.99985C10.3886 3.00645 10.7364 3.10795 11.04 3.29389L29.05 14.3114C29.3406 14.487 29.5808 14.7348 29.7473 15.0307C29.9138 15.3266 30.0008 15.6606 30 16.0001Z"
                     fill="#ff634a"
                   />
                 </svg>
-              </div>
+              </div> */}
             </div>
           ) : (
             <iframe

@@ -10,7 +10,7 @@ import { Handshake } from 'lucide-react';
 
 const HowWeWork = () => {
   return (
-    <section className="px-5  pt-[80px] lg:pt-[120px]  lg:px-[80px]">
+    <section className="px-5  py-[80px] lg:py-[100px]  lg:px-[80px]">
       <div className={`w-full  max-w-[720px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%] mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] text-[#18181B]`}>
           How we work

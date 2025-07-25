@@ -30,7 +30,7 @@ const page = () => {
           </div>
           <div className="text-center order-1 lg:order-2 lg:text-left   relative z-10 ">
             <h1 className="font-medium mb-4 tracking-[-4%] leading-[120%] text-[40px] md:[65px] lg:text-[60px] text-white">
-              ZSL London Zoo: Courageous Conversations / Leadership Development Programme
+              Courageous Conversations / Leadership Development Programme
             </h1>
             <p className="flex flex-col md:flex-row  justify-center lg:justify-start  items-center text-sm lg:text-sm text-black">
               <span> Zoological Society of London (ZSL)</span>

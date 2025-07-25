@@ -4,7 +4,7 @@ import { Brain, Drama, Handshake, RadioTower, TrendingUp } from 'lucide-react';
 
 const WhyUs = () => {
   return (
-    <section className="py-[60px] mb-[300px] lg:py-[120px] px-4 lg:px-[40px] bg-primary">
+    <section className="py-[60px] mb-[100px] lg:py-[120px] px-4 lg:px-[40px] bg-primary">
       <div className={`w-full  max-w-[1000px] text-white  text-center md:text-left`}>
         <p className={`mb-3 text-sm  font-medium `}>WHY US?</p>
         <h2 className={`w-full lg:w-[90%]  font-medium text-[36px] lg:text-[56px]  leading-[120%] -tracking-[1.6px] `}>

@@ -8,7 +8,7 @@ import Button from '../shared/Button';
 
 const HowItWork = () => {
   return (
-    <section className="px-4 bg-primary py-[80px] lg:py-[120px]  lg:px-[80px]">
+    <section className="px-4 bg-primary py-[80px] lg:py-[100px]  lg:px-[80px]">
       <div className={`w-full text-white  max-w-[1000px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%]  mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] `}>
           How it works

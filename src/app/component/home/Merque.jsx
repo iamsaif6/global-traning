@@ -12,12 +12,13 @@ import img10 from '/public/army.png';
 import img11 from '/public/university-of-bristol-logo-png-transparent.png';
 import img9 from '/public/simplyhealth-bk.png';
 import Image from 'next/image';
+import Marquee from 'react-fast-marquee';
 
 const Marque = () => {
   return (
     <div className="pt-[60px] max-w-[1400px] mx-auto px-5 lg:py-[80px] bg-transparent  lg:px-[60px]">
       <p className="text-base font-semibold  text-center mb-13">Clients who trust our work</p>
-      <div className="flex gap-10 items-center justify-center lg:justify-between  mb-10 lg:mb-[60px]">
+      <div className="hidden lg:flex gap-10 items-center justify-center lg:justify-between  mb-10 lg:mb-[60px]">
         <div className="hidden lg:block  max-h-[48px] h-full w-[157px] ">
           <Image className="w-full h-full object-contain" src={img1} alt="Living Wadge Company" />
         </div>
@@ -37,7 +38,7 @@ const Marque = () => {
           <Image className="w-full h-full object-contain" src={img6} alt="Cyber" />
         </div>
       </div>
-      <div className="flex gap-10 items-center justify-evenly">
+      <div className="hidden lg:flex gap-10 items-center justify-evenly">
         <div className="hidden lg:block   max-h-[48px] h-full w-[107px]  ">
           <Image className="w-full h-full object-contain" src={img7} alt="Trip Advisier" />
         </div>
@@ -56,6 +57,28 @@ const Marque = () => {
         <div className="   max-h-[48px] h-full  w-[170px] lg:w-[248px]   ">
           <Image className="w-full h-full object-contain" src={img12} alt="Trip Advisier" />
         </div>
+      </div>
+
+      <div className="block lg:hidden space-y-6">
+        <Marquee speed={40} gradient={false}>
+          <div className="flex gap-10 items-center">
+            {[img1, img2, img3, img4, img5, img6].map((img, i) => (
+              <div key={i} className="h-[48px] px-2 max-w-[100px] flex-shrink-0">
+                <Image className="w-full h-full object-contain" src={img} alt={`Logo ${i + 1}`} />
+              </div>
+            ))}
+          </div>
+        </Marquee>
+
+        <Marquee speed={40} direction="right" gradient={false}>
+          <div className="flex gap-10 items-center">
+            {[img7, img8, img9, img10, img11, img12].map((img, i) => (
+              <div key={i} className="h-[48px] max-w-[100px] flex-shrink-0">
+                <Image className="w-full h-full object-contain" src={img} alt={`Logo ${i + 7}`} />
+              </div>
+            ))}
+          </div>
+        </Marquee>
       </div>
     </div>
   );
