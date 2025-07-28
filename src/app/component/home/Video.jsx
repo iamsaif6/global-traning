@@ -27,7 +27,7 @@ const Video = () => {
             <div className="absolute px-4 inset-0 bg-black cursor-pointer flex items-center justify-center">
               {/* Custom Thumbnail */}
               <div className="absolute flex items-center justify-center inset-0 bg-white">
-                <img src="/emmaVideo.png" alt="Video Thumbnail" className="w-full h-full object-cover" />
+                <img src="/videoThumbnail.png" alt="Video Thumbnail" className="w-full h-full object-cover" />
                 {/* <svg
                   className="w-[86px] h-[56px] md:w-[80px] md:h-auto lg:w-[202px] lg:h-auto"
                   xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ const Video = () => {
 
               {/* Play Button */}
               <div
-                className="w-[60px] h-[60px] rounded-full bg-white border border-gray-300 bg-opacity-80 flex items-center justify-center z-10 hover:bg-opacity-100 transition-all"
+                className="w-[60px] h-[60px] rounded-full bg-white/30 border border-gray-300 bg-opacity-80 flex items-center justify-center z-10 hover:bg-opacity-100 transition-all"
                 onClick={() => startVideo()}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
