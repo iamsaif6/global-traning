@@ -54,7 +54,7 @@ const page = async ({ params }) => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="w-full relative z-10  mx-auto text-left">
-            <h1 className="font-medium tracking-[-4%] leading-[120%] text-[36px]  lg:text-[60px] text-[#FCFCFD]">{article?.title}</h1>
+            <h2 className="font-medium tracking-[-4%] leading-[120%] text-[36px]  lg:text-[60px] text-[#FCFCFD]">{article?.title}</h2>
             <div className="block mt-10 lg:hidden max-w-[600px] max-h-[400px] rounded-2xl overflow-hidden w-full">
               <Image className="w-full h-full object-cover" height={200} width={200} alt={article.title} src={article?.cover?.url} />
             </div>

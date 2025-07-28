@@ -9,7 +9,7 @@ const MeetOurFounder = () => {
     <section className="py-[120px] px-5 lg:px-[80px]">
       <SectionTitle
         badge={'MEET OUR TEAM'}
-        title={'The People Behind the Practice'}
+        title={'The people behind the practice'}
         subtitle={
           'Our facilitators, coaches and actor-roleplayers bring decades of experience across sectors — but more importantly, they bring compassion, creativity and a deep belief in human potential.'
         }
@@ -20,13 +20,17 @@ const MeetOurFounder = () => {
         <div className="max-h-[600px] rounded-2xl overflow-hidden">
           <Image src={img1} className="w-full h-full object-cover object-center" />
         </div>
+
         <div className="">
-          <p className="text-xl lg::text-2xl">
-            {/* Adam is a practising criminal barrister and CEDR-accredited mediator who founded Global Mediation in 1999. He oversees the
-            organisation’s strategic direction and brings decades of legal and mediation experience from the UK and US. */}
+          <p className="font-semibold text-2xl leading-0">Emma Gersch</p>
+          <p className=" text-lg my-5">Founder and Director</p>
+          <p className="text-base lg:text-lg">
+            Emma’s background is as a theatre director, trainer, mediator and coach. Over the past twenty years she has designed and
+            delivered training for the NHS, British Red Cross, Barristers, Psychologists, Lawyers, Managers and Educators. Emma’s areas of
+            expertise are in positive communication, leadership and team management, and courageous conversations.A qualified teacher, and
+            member of the Higher Education Faculty at Shakespeare’s Globe, Emma was Senior Teaching Fellow at Bath Spa University and Acting
+            Tutor at Royal Central School of Speech of Drama.
           </p>
-          <p className="font-normal text-xl mt-10">Emma Gersch</p>
-          <p className="font-bold text-xl mt-2">Founder and Director</p>
         </div>
       </div>
     </section>

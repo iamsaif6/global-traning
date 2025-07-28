@@ -59,7 +59,7 @@ const Blog = () => {
             </div>
             <div className="mt-8 px-6">
               <p className="text-secondary font-normal text-sm">December 4, 2024</p>
-              <h3 className="text-[#18181B] font-medium text-2xl mt-3">Courageous Conversations For ZSL</h3>
+              <h3 className="text-[#18181B] font-medium text-2xl mt-3">ZSL: Courageous Conversations</h3>
               <Link href={'/case-studies-zsl'}>
                 <button className="px-6 mt-6 py-3 rounded-[40px] text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer">
                   Read now
@@ -78,7 +78,7 @@ const Blog = () => {
             </div>
             <div className="mt-8 px-6">
               <p className="text-secondary font-normal text-sm">December 4, 2024</p>
-              <h3 className="text-[#18181B] font-medium text-2xl mt-3">South Central Ambulance Service</h3>
+              <h3 className="text-[#18181B] font-medium text-2xl mt-3">SCAS: Story-Driven Training for Culture Change</h3>
               <Link href={'/scas'}>
                 <button className="px-6 mt-6 py-3 rounded-[40px] text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer">
                   Read now
@@ -97,7 +97,7 @@ const Blog = () => {
             </div>
             <div className="mt-8 px-6">
               <p className="text-secondary font-normal text-sm">December 4, 2024</p>
-              <h3 className="text-[#18181B] font-medium text-2xl mt-3">Transforming Leadership at NHSn</h3>
+              <h3 className="text-[#18181B] font-medium text-2xl mt-3">NHS: Leading with Courage and Compassion</h3>
               <Link href={'/nhs'}>
                 <button className="px-6 mt-6 py-3 rounded-[40px] text-lg font-medium  hover:bg-primary hover:text-white duration-200 border border-[#D1D1D6] hover:border-primary cursor-pointer">
                   Read now

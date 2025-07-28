@@ -27,9 +27,9 @@ const page = () => {
             </div>
           </div>
           <div className="text-center order-1 lg:order-2 lg:text-left   relative z-10 ">
-            <h1 className="font-medium mb-4 tracking-[-4%] leading-[120%] text-[40px] md:[65px] lg:text-[60px] text-white">
+            <h2 className="font-medium mb-4 tracking-[-4%] leading-[120%] text-[30px]  lg:text-[50px] text-white">
               South Central Ambulance Service: Bespoke Training Film
-            </h1>
+            </h2>
             <p className="flex flex-col md:flex-row  justify-center lg:justify-start  items-center text-sm lg:text-sm text-black">
               {/* <span> Zoological Society of London (ZSL)</span> */}
               {/* <span className="w-1.5 h-1.5 hidden md:block rounded-full bg-[#FF634A]  mx-[7px]"></span> */}

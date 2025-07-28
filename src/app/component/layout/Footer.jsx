@@ -75,8 +75,8 @@ const Footer = () => {
       )}
       <footer
         className={`bg-[#F8F9FA] relative text-black ${
-          pathname == '/services' ? 'pt-[100px] mt-0' : 'lg:pt-[120px] md:pt-[120px] pt-[120px]  mt-[100px]'
-        } pb-[24px] px-5 md:px-16 `}
+          pathname == '/services' ? ' mt-0' : 'mt-[100px]'
+        } pb-[24px] px-5 md:px-16 lg:pt-[120px] md:pt-[120px] pt-[80px]   `}
       >
         <div className="flex flex-col md:flex-row gap-12 relative z-10 justify-between pb-[70px] border-[#3F3F46] border-b">
           <div>
