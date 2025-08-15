@@ -4,6 +4,7 @@ import Navbar from './component/layout/Navbar';
 import Footer from './component/layout/Footer';
 import Script from 'next/script';
 import UserbackWidget from '@/component/UserbackWidget';
+import { AuthProvider } from '../../contexts/AuthContext';
 const poppins = Poppins({
   variable: '--font-poppins',
   subsets: ['latin'],
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
         <Script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js" strategy="afterInteractive"></Script>
         <Script src="https://files.bpcontent.cloud/2025/05/20/09/20250520093739-YCHB89K8.js" strategy="afterInteractive"></Script>
         <Navbar />
-        {children}
+        <AuthProvider>{children}</AuthProvider>
         <Footer />
       </body>
     </html>
