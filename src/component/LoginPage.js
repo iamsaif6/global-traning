@@ -1,8 +1,8 @@
 // components/LoginPage.js
 'use client';
 import { useState } from 'react';
-import { useAuth } from '../contexts/AuthContext';
 import { useRouter } from 'next/navigation';
+import { useAuth } from '../../contexts/AuthContext';
 
 const LoginPage = () => {
   const [credentials, setCredentials] = useState({ username: '', password: '' });
