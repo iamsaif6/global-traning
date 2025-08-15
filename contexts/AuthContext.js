@@ -16,7 +16,7 @@ export const useAuth = () => {
 const LOGIN_DURATION = 5 * 60 * 60 * 1000; // 5 hours in milliseconds
 const VALID_CREDENTIALS = {
   username: 'admin',
-  password: 'password123',
+  password: 'gmt@2025',
 };
 
 // Pages that don't require authentication
