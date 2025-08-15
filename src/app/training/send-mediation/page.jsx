@@ -38,7 +38,7 @@ const page = () => {
           large
         />
         <div className="flex mt-[56px] items-center justify-center">
-          <Button title={'Enroll Today'} href="#" />
+          <Button title={'Enroll Today'} href="/contact-us" />
         </div>
       </section>
       {/* key topic */}

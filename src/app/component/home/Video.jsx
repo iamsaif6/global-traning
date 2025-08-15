@@ -22,7 +22,7 @@ const Video = () => {
           src={'/Shape.png'}
         /> */}
         {/* Video Frame */}
-        <div className="h-[304px]  lg:h-[560px] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[95%] max-w-[900px] rounded-2xl lg:rounded-4xl overflow-hidden">
+        <div className="h-[304px]   lg:h-[560px] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[95%] max-w-[900px] rounded-2xl lg:rounded-4xl overflow-hidden">
           {!isPlaying ? (
             <div className="absolute px-4 inset-0 bg-black cursor-pointer flex items-center justify-center">
               {/* Custom Thumbnail */}
@@ -33,7 +33,7 @@ const Video = () => {
               {/* Play Button */}
               <div
                 className="w-[60px] h-[60px] rounded-full bg-white/30 border border-gray-300 bg-opacity-80 flex items-center justify-center z-10 hover:bg-opacity-100 transition-all"
-                onClick={() => startVideo()}
+                onClick={() => setIsPlaying(true)}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                   <path
@@ -45,8 +45,8 @@ const Video = () => {
             </div>
           ) : (
             <iframe
-              className="w-full h-full"
-              src="https://drive.google.com/file/d/1w0OXoOhQ3VvKofx46dJoy2voyNE0oCZ1/preview"
+              className="w-full  bg-black h-full"
+              src="https://gtrain.s3.eu-west-2.amazonaws.com/GTG_PPP_sub_about-us-1.mp4"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

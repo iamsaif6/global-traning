@@ -36,7 +36,7 @@ const Footer = () => {
                     required
                     type="email"
                     placeholder="Enter your email"
-                    className="py-3 lg:py-4 bg-white outline-0 text-black px-5 lg:px-6 rounded-[40px] placeholder:text-[#6E7381]"
+                    className="py-3 lg:py-4 bg-white max-w-[90%] outline-0 text-black px-5 lg:px-6 rounded-[40px] placeholder:text-[#6E7381]"
                   />
                   <button
                     type="submit"
@@ -57,9 +57,9 @@ const Footer = () => {
               </div>
               <div className={`mt-8 md:max-w-[750px] grid grid-cols-1 md:grid-cols-2  gap-4  mx-auto`}>
                 <button className="bg-primary font-semibold text-[#FCFCFD] px-10 py-3 rounded-[40px] text-base md:text-lg">
-                  <Link className="flex items-center justify-center gap-2 w-full text-center" href="mailto:sen@globalmediaiton.co.uk">
+                  <Link className="flex items-center justify-center gap-2 w-full text-center" href="mailto:enquiries@globaltraining.uk">
                     <Mail size={20} />
-                    sen@globalmediaiton.co.uk
+                    enquiries@globaltraining.uk
                   </Link>
                 </button>
                 <button className="font-semibold border border-white text-base md:text-lg text-white px-6 py-3 rounded-[40px]">
@@ -95,7 +95,7 @@ const Footer = () => {
                 <a href="tel:020 8441 1355" className="block mt-1 leading-[140%] text-sm md:text-lg">
                   020 8441 1355
                 </a>
-                <a href="mailto:sen@globalmediaiton.co.uk">sen@globalmediaiton.co.uk</a>
+                <a href="mailto:enquiries@globaltraining.uk">enquiries@globaltraining.uk</a>
               </p>
             </div>
           </div>

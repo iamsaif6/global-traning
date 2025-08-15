@@ -1,7 +1,6 @@
 import React from 'react';
-import cover from '/public/william-bayreuther-Ri90j6NHQ3Q-unsplash.jpg';
+import cover from '/public/GTG_2022-43.jpg';
 import Image from 'next/image';
-import Button from '../shared/Button';
 
 const Philosophy = () => {
   return (

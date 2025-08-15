@@ -24,7 +24,7 @@ const page = () => {
           empathy.
         </p>
         <div className="flex items-center justify-center">
-          <Button href="#" title={'Enroll Today'} />
+          <Button href="/contact-us" title={'Enroll Today'} />
         </div>
       </div>
       <div className="bg-primary py-[120px] px-[40px] grid grid-cols-12">

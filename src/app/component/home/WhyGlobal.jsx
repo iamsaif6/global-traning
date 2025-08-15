@@ -5,12 +5,12 @@ import Button from '../shared/Button';
 
 const WhyGlobal = () => {
   return (
-    <section className="pb-[60px] pt-[80px] lg:pt-0 lg:pb-[120px] items-center px-4 lg:px-[120px] ">
+    <section className="pb-[60px] max-w-[1600px] mx-auto pt-[80px] lg:pt-0 lg:pb-[120px] items-center px-4 lg:px-[120px] ">
       <div className="grid grid-cols-2 gap-[80px]">
-        <div className="max-w-[580px]  hidden lg:block mx-auto lg:mx-0 col-span-2 lg:col-span-1 rounded-3xl overflow-hidden">
+        <div className="max-w-[580px] mx-auto  hidden lg:block  lg:mx-0 col-span-2 lg:col-span-1 rounded-3xl overflow-hidden">
           <Image alt="Why Global Cover" className="w-full  h-full object-cover" src={cover} height={200} width={400} />
         </div>
-        <div className="col-span-2  lg:col-span-1">
+        <div className="col-span-2 lg:col-span-1">
           <div className={`w-full text-center lg:text-left mx-auto max-w-[660px]`}>
             <p className="mb-3 text-primary text-sm font-medium">WHY GLOBAL TRAINING</p>
             <h2 className="text-[#18181B]   font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">

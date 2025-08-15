@@ -10,6 +10,7 @@ export function RichText({ content }) {
         components={{
           h1: ({ node, ...props }) => <h1 className="text-4xl font-bold mt-6 mb-4" {...props} />,
           h2: ({ node, ...props }) => <h2 className="text-3xl font-semibold mt-4 mb-3" {...props} />,
+          a: ({ node, ...props }) => <a className="text-blue-600 underline hover:text-blue-800" {...props} />,
         }}
       >
         {content}

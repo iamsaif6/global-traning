@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTitle from '../shared/SectionTitle';
 import Image from 'next/image';
-import cover from '/public/alberto-bigoni-kvinEq5Utfw-unsplash.jpg';
+import cover from '/public/GTG_2022-97.jpg';
 
 const Approch = () => {
   return (

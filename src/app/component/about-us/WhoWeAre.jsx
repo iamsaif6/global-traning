@@ -14,7 +14,7 @@ const WhoWeAre = () => {
           </h2>
 
           <div className="max-h-[400px] w-full block my-10 lg:hidden mx-auto  col-span-2 lg:col-span-1 h-full rounded-3xl overflow-hidden">
-            <Image alt="Who we are cover" className="w-full h-full  object-cover" src={cover} height={500} width={700} />
+            <Image alt="Who we are cover" className="w-full h-full  object-cover" src={cover} height={4000} width={6000} />
           </div>
 
           <p className=" mt-10 mb-[56px] text-left  text-base lg:text-lg font-normal leading-[140%]">
@@ -34,7 +34,7 @@ const WhoWeAre = () => {
         </div>
       </div>
       <div className="max-h-[680px] hidden lg:block mx-auto lg:mx-0 col-span-2 lg:col-span-1 h-full rounded-3xl overflow-hidden">
-        <Image alt="Cover Photo" className="w-full h-full object-right object-cover" src={cover} height={200} width={400} />
+        <Image alt="Cover Photo" className="w-full h-full object-right object-cover" src={cover} height={4000} width={6000} />
       </div>
     </section>
   );

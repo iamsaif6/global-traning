@@ -19,7 +19,7 @@ const Video = () => {
             <div className="absolute px-4 inset-0 bg-black cursor-pointer flex items-center justify-center">
               {/* Custom Thumbnail */}
               <div className="absolute inset-0">
-                <img src="/IMG_4599.jpg" alt="Video Thumbnail" className="w-full h-full object-cover object-top" />
+                <img src="/GTG_2022-102.jpg" alt="Video Thumbnail" className="w-full h-full object-cover object-top" />
               </div>
 
               {/* Play Button */}

@@ -13,7 +13,7 @@ const HowWeWork = () => {
     <section className="px-5  py-[80px] lg:py-[100px]  lg:px-[80px]">
       <div className={`w-full  max-w-[720px] text-center mx-auto`}>
         <h2 className={`w-full lg:w-[90%] mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] text-[#18181B]`}>
-          How we work
+          The methodology
         </h2>
 
         <p className={` mt-6 text-base text-left lg:text-center lg:text-lg  leading-[140%] `}>

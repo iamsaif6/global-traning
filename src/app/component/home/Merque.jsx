@@ -63,7 +63,7 @@ const Marque = () => {
         <Marquee speed={40} gradient={false}>
           <div className="flex gap-10 items-center">
             {[img1, img2, img3, img4, img5, img6].map((img, i) => (
-              <div key={i} className="h-[48px] px-2 max-w-[100px] flex-shrink-0">
+              <div key={i} className="h-[48px] px-3 max-w-[100px] flex-shrink-0">
                 <Image className="w-full h-full object-contain" src={img} alt={`Logo ${i + 1}`} />
               </div>
             ))}
@@ -73,7 +73,7 @@ const Marque = () => {
         <Marquee speed={40} direction="right" gradient={false}>
           <div className="flex gap-10 items-center">
             {[img7, img8, img9, img10, img11, img12].map((img, i) => (
-              <div key={i} className="h-[48px] max-w-[100px] flex-shrink-0">
+              <div key={i} className="h-[48px] px-3 max-w-[100px] flex-shrink-0">
                 <Image className="w-full h-full object-contain" src={img} alt={`Logo ${i + 7}`} />
               </div>
             ))}
