@@ -22,9 +22,10 @@ const navLinks = [
     title: 'Case studies',
   },
   {
-    href: '/blogs',
-    title: 'Insights & Updates',
+    href: '/courageous-conversations-training',
+    title: 'Training Services',
   },
+
   // {
   //   href: '/our-thinking',
   //   title: 'Our Thinking',
