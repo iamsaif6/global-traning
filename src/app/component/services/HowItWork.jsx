@@ -14,9 +14,12 @@ const HowItWork = () => {
           How it works
         </h2>
         <p className={` mt-6 text-left lg:text-center text-base lg:text-lg font-normal leading-[140%] `}>
-          Whether we are designing a workshop, leading a team retreat or facilitating a bespoke workshop, we create learning that meets
-          people where they are and supports real, lasting and tangible change. Our approach is always personal, whether you're an
-          individual, a team or a whole organisation, we begin by truly listening, then we design something bespoke that fits.
+          When designing a Courageous Conversations workshop, leading a team retreat or facilitating a mediation training course, our
+          mission remains the same. To create learning that meets people where they are and supports real, lasting and tangible change.{' '}
+          <br />
+          <br />
+          Our approach is always personal; whether you're an individual, a team or a whole organisation, we begin by truly listening, then
+          we create and facilitate something bespoke that fits.
         </p>
       </div>
       {/* Grid */}
@@ -119,18 +122,18 @@ const HowItWork = () => {
             </div>
 
             <p className=" text-base lg:text-lg font-normal leading-[140%]">
-              Checking the impact, the shifts in habits and explore what might come next.
+              Evaluating the impact, the shifts in habits and exploring what might come next.
             </p>
           </div>
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <p className={` text-white text-left lg:text-center  mt-6 text-base lg:text-lg font-normal leading-[140%] `}>
           Our training is never ‘off-the-shelf training’. Instead, it’s anchored in what’s real, resulting in team training that’s
           practical, human and built to strengthen connection, communication and leadership.
         </p>
-      </div>
+      </div> */}
       <div className="flex justify-center pt-16">
         <Button title={'Book a Discovery Call '} href="/contact-us" secondary />
       </div>

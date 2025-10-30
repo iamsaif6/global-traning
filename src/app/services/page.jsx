@@ -16,10 +16,10 @@ const Services = () => {
       <Header />
       <Video />
       <ServiceCircle />
-      <Blocked />
-      <Testimonial />
+      {/* <Blocked /> */}
+      {/* <Testimonial /> */}
       {/* <TrustedBy /> */}
-      <HowWeWork />
+      {/* <HowWeWork /> */}
       <HowItWork />
       <PhotoGrid />
       <Form />

@@ -20,11 +20,10 @@ const Header = () => {
           <h1 className="font-semibold text-center mx-auto tracking-[-4%] max-w-[900px] 2xl:max-w-[90%] leading-[120%] text-5xl md:text-[65px] xl:text-[4vw] !text-white ">
             Every voice matters.
             <br />
-            every story counts.
+            Every story counts.
           </h1>
           <p className="text-white md:text-center text-left mt-[25px] mx-auto md:mt-4 mb-[25px] mr-auto max-w-[900px] md:mb-10 w-[100%] font-normal text-base md:text-lg xl:text-xl">
-            We design and deliver practical, immersive and human-centered training experiences that strengthen how people relate, reflect
-            and collaborate. Empowering people to grow, connect and lead with emotional intelligence.
+            We design and deliver creative, immersive and impactful training experiences — helping people grow together.
           </p>
           <div onClick={() => setOpen(true)} className="flex max-w-max mx-auto gap-4 justify-center">
             <Button href="/contact-us" title={'Start a conversation'} />

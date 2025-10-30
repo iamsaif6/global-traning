@@ -14,7 +14,7 @@ const Philosophy = () => {
           <div className="text-center lg:text-left">
             <p className="mb-3 text-white text-sm lg:text-base font-medium">OUR PHILOSOPHY</p>
             <h2 className="   font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
-              Training designed with compassion.
+              Training designed with compassion
             </h2>
 
             <div className="block my-10 lg:hidden h-[350px]  rounded-3xl overflow-hidden">
@@ -22,10 +22,12 @@ const Philosophy = () => {
             </div>
 
             <p className=" mt-6 mb-[56px] text-left text-base lg:text-lg font-normal leading-[140%]">
-              Real learning starts with real people, we share stories, voices and insights drawn from lived experience to show how learning
-              can shift mindsets, strengthen teams and spark meaningful change. We believe in the power of emotional intelligence in action.
-              By bringing people together to create change, we help individuals and organisations grow through intuitive, purposeful and
-              transformational learning.
+              <strong>Compassion is at the heart of all we do.</strong> Our courses, workshops and training programmes create a safe space
+              to step outside your comfort zone: to explore boldly, to be playful and to reflect deeply. We hear and share stories drawn
+              from lived experiences — which we know to be the most effective way to learn. Collaborative learning can shift mindsets,
+              strengthen bonds and spark meaningful change.
+              <br /> <br />
+              Global Training brings people together, putting emotional intelligence into action.
             </p>
           </div>
           {/* <div className="space-y-4 ">

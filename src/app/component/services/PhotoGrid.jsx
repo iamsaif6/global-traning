@@ -6,12 +6,12 @@ import Image from 'next/image';
 
 const PhotoGrid = () => {
   return (
-    <section className="px-5  pb-[80px] lg:pb-[120px]  lg:px-[80px]">
-      <div className="max-w-[900px] text-center text-[#18181B] font-medium text-[28px] lg:text-[40px] leading-[120%] mx-auto pb-0 lg:pb-[120px] pt-[80px] lg:pt-[120px]">
+    <section className="px-5  py-[80px] lg:py-[120px]  lg:px-[80px]">
+      {/* <div className="max-w-[900px] text-center text-[#18181B] font-medium text-[28px] lg:text-[40px] leading-[120%] mx-auto pb-0 lg:pb-[120px] pt-[80px] lg:pt-[120px]">
         <p className="text-left lg:text-center">
           We design training that’s practical, human and built to strengthen connection, communication and leadership.
         </p>
-      </div>
+      </div> */}
       {/* Photo grid for desktop */}
       <div className="hidden lg:grid grid-cols-2 gap-6">
         <div className="col-span-2 h-[480px] relative overflow-hidden bg-gray-300 rounded-3xl">

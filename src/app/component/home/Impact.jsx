@@ -40,7 +40,7 @@ const Impact = () => {
 
   return (
     <section className="py-[60px] lg:py-[120px] px-4 lg:px-[40px] bg-white ">
-      <SectionTitle badge={'TESTIMONIALS'} title={'Stories of growth that feels real'} center large />
+      <SectionTitle badge={'TESTIMONIALS'} title={'True stories: From challenge to change'} center large />
       <div className="slider-container my-[56px]">
         <Slider {...settings}>
           <div className="px-4 h-[350px]">

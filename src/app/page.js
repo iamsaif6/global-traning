@@ -19,10 +19,10 @@ export default function Home() {
       <Marque />
       <Video />
       <WhyGlobal />
-      <OurServices />
-      <WhatWeDo />
+      {/* <OurServices /> */}
+      {/* <WhatWeDo /> */}
       <Impact />
-      <WhyUs />
+      {/* <WhyUs /> */}
     </div>
   );
 }

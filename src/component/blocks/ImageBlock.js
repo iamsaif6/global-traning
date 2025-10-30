@@ -9,9 +9,9 @@ export function ImageBlock({ image }) {
 
   return (
     <figure className={styles.imageBlock}>
-      <div className={styles.imageContainer}>
+      <div className="">
         <Image
-          className="mb-10"
+          className="mb-10 mx-auto"
           src={imageUrl}
           alt={image.data?.attributes?.alternativeText || ''}
           width={image.data?.attributes?.width || 800}

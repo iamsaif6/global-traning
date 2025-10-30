@@ -112,7 +112,7 @@ const page = async ({ params }) => {
         <article className="md:text-lg text-base leading-[150%]">
           <h2 className="md:text-[40px] text-4xl font-medium md:font-semibold mb-5 md:mb-8">{article.title}</h2>
           <p>{article?.description}</p>
-          {article.cover && (
+          {/* {article.cover && (
             <figure className="h-[370px] rounded-xl md:h-[630px] py-10 mb-10 ">
               {(article?.cover?.formats?.large?.url && (
                 <Image
@@ -143,7 +143,7 @@ const page = async ({ params }) => {
                 ))}
               {article?.cover?.caption && <figcaption className="mt-4 text-sm pl-2 border-l-2">{article?.cover?.caption}</figcaption>}
             </figure>
-          )}
+          )} */}
           <BLockWrapper article={article} />
           <div className="flex pb-12 border-b-[0.5px] border-secondary mb-12 items-center flex-col mt-16">
             <p className="font-semibold text-lg mb-4">Share this post</p>

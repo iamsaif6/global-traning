@@ -53,7 +53,7 @@ const Approch = () => {
           <div className="text-center lg:text-left">
             <p className="mb-3 text-primary text-sm lg:text-base font-medium">OUR APPROACH</p>
             <h2 className="   font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
-              Creating space for transformation.
+              Creating space for transformation
             </h2>
 
             <div className="block my-10 lg:hidden max-h-[450px]  h-full rounded-3xl overflow-hidden">
@@ -61,11 +61,11 @@ const Approch = () => {
             </div>
 
             <p className=" mt-6 mb-[56px] text-left text-base lg:text-lg font-normal leading-[140%]">
-              Our training blends theatre-based techniques, live coaching, real-time facilitation and tailored leadership frameworks —
-              always balancing structure with creativity, compassion with challenge, theory with real-world action.
-              <br /> <br />
-              We design every experience to be human, grounded and transformational, anchored in a belief that learning should be felt, not
-              forced. Because when people grow together, they go further together.
+              Our training blends theatre-based techniques, live coaching, real-time facilitation and tailored frameworks — always balancing
+              structure with creativity, challenge with empathy, theory with real-world action. <br />
+              <br />
+              We design every experience to be authentic, grounded and transformational, anchored in a belief that learning should be felt,
+              not forced. Because when people grow together, they go further together.
             </p>
           </div>
           {/* <div className="space-y-4 ">

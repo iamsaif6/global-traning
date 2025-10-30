@@ -14,23 +14,25 @@ const WhyGlobal = () => {
           <div className={`w-full text-center lg:text-left mx-auto max-w-[660px]`}>
             <p className="mb-3 text-primary text-sm font-medium">WHY GLOBAL TRAINING</p>
             <h2 className="text-[#18181B]   font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
-              We believe that learning should be deeply human
+              We design learning to fit you - not the other way around.
             </h2>
             <div className="max-w-[580px]  mt-10 block lg:hidden mx-auto lg:mx-0 col-span-2 lg:col-span-1 rounded-3xl overflow-hidden">
               <Image alt="Why Global Cover" className="w-full  h-full object-cover" src={cover} height={200} width={400} />
             </div>
             <p className="mt-9 mb-4  text-left text-base lg:text-lg font-normal leading-[140%]">
-              True growth does not happen through lectures or handbooks, it happens through connection. We empower people with the tools to
-              communicate clearly, build strong partnerships and show up when it counts. Our approach is practical and responsive, grounded
-              in lived experience, and delivered with compassion.
+              Not everyone learns in the same way. While lectures and handbooks offer more traditional learning methods, at Global Training,
+              we believe that human connection is the key to genuine growth. <br /> <br />
+              Through our bespoke offerings, we empower people to communicate clearly, build strong relationships and show up when it
+              counts. Our approach is practical and responsive, grounded in lived experience, and delivered with compassion.
             </p>
             <ul className="pt-6">
               <p className="mb-3 text-base lg:text-lg font-normal leading-[140%]">Our training helps individuals and organisations:</p>
               {[
                 'Build emotionally intelligent leadership',
-                'Develop resilient, cohesive teams',
+                'Develop resilient, connected teams',
                 'Improve communication and feedback skills',
-                'Navigate conversations with confidence and care',
+                'Reconnect with their individual purpose',
+                'Foster inclusive cultures where people feel seen, heard and supported',
               ].map(li => (
                 <div
                   key={li}
@@ -43,15 +45,15 @@ const WhyGlobal = () => {
                 </div>
               ))}
               <p className="mt-6 text-left  mb-5 text-base lg:text-lg font-normal leading-[140%]">
-                Whether we are designing a workshop, leading a team retreat or facilitating a bespoke workshop, we create learning that
-                meets people where they are and supports real, lasting and tangible change.
+                Whether we are designing a tailored workshop, leading a team retreat or facilitating a training course, we create learning
+                that meets people where they are and supports real, lasting and tangible change.
               </p>
             </ul>
           </div>
         </div>
       </div>
       <div className="mt-3 md:mt-[56px] flex justify-center">
-        <Button Customclass={'py-3 px-[20px] md:py-[15px] md:px-6'} href="/about-us" title={'Find out more about us'} />
+        <Button Customclass={'py-3 px-[20px] md:py-[15px] md:px-6'} href="/about-us" title={'Explore our training'} />
       </div>
     </section>
   );
