@@ -3,6 +3,7 @@ import { trainingData } from '@/data/trainingData';
 import { notFound } from 'next/navigation';
 import Header from '@/app/component/courageous-conversations-training/Header';
 import Video from '@/app/component/courageous-conversations-training/Video';
+import Form from '@/app/component/services/Form';
 
 const TrainingDetailPage = async ({ params }) => {
   const { slug } = params;
@@ -42,12 +43,17 @@ const TrainingDetailPage = async ({ params }) => {
             <h2 className="text-3xl lg:text-5xl font-medium text-[#3E0065] mb-12 text-center">What Can You Expect?</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {training.expectations.map((item, index) => (
-                <div
-                  key={index}
-                  className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-[#3E0065]"
-                >
-                  <h3 className="text-xl font-bold text-[#3E0065] mb-4">{item.title}</h3>
-                  {item.description && <p className="text-gray-700 leading-relaxed">{item.description}</p>}
+                <div className=" rounded-3xl bg-white p-6 flex items-center min-h-[200px] lg:min-h-[300px]">
+                  <div className="">
+                    <div className="mb-5 flex items-center gap-3">
+                      <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+                        {index + 1}
+                      </div>
+                      <p className="text-[#511A75] font-medium text-[18px] lg:text-[20px] leading-[120%]">{item.title}</p>
+                    </div>
+
+                    <p className=" text-base lg:text-lg font-normal leading-[140%]">{item.description}</p>
+                  </div>
                 </div>
               ))}
             </div>
@@ -78,7 +84,7 @@ const TrainingDetailPage = async ({ params }) => {
       )}
 
       {/* CTA Section */}
-      {training.cta && (
+      {/* {training.cta && (
         <section className="py-16 px-5 lg:px-[40px] bg-gradient-to-br from-[#3E0065] to-[#5A0A8F] text-white">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-xl lg:text-2xl leading-relaxed mb-8">{training.cta}</p>
@@ -90,7 +96,8 @@ const TrainingDetailPage = async ({ params }) => {
             </a>
           </div>
         </section>
-      )}
+      )} */}
+      <Form />
     </div>
   );
 };
