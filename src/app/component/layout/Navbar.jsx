@@ -13,6 +13,10 @@ const navLinks = [
     title: 'What we do',
   },
   {
+    href: '/training',
+    title: 'Training & Courses',
+  },
+  {
     href: '/about-us',
     title: 'About us',
   },
@@ -24,12 +28,14 @@ const navLinks = [
 
   {
     href: '/blogs',
-    title: 'Insights & Updates',
+    title: 'Insights',
   },
+
   {
-    href: '/training',
-    title: 'Training & Courses',
+    href: '/now-playing',
+    title: 'Now Playing',
   },
+
   // {
   //   href: '/our-thinking',
   //   title: 'Our Thinking',

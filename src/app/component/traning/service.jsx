@@ -19,12 +19,7 @@ const services = [
     img: img2,
     link: '/training/compassionate-leadership-development-programme',
   },
-  {
-    title: 'Team Away Days',
-    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
-    img: img3,
-    link: '/training/team-away-days',
-  },
+
   {
     title: 'Creative Conflict Resolution',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
@@ -49,6 +44,12 @@ const services = [
     img: img3,
     link: '/training/professional-practice-day',
   },
+  {
+    title: 'Team Away Days',
+    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
+    img: img3,
+    link: '/training/team-away-days',
+  },
 ];
 
 const Service = () => {
@@ -61,17 +62,35 @@ const Service = () => {
         center
       />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-6 my-[60px]">
-        {services.map(item => {
+      <div className="grid max-w-[1300px] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-6 my-[60px]">
+        {services.slice(0, 6).map(item => {
           return (
             <div
               key={item.title}
-              className="p-5 flex flex-col cursor-pointer pb-[28px] duration-200 hover:shadow-lg hover:bg-[linear-gradient(to_bottom,_#3E0065_40%,_white_90%)]   rounded-3xl group "
+              className="p-5 col-span-1 md:col-span-1 flex flex-col cursor-pointer pb-[28px] duration-200 hover:shadow-lg hover:bg-[linear-gradient(to_bottom,_#3E0065_40%,_white_90%)]   rounded-3xl group "
             >
               <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
                 <Image alt={item.title} width={200} h={200} className="w-full h-full object-cover" src={item.img} />
               </div>
               <div className="h-full flex-1 flex justify-between flex-col">
+                <h3 className="text-2xl  text-[#18181B] leading-[120%] mb-3">{item.title}</h3>
+                <Link href={item.link} className="bg-primary cursor-pointer w-max px-5 py-2.5 rounded-[40px] text-white">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+          );
+        })}
+        {services.slice(6, 7).map(item => {
+          return (
+            <div
+              key={item.title}
+              className="p-5 md:col-span-2 flex flex-col cursor-pointer pb-[28px] duration-200 hover:shadow-lg hover:bg-[linear-gradient(to_bottom,_#3E0065_40%,_white_90%)]   rounded-3xl group "
+            >
+              <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
+                <Image alt={item.title} width={200} h={200} className="w-full h-full object-cover" src={item.img} />
+              </div>
+              <div className="h-full flex-1 items-center flex justify-between flex-col">
                 <h3 className="text-2xl  text-[#18181B] leading-[120%] mb-3">{item.title}</h3>
                 <Link href={item.link} className="bg-primary cursor-pointer w-max px-5 py-2.5 rounded-[40px] text-white">
                   Learn More
@@ -86,6 +105,3 @@ const Service = () => {
 };
 
 export default Service;
-
-// hover:bg-[linear-gradient(to_bottom,_#3E0065_40%,_white_90%)]
-// hover:shadow-[0px_20px_100px_-20px_rgba(0,0,0,0.1)]

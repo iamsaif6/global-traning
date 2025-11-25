@@ -9,6 +9,7 @@ import Alison from '/public/Alison Bennett Photo 2.jpg';
 import Anup from '/public/Anup Ravi Photo.jpg';
 import Lizzie from '/public/Lizzie .jpg';
 import Ash from '/public/Ash Stent Photo 2.jpg';
+import shilhoute from '/public/female-silhouette.jpg';
 
 const memberData = [
   {
@@ -171,7 +172,7 @@ const memberData = [
   {
     name: 'Anni Williams',
     role: 'Commercial and Business Development Manager',
-    image: null,
+    image: shilhoute,
     bio: (
       <p>
         Anni has a Drama degree from the University of the Witwatersrand and is a qualified Speech Teacher. She has over 20 years’
@@ -216,23 +217,26 @@ const MeetOurFounder = () => {
         center
         large
       />
-      {memberData?.map((member, index) => (
-        <div key={index} className={`grid mt-[80px] grid-cols-1 px-5 lg:grid-cols-2 items-center  gap-[90px] lg:max-w-[1318px] mx-auto `}>
-          <div className={`${index % 2 === 0 ? '' : 'lg:order-1'} max-h-[600px] rounded-2xl overflow-hidden`}>
-            {member.image ? (
-              <Image alt={member.name} src={member.image} className="w-full h-full object-cover object-center" />
-            ) : (
-              <div className="w-full h-full flex items-center justify-center bg-gray-200 text-gray-500">No Image Available</div>
-            )}
+      <div className={`grid mt-[80px] grid-cols-1 px-5 lg:grid-cols-2 items-center  gap-[90px] lg:max-w-[1318px] mx-auto `}>
+        {memberData?.map((member, index) => (
+          <div className="rounded-2xl group relative">
+            <div className="bg-[#f9fafb] shadow-2xl opacity-0  group-hover:opacity-100  transition-all duration-500 ease-in-out   px-8 overflow-y-scroll py-8 absolute h-full w-full left-0 z-10 rounded-2xl top-0">
+              {member?.bio}
+            </div>
+            <div className={`h-[500px]  rounded-2xl overflow-hidden`}>
+              {member.image ? (
+                <Image alt={member.name} src={member.image} className="w-full h-full  object-cover object-top" />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center bg-gray-200 text-gray-500">No Image Available</div>
+              )}
+            </div>
+            <div className="mt-3">
+              <p className="font-semibold text-2xl">{member.name}</p>
+              <p className=" text-lg">{member.role}</p>
+            </div>
           </div>
-
-          <div className="">
-            <p className="font-semibold text-2xl leading-0">{member.name}</p>
-            <p className=" text-lg my-5">{member.role}</p>
-            <p className="text-base lg:text-base">{member.bio}</p>
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </section>
   );
 };
