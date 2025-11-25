@@ -29,7 +29,7 @@ const Footer = () => {
               <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">
                 Let’s start the conversation with a free Initial consultation.
               </h4>
-              <p className="text-base lg:text-lg">Join our community</p>
+              {/* <p className="text-base lg:text-lg">Join our community</p> */}
               <div className="mt-10 flex items-center justify-center">
                 <form className="flex flex-col lg:flex-row items-center gap-4 lg:gap-3">
                   <input
@@ -42,7 +42,7 @@ const Footer = () => {
                     type="submit"
                     className="py-3 lg:py-[14px] font-semibold cursor-pointer text-lg px-5 lg:px-10 bg-primary text-white rounded-[40px]"
                   >
-                    Get in touch
+                    Join our community
                   </button>
                 </form>
               </div>
