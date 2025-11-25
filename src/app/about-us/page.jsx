@@ -11,7 +11,7 @@ const AboutUS = () => {
     <div>
       <header
         style={{
-          backgroundImage: `url('/aboutBg.jpg')`,
+          backgroundImage: `url('/About-Who-Image-2.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'top center',
           // backgroundBlendMode: 'overlay',

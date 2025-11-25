@@ -8,22 +8,46 @@ import Link from 'next/link';
 
 const services = [
   {
-    title: 'Workplace and Employment Mediation',
+    title: 'Courageous Conversations',
     subtitle: 'Equip your team to navigate difficult conversations with confidence and clarity',
     img: img1,
-    link: '/training/Workplace and Employment Mediation',
+    link: '/training/courageous-conversations',
   },
   {
-    title: 'Business and Commercial Mediation',
+    title: 'Compassionate Leadership Development Programme',
     subtitle: 'Cultivate impactful leaders through targeted coaching and practical exercises.',
     img: img2,
-    link: '/training/Business and Commercial Mediation',
+    link: '/training/compassionate-leadership-development-programme',
   },
   {
-    title: 'SEND (Special Educational Needs and Disability) Mediation',
+    title: 'Team Away Days',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
     img: img3,
-    link: '/training/send-mediation',
+    link: '/training/team-away-days',
+  },
+  {
+    title: 'Creative Conflict Resolution',
+    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
+    img: img3,
+    link: '/training/creative-conflict-resolution',
+  },
+  {
+    title: 'Foundation Mediation Course',
+    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
+    img: img3,
+    link: '/training/foundation-mediation-course',
+  },
+  {
+    title: 'SEND Mediation Course',
+    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
+    img: img3,
+    link: '/training/send-mediation-course',
+  },
+  {
+    title: 'Professional Practice Day',
+    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
+    img: img3,
+    link: '/training/professional-practice-day',
   },
 ];
 

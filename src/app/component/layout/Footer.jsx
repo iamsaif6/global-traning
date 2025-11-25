@@ -12,8 +12,8 @@ const Footer = () => {
     <>
       {/* CTA */}
 
-      {pathname !== '/services' && (
-        <div className=" rounded-3xl  text-center bg-secondary text-[#FCFCFD] py-[60px] lg:py-[80px] px-6 lg:px-[60px] w-[90%] max-w-[1100px] mx-auto">
+      {pathname !== '/services' && !pathname.includes('training') && (
+        <div className=" rounded-3xl mt-16  text-center bg-secondary text-[#FCFCFD] py-[60px] lg:py-[80px] px-6 lg:px-[60px] w-[90%] max-w-[1100px] mx-auto">
           {pathname == '/courageous-conversations-training' ? (
             <div>
               <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">Book a discovery call</h4>

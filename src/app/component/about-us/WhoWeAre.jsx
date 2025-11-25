@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import cover from '/public/About-Who-Image.jpg';
+import cover from '/public/GTG_2022-100.jpg';
 import Button from '../shared/Button';
 
 const WhoWeAre = () => {

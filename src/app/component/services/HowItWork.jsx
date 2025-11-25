@@ -39,7 +39,7 @@ const HowItWork = () => {
           </div>
         </div>
         <div className="hidden relative md:block overflow-hidden rounded-3xl bg-gray-300  p-8 min-h-[200px] lg:min-h-[300px]">
-          <Image src={HowitWork1} alt="HowitWork 1 BG" className="w-full h-full absolute top-0 left-0 object-cover " />
+          <Image src={HowitWork1} alt="HowitWork 1 BG" className="w-full h-full absolute top-0 left-0 object-cover object-top " />
         </div>
 
         <div className=" rounded-3xl bg-white p-6 flex items-center min-h-[200px] lg:min-h-[300px]">

@@ -27,8 +27,8 @@ const navLinks = [
     title: 'Insights & Updates',
   },
   {
-    href: '/courageous-conversations-training',
-    title: 'Training Services',
+    href: '/training',
+    title: 'Training & Courses',
   },
   // {
   //   href: '/our-thinking',
