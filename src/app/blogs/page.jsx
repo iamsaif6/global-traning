@@ -12,12 +12,13 @@ const page = async () => {
     <div>
       <header
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(62, 0, 101, 0.90) 5.68%, rgba(62, 0, 101, 0.31) 79.4%, rgba(255, 255, 255, 1) 100%)`,
-          backgroundBlendMode: 'overlay',
+          // backgroundImage: `linear-gradient(to bottom, rgba(62, 0, 101, 0.90) 5.68%, rgba(62, 0, 101, 0.31) 79.4%, rgba(255, 255, 255, 1) 100%)`,
+          backgroundImage: `linear-gradient(to bottom, #3E0065CC, #3E006500),url('/HowitWork-3.jpg')`,
+          // backgroundBlendMode: 'overlay',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
-        className="pt-[187px] max-h-[1050px]  h-screen custom-gradient-bg bg-[center] sm:bg-[center_top] lg:bg-bottom max-sm:bg-[65%_center] relative md:pt-[238px] flex items-center pb-[176px] md:pb-[203px] px-5 md:px-[60px]"
+        className="pt-[187px] max-h-[1050px]  h-screen custom-gradient-bg bg-[center] sm:bg-[center_top] lg:bg-bottom max-sm:bg-[65%_center] relative md:pt-[238px] flex items-center pb-[176px] md:pb-[203px] px-5 md:px-[60px] mb-[120px]"
       >
         <div className="w-full relative z-10  mx-auto text-center">
           <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">

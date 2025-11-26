@@ -46,7 +46,7 @@ const TrainingDetailPage = async ({ params }) => {
             <h2 className="text-3xl lg:text-5xl font-medium text-[#3E0065] mb-12 text-center">What Can You Expect?</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {training.expectations.map((item, index) => (
-                <div className=" rounded-3xl bg-white p-6 flex items-center min-h-[200px] lg:min-h-[300px]">
+                <div className=" rounded-3xl bg-white px-6 py-10 flex items-start ">
                   <div className="">
                     <div className="mb-5 flex items-center gap-3">
                       {/* <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">

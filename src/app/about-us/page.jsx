@@ -11,9 +11,10 @@ const AboutUS = () => {
     <div>
       <header
         style={{
-          backgroundImage: `url('/About-Who-Image-2.jpg')`,
+          // backgroundImage: `url('/global_2025-163 Large.jpeg')`,
+          backgroundImage: `linear-gradient(to right, #3E0065CC, #3E006500),url('/global_2025-163 Large.jpeg')`,
           backgroundSize: 'cover',
-          backgroundPosition: 'top center',
+          backgroundPosition: 'top right',
           // backgroundBlendMode: 'overlay',
         }}
         className="pt-[187px] max-h-[1050px]  h-screen custom-gradient-bg bg-[center] sm:bg-[center_top] lg:bg-bottom max-sm:bg-[65%_center] relative md:pt-[238px] flex items-center pb-[176px] md:pb-[203px] px-5 md:px-[60px]"

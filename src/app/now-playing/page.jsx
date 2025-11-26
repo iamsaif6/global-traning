@@ -15,7 +15,8 @@ const page = () => {
     <div>
       <header
         style={{
-          backgroundImage: `url('/aboutBg.jpg')`,
+          // backgroundImage: `url('/aboutBg.jpg')`,
+          backgroundImage: `linear-gradient(to right, #3E0065CC, #3E006500),url('/global_2025-314 (1) Large.jpeg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'top center',
         }}

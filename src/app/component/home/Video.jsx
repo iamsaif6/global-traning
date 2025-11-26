@@ -11,18 +11,10 @@ const Video = () => {
   };
 
   return (
-    <section className="pt-[0px] lg:pb-[120px] bg-transparent lg:pt-[50px] lg:px-[80px]">
-      <div className="bg-primary  relative text-[#FCFCFD]  lg:rounded-4xl pt-[226px] lg:pt-[360px] mt-[220px] px-4 lg:px-[80px] pb-[70px]">
-        {/* Shape */}
-        {/* <Image
-          alt="Shape"
-          width={150}
-          height={150}
-          className=" w-full max-w-[280px] lg:max-w-[450px] absolute bottom-20 top-auto lg:top-auto lg:bottom-15 left-10 lg:left-10 z-0 h-auto"
-          src={'/Shape.png'}
-        /> */}
+    <section className="mb-[40px] mt-10 lg:mb-[120px] lg:py-[100px] bg-primary py-[60px] lg:px-[80px]">
+      <div className=" relative text-[#FCFCFD]  ">
         {/* Video Frame */}
-        <div className="h-[304px]   lg:h-[560px] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[95%] max-w-[900px] rounded-2xl lg:rounded-4xl overflow-hidden">
+        <div className="h-[304px] border relative mx-auto  lg:h-[460px] w-[95%] max-w-[800px] rounded-2xl lg:rounded-4xl overflow-hidden">
           {!isPlaying ? (
             <div className="absolute px-4 inset-0 bg-black cursor-pointer flex items-center justify-center">
               {/* Custom Thumbnail */}
@@ -55,7 +47,7 @@ const Video = () => {
             ></iframe>
           )}
         </div>
-        <div className="grid grid-cols-2 relative z-10 max-w-[700px] gap-[60px] mx-auto">
+        {/* <div className="grid grid-cols-2 relative z-10 max-w-[700px] gap-[60px] mx-auto">
           <div className="hidden lg:block">
             <div className="">
               <div className="flex items-end gap-3">
@@ -108,8 +100,8 @@ const Video = () => {
             </div>
             <p className="text-base leading-[140%] mt-4">Trusted by leaders in healthcare, education, government, and business.</p>
           </div>
-        </div>
-        <div className="mb-[60px] lg:mb-0 relative z-10">
+        </div> */}
+        {/* <div className="mb-[60px] lg:mb-0 relative z-10">
           <div className="grid grid-cols-2 pb-6 md:border-b mb-6 border-[#fcfcfd33] gap-4 items-center lg:hidden">
             <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">4.9</p>
             <div>
@@ -154,8 +146,8 @@ const Video = () => {
             <p className=" leading-[90%] -tracking-[1.2px] font-medium text-[60px]">500+</p>
             <p className="text-base leading-[140%] ">We've helped leaders and teams grow their skills with confidence.</p>
           </div>
-        </div>
-        <div className="relative text-left lg:text-center z-20 ">
+        </div> */}
+        <div className="relative text-left lg:text-center mt-10 z-20 px-5 ">
           <h3 className="mb-10 text-[18px] lg:text-[20px] font-medium leading-[140%]">
             At Global Training, we believe that true learning begins when people feel seen, heard, safe and supported. Here, they open up —
             to ideas, to change, and to each other. Growth follows when empathy guides the way, when people are supported to think

@@ -74,7 +74,7 @@ const Service = () => {
               key={item.title}
               className="p-5 col-span-1 md:col-span-1 flex flex-col cursor-pointer pb-[28px] duration-200 hover:shadow-lg hover:bg-[linear-gradient(to_bottom,_#3E0065_40%,_white_90%)]   rounded-3xl group "
             >
-              <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
+              <div className="h-[400px] mb-6 rounded-2xl overflow-hidden">
                 <Image alt={item.title} width={800} height={600} className="w-full h-full object-cover" src={item.img} />
               </div>
               <div className="h-full flex-1 flex justify-between flex-col">
@@ -92,7 +92,7 @@ const Service = () => {
               key={item.title}
               className="p-5 md:col-span-2 flex flex-col cursor-pointer pb-[28px] duration-200 hover:shadow-lg hover:bg-[linear-gradient(to_bottom,_#3E0065_40%,_white_90%)]   rounded-3xl group "
             >
-              <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
+              <div className="h-[400px] mb-6 rounded-2xl overflow-hidden">
                 <Image alt={item.title} width={1200} height={800} className="w-full h-full object-cover object-top" src={item.img} />
               </div>
               <div className="h-full flex-1 items-center flex justify-between flex-col">

@@ -6,10 +6,10 @@ import img5 from '/public/training/global_2025-258 (1) Large.jpeg';
 import img6 from '/public/training/global_2025-274 (1) Large.jpeg';
 import img7 from '/public/training/global_2025-163 Large.jpeg';
 import img8 from '/public/training/global_2025-206 Large.jpeg';
-import img9 from '/public/training/global_2025-212 Large 2.jpeg';
-import img10 from '/public/training/global_2025-159 Large.jpeg';
-import img11 from '/public/training/global_2025-38.jpg';
-import img12 from '/public/training/GTG_team-1 (1) Large.jpeg';
+import img9 from '/public/training/office1.jpg';
+import img10 from '/public/training/office2.jpg';
+import img11 from '/public/training/office3.jpg';
+import img12 from '/public/training/office4.jpg';
 import img13 from '/public/training/global_2025-471 (1) Large.jpeg';
 import img14 from '/public/training/global_2025-70 Large.jpeg';
 
