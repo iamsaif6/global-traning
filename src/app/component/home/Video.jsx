@@ -38,7 +38,7 @@ const Video = () => {
           ) : (
             <iframe
               className="w-full  bg-black h-full"
-              src="https://gtrain.s3.eu-west-2.amazonaws.com/Global+Training_ver01.mp4"
+              src="https://gtrain.s3.eu-west-2.amazonaws.com/Global+Training+Introductory+Video_V1.mp4"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
