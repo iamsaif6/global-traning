@@ -61,8 +61,8 @@ const Service = () => {
   return (
     <section className="py-[80px] lg:py-[120px] px-5 lg:px-[40px]">
       <SectionTitle
-        title={'Mediation Training services'}
-        subtitle={'Professional mediation services to resolve disputes with empathy, expertise, and efficiency.'}
+        title={'Global Training services'}
+        subtitle={'Professional training services to resolve disputes with empathy, expertise, and efficiency.'}
         full
         center
       />
