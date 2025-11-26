@@ -60,12 +60,12 @@ const services = [
 const Service = () => {
   return (
     <section className="py-[80px] lg:py-[120px] px-5 lg:px-[40px]">
-      <SectionTitle
+      {/* <SectionTitle
         title={'Global Training services'}
         subtitle={'Professional training services to resolve disputes with empathy, expertise, and efficiency.'}
         full
         center
-      />
+      /> */}
 
       <div className="grid max-w-[1300px] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-6 my-[60px]">
         {services.slice(0, 6).map(item => {
