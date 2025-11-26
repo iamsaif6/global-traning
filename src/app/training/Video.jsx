@@ -17,7 +17,7 @@ const Video = () => {
             <div className="absolute px-4 inset-0 bg-black cursor-pointer flex items-center justify-center" onClick={startVideo}>
               {/* Custom Thumbnail */}
               <div className="absolute inset-0">
-                <img src="/image 49.png" alt="Video Thumbnail" className="w-full h-full object-cover" />
+                <img src="/EmmaIntro.png" alt="Video Thumbnail" className="w-full h-full object-cover" />
               </div>
 
               {/* Play Button */}
@@ -32,8 +32,8 @@ const Video = () => {
             </div>
           ) : (
             <iframe
-              className="w-full h-full"
-              src="https://www.youtube.com/embed/u31qwQUeGuM?si=dedU5aHcApIXrahW&amp;controls=0&&autoplay=1"
+              className="w-full h-full "
+              src="https://gtrain.s3.eu-west-2.amazonaws.com/What+We+Do+-+Services+Overview+Video_V1.mp4"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
