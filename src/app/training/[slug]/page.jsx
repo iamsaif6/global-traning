@@ -6,6 +6,7 @@ import Video from '@/app/component/courageous-conversations-training/Video';
 import Form from '@/app/component/services/Form';
 import SendForm from '@/app/component/services/SendForm';
 import FoundationForm from '@/app/component/services/FoundationForm';
+import TrainingForm from '@/app/component/services/TrainingForm';
 
 const TrainingDetailPage = async ({ params }) => {
   const { slug } = params;
@@ -107,7 +108,7 @@ const TrainingDetailPage = async ({ params }) => {
             </div>
           ))}
       </div>
-      {slug == 'send-mediation-course' ? <SendForm /> : slug == 'foundation-mediation-course' ? <FoundationForm /> : <Form />}
+      {slug == 'send-mediation-course' ? <SendForm /> : slug == 'foundation-mediation-course' ? <FoundationForm /> : <TrainingForm />}
     </div>
   );
 };

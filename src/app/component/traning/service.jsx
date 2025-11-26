@@ -93,7 +93,7 @@ const Service = () => {
               className="p-5 md:col-span-2 flex flex-col cursor-pointer pb-[28px] duration-200 hover:shadow-lg hover:bg-[linear-gradient(to_bottom,_#3E0065_40%,_white_90%)]   rounded-3xl group "
             >
               <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
-                <Image alt={item.title} width={1200} height={800} className="w-full h-full object-center object-cover" src={item.img} />
+                <Image alt={item.title} width={1200} height={800} className="w-full h-full object-cover object-top" src={item.img} />
               </div>
               <div className="h-full flex-1 items-center flex justify-between flex-col">
                 <h3 className="text-2xl  text-[#18181B] leading-[120%] mb-3">{item.title}</h3>
