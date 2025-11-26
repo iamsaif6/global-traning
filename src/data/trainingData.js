@@ -106,13 +106,13 @@ export const trainingData = {
   'creative-conflict-resolution': {
     title: 'Creative Conflict Resolution',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills',
-    intro: '',
+    intro: 'Qualified coaches → team of Philosophical Life Compass coaches',
     img: [img7, img8],
     description:
-      'Creative Conflict Resolution training helps teams transform workplace conflicts into opportunities for growth and innovation.',
+      'Decision-making coaching; leaders in an organisation needing a reset, individuals undergoing life transition, targeting professional and personal resets, one-to-one & retreats.',
     expectations: [],
-    outcomes: [],
-    cta: 'Contact georgie@globaltraining.uk for more information.',
+    outcomes: ['Mothers : “mothering Sunday”', 'People going through grief/heartbreak', 'Retired/near retirement'],
+    cta: 'A unique opportunity to develop your repertoire by training as a Philosophical Life Compass Coach with Global Training. The Philosophical Life Compass is a valuable tool for coaches, psychologists, teachers and others to help clients make effective decisions about life, relationships, career and jobs, health choices and place to live, based upon one’s deep spiritual and philosophical values.This course, delivered over two days will immerse you into a coaching framework which is used as a tool to support people to connect with their core values and reduce external noise, bias and distraction. https://thelifecompass.co.uk/',
   },
 
   'foundation-mediation-course': {
@@ -125,16 +125,16 @@ export const trainingData = {
     img: [img9, img10],
     expectations: [
       {
-        title: '5 days of learning and a 1-day assessment',
-        description: '',
+        title: 'Learning & assessment',
+        description: '5 days of learning and a 1-day assessment',
       },
       {
         title: 'Practical exercises, role-plays, and discussions',
-        description: 'Led by experienced trainers.',
+        description: 'Practical exercises, role-plays, and discussions led by experienced trainers.',
       },
       {
         title: 'Certification',
-        description: 'To apply for membership with the Civil Mediation Council and College of Mediators.',
+        description: 'Certification to apply for membership with the Civil Mediation Council and College of Mediators.',
       },
     ],
     outcomes: [],
@@ -150,16 +150,16 @@ export const trainingData = {
     img: [img11, img12],
     expectations: [
       {
-        title: '2 days of intensive learning',
-        description: 'Followed by post-course casework.',
+        title: 'Learning',
+        description: '2 days of intensive learning, followed by post-course casework.',
       },
       {
         title: 'Deep understanding',
-        description: 'Of SEND-specific disputes and legislation.',
+        description: 'Deep understanding of SEND-specific disputes and legislation.',
       },
       {
         title: 'Certification',
-        description: 'To register as a specialist SEND mediator, and approval by the College of Mediators.',
+        description: 'Certification to register as a specialist SEND mediator, and approval by the College of Mediators.',
       },
     ],
     outcomes: [
@@ -177,18 +177,18 @@ export const trainingData = {
     expectations: [
       {
         title: 'Hands-on experience',
-        description: 'With real-world scenarios.',
+        description: 'Hands-on experience with real-world scenarios.',
       },
       {
         title: 'Personalised coaching',
-        description: 'And constructive feedback.',
+        description: 'Personalised coaching and constructive feedback.',
       },
       {
         title: 'Advanced skills development',
-        description: 'For professional growth.',
+        description: 'Advanced skills development for professional growth.',
       },
     ],
     outcomes: [],
-    cta: "Are you keen for more 'flying hours' before embarking upon this meaningful line of work? Get in touch via georgie@globaltraining.uk to book your place on our next Professional Practice Day.",
+    cta: 'Are you keen for more ‘flying hours’ before embarking upon this meaningful line of work? Get in touch via georgie@globaltraining.uk to book your place on our next Professional Practice Day.',
   },
 };
