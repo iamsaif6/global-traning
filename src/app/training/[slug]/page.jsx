@@ -48,9 +48,9 @@ const TrainingDetailPage = async ({ params }) => {
                 <div className=" rounded-3xl bg-white p-6 flex items-center min-h-[200px] lg:min-h-[300px]">
                   <div className="">
                     <div className="mb-5 flex items-center gap-3">
-                      <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
+                      {/* <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
                         {index + 1}
-                      </div>
+                      </div> */}
                       <p className="text-[#511A75] font-medium text-[18px] lg:text-[20px] leading-[120%]">{item.title}</p>
                     </div>
 
