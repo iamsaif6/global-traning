@@ -1,12 +1,15 @@
 'use client';
 import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Form = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
   const [selectedCountry, setSelectedCountry] = useState({ code: '+1', name: 'United States' });
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
+  const formRef = useRef();
+  const [loading, setLoading] = useState(false);
 
   const countryCodes = [
     { code: '+1', name: 'United States' },
@@ -47,6 +50,25 @@ const Form = () => {
     setIsDropdownOpen(false);
   };
 
+  const sendEmail = e => {
+    e.preventDefault();
+    setLoading(true);
+
+    console.log(formRef.current);
+
+    emailjs.sendForm('service_vq2ycta', 'template_va8udrg', formRef.current, 'toRHu9L37wuWjLqkC').then(
+      result => {
+        console.log(result.text);
+        e.target.reset();
+        setLoading(false);
+      },
+      error => {
+        console.log(error.text);
+        setLoading(false);
+      }
+    );
+  };
+
   return (
     <section className="px-4 py-[80px] relative z-10   bg-primary lg:py-[120px]">
       <div className={`w-full  text-white max-w-[900px] text-center mx-auto`}>
@@ -61,7 +83,7 @@ const Form = () => {
       </div>
 
       <div className="w-full mt-10 lg:mt-[80px] max-w-[900px] bg-white mx-auto border border-[#D1D1D6] rounded-3xl p-6">
-        <form className="" action="#">
+        <form ref={formRef} onSubmit={sendEmail} className="">
           <div className="grid grid-cols-1 gap-6">
             <div className="col-span-1">
               <label className="text-lg block mb-2 font-medium " htmlFor="name">
@@ -73,6 +95,7 @@ const Form = () => {
                 id="name"
                 name="name"
                 placeholder="Enter your full name"
+                required
               />
             </div>
           </div>
@@ -87,8 +110,9 @@ const Form = () => {
                   className="bg-[#F4F5F6] w-full placeholder:text-[#6E7381] placeholder:text-base rounded-[28px] border border-[#D1D1D6] p-4"
                   type="email"
                   id="Email"
-                  name="Email"
+                  name="email"
                   placeholder="Enter your email address"
+                  required
                 />
               </div>
 
@@ -130,6 +154,7 @@ const Form = () => {
 
                   <input
                     type="tel"
+                    name="phone"
                     placeholder="Enter your phone number"
                     value={phoneNumber}
                     onChange={e => setPhoneNumber(e.target.value)}
@@ -147,12 +172,17 @@ const Form = () => {
                   className="bg-[#F4F5F6]  w-full placeholder:text-[#6E7381] placeholder:text-base rounded-[28px] border border-[#D1D1D6] p-4"
                   type="text"
                   id="Message"
-                  name="Message"
+                  name="message"
                   placeholder="Type your thoughts here..."
                   rows={6}
+                  required
                 />
-                <button className="font-medium  mt-6 text-lg bg-primary w-full rounded-[40px] py-[15px] px-6 text-white" type="submit">
-                  Start the conversation
+                <button
+                  className="font-medium  mt-6 text-lg bg-primary w-full rounded-[40px] py-[15px] px-6 text-white"
+                  type="submit"
+                  disabled={loading}
+                >
+                  {loading ? 'Sending...' : 'Start the conversation'}
                 </button>
                 <div className="flex items-center mb-3 mt-10 justify-center">
                   <Link className="text-[#FF634A] font-medium text-lg" href="/case-studies">

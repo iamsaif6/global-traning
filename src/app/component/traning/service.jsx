@@ -1,8 +1,12 @@
 import React from 'react';
 import SectionTitle from '../shared/SectionTitle';
-import img1 from '/public/Thumbnail.png';
-import img2 from '/public/Thumbnail-1.png';
-import img3 from '/public/Thumbnail-2.png';
+import img1 from '/public/training/global_2025-38.jpg';
+import img2 from '/public/training/global_2025-122 Large.jpeg';
+import img3 from '/public/training/global_2025-159 Large.jpeg';
+import img4 from '/public/training/global_2025-163 Large 2.jpeg';
+import img5 from '/public/training/global_2025-258 (1) Large.jpeg';
+import img6 from '/public/training/global_2025-294 (1) Large.jpeg';
+import img7 from '/public/training/global_2025-313 (1) Large.jpeg';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -29,25 +33,25 @@ const services = [
   {
     title: 'Foundation Mediation Course',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
-    img: img3,
+    img: img4,
     link: '/training/foundation-mediation-course',
   },
   {
     title: 'SEND Mediation Course',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
-    img: img3,
+    img: img5,
     link: '/training/send-mediation-course',
   },
   {
     title: 'Professional Practice Day',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
-    img: img3,
+    img: img6,
     link: '/training/professional-practice-day',
   },
   {
     title: 'Team Away Days',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
-    img: img3,
+    img: img7,
     link: '/training/team-away-days',
   },
 ];
@@ -70,7 +74,7 @@ const Service = () => {
               className="p-5 col-span-1 md:col-span-1 flex flex-col cursor-pointer pb-[28px] duration-200 hover:shadow-lg hover:bg-[linear-gradient(to_bottom,_#3E0065_40%,_white_90%)]   rounded-3xl group "
             >
               <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
-                <Image alt={item.title} width={200} h={200} className="w-full h-full object-cover" src={item.img} />
+                <Image alt={item.title} width={800} height={600} className="w-full h-full object-cover" src={item.img} />
               </div>
               <div className="h-full flex-1 flex justify-between flex-col">
                 <h3 className="text-2xl  text-[#18181B] leading-[120%] mb-3">{item.title}</h3>
@@ -88,7 +92,7 @@ const Service = () => {
               className="p-5 md:col-span-2 flex flex-col cursor-pointer pb-[28px] duration-200 hover:shadow-lg hover:bg-[linear-gradient(to_bottom,_#3E0065_40%,_white_90%)]   rounded-3xl group "
             >
               <div className="h-[300px] mb-6 rounded-2xl overflow-hidden">
-                <Image alt={item.title} width={200} h={200} className="w-full h-full object-cover" src={item.img} />
+                <Image alt={item.title} width={1200} height={800} className="w-full h-full object-center object-cover" src={item.img} />
               </div>
               <div className="h-full flex-1 items-center flex justify-between flex-col">
                 <h3 className="text-2xl  text-[#18181B] leading-[120%] mb-3">{item.title}</h3>

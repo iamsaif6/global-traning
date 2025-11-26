@@ -23,7 +23,7 @@ const page = () => {
       >
         <div className="w-full relative z-10  mx-auto text-center">
           <h1 className="font-medium  tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
-            Learning, laughing, living — in the here and now
+            Learning, laughing, living <br /> — in the here and now
           </h1>
         </div>
       </header>

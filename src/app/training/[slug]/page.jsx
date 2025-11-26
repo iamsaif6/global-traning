@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import Header from '@/app/component/courageous-conversations-training/Header';
 import Video from '@/app/component/courageous-conversations-training/Video';
 import Form from '@/app/component/services/Form';
+import SendForm from '@/app/component/services/SendForm';
+import FoundationForm from '@/app/component/services/FoundationForm';
 
 const TrainingDetailPage = async ({ params }) => {
   const { slug } = params;
@@ -63,7 +65,7 @@ const TrainingDetailPage = async ({ params }) => {
 
       {/* Outcomes Section */}
       {training.outcomes && training.outcomes.length > 0 && (
-        <section className="py-16 px-5 lg:px-[40px]">
+        <section className="pt-16 px-5 lg:px-[40px]">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl lg:text-5xl font-medium text-[#3E0065] mb-12 text-center">What Will You Bring Back to Work?</h2>
             <div className="space-y-6">
@@ -97,7 +99,15 @@ const TrainingDetailPage = async ({ params }) => {
           </div>
         </section>
       )} */}
-      <Form />
+      <div className="grid grid-cols-1  md:grid-cols-2 max-w-7xl mx-auto gap-8 py-10 my-10  px-5 lg:px-[40px] ">
+        {training.img &&
+          training.img.map((imageSrc, idx) => (
+            <div key={idx} className="w-full h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-2xl">
+              <img src={imageSrc.src} alt={`${training.title} image ${idx + 1}`} className="w-full h-full object-cover" />
+            </div>
+          ))}
+      </div>
+      {slug == 'send-mediation-course' ? <SendForm /> : slug == 'foundation-mediation-course' ? <FoundationForm /> : <Form />}
     </div>
   );
 };
