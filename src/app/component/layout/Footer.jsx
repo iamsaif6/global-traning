@@ -6,6 +6,41 @@ import { usePathname } from 'next/navigation';
 import logo from '/public/trainning_logo.png';
 import React from 'react';
 
+const navLinks = [
+  {
+    href: '/services',
+    title: 'What we do',
+  },
+  {
+    href: '/training',
+    title: 'Training & Courses',
+  },
+  {
+    href: '/about-us',
+    title: 'About us',
+  },
+
+  {
+    href: '/case-studies',
+    title: 'Case studies',
+  },
+
+  {
+    href: '/blogs',
+    title: 'Insights',
+  },
+
+  {
+    href: '/now-playing',
+    title: 'Now Playing',
+  },
+
+  // {
+  //   href: '/our-thinking',
+  //   title: 'Our Thinking',
+  // },
+];
+
 const Footer = () => {
   const pathname = usePathname();
   return (
@@ -27,7 +62,7 @@ const Footer = () => {
           ) : pathname !== '/contact-us' ? (
             <div>
               <h4 className="text-[32px] lg:text-[40px] font-medium mb-4">
-                Let’s start the conversation with a free Initial consultation.
+                Let’s start the conversation with a free initial consultation.
               </h4>
               {/* <p className="text-base lg:text-lg">Join our community</p> */}
               <div className="mt-10 flex items-center justify-center">
@@ -101,21 +136,13 @@ const Footer = () => {
           </div>
           <div className="w-[240px] space-y-[6px] flex flex-col text-sm md:text-lg font-medium">
             <Link href="/">Home</Link>
-            <Link className="py-[6px] block" href="/about-us">
-              About us
-            </Link>
-            {/* <Link className="py-[6px] block" href="/training">
-            Mediation training
-          </Link> */}
-            <Link className="py-[6px] block" href="/case-studies">
-              Case studies
-            </Link>
-            <Link className="py-[6px] block" href="/blogs">
-              Services
-            </Link>
-            <Link className="py-[6px] block" href="/about-us">
-              Contact
-            </Link>
+            {navLinks?.map((item, idx) => {
+              return (
+                <Link key={idx} className="py-[6px] block" href={item?.href}>
+                  {item?.title}
+                </Link>
+              );
+            })}
           </div>
         </div>
         {/* Footer Bottom */}

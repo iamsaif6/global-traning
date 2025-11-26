@@ -19,12 +19,12 @@ const TrainingDetailPage = async ({ params }) => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header and Video - Same for all articles */}
-      <Header title={training.title} />
-      <Video />
+      <Header cover={training?.cover} title={training.title} />
+      {/* <Video /> */}
 
       {/* Intro Section */}
       {training.intro && (
-        <section className="py-16 mt-16 md:mt-0 px-5 lg:px-[40px] bg-gray-50">
+        <section className="py-16 mt-16 px-5 lg:px-[40px] bg-gray-50">
           <div className="max-w-4xl mx-auto">
             <p className="text-2xl lg:text-3xl font-semibold text-[#3E0065] text-center italic">{training.intro}</p>
           </div>

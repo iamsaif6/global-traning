@@ -3,10 +3,10 @@ import SectionTitle from '../shared/SectionTitle';
 import img1 from '/public/training/global_2025-38.jpg';
 import img2 from '/public/training/global_2025-122 Large.jpeg';
 import img3 from '/public/training/global_2025-159 Large.jpeg';
-import img4 from '/public/training/global_2025-163 Large 2.jpeg';
-import img5 from '/public/training/global_2025-258 (1) Large.jpeg';
-import img6 from '/public/training/global_2025-294 (1) Large.jpeg';
-import img7 from '/public/training/global_2025-313 (1) Large.jpeg';
+import img4 from '/public/training/Foundation.jpg';
+import img5 from '/public/training/Sendmediation.jpg';
+import img6 from '/public/training/global_2025-108 Large.jpeg';
+import img7 from '/public/training/global_2025-140 Large.jpeg';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -23,13 +23,13 @@ const services = [
     img: img2,
     link: '/training/compassionate-leadership-development-programme',
   },
-
   {
-    title: 'Creative Conflict Resolution',
+    title: 'Team Away Days',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
-    img: img3,
-    link: '/training/creative-conflict-resolution',
+    img: img7,
+    link: '/training/team-away-days',
   },
+
   {
     title: 'Foundation Mediation Course',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
@@ -48,11 +48,12 @@ const services = [
     img: img6,
     link: '/training/professional-practice-day',
   },
+
   {
-    title: 'Team Away Days',
+    title: 'Creative Conflict Resolution',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
-    img: img7,
-    link: '/training/team-away-days',
+    img: img3,
+    link: '/training/creative-conflict-resolution',
   },
 ];
 

@@ -13,6 +13,14 @@ import img12 from '/public/training/GTG_team-1 (1) Large.jpeg';
 import img13 from '/public/training/global_2025-471 (1) Large.jpeg';
 import img14 from '/public/training/global_2025-70 Large.jpeg';
 
+import cover1 from '/public/training/global_2025-38.jpg';
+import cover2 from '/public/training/global_2025-122 Large.jpeg';
+import cover3 from '/public/training/global_2025-159 Large.jpeg';
+import cover4 from '/public/training/Foundation.jpg';
+import cover5 from '/public/training/Sendmediation.jpg';
+import cover6 from '/public/training/global_2025-108 Large.jpeg';
+import cover7 from '/public/training/global_2025-140 Large.jpeg';
+
 export const trainingData = {
   'courageous-conversations': {
     title: 'Courageous Conversations',
@@ -21,6 +29,7 @@ export const trainingData = {
     description:
       "Our Courageous Conversations training empowers teams to navigate emotionally challenging situations at work. We will help you tackle difficult conversations with courage, confidence and compassion. This bespoke training is designed to align with your company's culture and values, and will equip you with practical techniques to take into the workplace.",
     img: [img1, img2],
+    cover: cover1,
     expectations: [
       {
         title: 'A tailored workshop',
@@ -46,6 +55,7 @@ export const trainingData = {
     title: 'Compassionate Leadership Development Programme',
     subtitle: 'Cultivate impactful leaders through targeted coaching and practical exercises',
     intro: 'What makes a "good leader"?',
+    cover: cover2,
     description:
       "At Global Training, we believe that great leadership begins with compassion. Whether you're a manager, supervisor, or CEO, our Leadership Development Programme will equip you with the essential people skills to lead with clarity, compassion and integrity. Authenticity should always take priority over authority - and we will help you reach this balance with confidence, in a supportive group setting.",
     img: [img3, img4],
@@ -75,6 +85,7 @@ export const trainingData = {
   },
   'team-away-days': {
     title: 'Team Away Days',
+    cover: cover7,
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills',
     intro: 'Is your team well-connected - or more connected to the Wi-Fi?',
     description:
@@ -105,18 +116,20 @@ export const trainingData = {
   },
   'creative-conflict-resolution': {
     title: 'Creative Conflict Resolution',
+    cover: cover3,
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills',
-    intro: 'Qualified coaches → team of Philosophical Life Compass coaches',
-    img: [img7, img8],
-    description:
-      'Decision-making coaching; leaders in an organisation needing a reset, individuals undergoing life transition, targeting professional and personal resets, one-to-one & retreats.',
+    intro: 'Coming soon..',
+    // img: [img7, img8],
+    // description:
+    //   'Decision-making coaching; leaders in an organisation needing a reset, individuals undergoing life transition, targeting professional and personal resets, one-to-one & retreats.',
     expectations: [],
-    outcomes: ['Mothers : “mothering Sunday”', 'People going through grief/heartbreak', 'Retired/near retirement'],
-    cta: 'A unique opportunity to develop your repertoire by training as a Philosophical Life Compass Coach with Global Training. The Philosophical Life Compass is a valuable tool for coaches, psychologists, teachers and others to help clients make effective decisions about life, relationships, career and jobs, health choices and place to live, based upon one’s deep spiritual and philosophical values.This course, delivered over two days will immerse you into a coaching framework which is used as a tool to support people to connect with their core values and reduce external noise, bias and distraction. https://thelifecompass.co.uk/',
+    // outcomes: ['Mothers : “mothering Sunday”', 'People going through grief/heartbreak', 'Retired/near retirement'],
+    // cta: 'A unique opportunity to develop your repertoire by training as a Philosophical Life Compass Coach with Global Training. The Philosophical Life Compass is a valuable tool for coaches, psychologists, teachers and others to help clients make effective decisions about life, relationships, career and jobs, health choices and place to live, based upon one’s deep spiritual and philosophical values.This course, delivered over two days will immerse you into a coaching framework which is used as a tool to support people to connect with their core values and reduce external noise, bias and distraction. https://thelifecompass.co.uk/',
   },
 
   'foundation-mediation-course': {
     title: 'Foundation Mediation Course',
+    cover: cover4,
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills',
     intro:
       "The world needs peacemakers, now more than ever. Could this be you? Do you want to make a positive, lasting difference in people's lives? Have you considered a fulfilling career change that aligns with your passions and values?",
@@ -142,6 +155,7 @@ export const trainingData = {
   },
   'send-mediation-course': {
     title: 'SEND Mediation Course',
+    cover: cover5,
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills',
     intro:
       'Are you a qualified mediator looking to broaden your horizons? Do you want to truly make a difference with your work, transforming the lives of young people with special educational needs and disabilities?',
@@ -169,6 +183,7 @@ export const trainingData = {
   },
   'professional-practice-day': {
     title: 'Professional Practice Day',
+    cover: cover6,
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills',
     intro: 'Are you a newly qualified mediator? Or a seasoned professional looking to sharpen your skills?',
     description:

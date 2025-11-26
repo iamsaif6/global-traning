@@ -14,8 +14,8 @@ const Services = () => {
   return (
     <div>
       <Header />
-      <Video />
-      <ServiceCircle />
+      {/* <Video /> */}
+      {/* <ServiceCircle /> */}
       {/* <Blocked /> */}
       {/* <Testimonial /> */}
       {/* <TrustedBy /> */}

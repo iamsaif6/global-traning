@@ -1,7 +1,7 @@
 import React from 'react';
 import grid1 from '/public/Grid-1.jpg';
-import grid2 from '/public/Grid-2.jpg';
-import grid3 from '/public/Grid-3.jpg';
+import grid2 from '/public/training/global_2025-26.jpg';
+import grid3 from '/public/training/global_2025-313 (1) Large.jpeg';
 import Image from 'next/image';
 
 const PhotoGrid = () => {

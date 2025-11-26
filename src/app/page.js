@@ -11,6 +11,7 @@ import HowItWork from './component/home/HowItWork';
 import Blogs from './component/home/Blogs';
 import WhyGlobal from './component/home/WhyGlobal';
 import OurTeam from './component/about-us/OurTeam';
+import PhotoGrid from './component/home/PhotoGrid';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       {/* <OurServices /> */}
       {/* <WhatWeDo /> */}
       <Impact />
+      <PhotoGrid />
       {/* <WhyUs /> */}
     </div>
   );
