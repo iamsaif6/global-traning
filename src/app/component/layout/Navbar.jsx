@@ -10,7 +10,7 @@ import Image from 'next/image';
 const navLinks = [
   {
     href: '/services',
-    title: 'What we do',
+    title: 'What We Do',
   },
   {
     href: '/training',
@@ -23,7 +23,7 @@ const navLinks = [
 
   {
     href: '/case-studies',
-    title: 'Case studies',
+    title: 'Case Studies',
   },
 
   {

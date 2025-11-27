@@ -9,7 +9,7 @@ import React from 'react';
 const navLinks = [
   {
     href: '/services',
-    title: 'What we do',
+    title: 'What We Do',
   },
   {
     href: '/training',
@@ -22,7 +22,7 @@ const navLinks = [
 
   {
     href: '/case-studies',
-    title: 'Case studies',
+    title: 'Case Studies',
   },
 
   {
