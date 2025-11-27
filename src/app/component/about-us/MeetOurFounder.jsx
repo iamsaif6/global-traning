@@ -219,7 +219,7 @@ const MeetOurFounder = () => {
       />
       <div className={`grid mt-[80px] grid-cols-1 px-5 lg:grid-cols-2 items-center  gap-[90px] lg:max-w-[1318px] mx-auto `}>
         {memberData?.map((member, index) => (
-          <div className="rounded-2xl group relative">
+          <div key={index} className="rounded-2xl group relative">
             <div className="bg-[#f9fafb] hidden lg:block shadow-2xl opacity-0  group-hover:opacity-100  transition-all duration-500 ease-in-out   px-8 overflow-y-scroll py-8 absolute h-full w-full left-0 z-10 rounded-2xl top-0">
               {member?.bio}
             </div>
@@ -234,7 +234,7 @@ const MeetOurFounder = () => {
               <p className="font-semibold text-2xl">{member.name}</p>
               <p className=" text-lg">{member.role}</p>
             </div>
-            <p className="mt-5 block lg:hidden">{member?.bio}</p>
+            <div className="mt-5 block lg:hidden">{member?.bio}</div>
           </div>
         ))}
       </div>

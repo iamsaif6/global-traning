@@ -7,6 +7,7 @@ import Form from '@/app/component/services/Form';
 import SendForm from '@/app/component/services/SendForm';
 import FoundationForm from '@/app/component/services/FoundationForm';
 import TrainingForm from '@/app/component/services/TrainingForm';
+import Image from 'next/image';
 
 const TrainingDetailPage = async ({ params }) => {
   const { slug } = params;
@@ -100,14 +101,23 @@ const TrainingDetailPage = async ({ params }) => {
           </div>
         </section>
       )} */}
-      <div className="grid grid-cols-1  md:grid-cols-2 max-w-7xl mx-auto gap-8 py-10 my-10  px-5 lg:px-[40px] ">
-        {training.img &&
-          training.img.map((imageSrc, idx) => (
-            <div key={idx} className="w-full h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-2xl">
-              <img src={imageSrc.src} alt={`${training.title} image ${idx + 1}`} className="w-full h-full object-cover" />
-            </div>
-          ))}
-      </div>
+
+      <section className="px-5  py-[80px] lg:py-[120px]  lg:px-[80px]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {training.img &&
+            training.img.map((imageSrc, idx) => (
+              <div key={idx} className="col-span-1 h-[480px] relative overflow-hidden bg-gray-300 rounded-3xl">
+                <Image
+                  width={1200}
+                  height={900}
+                  alt="Grid 2"
+                  src={imageSrc.src}
+                  className=" absolute left-0 top-0 w-full h-full object-cover"
+                />
+              </div>
+            ))}
+        </div>
+      </section>
       {slug == 'send-mediation-course' ? <SendForm /> : slug == 'foundation-mediation-course' ? <FoundationForm /> : <TrainingForm />}
     </div>
   );

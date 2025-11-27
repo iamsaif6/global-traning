@@ -17,7 +17,7 @@ const navLinks = [
   },
   {
     href: '/about-us',
-    title: 'About us',
+    title: 'Who We Are',
   },
 
   {
@@ -27,7 +27,7 @@ const navLinks = [
 
   {
     href: '/blogs',
-    title: 'Insights',
+    title: 'Blog',
   },
 
   {

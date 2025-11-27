@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Philosophy = () => {
   return (
     <section className="py-[80px] lg:py-[120px] bg-primary  items-center px-5 lg:px-[40px] grid grid-cols-1 lg:grid-cols-2 gap-12">
-      <div className="relative max-h-[700px] min-h-[350px] hidden lg:block rounded-3xl overflow-hidden">
+      <div className="relative max-h-[800px] h-full min-h-[350px] hidden lg:block rounded-3xl overflow-hidden">
         <Image alt="Cover Photo" src={cover} fill className="object-cover" />
       </div>
 

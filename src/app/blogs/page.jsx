@@ -13,7 +13,7 @@ const page = async () => {
       <header
         style={{
           // backgroundImage: `linear-gradient(to bottom, rgba(62, 0, 101, 0.90) 5.68%, rgba(62, 0, 101, 0.31) 79.4%, rgba(255, 255, 255, 1) 100%)`,
-          backgroundImage: `linear-gradient(to bottom, #3E0065CC, #3E006500),url('/HowitWork-3.jpg')`,
+          backgroundImage: `linear-gradient(to right, #3E0065CC, #3E006500),url('/HowitWork-3.jpg')`,
           // backgroundBlendMode: 'overlay',
           backgroundSize: 'cover',
           backgroundPosition: 'center',

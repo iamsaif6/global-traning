@@ -24,7 +24,7 @@ const Video = () => {
 
               {/* Play Button */}
               <div
-                className="w-[60px] h-[60px] rounded-full bg-white/30 border border-gray-300 bg-opacity-80 flex items-center justify-center z-10 hover:bg-opacity-100 transition-all"
+                className="w-[60px] h-[60px] rounded-full bg-white/30 border  border-gray-300 bg-opacity-80 flex items-center backdrop-blur-[2px] justify-center z-10 hover:bg-opacity-100 transition-all"
                 onClick={() => setIsPlaying(true)}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -148,7 +148,7 @@ const Video = () => {
           </div>
         </div> */}
         <div className="relative text-left lg:text-center mt-10 z-20 px-5 ">
-          <h3 className="mb-10 text-[18px] lg:text-[20px] font-medium leading-[140%]">
+          <h3 className="mb-10 text-[18px] !text-white lg:text-[20px] font-medium leading-[140%]">
             At Global Training, we believe that true learning begins when people feel seen, heard, safe and supported. Here, they open up —
             to ideas, to change, and to each other. Growth follows when empathy guides the way, when people are supported to think
             differently, and are surrounded by compassion.

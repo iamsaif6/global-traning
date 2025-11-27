@@ -12,7 +12,7 @@ const AboutUS = () => {
       <header
         style={{
           // backgroundImage: `url('/global_2025-163 Large.jpeg')`,
-          backgroundImage: `linear-gradient(to right, #3E0065CC, #3E006500),url('/global_2025-163 Large.jpeg')`,
+          backgroundImage: `linear-gradient(to right, #3E0065CC, #3E006500),url('/training/global_2025-70 Large.jpeg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'top right',
           // backgroundBlendMode: 'overlay',
@@ -21,7 +21,7 @@ const AboutUS = () => {
       >
         <div className="w-full relative z-10  mx-auto text-center">
           <h1 className="font-medium  tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
-            At Global Training, <br /> we bring people together.
+            At Global Training, <br /> we bring people together
           </h1>
         </div>
       </header>
