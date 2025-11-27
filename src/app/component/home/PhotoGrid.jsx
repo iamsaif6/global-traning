@@ -20,7 +20,7 @@ const PhotoGrid = () => {
           <Image alt="Grid 1" src={img1} className=" absolute left-0 top-0 w-full h-full object-top object-cover" />
         </div>
         <div className="col-span-1 h-[480px] relative overflow-hidden bg-gray-300 rounded-3xl">
-          <Image alt="Grid 2" src={img2} className=" absolute left-0 top-0 w-full h-full object-cover" />
+          <Image alt="Grid 2" src={img2} className=" absolute left-0 top-0 w-full h-full object-top object-cover" />
         </div>
         <div className="col-span-1 h-[480px] relative overflow-hidden bg-gray-300 rounded-3xl">
           <Image alt="Grid 3" src={img3} className=" absolute left-0 top-0 w-full h-full object-cover" />

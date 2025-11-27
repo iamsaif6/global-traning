@@ -35,10 +35,10 @@ const navLinks = [
     title: 'Now Playing',
   },
 
-  // {
-  //   href: '/our-thinking',
-  //   title: 'Our Thinking',
-  // },
+  {
+    href: '/contact-us',
+    title: 'Contact Us',
+  },
 ];
 
 const Footer = () => {

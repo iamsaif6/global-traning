@@ -137,7 +137,15 @@ const Navbar = () => {
 
             <div className="flex items-center">
               <div className="hidden lg:block">
-                <Button href="/contact-us" title="Contact Us" />
+                <button>
+                  <Link
+                    href={'/contact-us'}
+                    className={` bg-primary border-primary
+                      border px-6  font-semibold text-lg text-[#FCFCFD]  py-3 rounded-[40px]`}
+                  >
+                    Contact Us
+                  </Link>
+                </button>
               </div>
               <button
                 className="lg:hidden  cursor-pointer flex items-center justify-center w-12 h-12 focus:outline-none"
