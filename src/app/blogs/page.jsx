@@ -54,8 +54,8 @@ const page = async () => {
               <div key={idx} className=" rounded-3xl pb-8 mb-[35px]   overflow-hidden">
                 <Image
                   alt={item.name || 'Cover'}
-                  width={200}
-                  height={200}
+                  width={800}
+                  height={800}
                   src={item?.cover?.url || img1}
                   className="h-[300px] object-cover rounded-b-3xl w-full"
                 />

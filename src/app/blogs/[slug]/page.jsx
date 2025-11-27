@@ -76,7 +76,7 @@ const page = async ({ params }) => {
           </div>
           {/* Cover Photo */}
           <div className="hidden lg:block max-w-[600px] max-h-[400px] rounded-2xl overflow-hidden w-full">
-            <Image className="w-full h-full object-cover" height={200} width={200} alt={article.title} src={article?.cover?.url} />
+            <Image className="w-full h-full object-cover" height={800} width={800} alt={article.title} src={article?.cover?.url} />
           </div>
         </div>
       </header>
