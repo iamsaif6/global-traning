@@ -21,11 +21,9 @@ const page = async () => {
         className="pt-[187px] max-h-[1050px]  h-screen custom-gradient-bg bg-[center] sm:bg-[center_top] lg:bg-bottom max-sm:bg-[65%_center] relative md:pt-[238px] flex items-center pb-[176px] md:pb-[203px] px-5 md:px-[60px] mb-[120px]"
       >
         <div className="w-full relative z-10  mx-auto text-center">
-          <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
-            Empowering workplace <br /> growth through knowledge
-          </h1>
+          <h1 className="font-medium tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">From page to practice</h1>
           <p className="text-[#FCFCFD] text-left lg:text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[70%] font-normal text-base md:text-lg">
-            Explore actionable strategies, expert insights, and practical guides to transform your workplace dynamics.
+            Dive into our very own fountain of wisdom — packed with expert insights, practical guides and exclusive training updates.
           </p>
         </div>
       </header>
