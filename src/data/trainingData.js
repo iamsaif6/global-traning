@@ -1,29 +1,30 @@
-import img1 from '/public/training/global_2025-212 Large 2.jpeg';
-import img2 from '/public/training/global_2025-122 Large.jpeg';
+import img1 from '/public/global_2025-245.jpeg';
+import img2 from '/public/training/GlobalMediation_actors-178.jpg';
 import img3 from '/public/training/global_2025-159 Large.jpeg';
-import img4 from '/public/training/global_2025-26.jpg';
-import img5 from '/public/training/global_2025-258 (1) Large.jpeg';
-import img6 from '/public/training/global_2025-274 (1) Large.jpeg';
+import img4 from '/public/training/global_2025-12 (1).jpg';
+import img5 from '/public/training/global_2025-197.jpg';
+import img6 from '/public/training/global_2025-212.jpg';
 import img7 from '/public/training/global_2025-163 Large.jpeg';
 import img8 from '/public/training/global_2025-206 Large.jpeg';
-import img9 from '/public/training/office1.jpg';
+import img9 from '/public/training/GlobalMediation_actors-110.jpg';
 import img10 from '/public/training/office2.jpg';
-import img11 from '/public/training/office3.jpg';
-import img12 from '/public/training/office4.jpg';
-import img13 from '/public/training/global_2025-471 (1) Large.jpeg';
-import img14 from '/public/training/global_2025-70 Large.jpeg';
+import img11 from '/public/training/GlobalMediation_actors-121.jpg';
+import img12 from '/public/training/GlobalMediation_actors-87.jpg';
+import img13 from '/public/training/GlobalMediation_actors-141.jpg';
+import img14 from '/public/training/GlobalMediation_actors-135.jpg';
 
 import cover1 from '/public/training/global_2025-38.jpg';
 import cover2 from '/public/training/global_2025-122 Large.jpeg';
 import cover3 from '/public/training/global_2025-159 Large.jpeg';
 import cover4 from '/public/training/Foundation.jpg';
 import cover5 from '/public/training/Sendmediation.jpg';
-import cover6 from '/public/training/global_2025-108 Large.jpeg';
-import cover7 from '/public/training/global_2025-140 Large.jpeg';
+import cover6 from '/public/training/GlobalMediation_actors-160.jpg';
+import cover7 from '/public/training/global_2025-332.jpg';
 
 export const trainingData = {
   'courageous-conversations': {
     title: 'Courageous Conversations',
+    quote : ['“I have developed confidence to know how to tackle difficult conversations. I love having a structure for this – makes it all feel less personal.” - SCAS','“I learned from the day that many people are dealing with exactly the same issues in their teams. It is heartening to know that issues I am dealing with are not unique and I’m not alone.” - ZSL','“Fantastic to have a communication model to manage challenging conversations, learning how to listen compassionately and be clear, kind and brave.” - NHS'],
     subtitle: 'Equip your team to navigate difficult conversations with confidence and clarity',
     intro: 'Do you find yourself struggling to have difficult conversations with your colleagues?',
     description:
@@ -53,11 +54,12 @@ export const trainingData = {
   },
   'compassionate-leadership-development-programme': {
     title: 'Compassionate Leadership Development Programme',
-    subtitle: 'Cultivate impactful leaders through targeted coaching and practical exercises',
-    intro: 'What makes a "good leader"?',
+    subtitle: '"A leader is a person who knows the way, shows the way and goes the way." - John C. Maxwell',
+    // intro: 'What makes a "good leader"?',
+    intro: 'A leader is a person who knows the way, shows the way and goes the way." - John C. Maxwell.',
     cover: cover2,
     description:
-      "At Global Training, we believe that great leadership begins with compassion. Whether you're a manager, supervisor, or CEO, our Leadership Development Programme will equip you with the essential people skills to lead with clarity, compassion and integrity. Authenticity should always take priority over authority - and we will help you reach this balance with confidence, in a supportive group setting.",
+      `"At Global Training, we believe that great leadership begins with compassion. Whether you're a manager, supervisor, or CEO, our Leadership Development Programme will equip you with the essential people skills to lead with clarity, compassion and integrity. Authenticity should always take priority over authority - and we will help you reach this balance with confidence, in a supportive group setting.`,
     img: [img3, img4],
     expectations: [
       {
@@ -73,7 +75,7 @@ export const trainingData = {
       {
         title: 'Tailored modules',
         description:
-          'Our topics include: building trust, presenting with authenticity, resilience and wellbeing, mentoring and employee development, and conflict resolution. Each Leadership Development Programme is bespoke to the needs of your group, ensuring your learning experience is relevant and deeply impactful.',
+          'Our topics include: building trust, presenting with authenticity, resilience and wellbeing, mentoring and employee development, and conflict resolution. We also deliver training on Patrick Lencioni\'s 5 Dysfunctions of Team: one of our most popular modules. Each Leadership Development Programme is bespoke to the needs of your group, ensuring your learning experience is relevant and deeply impactful.',
       },
     ],
     outcomes: [
@@ -108,8 +110,8 @@ export const trainingData = {
       },
     ],
     outcomes: [
-      'A more cohesive and connected team - fostering a healthier work culture, greater productivity and employee retention, and above all, happiness and wellbeing.',
-      'A renewed sense of playfulness - remembering that work and play go hand in hand. At Global, we encourage curiosity and creativity, sparking fresh ideas and joyful collaboration.',
+      'High levels of trust. According to Harvard Business Review, this will foster: 50% higher productivity, 76% more engagement and 40% less burnout.',
+      'A more cohesive and connected team - inspiring a healthier work culture, higher employee retention and above all, happiness and wellbeing.',
       'A revitalised mindset. Having had the time to recharge and refocus, your team will return to work having been reminded of their shared purpose, and will be raring to go!',
     ],
     cta: "Ready to reconnect? Let's plan your Global away day. Contact georgie@globaltraining.uk for more information.",
@@ -128,9 +130,9 @@ export const trainingData = {
   },
 
   'foundation-mediation-course': {
-    title: 'Foundation Mediation Course',
+    title: 'Accredited Foundation in Mediation Course ',
     cover: cover4,
-    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills',
+    subtitle: 'Accredited by the Civil Mediation Council & the College of Mediators',
     intro:
       "The world needs peacemakers, now more than ever. Could this be you? Do you want to make a positive, lasting difference in people's lives? Have you considered a fulfilling career change that aligns with your passions and values?",
     description:
@@ -140,6 +142,10 @@ export const trainingData = {
       {
         title: 'Learning & assessment',
         description: '5 days of learning and a 1-day assessment',
+      },
+        {
+        title: 'Delivery',
+        description: 'Delivered in our North London offices, or in-house with your team.',
       },
       {
         title: 'Practical exercises, role-plays, and discussions',
@@ -156,7 +162,7 @@ export const trainingData = {
   'send-mediation-course': {
     title: 'SEND Mediation Course',
     cover: cover5,
-    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills',
+    subtitle: 'Accredited by the Civil Mediation Council & the College of Mediators',
     intro:
       'Are you a qualified mediator looking to broaden your horizons? Do you want to truly make a difference with your work, transforming the lives of young people with special educational needs and disabilities?',
     description:
@@ -184,7 +190,7 @@ export const trainingData = {
   'professional-practice-day': {
     title: 'Professional Practice Day',
     cover: cover6,
-    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills',
+    subtitle: 'Accredited by the Civil Mediation Council & the College of Mediators',
     intro: 'Are you a newly qualified mediator? Or a seasoned professional looking to sharpen your skills?',
     description:
       "At Global, we're here for you at every stage of your mediation journey. We offer participatory training days designed for accredited mediators to practice and refine their skillset. Here, you can engage in authentic role-play scenarios, mediate disputes, and receive feedback from experienced trainers. Not only will this help you gain more hands-on experience as a mediator, but it will also vitally add to your Continuing Professional Development (CPD).",

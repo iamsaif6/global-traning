@@ -21,7 +21,7 @@ const TrainingDetailPage = async ({ params }) => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header and Video - Same for all articles */}
-      <Header cover={training?.cover} title={training.title} />
+      <Header subtitle={training.subtitle} cover={training?.cover} title={training.title} />
       {/* <Video /> */}
 
       {/* Intro Section */}
@@ -82,6 +82,51 @@ const TrainingDetailPage = async ({ params }) => {
                   <p className="text-lg text-gray-700 leading-relaxed flex-1">{outcome}</p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Quotes Section */}
+      {training.quote && training.quote.length > 0 && (
+        <section className="py-16 px-5 lg:px-[40px] bg-white">
+          <div className="max-w-5xl mx-auto">
+            {/* <h2 className="text-3xl lg:text-5xl font-medium text-[#3E0065] mb-12 text-center">What Participants Say</h2> */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {training.quote.map((quoteStr, index) => {
+                const separator = '” - ';
+                let text = quoteStr;
+                let author = '';
+                if (quoteStr.includes(separator)) {
+                  const parts = quoteStr.split(separator);
+                  author = parts[parts.length - 1]; // Take the last part as author
+                  text = parts.slice(0, -1).join(separator) + '”'; // Join the rest logic
+                }
+
+                return (
+                  <div
+                    key={index}
+                    className="bg-white p-6 border border-[#18181b12] rounded-3xl flex flex-col justify-between h-full hover:shadow-lg transition-shadow duration-300"
+                  >
+                    <div>
+                      <div className="flex justify-between items-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                          <path
+                            d="M14.5 9V20C14.4983 21.5908 13.8657 23.116 12.7408 24.2408C11.616 25.3657 10.0908 25.9983 8.5 26C8.23478 26 7.98043 25.8946 7.79289 25.7071C7.60536 25.5196 7.5 25.2652 7.5 25C7.5 24.7348 7.60536 24.4804 7.79289 24.2929C7.98043 24.1054 8.23478 24 8.5 24C9.56087 24 10.5783 23.5786 11.3284 22.8284C12.0786 22.0783 12.5 21.0609 12.5 20V19H5C4.46957 19 3.96086 18.7893 3.58579 18.4142C3.21071 18.0391 3 17.5304 3 17V9C3 8.46957 3.21071 7.96086 3.58579 7.58579C3.96086 7.21071 4.46957 7 5 7H12.5C13.0304 7 13.5391 7.21071 13.9142 7.58579C14.2893 7.96086 14.5 8.46957 14.5 9ZM27 7H19.5C18.9696 7 18.4609 7.21071 18.0858 7.58579C17.7107 7.96086 17.5 8.46957 17.5 9V17C17.5 17.5304 17.7107 18.0391 18.0858 18.4142C18.4609 18.7893 18.9696 19 19.5 19H27V20C27 21.0609 26.5786 22.0783 25.8284 22.8284C25.0783 23.5786 24.0609 24 23 24C22.7348 24 22.4804 24.1054 22.2929 24.2929C22.1054 24.4804 22 24.7348 22 25C22 25.2652 22.1054 25.5196 22.2929 25.7071C22.4804 25.8946 22.7348 26 23 26C24.5908 25.9983 26.116 25.3657 27.2408 24.2408C28.3657 23.116 28.9983 21.5908 29 20V9C29 8.46957 28.7893 7.96086 28.4142 7.58579C28.0391 7.21071 27.5304 7 27 7Z"
+                            fill="#794D94"
+                          />
+                        </svg>
+                      </div>
+                      <p className="text-[#18181B] font-medium text-lg italic leading-[120%] mb-6">{text}</p>
+                    </div>
+                    {author && (
+                      <div>
+                        <p className="block text-sm text-[#18181B] font-medium">— {author}</p>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>

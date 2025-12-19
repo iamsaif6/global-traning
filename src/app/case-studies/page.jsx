@@ -102,7 +102,7 @@ const CaseStudies = () => {
                 } grid pb-[60px] border-b  border-[#D1D1D6] mb-[60px] grid-cols-12 gap-0 lg:gap-[60px]`}
               >
                 <div className="col-span-12  mb-6 lg:mb-0  h-[240px] lg:h-auto lg:col-span-4 bg-[#F4F5F6] rounded-2xl lg:rounded-3xl flex items-center justify-center">
-                  <Image alt={item.title} className="max-w-[160px]" src={item.image} />
+                  <Image alt={item.title} className="w-full h-full object-contain" src={item.image} />
                 </div>
                 <div className="col-span-12 py-8 lg:col-span-8">
                   <p className="text-[#794D94] font-medium text-xs lg:text-base">December 4, 2024</p>

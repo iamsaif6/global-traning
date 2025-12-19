@@ -14,12 +14,12 @@ const page = () => {
     <div>
       <header
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(62, 0, 101, 0.90) 5.68%, rgba(62, 0, 101, 0.31) 79.4%, rgba(255, 255, 255, 1) 100%)`,
-          backgroundBlendMode: 'overlay',
+          backgroundImage: `linear-gradient(to right, #3E0065CC, #3E006500),url('/training/global_2025-108 Large.jpeg')`,
+          // backgroundBlendMode: 'overlay',
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'cetner center',
         }}
-        className="pt-[147px] h-[80vh] flex items-center justify-center  relative md:pt-[138px] pb-[6px] md:pb-[3px]"
+        className="pt-[187px] max-h-[1050px]  h-screen custom-gradient-bg bg-[center] sm:bg-[center_top] lg:bg-bottom max-sm:bg-[65%_center] relative md:pt-[238px] flex items-center pb-[176px] md:pb-[203px] px-5 md:px-[60px]"
       >
         {/* <Marquee speed={15} autoFill>
           <div className=" rounded-3xl overflow-hidden w-[230px]  mx-[10px] lg:h-[286px]  ">

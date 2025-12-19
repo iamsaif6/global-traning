@@ -10,6 +10,7 @@ import Instructor from './component/home/Instructor';
 import HowItWork from './component/home/HowItWork';
 import Blogs from './component/home/Blogs';
 import WhyGlobal from './component/home/WhyGlobal';
+import ProofOfProgress from './component/home/ProofOfProgress';
 import OurTeam from './component/about-us/OurTeam';
 import PhotoGrid from './component/home/PhotoGrid';
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Marque />
       <Video />
       <WhyGlobal />
+      <ProofOfProgress />
       {/* <OurServices /> */}
       {/* <WhatWeDo /> */}
       <Impact />

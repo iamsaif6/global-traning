@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '/public/training/global_2025-163 Large.jpeg';
+import img1 from '/public/training/global_2025-70 Large.jpeg';
 import img2 from '/public/global_2025-274 (1) Large.jpeg';
 import img3 from '/public/global_2025-478 (1) Large.jpeg';
 import Image from 'next/image';

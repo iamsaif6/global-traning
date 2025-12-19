@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = ({ title = ' Courageous Conversations Training', cover }) => {
+const Header = ({ title = ' Courageous Conversations Training', subtitle, cover }) => {
   const slug = title;
   const decodedTitle = decodeURIComponent(slug);
   return (
@@ -32,6 +32,9 @@ const Header = ({ title = ' Courageous Conversations Training', cover }) => {
           <h1 className="font-medium text-center mx-auto tracking-[-4%] max-w-[900px] 2xl:max-w-[90%] leading-[120%] text-5xl md:text-[65px] xl:text-[4vw]  ">
             {decodedTitle}
           </h1>
+         {subtitle && <p className="text-center mt-5 mx-auto tracking-[-4%] max-w-[900px] 2xl:max-w-[90%] leading-[120%] text-xl  xl:text-[1.5vw] text-white ">
+            {subtitle}
+          </p>}
         </div>
       </div>
       {/* <Popup setOpen={setOpen} isOpen={open} /> */}

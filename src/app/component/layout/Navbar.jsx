@@ -9,16 +9,16 @@ import Image from 'next/image';
 
 const navLinks = [
   {
+    href: '/about-us',
+    title: 'Who We Are',
+  },
+  {
     href: '/services',
     title: 'What We Do',
   },
   {
     href: '/training',
     title: 'Training & Courses',
-  },
-  {
-    href: '/about-us',
-    title: 'Who We Are',
   },
 
   {

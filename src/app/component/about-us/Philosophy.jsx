@@ -23,9 +23,9 @@ const Philosophy = () => {
 
             <p className=" mt-6 mb-[56px] text-left text-base lg:text-lg font-normal leading-[140%]">
               <strong>Compassion is at the heart of all we do.</strong> Our courses, workshops and training programmes create a safe space
-              to step outside your comfort zone: to explore boldly, to be playful and to reflect deeply. We hear and share stories drawn
-              from lived experiences — which we know to be the most effective way to learn. Collaborative learning can shift mindsets,
-              strengthen bonds and spark meaningful change.
+              to step outside your comfort zone: to explore boldly, to be playful and to reflect deeply. <br /> <br /> We hear and share
+              stories drawn from lived experiences — which we know to be the most effective way to learn. Collaborative learning can shift
+              mindsets, strengthen bonds and spark meaningful change.
               <br /> <br />
               Global Training brings people together, putting emotional intelligence into action.
             </p>

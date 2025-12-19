@@ -54,7 +54,7 @@ const Impact = () => {
                 </svg>
               </div>
               <p className="mt-4 text-[#18181B] font-medium text-lg italic leading-[120%] mb-6">
-                “Very balanced. Avoided death by PowerPoint. (The workshop) felt more like an exploration of group conversation than a
+                “Very balanced. Avoided death by PowerPoint. The workshop felt more like an exploration of group conversation than a
                 training session.”
               </p>
               <div>
@@ -122,8 +122,8 @@ const Impact = () => {
                 </svg>
               </div>
               <p className="mt-4 text-[#18181B] font-medium text-lg italic leading-[120%] mb-6">
-                “This (Courageous Conversations) workshop is useful for all levels of experience and management. I’m new to a management
-                role and found it very useful to hear about the challenges that people face and how to deal with certain scenarios.”
+                “This Courageous Conversations workshop is useful for all levels of experience and management. I’m new to a management role
+                and found it very useful to hear about the challenges that people face and how to deal with certain scenarios.”
               </p>
               <div>
                 <p>
@@ -144,7 +144,7 @@ const Impact = () => {
                 </svg>
               </div>
               <p className="mt-4 text-[#18181B] font-medium text-lg italic leading-[120%] mb-6">
-                “(We were) learning from and leaning on colleagues, soaking up the experience of others. I learned from the day that many
+                “We were learning from and leaning on colleagues, soaking up the experience of others. I learned from the day that many
                 people are dealing with exactly the same issues in their teams. It is heartening to know that issues I am dealing with are
                 not unique and I’m not alone.”
               </p>

@@ -59,7 +59,7 @@ const services = [
 
 const Service = () => {
   return (
-    <section className="py-[80px] lg:py-[120px] px-5 lg:px-[40px]">
+    <section className=" px-5 pb-10 lg:px-[40px]">
       {/* <SectionTitle
         title={'Global Training services'}
         subtitle={'Professional training services to resolve disputes with empathy, expertise, and efficiency.'}
@@ -67,7 +67,7 @@ const Service = () => {
         center
       /> */}
 
-      <div className="grid max-w-[1300px] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-6 my-[60px]">
+      <div className="grid max-w-[1300px] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-6 ">
         {services.slice(0, 6).map(item => {
           return (
             <div

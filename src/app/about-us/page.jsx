@@ -12,7 +12,7 @@ const AboutUS = () => {
       <header
         style={{
           // backgroundImage: `url('/global_2025-163 Large.jpeg')`,
-          backgroundImage: `linear-gradient(to right, #3E0065CC, #3E006500),url('/training/global_2025-70 Large.jpeg')`,
+          backgroundImage: `linear-gradient(to right, #3E0065CC, #3E006500),url('/training/global_2025-159 Large.jpeg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'top right',
           // backgroundBlendMode: 'overlay',

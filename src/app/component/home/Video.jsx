@@ -149,8 +149,8 @@ const Video = () => {
         </div> */}
         <div className="relative text-left lg:text-center mt-10 z-20 px-5 ">
           <h3 className="mb-10 text-[18px] !text-white lg:text-[20px] font-medium leading-[140%]">
-            At Global Training, we believe that true learning begins when people feel seen, heard, safe and supported. Here, they open up —
-            to ideas, to change, and to each other. Growth follows when empathy guides the way, when people are supported to think
+            At Global Training, we believe that true learning begins when people feel seen, heard, safe and supported. <br /> Here, they
+            open up — to ideas, to change, and to each other. Growth follows when empathy guides the way, when people are supported to think
             differently, and are surrounded by compassion.
           </h3>
           <div className="flex justify-center md:block">
