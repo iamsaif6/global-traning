@@ -169,23 +169,23 @@ const memberData = [
     ),
   },
 
-  {
-    name: 'Anni Williams',
-    role: 'Commercial and Business Development Manager',
-    image: shilhoute,
-    bio: (
-      <p>
-        Anni has a Drama degree from the University of the Witwatersrand and is a qualified Speech Teacher. She has over 20 years’
-        experience in sales and marketing in the media arena both in South Africa and the UK. She is also a qualified Professional Organiser
-        who ran her own Organising company in South Africa until her return to the UK in 2020. Her passion is in delivering solutions
-        tailored to meet clients’ needs and budgets.
-        <br />
-        <br />
-        Anni has been a member of the Global team since 2022 and is looking forward to the continued growth of our training offerings across
-        various market sectors.
-      </p>
-    ),
-  },
+  // {
+  //   name: 'Anni Williams',
+  //   role: 'Commercial and Business Development Manager',
+  //   image: shilhoute,
+  //   bio: (
+  //     <p>
+  //       Anni has a Drama degree from the University of the Witwatersrand and is a qualified Speech Teacher. She has over 20 years’
+  //       experience in sales and marketing in the media arena both in South Africa and the UK. She is also a qualified Professional Organiser
+  //       who ran her own Organising company in South Africa until her return to the UK in 2020. Her passion is in delivering solutions
+  //       tailored to meet clients’ needs and budgets.
+  //       <br />
+  //       <br />
+  //       Anni has been a member of the Global team since 2022 and is looking forward to the continued growth of our training offerings across
+  //       various market sectors.
+  //     </p>
+  //   ),
+  // },
 
   {
     name: 'Ashleigh Stent',
@@ -219,27 +219,49 @@ const MeetOurFounder = () => {
       />
       <div className={`grid mt-[80px] grid-cols-1 px-5 lg:grid-cols-2 items-center  gap-[90px] lg:max-w-[1318px] mx-auto `}>
         {memberData?.map((member, index) => (
-          <div key={index} className="rounded-2xl group relative">
-            <div className="bg-[#f9fafb] hidden lg:block shadow-2xl opacity-0  group-hover:opacity-100  transition-all duration-500 ease-in-out   px-8 overflow-y-scroll py-8 absolute h-full w-full left-0 z-10 rounded-2xl top-0">
-              {member?.bio}
-            </div>
-            <div className={`h-[500px]  rounded-2xl overflow-hidden`}>
-              {member.image ? (
-                <Image alt={member.name} src={member.image} className="w-full h-full  object-cover object-top" />
-              ) : (
-                <div className="w-full h-full flex items-center justify-center bg-gray-200 text-gray-500">No Image Available</div>
-              )}
-            </div>
-            <div className="mt-3">
-              <p className="font-semibold text-2xl">{member.name}</p>
-              <p className=" text-lg">{member.role}</p>
-            </div>
-            <div className="mt-5 block lg:hidden">{member?.bio}</div>
-          </div>
+          <MemberCard key={index} member={member} />
         ))}
       </div>
     </section>
   );
 };
+
+const MemberCard = ({ member }) => {
+  const [isExpanded, setIsExpanded] = React.useState(false);
+
+  return (
+    <div className="rounded-2xl group relative">
+      <div className="bg-[#f9fafb] hidden lg:block shadow-2xl opacity-0  group-hover:opacity-100  transition-all duration-500 ease-in-out   px-8 overflow-y-scroll py-8 absolute h-full w-full left-0 z-10 rounded-2xl top-0">
+        {member?.bio}
+      </div>
+      <div className={`h-[400px] md:h-[500px]  rounded-2xl overflow-hidden`}>
+        {member.image ? (
+          <Image alt={member.name} src={member.image} className="w-full h-full  object-cover object-top" />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center bg-gray-200 text-gray-500">No Image Available</div>
+        )}
+      </div>
+      <div className="mt-3">
+        <p className="font-semibold text-2xl">{member.name}</p>
+        <p className=" text-lg">{member.role}</p>
+      </div>
+      <div className="mt-5 block lg:hidden">
+        <div className={`relative transition-all duration-500 ease-in-out ${isExpanded ? 'max-h-[2000px]' : 'max-h-[150px] overflow-hidden'}`}>
+          {member?.bio}
+          {!isExpanded && (
+            <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent pointer-events-none" />
+          )}
+        </div>
+        <button
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="mt-4 text-sm font-bold tracking-wide border-b border-black pb-0.5 hover:text-gray-600 transition-colors"
+        >
+          {isExpanded ? 'READ LESS' : 'READ MORE'}
+        </button>
+      </div>
+    </div>
+  );
+};
+
 
 export default MeetOurFounder;

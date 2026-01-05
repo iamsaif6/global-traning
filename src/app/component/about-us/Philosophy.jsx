@@ -12,7 +12,7 @@ const Philosophy = () => {
       <div>
         <div className={`w-full text-white max-w-max lg:max-w-[660px]`}>
           <div className="text-center lg:text-left">
-            <p className="mb-3 text-white text-sm lg:text-base font-medium">OUR PHILOSOPHY</p>
+            <p className="mb-3 text-white text-base lg:text-base font-medium">OUR PHILOSOPHY</p>
             <h2 className="   font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
               Training designed with compassion
             </h2>

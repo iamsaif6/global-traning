@@ -36,7 +36,9 @@ const TrainingDetailPage = async ({ params }) => {
       {/* Description Section */}
       <section className="py-16 px-5 lg:px-[40px]">
         <div className="max-w-4xl mx-auto">
-          <p className="text-lg lg:text-xl text-gray-700 leading-relaxed">{training.description}</p>
+          <p className="text-lg whitespace-pre-line lg:text-xl text-gray-700 leading-relaxed">{training.description}</p>
+          
+
         </div>
       </section>
 
@@ -44,7 +46,7 @@ const TrainingDetailPage = async ({ params }) => {
       {training.expectations && training.expectations.length > 0 && (
         <section className="py-16 px-5 lg:px-[40px] bg-primary">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl lg:text-5xl font-medium text-[#3E0065] mb-12 text-center">What Can You Expect?</h2>
+            <h2 className="text-3xl lg:text-5xl font-medium text-[#3E0065] mb-12 text-center">What can you expect?</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {training.expectations.map((item, index) => (
                 <div className=" rounded-3xl bg-white px-6 py-10 flex items-start ">
@@ -69,7 +71,7 @@ const TrainingDetailPage = async ({ params }) => {
       {training.outcomes && training.outcomes.length > 0 && (
         <section className="pt-16 px-5 lg:px-[40px]">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl lg:text-5xl font-medium text-[#3E0065] mb-12 text-center">What Will You Bring Back to Work?</h2>
+            <h2 className="text-3xl lg:text-5xl font-medium text-[#3E0065] mb-12 text-center">What will you bring back to work?</h2>
             <div className="space-y-6">
               {training.outcomes.map((outcome, index) => (
                 <div

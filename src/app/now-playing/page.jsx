@@ -8,6 +8,10 @@ import Courageous1 from '/public/Courageous1.png';
 import Courageous2 from '/public/Courageous2.jpg';
 import Courageous3 from '/public/Courageous3.jpg';
 import Courageous4 from '/public/Courageous4.jpg';
+import Kindling1 from '/public/Kindling1.jpg';
+import Kindling2 from '/public/Kindling2.jpg';
+import Kindling3 from '/public/Kindling3.jpg';
+import Kindling4 from '/public/Kindling4.jpg';
 import Button from '../component/shared/Button';
 
 const page = () => {
@@ -24,12 +28,41 @@ const page = () => {
       >
         <div className="w-full relative z-10  mx-auto text-center">
           <h1 className="font-medium  tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
-            What's happening in the here and now
+            What's happening in the here <br/> and now
           </h1>
         </div>
       </header>
-
+      
+      
       <section className="py-[60px] lg:py-[120px]  items-center px-4 lg:px-[40px]   grid grid-cols-2 gap-10">
+        {/* 2x2 image grid */}
+        <div className="order-2 lg:order-1 col-span-2  lg:col-span-1 grid grid-cols-2 gap-4 my-8">
+          {[Kindling1, Kindling2, Kindling3, Kindling4].map((img, idx) => (
+            <div key={idx} className="rounded-3xl overflow-hidden h-[180px] lg:h-[320px]">
+              <Image alt={`Team ${idx + 1}`} className="w-full h-full object-cover" src={img} width={6000} height={4000} />
+            </div>
+          ))}
+        </div>
+        <div className="col-span-2 order-1 lg:order-2 lg:col-span-1">
+          <div className={`w-full mx-auto text-center lg:text-left  max-w-[660px]`}>
+            <p className="mb-3 text-sm text-primary font-medium">Directed by Emma Gersch</p>
+            <h2 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">‘Kindling’ at the Park Theatre</h2>
+
+            <p className=" mt-10 mb-[56px] text-left  text-base lg:text-lg font-normal leading-[140%]">
+             Our founder & lead facilitator Emma Gersch recently returned to her theatre roots, directing ‘Kindling’ by Sarah Rickman at the Park Theatre, London.
+              <br /> <br />
+             This dark comedy explores poignant themes of (perimenopausal) womanhood, grief and unlikely friendships, in an immersive campsite setting.
+              <br /> <br />
+             No spoilers: but there were certainly several courageous conversations that occurred throughout the play! 
+             <br /> <br />
+             Emma led an all-female cast and creative team in this triumphant 4-week run.
+            </p>
+            <Button href="/contact-us" title={'Stay updated'} />
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-[60px] lg:pb-[120px]  items-center px-4 lg:px-[40px]   grid grid-cols-2 gap-10">
         <div className="col-span-2 lg:col-span-1">
           <div className={`w-full mx-auto text-center lg:text-left  max-w-[660px]`}>
             <p className="mb-3 text-sm text-primary font-medium">Team Away Day</p>

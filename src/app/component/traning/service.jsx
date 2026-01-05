@@ -59,7 +59,7 @@ const services = [
 
 const Service = () => {
   return (
-    <section className=" px-5 pb-10 lg:px-[40px]">
+    <section className=" pt-10 px-5 pb-10 lg:px-[40px]">
       {/* <SectionTitle
         title={'Global Training services'}
         subtitle={'Professional training services to resolve disputes with empathy, expertise, and efficiency.'}

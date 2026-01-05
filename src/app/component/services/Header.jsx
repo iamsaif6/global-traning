@@ -31,7 +31,7 @@ const Header = () => {
           grounded in emotional intelligence.
         </p>
         <div className="flex gap-4">
-          <Button title={'Explore your options'} href="/contact-us" />
+          <Button title={'Explore your options'} href="/training" />
         </div>
       </div>
     </header>

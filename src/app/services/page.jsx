@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../component/services/Header';
-import Video from '../component/services/Video';
+// import Video from '../component/services/Video';
 import Blocked from '../component/services/Blocked';
 import HowItWork from '../component/services/HowItWork';
 import HowWeWork from '../component/services/HowWeWork';
@@ -9,6 +9,7 @@ import Form from '../component/services/Form';
 import PhotoGrid from '../component/services/PhotoGrid';
 import ServiceCircle from '../component/services/ServiceCircle';
 import Testimonial from '../component/services/Testimonial';
+import Video from '../training/Video';
 
 const Services = () => {
   return (
@@ -20,6 +21,7 @@ const Services = () => {
       {/* <Testimonial /> */}
       {/* <TrustedBy /> */}
       {/* <HowWeWork /> */}
+      <Video />
       <HowItWork />
       <PhotoGrid />
       <Form />

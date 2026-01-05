@@ -54,8 +54,6 @@ const Form = () => {
     e.preventDefault();
     setLoading(true);
 
-    console.log(formRef.current);
-
     emailjs.sendForm('service_vq2ycta', 'template_va8udrg', formRef.current, 'toRHu9L37wuWjLqkC').then(
       result => {
         console.log(result.text);
@@ -72,7 +70,7 @@ const Form = () => {
   return (
     <section className="px-4 py-[80px] relative z-10   bg-primary lg:py-[120px]">
       <div className={`w-full  text-white max-w-[900px] text-center mx-auto`}>
-        <h2 className={`w-full lg:w-[90%] mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] `}>
+        <h2 className={`w-full lg:w-[90%] text-left md:text-center mx-auto  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] `}>
           Not sure what you need? That’s where we come in.
         </h2>
 

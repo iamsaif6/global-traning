@@ -134,9 +134,9 @@ export const trainingData = {
     cover: cover4,
     subtitle: 'Accredited by the Civil Mediation Council & the College of Mediators',
     intro:
-      "The world needs peacemakers, now more than ever. Could this be you? Do you want to make a positive, lasting difference in people's lives? Have you considered a fulfilling career change that aligns with your passions and values?",
+      "The world needs peacemakers, now more than ever. Could this be you?",
     description:
-      'Global Mediation was established in 1999 and is recognised as the leading mediation provider in the UK. Our Foundation Mediation course delivers meaningful and dynamic practice-based training, grounded in current research and legislation. This six-day programme is designed for professionals entering the field of mediation, and is inclusive and accessible for all. You will be in the safe hands of our dedicated mediators and trainers, who will guide you through the mediation process with various practical, interactive, and engaging approaches.',
+      'Have you considered a fulfilling career change that aligns with your values? \n\ \n\ Global Mediation was established in 1999 and is recognised as the leading mediation provider in the UK. Our Foundation Mediation course delivers meaningful and dynamic practice-based training, grounded in current research and legislation. This six-day programme is designed for professionals entering the field of mediation, and is inclusive and accessible for all. You will be in the safe hands of our dedicated mediators and trainers, who will guide you through the mediation process with various practical, interactive, and engaging approaches.',
     img: [img9, img10],
     expectations: [
       {
@@ -166,7 +166,7 @@ export const trainingData = {
     intro:
       'Are you a qualified mediator looking to broaden your horizons? Do you want to truly make a difference with your work, transforming the lives of young people with special educational needs and disabilities?',
     description:
-      'There is an ever-increasing demand for SEND mediators in the sector, with thousands of cases each year - including a wealth of remote work. At Global, we provide specialist SEND training complete with a comprehensive observation programme - featuring mentoring, co-mediations, and hands-on case experience - giving you a 360-degree learning journey.',
+      'Do you want to truly make a difference with your work, transforming the lives of young people with special educational needs and disabilities? \n\ \n\ There is an ever-increasing demand for SEND mediators in the sector, with thousands of cases each year - including a wealth of remote work. At Global, we provide specialist SEND training complete with a comprehensive observation programme - featuring mentoring, co-mediations, and hands-on case experience - giving you a 360-degree learning journey.',
     img: [img11, img12],
     expectations: [
       {

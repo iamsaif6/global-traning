@@ -51,7 +51,7 @@ const Approch = () => {
       <div>
         <div className={`w-full  max-w-max lg:max-w-[660px]`}>
           <div className="text-center lg:text-left">
-            <p className="mb-3 text-primary text-sm lg:text-base font-medium">OUR APPROACH</p>
+            <p className="mb-3 text-primary text-base lg:text-base font-medium">OUR APPROACH</p>
             <h2 className="   font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
               Creating space for transformation
             </h2>

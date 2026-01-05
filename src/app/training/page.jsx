@@ -48,7 +48,7 @@ const page = () => {
           </p>
         </div>
       </header>
-      <Video />
+      {/* <Video /> */}
       <Service />
     </div>
   );
