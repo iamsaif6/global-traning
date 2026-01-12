@@ -98,9 +98,9 @@ const Footer = () => {
                   </Link>
                 </button>
                 <button className="font-semibold border border-white text-base md:text-lg text-white px-6 py-3 rounded-[40px]">
-                  <Link className=" w-full text-center flex items-center gap-2 justify-center" href="tel:020 8441 1355">
+                  <Link className=" w-full text-center flex items-center gap-2 justify-center" href="tel:0203 9114328">
                     <Phone size={20} />
-                    020 8441 1355
+                    0203 9114328
                   </Link>
                 </button>
               </div>
@@ -127,8 +127,8 @@ const Footer = () => {
               </p>
               <p>
                 <span className="font-arial text-sm ">Contact:</span>
-                <a href="tel:020 8441 1355" className="block mt-1 leading-[140%] text-sm md:text-lg">
-                  020 8441 1355
+                <a href="tel:0203 9114328" className="block mt-1 leading-[140%] text-sm md:text-lg">
+                  0203 9114328
                 </a>
                 <a href="mailto:enquiries@globaltraining.uk">enquiries@globaltraining.uk</a>
               </p>

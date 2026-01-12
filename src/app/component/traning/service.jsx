@@ -5,7 +5,7 @@ import img2 from '/public/training/global_2025-122 Large.jpeg';
 import img3 from '/public/training/global_2025-159 Large.jpeg';
 import img4 from '/public/training/Foundation.jpg';
 import img5 from '/public/training/Sendmediation.jpg';
-import img6 from '/public/training/global_2025-108 Large.jpeg';
+import img6 from '/public/training/GlobalMediation_actors-160.jpg';
 import img7 from '/public/training/global_2025-140 Large.jpeg';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -31,7 +31,7 @@ const services = [
   },
 
   {
-    title: 'Foundation Mediation Course',
+    title: 'Accredited Foundation in Mediation Course',
     subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
     img: img4,
     link: '/training/foundation-mediation-course',

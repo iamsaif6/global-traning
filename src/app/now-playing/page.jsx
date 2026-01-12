@@ -45,7 +45,7 @@ const page = () => {
         </div>
         <div className="col-span-2 order-1 lg:order-2 lg:col-span-1">
           <div className={`w-full mx-auto text-center lg:text-left  max-w-[660px]`}>
-            <p className="mb-3 text-sm text-primary font-medium">Directed by Emma Gersch</p>
+            <p className="mb-3 text-lg text-primary font-medium">Directed by Emma Gersch</p>
             <h2 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">‘Kindling’ at the Park Theatre</h2>
 
             <p className=" mt-10 mb-[56px] text-left  text-base lg:text-lg font-normal leading-[140%]">
@@ -65,7 +65,7 @@ const page = () => {
       <section className="pb-[60px] lg:pb-[120px]  items-center px-4 lg:px-[40px]   grid grid-cols-2 gap-10">
         <div className="col-span-2 lg:col-span-1">
           <div className={`w-full mx-auto text-center lg:text-left  max-w-[660px]`}>
-            <p className="mb-3 text-sm text-primary font-medium">Team Away Day</p>
+            <p className="mb-3 text-lg text-primary font-medium">Team Away Day</p>
             <h2 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">Tapestry Research</h2>
 
             <p className=" mt-10 mb-[56px] text-left  text-base lg:text-lg font-normal leading-[140%]">
@@ -105,7 +105,7 @@ const page = () => {
         </div>
         <div className="col-span-2 order-1 lg:order-2 lg:col-span-1">
           <div className={`w-full mx-auto text-center lg:text-left  max-w-[660px]`}>
-            <p className="mb-3 text-sm text-primary font-medium">Courageous Conversations</p>
+            <p className="mb-3 text-lg text-primary font-medium">Courageous Conversations</p>
             <h2 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">ZSL</h2>
 
             <p className=" mt-10 mb-[56px] text-left  text-base lg:text-lg font-normal leading-[140%]">

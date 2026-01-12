@@ -17,28 +17,28 @@ const ProofOfProgress = () => {
         <h2 className="text-[#18181B] font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px] mb-4">
           The proof is in the progress
         </h2>
-        <p className="text-base lg:text-lg text-[#18181B] font-normal">
-          People at high-trust companies report:
-        </p>
+        <p className="text-base lg:text-lg text-[#18181B] font-normal">People at high-trust companies report:</p>
       </div>
 
       <div className="flex flex-wrap justify-center gap-6 lg:gap-x-12 lg:gap-y-[60px]">
-        {stats.map((stat, index) => (
+        {stats.slice(0, 4).map((stat, index) => (
           <div key={index} className="flex-1 min-w-[140px] max-w-[200px] text-center flex flex-col items-center">
-            <span className="text-4xl lg:text-[64px] font-medium text-primary mb-2 lg:mb-4 leading-none">
-              {stat.value}
-            </span>
-            <span className="text-base lg:text-lg font-normal text-[#18181B] leading-[140%]">
-              {stat.label}
-            </span>
+            <span className="text-4xl lg:text-[64px] font-medium text-primary mb-2 lg:mb-4 leading-none">{stat.value}</span>
+            <span className="text-base lg:text-lg font-normal text-[#18181B] leading-[140%]">{stat.label}</span>
+          </div>
+        ))}
+      </div>
+      <div className="flex flex-wrap justify-center mt-10 gap-6 lg:gap-x-12 lg:gap-y-[60px]">
+        {stats.slice(4, 7).map((stat, index) => (
+          <div key={index} className="flex-1 min-w-[140px] max-w-[200px] text-center flex flex-col items-center">
+            <span className="text-4xl lg:text-[64px] font-medium text-primary mb-2 lg:mb-4 leading-none">{stat.value}</span>
+            <span className="text-base lg:text-lg font-normal text-[#18181B] leading-[140%]">{stat.label}</span>
           </div>
         ))}
       </div>
 
       <div className="mt-10 lg:mt-[60px] text-center">
-        <p className="text-sm lg:text-base text-gray-500 font-normal">
-          (Harvard Business Review)
-        </p>
+        <p className="text-sm lg:text-base text-gray-500 font-normal">(Harvard Business Review)</p>
       </div>
     </section>
   );

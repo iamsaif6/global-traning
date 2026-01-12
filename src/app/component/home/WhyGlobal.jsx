@@ -12,7 +12,7 @@ const WhyGlobal = () => {
         </div>
         <div className="col-span-2 lg:col-span-1">
           <div className={`w-full text-center lg:text-left mx-auto max-w-[660px]`}>
-            <p className="mb-3 text-primary text-sm font-medium">WHY GLOBAL TRAINING</p>
+            <p className="mb-3 text-primary text-lg font-medium">WHY GLOBAL TRAINING</p>
             <h2 className="text-[#18181B]   font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
               We design learning to fit you - not the other way around.
             </h2>

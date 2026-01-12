@@ -8,7 +8,7 @@ const WhoWeAre = () => {
     <section className="py-[60px] lg:py-[120px]  items-center px-4 lg:px-[40px] grid grid-cols-2 gap-12">
       <div className="col-span-2 lg:col-span-1">
         <div className={`w-full mx-auto text-center lg:text-left  max-w-[660px]`}>
-          <p className="mb-3 text-base text-primary font-medium">WHO WE ARE</p>
+          <p className="mb-3 text-lg text-primary font-medium">WHO WE ARE</p>
           <h2 className="  font-medium text-[40px] lg:text-[56px] leading-[120%] -tracking-[1.6px]">
             About Global <br /> Training
           </h2>

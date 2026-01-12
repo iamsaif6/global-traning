@@ -16,7 +16,7 @@ const SectionTitle = ({ badge, title, subtitle, center = false, light = false, l
         center ? 'text-center mx-auto' : ' text-center md:text-left'
       }`}
     >
-      {badge && <p className={`mb-3 text-base uppercase  font-medium ${light ? 'text-white' : 'text-primary'}`}>{badge}</p>}
+      {badge && <p className={`mb-3 text-lg uppercase  font-medium ${light ? 'text-white' : 'text-primary'}`}>{badge}</p>}
       <h2
         className={`w-full lg:w-[90%] ${
           center ? 'mx-auto' : ''

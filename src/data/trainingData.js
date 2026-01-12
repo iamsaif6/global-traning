@@ -75,7 +75,13 @@ export const trainingData = {
       {
         title: 'Tailored modules',
         description:
-          'Our topics include: building trust, presenting with authenticity, resilience and wellbeing, mentoring and employee development, and conflict resolution. We also deliver training on Patrick Lencioni\'s 5 Dysfunctions of Team: one of our most popular modules. Each Leadership Development Programme is bespoke to the needs of your group, ensuring your learning experience is relevant and deeply impactful.',
+          'Our topics include: building trust, presenting with authenticity, resilience and wellbeing, mentoring and employee development, and conflict resolution.',
+      },
+      
+         {
+        title: null,
+        description:
+          'We also deliver training on Patrick Lencioni\'s 5 Dysfunctions of Team: one of our most popular modules. Each Leadership Development Programme is bespoke to the needs of your group, ensuring your learning experience is relevant and deeply impactful.',
       },
     ],
     outcomes: [
@@ -119,7 +125,7 @@ export const trainingData = {
   'creative-conflict-resolution': {
     title: 'Creative Conflict Resolution',
     cover: cover3,
-    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills',
+    subtitle: '',
     intro: 'Coming soon..',
     // img: [img7, img8],
     // description:
@@ -155,6 +161,7 @@ export const trainingData = {
         title: 'Certification',
         description: 'Certification to apply for membership with the Civil Mediation Council and College of Mediators.',
       },
+      
     ],
     outcomes: [],
     cta: "If you're ready to embark upon your mediation journey, email georgie@globaltraining.uk today.",
@@ -164,7 +171,7 @@ export const trainingData = {
     cover: cover5,
     subtitle: 'Accredited by the Civil Mediation Council & the College of Mediators',
     intro:
-      'Are you a qualified mediator looking to broaden your horizons? Do you want to truly make a difference with your work, transforming the lives of young people with special educational needs and disabilities?',
+      'Are you a qualified mediator looking to broaden your horizons?',
     description:
       'Do you want to truly make a difference with your work, transforming the lives of young people with special educational needs and disabilities? \n\ \n\ There is an ever-increasing demand for SEND mediators in the sector, with thousands of cases each year - including a wealth of remote work. At Global, we provide specialist SEND training complete with a comprehensive observation programme - featuring mentoring, co-mediations, and hands-on case experience - giving you a 360-degree learning journey.',
     img: [img11, img12],
