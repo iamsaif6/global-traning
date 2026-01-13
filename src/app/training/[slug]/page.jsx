@@ -36,9 +36,24 @@ const TrainingDetailPage = async ({ params }) => {
       {/* Description Section */}
       <section className="py-16 px-5 lg:px-[40px]">
         <div className="max-w-4xl mx-auto">
-          <p className="text-lg whitespace-pre-line lg:text-xl text-gray-700 leading-relaxed">{training.description}</p>
-          
-
+          {/* <p className="text-lg whitespace-pre-line lg:text-xl text-gray-700 leading-relaxed">{training.description}</p> */}
+          <p className="text-lg whitespace-pre-line lg:text-xl text-gray-700 leading-relaxed">
+            {training.description.split(/(Global Mediation)/g).map((part, index) =>
+              part === 'Global Mediation' ? (
+                <a
+                  key={index}
+                  href="https://www.globalmediation.co.uk/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 underline"
+                >
+                  {part}
+                </a>
+              ) : (
+                <span key={index}>{part}</span>
+              )
+            )}
+          </p>
         </div>
       </section>
 
@@ -47,7 +62,11 @@ const TrainingDetailPage = async ({ params }) => {
         <section className="py-16 px-5 lg:px-[40px] bg-primary">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl lg:text-5xl font-medium text-[#3E0065] mb-12 text-center">What can you expect?</h2>
-            <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${training.expectations.length === 4 ? 'lg:[&>*:last-child]:col-start-2' : ''} ${slug == 'compassionate-leadership-development-programme' ? 'lg:[&>*:last-child]:col-start-3' : ''}`}>
+            <div
+              className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${
+                training.expectations.length === 4 ? 'lg:[&>*:last-child]:col-start-2' : ''
+              } ${slug == 'compassionate-leadership-development-programme' ? 'lg:[&>*:last-child]:col-start-3' : ''}`}
+            >
               {training.expectations.map((item, index) => (
                 <div key={index} className=" rounded-3xl bg-white px-6 py-10 flex items-start ">
                   <div className="">
@@ -55,7 +74,7 @@ const TrainingDetailPage = async ({ params }) => {
                       {/* <div className="w-12 flex-shrink-0 text-secondary text-3xl font-semibold flex items-center justify-center lg:w-[60px]  h-12 lg:h-[60px] bg-[#511A7533] rounded-lg">
                         {index + 1}
                       </div> */}
-                     {item.title && <p className="text-[#511A75] font-medium text-[18px] lg:text-[20px] leading-[120%]">{item.title}</p>}
+                      {item.title && <p className="text-[#511A75] font-medium text-[18px] lg:text-[20px] leading-[120%]">{item.title}</p>}
                     </div>
 
                     <p className=" text-base lg:text-lg font-normal leading-[140%]">{item.description}</p>
@@ -71,7 +90,9 @@ const TrainingDetailPage = async ({ params }) => {
       {training.outcomes && training.outcomes.length > 0 && (
         <section className="pt-16 px-5 lg:px-[40px]">
           <div className="max-w-4xl mx-auto">
-           {slug !== 'send-mediation-course' && <h2 className="text-3xl lg:text-5xl font-medium text-[#3E0065] mb-12 text-center">What will you bring back to work?</h2>}
+            {slug !== 'send-mediation-course' && (
+              <h2 className="text-3xl lg:text-5xl font-medium text-[#3E0065] mb-12 text-center">What will you bring back to work?</h2>
+            )}
             <div className="space-y-6">
               {training.outcomes.map((outcome, index) => (
                 <div
