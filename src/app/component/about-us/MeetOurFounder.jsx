@@ -217,7 +217,7 @@ const MeetOurFounder = () => {
         center
         large
       />
-      <div className={`grid mt-[80px] grid-cols-1 px-5 lg:grid-cols-2 items-center  gap-[90px] lg:max-w-[1318px] mx-auto `}>
+      <div className={`grid mt-[80px] grid-cols-1 px-5 md:grid-cols-2 items-center  gap-[90px] lg:max-w-[1318px] mx-auto `}>
         {memberData?.map((member, index) => (
           <MemberCard key={index} member={member} />
         ))}
@@ -234,7 +234,7 @@ const MemberCard = ({ member }) => {
       <div className="bg-[#f9fafb] hidden lg:block shadow-2xl opacity-0  group-hover:opacity-100  transition-all duration-500 ease-in-out   px-8 overflow-y-scroll py-8 absolute h-full w-full left-0 z-10 rounded-2xl top-0">
         {member?.bio}
       </div>
-      <div className={`h-[400px] md:h-[500px]  rounded-2xl overflow-hidden`}>
+      <div className={`h-[400px] md:h-[500px]  max-w-[400px] lg:max-w-full mx-auto rounded-2xl overflow-hidden`}>
         {member.image ? (
           <Image alt={member.name} src={member.image} className="w-full h-full  object-cover object-top" />
         ) : (
