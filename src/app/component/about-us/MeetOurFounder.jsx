@@ -9,7 +9,7 @@ import Alison from '/public/Alison Bennett Photo 2.jpg';
 import Anup from '/public/Anup Ravi Photo.jpg';
 import Lizzie from '/public/Lizzie .jpg';
 import Ash from '/public/Ash Stent Photo 2.jpg';
-import shilhoute from '/public/female-silhouette.jpg';
+import Regine from '/public/Regine.jpg';
 
 const memberData = [
   {
@@ -36,34 +36,34 @@ const memberData = [
     ),
   },
 
-  {
-    name: 'Georgie Farwell',
-    role: 'Training Coordinator',
-    image: Georgie,
-    bio: (
-      <p>
-        Georgie holds a Postgraduate Degree in Secondary Education from Goldsmiths, University of London, where she specialised in Drama.
-        With over a decade of experience in education, she brings a genuine passion for communication, creativity, and human connection to
-        everything she does.
-        <br />
-        <br />
-        Before joining Emma at Global Training, Georgie built her expertise through a range of people-centred roles — most notably as Head
-        of Drama and Teacher of English in London secondary schools.
-        <br />
-        <br />
-        Her time in education gave her a deep appreciation for and understanding of the transformational power of open, courageous
-        conversations — the very foundation of Global Training’s approach.
-        <br />
-        <br />
-        As the first point of contact for Global Training, Georgie manages course coordination and client relationships, ensuring the
-        journey of all Mediation Training and Commercial Workshops run smoothly from initial enquiry through delivery to completion.
-        <br />
-        <br />
-        She also brings our role play demonstrations to life through her background in drama, using her acting skills to portray realistic
-        characters in conflict and create powerful, engaging learning experiences.
-      </p>
-    ),
-  },
+  // {
+  //   name: 'Georgie Farwell',
+  //   role: 'Training Coordinator',
+  //   image: Georgie,
+  //   bio: (
+  //     <p>
+  //       Georgie holds a Postgraduate Degree in Secondary Education from Goldsmiths, University of London, where she specialised in Drama.
+  //       With over a decade of experience in education, she brings a genuine passion for communication, creativity, and human connection to
+  //       everything she does.
+  //       <br />
+  //       <br />
+  //       Before joining Emma at Global Training, Georgie built her expertise through a range of people-centred roles — most notably as Head
+  //       of Drama and Teacher of English in London secondary schools.
+  //       <br />
+  //       <br />
+  //       Her time in education gave her a deep appreciation for and understanding of the transformational power of open, courageous
+  //       conversations — the very foundation of Global Training’s approach.
+  //       <br />
+  //       <br />
+  //       As the first point of contact for Global Training, Georgie manages course coordination and client relationships, ensuring the
+  //       journey of all Mediation Training and Commercial Workshops run smoothly from initial enquiry through delivery to completion.
+  //       <br />
+  //       <br />
+  //       She also brings our role play demonstrations to life through her background in drama, using her acting skills to portray realistic
+  //       characters in conflict and create powerful, engaging learning experiences.
+  //     </p>
+  //   ),
+  // },
 
   {
     name: 'Suneta Bagri',
@@ -189,7 +189,7 @@ const memberData = [
 
   {
     name: 'Ashleigh Stent',
-    role: 'Fractional Marketing Director',
+    role: 'Marketing Consultant',
     image: Ash,
     bio: (
       <p>
@@ -200,6 +200,22 @@ const memberData = [
         Throughout her career, Ashleigh has done the full spectrum of roles through marketing and has a strong brand and digital background.
         She has scaled global teams, brokered partnerships to drive growth, and kept a tight grip on the P&L the whole way. A natural
         communicator and restless problem-solver, Ashleigh enjoys pushing boundaries and finding fresh ways to connect products with people.
+      </p>
+    ),
+  },
+  {
+    name: 'Regine Cabegin',
+    role: 'Executive Assistant',
+    image: Regine,
+    bio: (
+      <p>
+        Regine has over a decade of experience in administration and executive support, including ten years in Doha before transferring to
+        the UK. She now serves as Executive Assistant to the CEO and Founder of Global Mediation, supporting the leadership team and
+        assisting with Global Training.
+        <br /> <br />
+        Regine helps with administrative work for Global Training, ensuring everything runs smoothly and supporting the team behind the
+        scenes.
+        <br /> <br />
       </p>
     ),
   },
@@ -246,7 +262,9 @@ const MemberCard = ({ member }) => {
         <p className=" text-lg">{member.role}</p>
       </div>
       <div className="mt-5 block lg:hidden">
-        <div className={`relative transition-all duration-500 ease-in-out ${isExpanded ? 'max-h-[2000px]' : 'max-h-[150px] overflow-hidden'}`}>
+        <div
+          className={`relative transition-all duration-500 ease-in-out ${isExpanded ? 'max-h-[2000px]' : 'max-h-[150px] overflow-hidden'}`}
+        >
           {member?.bio}
           {!isExpanded && (
             <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent pointer-events-none" />
@@ -262,6 +280,5 @@ const MemberCard = ({ member }) => {
     </div>
   );
 };
-
 
 export default MeetOurFounder;

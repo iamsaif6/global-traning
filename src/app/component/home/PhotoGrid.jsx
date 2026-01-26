@@ -17,7 +17,7 @@ const PhotoGrid = () => {
     <section className="px-5  py-[80px] lg:py-[120px]  lg:px-[80px]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="col-span-1 lg:col-span-2 h-[480px] relative overflow-hidden bg-gray-300 rounded-3xl">
-          <Image alt="Grid 1" src={img1} className=" absolute left-0 top-0 w-full h-full object-top object-cover" />
+          <Image alt="Grid 1" src={img1} className=" absolute left-0 top-0 w-full h-full object-right-top object-cover" />
         </div>
         <div className="col-span-1 h-[480px] relative overflow-hidden bg-gray-300 rounded-3xl">
           <Image alt="Grid 2" src={img2} className=" absolute left-0 top-0 w-full h-full object-top object-cover" />

@@ -10,6 +10,7 @@ import PhotoGrid from '../component/services/PhotoGrid';
 import ServiceCircle from '../component/services/ServiceCircle';
 import Testimonial from '../component/services/Testimonial';
 import Video from '../training/Video';
+import TextBox from '../component/services/TextBox';
 
 const Services = () => {
   return (
@@ -22,6 +23,7 @@ const Services = () => {
       {/* <TrustedBy /> */}
       {/* <HowWeWork /> */}
       <Video />
+      <TextBox />
       <HowItWork />
       <PhotoGrid />
       <Form />

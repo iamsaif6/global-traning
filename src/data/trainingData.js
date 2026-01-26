@@ -22,9 +22,116 @@ import cover6 from '/public/training/GlobalMediation_actors-160.jpg';
 import cover7 from '/public/training/global_2025-332.jpg';
 
 export const trainingData = {
+  'professional-boundaries-training': {
+    title: 'Professional Boundaries Training',
+    quote: [
+      '“I have developed confidence to know how to tackle difficult conversations. I love having a structure for this – makes it all feel less personal.” - SCAS',
+      '“I learned from the day that many people are dealing with exactly the same issues in their teams. It is heartening to know that issues I am dealing with are not unique and I’m not alone.” - ZSL',
+      '“Fantastic to have a communication model to manage challenging conversations, learning how to listen compassionately and be clear, kind and brave.” - NHS',
+    ],
+    subtitle: 'Equip your team to navigate difficult conversations with confidence and clarity',
+    intro: 'Do you find yourself struggling to have difficult conversations with your colleagues?',
+    description:
+      "Our Courageous Conversations training empowers teams to navigate emotionally challenging situations at work. We will help you tackle difficult conversations with courage, confidence and compassion. This bespoke training is designed to align with your company's culture and values, and will equip you with practical techniques to take into the workplace.",
+    img: [img1, img2],
+    cover: cover1,
+    expectations: [
+      {
+        title: 'A tailored workshop',
+        description: 'A half day participatory workshop designed for leaders, managers and teams.',
+      },
+      {
+        title: 'Learning and doing',
+        description: 'A dynamic blend of learning and doing, revolving around our BRAVE feedback model.',
+      },
+      {
+        title: 'Real-world application',
+        description: 'Interactive role-playing with professional actors and/or fellow colleagues.',
+      },
+    ],
+    outcomes: [
+      'A renewed set of skills in effective, empathetic leadership and people management.',
+      'Increased confidence in navigating difficult conversations, managing workplace conflicts, and giving honest, constructive feedback.',
+      'A measurable improvement in overall workplace communication, working relationships and standards of performance.',
+    ],
+    cta: 'Could your team navigate workplace difficulties more courageously? Start the conversation with georgie@globaltraining.uk today!',
+  },
+  'accredited-supervision-course-for-mediators': {
+    title: 'Accredited Supervision Course for Mediators',
+    quote: [
+      '“I have developed confidence to know how to tackle difficult conversations. I love having a structure for this – makes it all feel less personal.” - SCAS',
+      '“I learned from the day that many people are dealing with exactly the same issues in their teams. It is heartening to know that issues I am dealing with are not unique and I’m not alone.” - ZSL',
+      '“Fantastic to have a communication model to manage challenging conversations, learning how to listen compassionately and be clear, kind and brave.” - NHS',
+    ],
+    subtitle: 'Equip your team to navigate difficult conversations with confidence and clarity',
+    intro: 'Do you find yourself struggling to have difficult conversations with your colleagues?',
+    description:
+      "Our Courageous Conversations training empowers teams to navigate emotionally challenging situations at work. We will help you tackle difficult conversations with courage, confidence and compassion. This bespoke training is designed to align with your company's culture and values, and will equip you with practical techniques to take into the workplace.",
+    img: [img1, img2],
+    cover: cover1,
+    expectations: [
+      {
+        title: 'A tailored workshop',
+        description: 'A half day participatory workshop designed for leaders, managers and teams.',
+      },
+      {
+        title: 'Learning and doing',
+        description: 'A dynamic blend of learning and doing, revolving around our BRAVE feedback model.',
+      },
+      {
+        title: 'Real-world application',
+        description: 'Interactive role-playing with professional actors and/or fellow colleagues.',
+      },
+    ],
+    outcomes: [
+      'A renewed set of skills in effective, empathetic leadership and people management.',
+      'Increased confidence in navigating difficult conversations, managing workplace conflicts, and giving honest, constructive feedback.',
+      'A measurable improvement in overall workplace communication, working relationships and standards of performance.',
+    ],
+    cta: 'Could your team navigate workplace difficulties more courageously? Start the conversation with georgie@globaltraining.uk today!',
+  },
+  coaching: {
+    title: 'Coaching',
+    quote: [
+      '“I have developed confidence to know how to tackle difficult conversations. I love having a structure for this – makes it all feel less personal.” - SCAS',
+      '“I learned from the day that many people are dealing with exactly the same issues in their teams. It is heartening to know that issues I am dealing with are not unique and I’m not alone.” - ZSL',
+      '“Fantastic to have a communication model to manage challenging conversations, learning how to listen compassionately and be clear, kind and brave.” - NHS',
+    ],
+    subtitle: 'Equip your team to navigate difficult conversations with confidence and clarity',
+    intro: 'Do you find yourself struggling to have difficult conversations with your colleagues?',
+    description:
+      "Our Courageous Conversations training empowers teams to navigate emotionally challenging situations at work. We will help you tackle difficult conversations with courage, confidence and compassion. This bespoke training is designed to align with your company's culture and values, and will equip you with practical techniques to take into the workplace.",
+    img: [img1, img2],
+    cover: cover1,
+    expectations: [
+      {
+        title: 'A tailored workshop',
+        description: 'A half day participatory workshop designed for leaders, managers and teams.',
+      },
+      {
+        title: 'Learning and doing',
+        description: 'A dynamic blend of learning and doing, revolving around our BRAVE feedback model.',
+      },
+      {
+        title: 'Real-world application',
+        description: 'Interactive role-playing with professional actors and/or fellow colleagues.',
+      },
+    ],
+    outcomes: [
+      'A renewed set of skills in effective, empathetic leadership and people management.',
+      'Increased confidence in navigating difficult conversations, managing workplace conflicts, and giving honest, constructive feedback.',
+      'A measurable improvement in overall workplace communication, working relationships and standards of performance.',
+    ],
+    cta: 'Could your team navigate workplace difficulties more courageously? Start the conversation with georgie@globaltraining.uk today!',
+  },
+
   'courageous-conversations': {
     title: 'Courageous Conversations',
-    quote : ['“I have developed confidence to know how to tackle difficult conversations. I love having a structure for this – makes it all feel less personal.” - SCAS','“I learned from the day that many people are dealing with exactly the same issues in their teams. It is heartening to know that issues I am dealing with are not unique and I’m not alone.” - ZSL','“Fantastic to have a communication model to manage challenging conversations, learning how to listen compassionately and be clear, kind and brave.” - NHS'],
+    quote: [
+      '“I have developed confidence to know how to tackle difficult conversations. I love having a structure for this – makes it all feel less personal.” - SCAS',
+      '“I learned from the day that many people are dealing with exactly the same issues in their teams. It is heartening to know that issues I am dealing with are not unique and I’m not alone.” - ZSL',
+      '“Fantastic to have a communication model to manage challenging conversations, learning how to listen compassionately and be clear, kind and brave.” - NHS',
+    ],
     subtitle: 'Equip your team to navigate difficult conversations with confidence and clarity',
     intro: 'Do you find yourself struggling to have difficult conversations with your colleagues?',
     description:
@@ -58,8 +165,7 @@ export const trainingData = {
     // intro: 'What makes a "good leader"?',
     intro: 'A leader is a person who knows the way, shows the way and goes the way." - John C. Maxwell.',
     cover: cover2,
-    description:
-      `"At Global Training, we believe that great leadership begins with compassion. Whether you're a manager, supervisor, or CEO, our Leadership Development Programme will equip you with the essential people skills to lead with clarity, compassion and integrity. Authenticity should always take priority over authority - and we will help you reach this balance with confidence, in a supportive group setting.`,
+    description: `"At Global Training, we believe that great leadership begins with compassion. Whether you're a manager, supervisor, or CEO, our Leadership Development Programme will equip you with the essential people skills to lead with clarity, compassion and integrity. Authenticity should always take priority over authority - and we will help you reach this balance with confidence, in a supportive group setting.`,
     img: [img3, img4],
     expectations: [
       {
@@ -77,11 +183,11 @@ export const trainingData = {
         description:
           'Our topics include: building trust, presenting with authenticity, resilience and wellbeing, mentoring and employee development, and conflict resolution.',
       },
-      
-         {
+
+      {
         title: null,
         description:
-          'We also deliver training on Patrick Lencioni\'s 5 Dysfunctions of Team: one of our most popular modules. Each Leadership Development Programme is bespoke to the needs of your group, ensuring your learning experience is relevant and deeply impactful.',
+          "We also deliver training on Patrick Lencioni's 5 Dysfunctions of Team: one of our most popular modules. Each Leadership Development Programme is bespoke to the needs of your group, ensuring your learning experience is relevant and deeply impactful.",
       },
     ],
     outcomes: [
@@ -139,8 +245,7 @@ export const trainingData = {
     title: 'Accredited Foundation in Mediation Course ',
     cover: cover4,
     subtitle: 'Accredited by the Civil Mediation Council & the College of Mediators',
-    intro:
-      "The world needs peacemakers, now more than ever. Could this be you?",
+    intro: 'The world needs peacemakers, now more than ever. Could this be you?',
     description:
       'Have you considered a fulfilling career change that aligns with your values? \n\ \n\ Global Mediation was established in 1999 and is recognised as the leading mediation provider in the UK. Our Foundation Mediation course delivers meaningful and dynamic practice-based training, grounded in current research and legislation. This six-day programme is designed for professionals entering the field of mediation, and is inclusive and accessible for all. You will be in the safe hands of our dedicated mediators and trainers, who will guide you through the mediation process with various practical, interactive, and engaging approaches.',
     img: [img9, img10],
@@ -149,7 +254,7 @@ export const trainingData = {
         title: 'Learning & assessment',
         description: '5 days of learning and a 1-day assessment',
       },
-        {
+      {
         title: 'Delivery',
         description: 'Delivered in our North London offices, or in-house with your team.',
       },
@@ -161,7 +266,6 @@ export const trainingData = {
         title: 'Certification',
         description: 'Certification to apply for membership with the Civil Mediation Council and College of Mediators.',
       },
-      
     ],
     outcomes: [],
     cta: "If you're ready to embark upon your mediation journey, email georgie@globaltraining.uk today.",
@@ -170,8 +274,7 @@ export const trainingData = {
     title: 'SEND Mediation Course',
     cover: cover5,
     subtitle: 'Accredited by the Civil Mediation Council & the College of Mediators',
-    intro:
-      'Are you a qualified mediator looking to broaden your horizons?',
+    intro: 'Are you a qualified mediator looking to broaden your horizons?',
     description:
       'Do you want to truly make a difference with your work, transforming the lives of young people with special educational needs and disabilities? \n\ \n\ There is an ever-increasing demand for SEND mediators in the sector, with thousands of cases each year - including a wealth of remote work. At Global, we provide specialist SEND training complete with a comprehensive observation programme - featuring mentoring, co-mediations, and hands-on case experience - giving you a 360-degree learning journey.',
     img: [img11, img12],

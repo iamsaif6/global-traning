@@ -42,7 +42,9 @@ const page = () => {
           </div>
         </Marquee> */}
         <div className="w-full relative z-10  mx-auto text-center">
-          <h1 className="font-medium  tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">How can we help you?</h1>
+          <h1 className="font-medium  tracking-[-4%] leading-[120%] text-5xl  lg:text-[68px] text-[#FCFCFD]">
+            How can we support your growth?
+          </h1>
           <p className="text-[#FCFCFD] text-center lg:text-center mx-auto  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full lg:w-[90%] font-normal text-base md:text-lg">
             Explore our range of creative offerings for leaders, teams and individuals.
           </p>

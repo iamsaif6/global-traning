@@ -38,7 +38,7 @@ const TrainingDetailPage = async ({ params }) => {
         <div className="max-w-4xl mx-auto">
           {/* <p className="text-lg whitespace-pre-line lg:text-xl text-gray-700 leading-relaxed">{training.description}</p> */}
           <p className="text-lg whitespace-pre-line lg:text-xl text-gray-700 leading-relaxed">
-            {training.description.split(/(Global Mediation)/g).map((part, index) =>
+            {training?.description?.split(/(Global Mediation)/g).map((part, index) =>
               part === 'Global Mediation' ? (
                 <a
                   key={index}
@@ -51,7 +51,7 @@ const TrainingDetailPage = async ({ params }) => {
                 </a>
               ) : (
                 <span key={index}>{part}</span>
-              )
+              ),
             )}
           </p>
         </div>
@@ -121,7 +121,7 @@ const TrainingDetailPage = async ({ params }) => {
                 let text = quoteStr;
                 let author = '';
                 if (quoteStr.includes(separator)) {
-                  const parts = quoteStr.split(separator);
+                  const parts = quoteStr?.split(separator);
                   author = parts[parts.length - 1]; // Take the last part as author
                   text = parts.slice(0, -1).join(separator) + '”'; // Join the rest logic
                 }

@@ -55,6 +55,26 @@ const services = [
     img: img3,
     link: '/training/creative-conflict-resolution',
   },
+
+  {
+    title: 'Coaching',
+    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
+    img: img3,
+    link: '/training/coaching',
+  },
+
+  {
+    title: 'Accredited Supervision Course for Mediators',
+    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
+    img: img3,
+    link: '/training/accredited-supervision-course-for-mediators',
+  },
+  {
+    title: 'Professional Boundaries Training',
+    subtitle: 'Focused sessions to help participants develop self-awareness, empathy, and better communication skills.',
+    img: img3,
+    link: '/training/professional-boundaries-training',
+  },
 ];
 
 const Service = () => {
@@ -68,7 +88,7 @@ const Service = () => {
       /> */}
 
       <div className="grid max-w-[1300px] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-6 ">
-        {services.slice(0, 6).map(item => {
+        {services.map(item => {
           return (
             <div
               key={item.title}
@@ -86,7 +106,7 @@ const Service = () => {
             </div>
           );
         })}
-        {services.slice(6, 7).map(item => {
+        {/* {services.slice(6, 7).map(item => {
           return (
             <div
               key={item.title}
@@ -103,7 +123,7 @@ const Service = () => {
               </div>
             </div>
           );
-        })}
+        })} */}
       </div>
     </section>
   );
