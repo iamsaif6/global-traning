@@ -250,14 +250,14 @@ const MemberCard = ({ member }) => {
       <div className="bg-[#f9fafb] hidden lg:block shadow-2xl opacity-0  group-hover:opacity-100  transition-all duration-500 ease-in-out   px-8 overflow-y-scroll py-8 absolute h-full w-full left-0 z-10 rounded-2xl top-0">
         {member?.bio}
       </div>
-      <div className={`h-[400px] md:h-[500px]  max-w-[400px] lg:max-w-full mx-auto rounded-2xl overflow-hidden`}>
+      <div className={`h-[400px] md:h-[500px]  max-w-[400px] lg:max-w-[450px] mx-auto rounded-2xl overflow-hidden`}>
         {member.image ? (
           <Image alt={member.name} src={member.image} className="w-full h-full  object-cover object-top" />
         ) : (
           <div className="w-full h-full flex items-center justify-center bg-gray-200 text-gray-500">No Image Available</div>
         )}
       </div>
-      <div className="mt-3">
+      <div className="mt-3 max-w-[400px] mx-auto lg:max-w-[450px]">
         <p className="font-semibold text-2xl">{member.name}</p>
         <p className=" text-lg">{member.role}</p>
       </div>

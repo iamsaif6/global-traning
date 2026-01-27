@@ -186,7 +186,7 @@ const TrainingDetailPage = async ({ params }) => {
             ))}
         </div>
       </section>
-      {slug == 'send-mediation-course' ? <SendForm /> : slug == 'foundation-mediation-course' ? <FoundationForm /> : <TrainingForm />}
+      {/* {slug == 'send-mediation-course' ? <SendForm /> : slug == 'foundation-mediation-course' ? <FoundationForm /> : <TrainingForm />} */}
     </div>
   );
 };

@@ -8,6 +8,7 @@ import Marquee from 'react-fast-marquee';
 import Image from 'next/image';
 import Service from '../component/traning/service';
 import Video from './Video';
+import TrainingForm from '../component/services/TrainingForm';
 
 const page = () => {
   return (
@@ -52,6 +53,7 @@ const page = () => {
       </header>
       {/* <Video /> */}
       <Service />
+      <TrainingForm />
     </div>
   );
 };

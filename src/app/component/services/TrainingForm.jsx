@@ -53,19 +53,15 @@ const TrainingForm = () => {
   const sendEmail = e => {
     e.preventDefault();
     setLoading(true);
-
-    console.log(formRef.current);
-
     emailjs.sendForm('service_vq2ycta', 'template_va8udrg', formRef.current, 'toRHu9L37wuWjLqkC').then(
       result => {
-        console.log(result.text);
         e.target.reset();
         setLoading(false);
       },
       error => {
         console.log(error.text);
         setLoading(false);
-      }
+      },
     );
   };
 
