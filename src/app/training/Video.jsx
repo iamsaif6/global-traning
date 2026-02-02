@@ -9,7 +9,7 @@ const Video = () => {
   };
 
   return (
-    <section className="py-[60px] md:py-[120px] bg-transparent lg:px-[80px]">
+    <section className="py-[60px] md:py-[120px] bg-primary lg:px-[80px]">
       <div className="relative h-[304px]  lg:h-[560px]  text-[#FCFCFD]  rounded-[20px] lg:rounded-4xl ]">
         {/* Video Frame */}
         <div className="h-[304px]  lg:h-[560px] absolute top-0 left-1/2 -translate-x-1/2  w-[95%] max-w-[900px] rounded-2xl lg:rounded-4xl overflow-hidden">

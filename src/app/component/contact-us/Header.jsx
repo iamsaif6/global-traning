@@ -1,12 +1,47 @@
 'use client';
-import { Check } from 'lucide-react';
+import { Check, Loader2 } from 'lucide-react';
 import React, { useEffect, useRef, useState } from 'react';
+import { useRouter } from 'next/navigation';
+import emailjs from '@emailjs/browser';
 
 const Header = () => {
+  const router = useRouter();
   const [phoneNumber, setPhoneNumber] = useState('');
   const [selectedCountry, setSelectedCountry] = useState({ code: '+1', name: 'United States' });
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
+
+  const formRef = useRef();
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState('');
+
+  const sendEmail = e => {
+    e.preventDefault();
+    setLoading(true);
+
+    const formData = new FormData(formRef.current);
+    const templateParams = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+      phone: `${selectedCountry.code} ${phoneNumber}`,
+      message: formData.get('message'),
+    };
+
+    emailjs.send('service_vq2ycta', 'template_va8udrg', templateParams, 'toRHu9L37wuWjLqkC').then(
+      result => {
+        console.log(result.text);
+        e.target.reset();
+        setPhoneNumber('');
+        setLoading(false);
+        router.push('/message-sent?from=contact');
+      },
+      error => {
+        console.log(error.text);
+        setSuccess('Failed to send email.');
+        setLoading(false);
+      },
+    );
+  };
 
   const countryCodes = [
     { code: '+1', name: 'United States' },
@@ -69,7 +104,7 @@ const Header = () => {
         </div>
         <div className="col-span-12 lg:col-span-7">
           <div className="w-full max-w-[1130px] bg-white mx-auto border border-[#D1D1D6] rounded-3xl p-6">
-            <form className="" action="#">
+            <form ref={formRef} onSubmit={sendEmail}>
               <div className="grid grid-cols-1  lg:grid-cols-2 gap-6">
                 <div className="col-span-1">
                   <div className="mb-6">
@@ -82,19 +117,21 @@ const Header = () => {
                       id="name"
                       name="name"
                       placeholder="Enter your name"
+                      required
                     />
                   </div>
 
                   <div className="mb-6">
-                    <label className="text-lg block mb-2 font-medium " htmlFor="Email">
+                    <label className="text-lg block mb-2 font-medium " htmlFor="email">
                       Email
                     </label>
                     <input
                       className="bg-[#F4F5F6] w-full placeholder:text-[#6E7381] placeholder:text-base rounded-[28px] border border-[#D1D1D6] p-4"
                       type="email"
-                      id="Email"
-                      name="Email"
+                      id="email"
+                      name="email"
                       placeholder="Enter your email"
+                      required
                     />
                   </div>
                   <div>
@@ -140,6 +177,7 @@ const Header = () => {
                           value={phoneNumber}
                           onChange={e => setPhoneNumber(e.target.value)}
                           className=" w-full px-2 focus:outline-0  placeholder:text-[#6E7381] placeholder:text-base rounded-[28px] "
+                          name="phone"
                         />
                       </div>
                     </div>
@@ -148,16 +186,17 @@ const Header = () => {
 
                 <div className="">
                   <div className="h-full ">
-                    <label className="text-lg block mb-2 font-medium " htmlFor="Email">
+                    <label className="text-lg block mb-2 font-medium " htmlFor="message">
                       Message
                     </label>
                     <textarea
                       className="bg-[#F4F5F6]  w-full placeholder:text-[#6E7381] placeholder:text-base rounded-[28px] border border-[#D1D1D6] p-4"
                       type="text"
-                      id="Message"
-                      name="Message"
+                      id="message"
+                      name="message"
                       placeholder="Type your message"
                       rows={11}
+                      required
                     />
                   </div>
                 </div>
@@ -180,10 +219,17 @@ const Header = () => {
               </div>
 
               <button
-                className="font-semibold cursor-pointer  mt-6 text-lg bg-primary w-full rounded-[40px] py-[14px] px-6 text-white"
+                className="font-semibold flex items-center justify-center cursor-pointer  mt-6 text-lg bg-primary w-full rounded-[40px] py-[14px] px-6 text-white"
                 type="submit"
               >
-                Send message
+                {loading ? (
+                  <>
+                    <Loader2 className="mr-2 animate-spin" />
+                    <span>Sending...</span>
+                  </>
+                ) : (
+                  'Send message'
+                )}
               </button>
             </form>
           </div>

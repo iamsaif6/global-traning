@@ -3,8 +3,8 @@ import Button from '../shared/Button';
 
 const TextBox = () => {
   return (
-    <div className="px-4 bg-primary py-[80px] lg:py-[100px]  lg:px-[80px]">
-      <p className="text-[#FCFCFD] text-center  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full  font-normal text-base md:text-lg">
+    <div className="px-4 py-[80px] lg:py-[100px]  lg:px-[80px]">
+      <p className=" text-center  mt-[18px] md:mt-6 mb-[26px] md:mb-8 w-full  font-normal text-base md:text-lg">
         Whether you’re navigating change, shaping your team’s culture or building leadership confidence, our work is designed to make a
         difference that lasts.
         <br /> <br />

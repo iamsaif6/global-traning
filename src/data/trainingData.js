@@ -230,15 +230,37 @@ export const trainingData = {
   },
   'creative-conflict-resolution': {
     title: 'Creative Conflict Resolution',
-    cover: cover3,
-    subtitle: '',
-    intro: 'Coming soon..',
-    // img: [img7, img8],
-    // description:
-    //   'Decision-making coaching; leaders in an organisation needing a reset, individuals undergoing life transition, targeting professional and personal resets, one-to-one & retreats.',
-    expectations: [],
-    // outcomes: ['Mothers : “mothering Sunday”', 'People going through grief/heartbreak', 'Retired/near retirement'],
-    // cta: 'A unique opportunity to develop your repertoire by training as a Philosophical Life Compass Coach with Global Training. The Philosophical Life Compass is a valuable tool for coaches, psychologists, teachers and others to help clients make effective decisions about life, relationships, career and jobs, health choices and place to live, based upon one’s deep spiritual and philosophical values.This course, delivered over two days will immerse you into a coaching framework which is used as a tool to support people to connect with their core values and reduce external noise, bias and distraction. https://thelifecompass.co.uk/',
+    quote: [
+      '“I have developed confidence to know how to tackle difficult conversations. I love having a structure for this – makes it all feel less personal.” - SCAS',
+      '“I learned from the day that many people are dealing with exactly the same issues in their teams. It is heartening to know that issues I am dealing with are not unique and I’m not alone.” - ZSL',
+      '“Fantastic to have a communication model to manage challenging conversations, learning how to listen compassionately and be clear, kind and brave.” - NHS',
+    ],
+    subtitle: 'Equip your team to navigate difficult conversations with confidence and clarity',
+    intro: 'Do you find yourself struggling to have difficult conversations with your colleagues?',
+    description:
+      "Our Courageous Conversations training empowers teams to navigate emotionally challenging situations at work. We will help you tackle difficult conversations with courage, confidence and compassion. This bespoke training is designed to align with your company's culture and values, and will equip you with practical techniques to take into the workplace.",
+    img: [img1, img2],
+    cover: cover1,
+    expectations: [
+      {
+        title: 'A tailored workshop',
+        description: 'A half day participatory workshop designed for leaders, managers and teams.',
+      },
+      {
+        title: 'Learning and doing',
+        description: 'A dynamic blend of learning and doing, revolving around our BRAVE feedback model.',
+      },
+      {
+        title: 'Real-world application',
+        description: 'Interactive role-playing with professional actors and/or fellow colleagues.',
+      },
+    ],
+    outcomes: [
+      'A renewed set of skills in effective, empathetic leadership and people management.',
+      'Increased confidence in navigating difficult conversations, managing workplace conflicts, and giving honest, constructive feedback.',
+      'A measurable improvement in overall workplace communication, working relationships and standards of performance.',
+    ],
+    cta: 'Could your team navigate workplace difficulties more courageously? Start the conversation with georgie@globaltraining.uk today!',
   },
 
   'foundation-mediation-course': {
