@@ -6,7 +6,7 @@ import React, { useEffect, useState, Suspense } from 'react';
 const MessageSentContent = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [countdown, setCountdown] = useState(1115);
+  const [countdown, setCountdown] = useState(5);
 
   // Check if user came from successful email submission
   const fromEmail = searchParams.get('from');
